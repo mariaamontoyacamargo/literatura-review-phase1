@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "cui_2025_ai_software",
+      "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
+      "year": 2025,
+      "pocket": "evaluacion_experimental",
+      "keywords": [
+        "RCT",
+        "randomized experiment",
+        "software developers",
+        "GitHub Copilot",
+        "productivity",
+        "causal inference",
+        "field experiment"
+      ]
+    },
+    {
+      "id": "metr_2025_oss_developers",
+      "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+      "year": 2025,
+      "pocket": "evaluacion_experimental",
+      "keywords": [
+        "RCT",
+        "randomized experiment",
+        "open-source",
+        "experienced developers",
+        "task completion time",
+        "causal effect"
+      ]
+    },
+    {
+      "id": "google_2024_copilot",
+      "title": "The Impact of AI-Powered Code Assistance on Developer Productivity: Evidence from Google",
+      "year": 2024,
+      "pocket": "evaluacion_experimental",
+      "keywords": [
+        "RCT",
+        "experiment",
+        "code completion",
+        "time spent on task",
+        "AI assistance",
+        "causal"
+      ]
+    },
+    {
+      "id": "brynjolfsson_2024_qa",
+      "title": "Generative AI at Work",
+      "year": 2024,
+      "pocket": "evaluacion_experimental",
+      "keywords": [
+        "RCT",
+        "randomized",
+        "field experiment",
+        "customer support",
+        "AI suggestions",
+        "causal effect"
+      ]
+    },
+    {
+      "id": "dear_diary_2024",
+      "title": "Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace",
+      "year": 2024,
+      "pocket": "evaluacion_experimental",
+      "keywords": [
+        "RCT",
+        "workplace",
+        "coding tools",
+        "diary study",
+        "randomized",
+        "within-subject"
+      ]
+    },
+    {
+      "id": "scale_stanford_2024",
+      "title": "Impact: Randomized Controlled Trial of AI Evaluation Methods",
+      "year": 2024,
+      "pocket": "evaluacion_experimental",
+      "keywords": [
+        "RCT",
+        "evaluation",
+        "methodology",
+        "impact assessment",
+        "causal inference"
+      ]
+    },
+    {
+      "id": "lechner_2011_did",
+      "title": "The Estimation of Causal Effects by Difference-in-Differences",
+      "year": 2011,
+      "pocket": "evaluacion_experimental",
+      "keywords": [
+        "DID",
+        "difference-in-differences",
+        "quasi-experimental",
+        "causal inference",
+        "method"
+      ]
+    }
+  ],
+  "edges": [],
+  "stats": {
+    "nodes": 7,
+    "edges": 0,
+    "density": 0,
+    "avg_degree": 0.0
+  },
+  "gaps": {
+    "identified": [
+      "Year 2023: only 0 paper(s)"
+    ],
+    "distribution": {
+      "methodologies": {
+        "RCT, three field experiments": 1,
+        "RCT, field experiment with experienced developers": 1,
+        "RCT with 96 software engineers": 1,
+        "RCT, field experiment in customer support": 1,
+        "RCT, crossed design": 1,
+        "RCT, evaluation methodology": 1,
+        "Quasi-experimental (DID, difference-in-differences)": 1
+      },
+      "pockets": {
+        "evaluacion_experimental": 7
+      },
+      "years": {
+        "2025": 2,
+        "2024": 4,
+        "2011": 1
+      }
+    }
+  }
+}

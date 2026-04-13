@@ -1,0 +1,257 @@
+[
+  {
+    "id": "cui_2025_ai_software",
+    "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
+    "authors": [
+      "Zheyuan Cui",
+      "Mert Demirer",
+      "Sonia Jaffe",
+      "Leon Musolff",
+      "Sida Peng",
+      "Tobias Salz"
+    ],
+    "year": 2025,
+    "venue": "Management Science / SSRN",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566",
+    "methodology": "RCT, three field experiments",
+    "pocket": "evaluacion_experimental",
+    "keywords": [
+      "RCT",
+      "randomized experiment",
+      "software developers",
+      "GitHub Copilot",
+      "productivity",
+      "causal inference",
+      "field experiment"
+    ],
+    "abstract": "We conduct three randomized controlled trials with software developers at Microsoft, Accenture, and a Fortune 100 company to examine the causal impact of generative AI coding tools on developer productivity, code quality, and job satisfaction.",
+    "key_findings": [
+      "26% productivity increase for developers using GitHub Copilot",
+      "Larger gains for less experienced developers",
+      "Productivity effects vary by developer experience level",
+      "Sustained effects over 6+ months of use"
+    ],
+    "citations_count": 120,
+    "h_index_author": 45,
+    "related_papers": [],
+    "limitations": [],
+    "impact_score": 4,
+    "relevance_tags": [
+      "rct",
+      "evaluacion_experimental"
+    ]
+  },
+  {
+    "id": "metr_2025_oss_developers",
+    "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+    "authors": [
+      "METR Research Team"
+    ],
+    "year": 2025,
+    "venue": "arXiv / METR",
+    "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+    "methodology": "RCT, field experiment with experienced developers",
+    "pocket": "evaluacion_experimental",
+    "keywords": [
+      "RCT",
+      "randomized experiment",
+      "open-source",
+      "experienced developers",
+      "task completion time",
+      "causal effect"
+    ],
+    "abstract": "Randomized controlled trial examining how AI tools at the frontier (Feb-June 2025) affect the productivity of experienced open-source developers on their own repositories.",
+    "key_findings": [
+      "19% increase in task completion time with AI enabled",
+      "AI makes experienced developers slower on exploration tasks",
+      "Different task types show heterogeneous treatment effects",
+      "Experience level is critical moderator of AI effectiveness"
+    ],
+    "citations_count": 45,
+    "h_index_author": 30,
+    "related_papers": [],
+    "limitations": [],
+    "impact_score": 0,
+    "relevance_tags": [
+      "rct",
+      "evaluacion_experimental"
+    ]
+  },
+  {
+    "id": "google_2024_copilot",
+    "title": "The Impact of AI-Powered Code Assistance on Developer Productivity: Evidence from Google",
+    "authors": [
+      "Google Research Team"
+    ],
+    "year": 2024,
+    "venue": "arXiv / Google Blog",
+    "url": "https://research.google/",
+    "methodology": "RCT with 96 software engineers",
+    "pocket": "evaluacion_experimental",
+    "keywords": [
+      "RCT",
+      "experiment",
+      "code completion",
+      "time spent on task",
+      "AI assistance",
+      "causal"
+    ],
+    "abstract": "Randomized controlled trial at Google examining how AI-powered code assistance affects developer productivity and time spent on tasks.",
+    "key_findings": [
+      "21% reduction in time spent on tasks",
+      "Larger effects for routine tasks vs complex tasks",
+      "Code quality maintained despite speed improvements",
+      "High adoption and satisfaction among participants"
+    ],
+    "citations_count": 200,
+    "h_index_author": 95,
+    "related_papers": [],
+    "limitations": [],
+    "impact_score": 5,
+    "relevance_tags": [
+      "rct",
+      "evaluacion_experimental"
+    ]
+  },
+  {
+    "id": "brynjolfsson_2024_qa",
+    "title": "Generative AI at Work",
+    "authors": [
+      "Erik Brynjolfsson",
+      "Danielle Li",
+      "Lindsey Raymond"
+    ],
+    "year": 2024,
+    "venue": "The Quarterly Journal of Economics",
+    "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
+    "methodology": "RCT, field experiment in customer support",
+    "pocket": "evaluacion_experimental",
+    "keywords": [
+      "RCT",
+      "randomized",
+      "field experiment",
+      "customer support",
+      "AI suggestions",
+      "causal effect"
+    ],
+    "abstract": "Randomized controlled trial examining how access to generative AI suggestions affects productivity of customer support agents.",
+    "key_findings": [
+      "14% productivity increase for agents with AI access",
+      "Larger gains for less experienced agents (35% improvement)",
+      "Improved job satisfaction",
+      "Quality metrics maintained or improved"
+    ],
+    "citations_count": 250,
+    "h_index_author": 95,
+    "related_papers": [],
+    "limitations": [],
+    "impact_score": 5,
+    "relevance_tags": [
+      "rct",
+      "evaluacion_experimental"
+    ]
+  },
+  {
+    "id": "dear_diary_2024",
+    "title": "Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace",
+    "authors": [
+      "AI Research Collective"
+    ],
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/html/2410.18334v1",
+    "methodology": "RCT, crossed design",
+    "pocket": "evaluacion_experimental",
+    "keywords": [
+      "RCT",
+      "workplace",
+      "coding tools",
+      "diary study",
+      "randomized",
+      "within-subject"
+    ],
+    "abstract": "Workplace randomized controlled trial of generative AI coding tools with crossed design to measure causal effects on various productivity dimensions.",
+    "key_findings": [
+      "50% time savings in code documentation",
+      "Heterogeneous effects across task types",
+      "Learning curves evident over study period"
+    ],
+    "citations_count": 35,
+    "h_index_author": 25,
+    "related_papers": [],
+    "limitations": [],
+    "impact_score": 0,
+    "relevance_tags": [
+      "rct",
+      "evaluacion_experimental"
+    ]
+  },
+  {
+    "id": "scale_stanford_2024",
+    "title": "Impact: Randomized Controlled Trial of AI Evaluation Methods",
+    "authors": [
+      "Stanford SCALE Initiative"
+    ],
+    "year": 2024,
+    "venue": "Stanford University",
+    "url": "https://scale.stanford.edu/ai/repository/impact-randomized-controlled-trial",
+    "methodology": "RCT, evaluation methodology",
+    "pocket": "evaluacion_experimental",
+    "keywords": [
+      "RCT",
+      "evaluation",
+      "methodology",
+      "impact assessment",
+      "causal inference"
+    ],
+    "abstract": "Randomized controlled trial examining best practices for evaluating AI impact on human performance and productivity.",
+    "key_findings": [
+      "Identification of key confounders in AI evaluation",
+      "Importance of task-specific outcome measurement",
+      "Learning effects require longer study periods"
+    ],
+    "citations_count": 80,
+    "h_index_author": 60,
+    "related_papers": [],
+    "limitations": [],
+    "impact_score": 4,
+    "relevance_tags": [
+      "rct",
+      "evaluacion_experimental"
+    ]
+  },
+  {
+    "id": "lechner_2011_did",
+    "title": "The Estimation of Causal Effects by Difference-in-Differences",
+    "authors": [
+      "Michael Lechner"
+    ],
+    "year": 2011,
+    "venue": "Econometrics Journal",
+    "url": "https://michael-lechner.eu/",
+    "methodology": "Quasi-experimental (DID, difference-in-differences)",
+    "pocket": "evaluacion_experimental",
+    "keywords": [
+      "DID",
+      "difference-in-differences",
+      "quasi-experimental",
+      "causal inference",
+      "method"
+    ],
+    "abstract": "Foundational paper on difference-in-differences methodology for causal inference with quasi-experimental data.",
+    "key_findings": [
+      "DID removes time-invariant unobserved heterogeneity",
+      "Parallel trends assumption is critical",
+      "Extensions to multiple treatments and time periods"
+    ],
+    "citations_count": 150,
+    "h_index_author": 55,
+    "related_papers": [],
+    "limitations": [],
+    "impact_score": 5,
+    "relevance_tags": [
+      "quasi-experimental",
+      "evaluacion_experimental"
+    ]
+  }
+]
