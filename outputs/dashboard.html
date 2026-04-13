@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literatura Review Dashboard - Evaluación Experimental</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px 20px; text-align: center; }
+        .header h1 { font-size: 32px; margin-bottom: 10px; }
+        .header p { font-size: 16px; opacity: 0.9; }
+
+        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+
+        .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 30px 0; }
+        .metric-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; }
+        .metric-card .number { font-size: 32px; font-weight: bold; color: #667eea; margin: 10px 0; }
+        .metric-card .label { font-size: 14px; color: #666; }
+
+        .tabs { display: flex; gap: 0; border-bottom: 2px solid #ddd; margin: 30px 0; }
+        .tab-button { padding: 12px 20px; background: white; border: none; cursor: pointer; font-size: 14px; color: #666; border-bottom: 3px solid transparent; transition: all 0.3s; }
+        .tab-button.active { color: #667eea; border-bottom-color: #667eea; }
+        .tab-button:hover { background: #f9f9f9; }
+
+        .tab-content { display: none; }
+        .tab-content.active { display: block; animation: fadeIn 0.3s; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        .chart-container { background: white; padding: 20px; border-radius: 8px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+
+        table { width: 100%; border-collapse: collapse; background: white; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        th { background: #f5f5f5; padding: 12px; text-align: left; font-weight: 600; color: #333; }
+        td { padding: 12px; border-bottom: 1px solid #eee; }
+        tr:hover { background: #f9f9f9; }
+
+        .status-accepted { color: #10b981; font-weight: bold; }
+        .status-review { color: #f59e0b; font-weight: bold; }
+        .status-rejected { color: #ef4444; font-weight: bold; }
+
+        .paper-detail { background: white; padding: 20px; border-radius: 8px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .paper-detail h3 { color: #667eea; margin-bottom: 10px; }
+        .paper-detail p { margin: 8px 0; color: #666; }
+
+        .gap-item { padding: 12px; margin: 8px 0; border-left: 4px solid #ef4444; background: #fef2f2; border-radius: 4px; }
+        .gap-item.warning { border-left-color: #f59e0b; background: #fffbeb; }
+        .gap-item.success { border-left-color: #10b981; background: #f0fdf4; }
+
+        .footer { text-align: center; padding: 20px; color: #999; font-size: 12px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📚 Literatura Review Dashboard</h1>
+        <p>AI Adoption & Productivity | Evaluación Experimental</p>
+    </div>
+
+    <div class="container">
+        <!-- METRICS -->
+        <div class="metrics" id="metrics"></div>
+
+        <!-- TABS -->
+        <div class="tabs">
+            <button class="tab-button active" onclick="showTab('papers')">📋 Papers</button>
+            <button class="tab-button" onclick="showTab('network')">🕸️ Network</button>
+            <button class="tab-button" onclick="showTab('analysis')">📊 Analysis</button>
+            <button class="tab-button" onclick="showTab('gaps')">🎯 Gaps</button>
+            <button class="tab-button" onclick="showTab('data')">📤 Data</button>
+        </div>
+
+        <!-- TAB 1: PAPERS -->
+        <div id="papers" class="tab-content active">
+            <h2>Papers List</h2>
+            <table id="papers-table">
+                <thead>
+                    <tr>
+                        <th>Score</th>
+                        <th>Status</th>
+                        <th>Title</th>
+                        <th>Year</th>
+                        <th>Venue</th>
+                        <th>Citations</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <!-- TAB 2: NETWORK -->
+        <div id="network" class="tab-content">
+            <h2>Network Statistics</h2>
+            <div class="chart-container">
+                <h3>Network Metrics</h3>
+                <p><strong>Nodes:</strong> <span id="net-nodes"></span></p>
+                <p><strong>Edges:</strong> <span id="net-edges"></span></p>
+                <p><strong>Density:</strong> <span id="net-density"></span></p>
+                <p><strong>Avg Degree:</strong> <span id="net-degree"></span></p>
+                <p><strong>Components:</strong> <span id="net-components"></span></p>
+            </div>
+            <div class="chart-container">
+                <div id="relations-chart"></div>
+            </div>
+            <div class="chart-container">
+                <h3>Paper Connections</h3>
+                <div id="connections-list" style="max-height: 400px; overflow-y: auto;"></div>
+            </div>
+        </div>
+
+        <!-- TAB 3: ANALYSIS -->
+        <div id="analysis" class="tab-content">
+            <h2>Detailed Analysis</h2>
+            <div class="chart-container">
+                <div id="score-chart"></div>
+            </div>
+            <div class="chart-container">
+                <div id="methodology-chart"></div>
+            </div>
+            <div class="chart-container">
+                <h3>Key Findings Summary</h3>
+                <div id="findings-list" style="max-height: 400px; overflow-y: auto;"></div>
+            </div>
+        </div>
+
+        <!-- TAB 4: GAPS -->
+        <div id="gaps" class="tab-content">
+            <h2>Coverage Gaps</h2>
+            <div class="chart-container">
+                <h3>Issues Identified</h3>
+                <div id="gaps-list"></div>
+            </div>
+            <div class="chart-container">
+                <h3>Year Coverage</h3>
+                <div id="year-coverage"></div>
+            </div>
+        </div>
+
+        <!-- TAB 5: DATA -->
+        <div id="data" class="tab-content">
+            <h2>Raw Data</h2>
+            <p><a href="evaluacion_experimental_reviewed.json" download>📥 Download reviewed_papers.json</a></p>
+            <p><a href="evaluacion_experimental_synthesized.json" download>📥 Download synthesized_papers.json</a></p>
+            <p><a href="evaluacion_experimental_graph.json" download>📥 Download graph.json</a></p>
+            <textarea id="data-view" style="width: 100%; height: 400px; font-family: monospace; padding: 10px; border: 1px solid #ddd; border-radius: 4px; margin-top: 20px;"></textarea>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>BID-IA Project | Literatura Review Phase 1 | Generated with Enhanced Pipeline</p>
+    </div>
+
+    <script>
+        let dataReviewed = [];
+        let dataSynthesized = [];
+        let dataGraph = {};
+
+        // Load data
+        async function loadData() {
+            try {
+                // Try to load from parent directory
+                const reviewed = await fetch('../data/evaluacion_experimental_reviewed.json').then(r => r.json()).catch(() => null);
+                const synthesized = await fetch('../data/evaluacion_experimental_synthesized.json').then(r => r.json()).catch(() => null);
+                const graph = await fetch('../data/evaluacion_experimental_graph.json').then(r => r.json()).catch(() => null);
+
+                if (reviewed) dataReviewed = reviewed;
+                if (synthesized) dataSynthesized = synthesized;
+                if (graph) dataGraph = graph;
+
+                renderDashboard();
+            } catch (e) {
+                console.error('Error loading data:', e);
+                document.querySelector('.container').innerHTML += '<p style="color: red;">Error loading data files. Make sure JSON files are in the data/ directory.</p>';
+            }
+        }
+
+        function renderDashboard() {
+            renderMetrics();
+            renderPapersTable();
+            renderNetwork();
+            renderAnalysis();
+            renderGaps();
+        }
+
+        function renderMetrics() {
+            const accepted = dataReviewed.filter(p => p.status === 'ACEPTADO').length;
+            const avgScore = dataReviewed.length > 0 ? (dataReviewed.reduce((sum, p) => sum + p.score, 0) / dataReviewed.length).toFixed(1) : 0;
+            const totalCitations = dataReviewed.reduce((sum, p) => sum + (p.metadata?.citations || 0), 0);
+            const density = dataGraph.stats?.density || 0;
+
+            document.getElementById('metrics').innerHTML = `
+                <div class="metric-card">
+                    <div class="label">Total Papers</div>
+                    <div class="number">${dataReviewed.length}</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">Accepted</div>
+                    <div class="number">${accepted}/${dataReviewed.length}</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">Avg Score</div>
+                    <div class="number">${avgScore}/10</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">Total Citations</div>
+                    <div class="number">${totalCitations}</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">Network Density</div>
+                    <div class="number">${density.toFixed(2)}</div>
+                </div>
+            `;
+        }
+
+        function renderPapersTable() {
+            const tbody = document.querySelector('#papers-table tbody');
+            tbody.innerHTML = dataReviewed.map(p => `
+                <tr>
+                    <td><strong>${p.score.toFixed(0)}/10</strong></td>
+                    <td><span class="status-${p.status.toLowerCase().replace('ó', 'o')}">${p.status}</span></td>
+                    <td>${p.title.substring(0, 50)}...</td>
+                    <td>${p.metadata?.year}</td>
+                    <td>${(p.metadata?.venue || '').substring(0, 30)}</td>
+                    <td>${p.metadata?.citations || 0}</td>
+                </tr>
+            `).join('');
+        }
+
+        function renderNetwork() {
+            const stats = dataGraph.stats || {};
+            document.getElementById('net-nodes').textContent = stats.nodes || 0;
+            document.getElementById('net-edges').textContent = stats.edges || 0;
+            document.getElementById('net-density').textContent = (stats.density || 0).toFixed(2);
+            document.getElementById('net-degree').textContent = (stats.avg_degree || 0).toFixed(1);
+            document.getElementById('net-components').textContent = stats.components || 0;
+
+            // Relations chart
+            const relations = stats.relation_types || {};
+            const relData = [{
+                x: Object.keys(relations),
+                y: Object.values(relations),
+                type: 'bar',
+                marker: { color: '#667eea' }
+            }];
+            Plotly.newPlot('relations-chart', relData, { title: 'Relation Types', xaxis: { title: 'Type' }, yaxis: { title: 'Count' }, height: 400 });
+
+            // Connections list
+            const edges = dataGraph.edges || [];
+            const connList = document.getElementById('connections-list');
+            connList.innerHTML = edges.slice(0, 10).map(e => `
+                <div style="padding: 10px; border-bottom: 1px solid #eee;">
+                    <strong>${e.source.substring(0, 30)}</strong> ←→ <strong>${e.target.substring(0, 30)}</strong>
+                    <br><small>Weight: ${(e.weight || 0).toFixed(2)} | Relations: ${(e.relations || []).join(', ')}</small>
+                </div>
+            `).join('');
+        }
+
+        function renderAnalysis() {
+            // Score distribution
+            const scores = dataReviewed.map(p => p.score);
+            const scoreData = [{
+                x: scores,
+                type: 'histogram',
+                nbinsx: 5,
+                marker: { color: '#667eea' }
+            }];
+            Plotly.newPlot('score-chart', scoreData, { title: 'Score Distribution', xaxis: { title: 'Score' }, yaxis: { title: 'Count' }, height: 350 });
+
+            // Methodology
+            const methodologies = {};
+            dataSynthesized.forEach(p => {
+                const m = p.methodology_category || 'Other';
+                methodologies[m] = (methodologies[m] || 0) + 1;
+            });
+            const methodData = [{
+                labels: Object.keys(methodologies),
+                values: Object.values(methodologies),
+                type: 'pie'
+            }];
+            Plotly.newPlot('methodology-chart', methodData, { title: 'Methodology Distribution', height: 400 });
+
+            // Findings
+            const findingsList = document.getElementById('findings-list');
+            let findingsHtml = '';
+            dataSynthesized.forEach((p, i) => {
+                findingsHtml += `<div style="margin: 10px 0; padding: 10px; background: #f9f9f9; border-radius: 4px;">`;
+                findingsHtml += `<strong>${p.title.substring(0, 50)}...</strong><br>`;
+                p.key_findings?.slice(0, 2).forEach(f => {
+                    findingsHtml += `<small>• ${f}</small><br>`;
+                });
+                findingsHtml += `</div>`;
+            });
+            findingsList.innerHTML = findingsHtml;
+        }
+
+        function renderGaps() {
+            const gaps = dataGraph.gaps || {};
+            const gapsList = document.getElementById('gaps-list');
+
+            gapsList.innerHTML = (gaps.issues || []).map(issue => {
+                const isCritical = issue.includes('🔴');
+                const isWarning = issue.includes('🟡');
+                return `<div class="gap-item ${isWarning ? 'warning' : isCritical ? '' : 'success'}">${issue}</div>`;
+            }).join('');
+
+            // Year coverage
+            const years = gaps.distribution?.years || {};
+            const yearData = [{
+                x: Object.keys(years).sort(),
+                y: Object.values(years),
+                type: 'scatter',
+                mode: 'lines+markers',
+                marker: { size: 8, color: '#667eea' }
+            }];
+            Plotly.newPlot('year-coverage', yearData, { title: 'Papers by Year', xaxis: { title: 'Year' }, yaxis: { title: 'Count' }, height: 350 });
+        }
+
+        function showTab(tabName) {
+            document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        // Load data on page load
+        window.addEventListener('load', loadData);
+    </script>
+</body>
+</html>

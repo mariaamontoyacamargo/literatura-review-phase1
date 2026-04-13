@@ -1,0 +1,384 @@
+{
+  "nodes": [
+    {
+      "id": "cui_2025_ai_software",
+      "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
+      "year": 2025,
+      "pocket": "evaluacion_experimental",
+      "keywords": [
+        "RCT",
+        "randomized experiment",
+        "software developers",
+        "GitHub Copilot",
+        "productivity",
+        "causal inference",
+        "field experiment"
+      ],
+      "authors": [
+        "Zheyuan Cui",
+        "Mert Demirer",
+        "Sonia Jaffe",
+        "Leon Musolff",
+        "Sida Peng",
+        "Tobias Salz"
+      ],
+      "methodology": "RCT, three field experiments",
+      "citations": 120
+    },
+    {
+      "id": "metr_2025_oss_developers",
+      "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+      "year": 2025,
+      "pocket": "evaluacion_experimental",
+      "keywords": [
+        "RCT",
+        "randomized experiment",
+        "open-source",
+        "experienced developers",
+        "task completion time",
+        "causal effect"
+      ],
+      "authors": [
+        "METR Research Team"
+      ],
+      "methodology": "RCT, field experiment with experienced developers",
+      "citations": 45
+    },
+    {
+      "id": "google_2024_copilot",
+      "title": "The Impact of AI-Powered Code Assistance on Developer Productivity: Evidence from Google",
+      "year": 2024,
+      "pocket": "evaluacion_experimental",
+      "keywords": [
+        "RCT",
+        "experiment",
+        "code completion",
+        "time spent on task",
+        "AI assistance",
+        "causal"
+      ],
+      "authors": [
+        "Google Research Team"
+      ],
+      "methodology": "RCT with 96 software engineers",
+      "citations": 200
+    },
+    {
+      "id": "brynjolfsson_2024_qa",
+      "title": "Generative AI at Work",
+      "year": 2024,
+      "pocket": "evaluacion_experimental",
+      "keywords": [
+        "RCT",
+        "randomized",
+        "field experiment",
+        "customer support",
+        "AI suggestions",
+        "causal effect"
+      ],
+      "authors": [
+        "Erik Brynjolfsson",
+        "Danielle Li",
+        "Lindsey Raymond"
+      ],
+      "methodology": "RCT, field experiment in customer support",
+      "citations": 250
+    },
+    {
+      "id": "dear_diary_2024",
+      "title": "Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace",
+      "year": 2024,
+      "pocket": "evaluacion_experimental",
+      "keywords": [
+        "RCT",
+        "workplace",
+        "coding tools",
+        "diary study",
+        "randomized",
+        "within-subject"
+      ],
+      "authors": [
+        "AI Research Collective"
+      ],
+      "methodology": "RCT, crossed design",
+      "citations": 35
+    },
+    {
+      "id": "scale_stanford_2024",
+      "title": "Impact: Randomized Controlled Trial of AI Evaluation Methods",
+      "year": 2024,
+      "pocket": "evaluacion_experimental",
+      "keywords": [
+        "RCT",
+        "evaluation",
+        "methodology",
+        "impact assessment",
+        "causal inference"
+      ],
+      "authors": [
+        "Stanford SCALE Initiative"
+      ],
+      "methodology": "RCT, evaluation methodology",
+      "citations": 80
+    },
+    {
+      "id": "lechner_2011_did",
+      "title": "The Estimation of Causal Effects by Difference-in-Differences",
+      "year": 2011,
+      "pocket": "evaluacion_experimental",
+      "keywords": [
+        "DID",
+        "difference-in-differences",
+        "quasi-experimental",
+        "causal inference",
+        "method"
+      ],
+      "authors": [
+        "Michael Lechner"
+      ],
+      "methodology": "Quasi-experimental (DID, difference-in-differences)",
+      "citations": 150
+    }
+  ],
+  "edges": [
+    {
+      "source": "cui_2025_ai_software",
+      "target": "metr_2025_oss_developers",
+      "weight": 0.8818181818181818,
+      "relations": [
+        "keyword-shared",
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "cui_2025_ai_software",
+      "target": "google_2024_copilot",
+      "weight": 0.7000000000000001,
+      "relations": [
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "cui_2025_ai_software",
+      "target": "brynjolfsson_2024_qa",
+      "weight": 0.8818181818181818,
+      "relations": [
+        "keyword-shared",
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "cui_2025_ai_software",
+      "target": "dear_diary_2024",
+      "weight": 0.7000000000000001,
+      "relations": [
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "cui_2025_ai_software",
+      "target": "scale_stanford_2024",
+      "weight": 0.9,
+      "relations": [
+        "keyword-shared",
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "cui_2025_ai_software",
+      "target": "lechner_2011_did",
+      "weight": 0.3,
+      "relations": [
+        "same-pocket"
+      ]
+    },
+    {
+      "source": "metr_2025_oss_developers",
+      "target": "google_2024_copilot",
+      "weight": 0.7000000000000001,
+      "relations": [
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "metr_2025_oss_developers",
+      "target": "brynjolfsson_2024_qa",
+      "weight": 0.9,
+      "relations": [
+        "keyword-shared",
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "metr_2025_oss_developers",
+      "target": "dear_diary_2024",
+      "weight": 0.7000000000000001,
+      "relations": [
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "metr_2025_oss_developers",
+      "target": "scale_stanford_2024",
+      "weight": 0.7000000000000001,
+      "relations": [
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "metr_2025_oss_developers",
+      "target": "lechner_2011_did",
+      "weight": 0.3,
+      "relations": [
+        "same-pocket"
+      ]
+    },
+    {
+      "source": "google_2024_copilot",
+      "target": "brynjolfsson_2024_qa",
+      "weight": 0.7000000000000001,
+      "relations": [
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "google_2024_copilot",
+      "target": "dear_diary_2024",
+      "weight": 0.7000000000000001,
+      "relations": [
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "google_2024_copilot",
+      "target": "scale_stanford_2024",
+      "weight": 0.7000000000000001,
+      "relations": [
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "google_2024_copilot",
+      "target": "lechner_2011_did",
+      "weight": 0.3,
+      "relations": [
+        "same-pocket"
+      ]
+    },
+    {
+      "source": "brynjolfsson_2024_qa",
+      "target": "dear_diary_2024",
+      "weight": 0.9,
+      "relations": [
+        "keyword-shared",
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "brynjolfsson_2024_qa",
+      "target": "scale_stanford_2024",
+      "weight": 0.7000000000000001,
+      "relations": [
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "brynjolfsson_2024_qa",
+      "target": "lechner_2011_did",
+      "weight": 0.3,
+      "relations": [
+        "same-pocket"
+      ]
+    },
+    {
+      "source": "dear_diary_2024",
+      "target": "scale_stanford_2024",
+      "weight": 0.7000000000000001,
+      "relations": [
+        "same-pocket",
+        "similar-methodology",
+        "temporal-sequence"
+      ]
+    },
+    {
+      "source": "dear_diary_2024",
+      "target": "lechner_2011_did",
+      "weight": 0.3,
+      "relations": [
+        "same-pocket"
+      ]
+    },
+    {
+      "source": "scale_stanford_2024",
+      "target": "lechner_2011_did",
+      "weight": 0.3,
+      "relations": [
+        "same-pocket"
+      ]
+    }
+  ],
+  "stats": {
+    "nodes": 7,
+    "edges": 21,
+    "density": 1.0,
+    "avg_degree": 6.0,
+    "components": 1,
+    "relation_types": {
+      "keyword-shared": 5,
+      "same-pocket": 21,
+      "similar-methodology": 15,
+      "temporal-sequence": 15
+    },
+    "avg_clustering": 1.0
+  },
+  "gaps": {
+    "methodologies": {
+      "RCT, three field experiments": 1,
+      "RCT, field experiment with experienced developers": 1,
+      "RCT with 96 software engineers": 1,
+      "RCT, field experiment in customer support": 1,
+      "RCT, crossed design": 1,
+      "RCT, evaluation methodology": 1,
+      "Quasi-experimental (DID, difference-in-differences)": 1
+    },
+    "pockets": {
+      "evaluacion_experimental": 7
+    },
+    "years": {
+      "2025": 2,
+      "2024": 4,
+      "2011": 1
+    },
+    "issues": [
+      "\ud83d\udd34 Year 2023: no papers - CRITICAL"
+    ]
+  }
+}
