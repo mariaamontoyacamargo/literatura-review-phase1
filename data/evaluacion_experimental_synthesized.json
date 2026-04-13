@@ -1,371 +1,1949 @@
 [
   {
-    "id": "cui_2025_ai_software",
-    "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
-    "authors": [
-      "Zheyuan Cui",
-      "Mert Demirer",
-      "Sonia Jaffe",
-      "Leon Musolff",
-      "Sida Peng",
-      "Tobias Salz"
-    ],
-    "year": 2025,
-    "venue": "Management Science / SSRN",
-    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566",
+    "id": null,
+    "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
     "doi": "",
-    "methodology": "RCT, three field experiments",
-    "methodology_details": "RCT design, random assignment to treatment/control, blinded evaluation",
-    "treatment_effect_size": "26%",
-    "external_validity": "Multiple firms, diverse developer experience levels",
-    "pocket": "evaluacion_experimental",
-    "keywords": [
-      "RCT",
-      "randomized experiment",
-      "software developers",
-      "GitHub Copilot",
-      "productivity",
-      "causal inference",
-      "field experiment"
-    ],
-    "abstract": "We conduct three randomized controlled trials with software developers at Microsoft, Accenture, and a Fortune 100 company to examine the causal impact of generative AI coding tools on developer productivity, code quality, and job satisfaction.",
-    "key_findings": [
-      "26% productivity increase for developers using GitHub Copilot",
-      "Larger gains for less experienced developers",
-      "Productivity effects vary by developer experience level",
-      "Sustained effects over 6+ months of use"
-    ],
-    "citations_count": 120,
-    "h_index_author": 45,
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
     "limitations": [
       "No explicit limitations noted"
     ],
-    "impact_score": 4,
+    "impact_score": 0,
     "relevance_tags": [
-      "rct",
-      "evaluacion_experimental"
+      "other"
     ],
-    "methodology_category": "RCT",
-    "outcome_variables": [
-      "productivity",
-      "satisfaction"
-    ],
-    "related_papers": [
-      "metr_2025_oss_developers",
-      "google_2024_copilot",
-      "brynjolfsson_2024_qa",
-      "dear_diary_2024",
-      "scale_stanford_2024"
-    ]
-  },
-  {
-    "id": "metr_2025_oss_developers",
-    "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
-    "authors": [
-      "METR Research Team"
-    ],
-    "year": 2025,
-    "venue": "arXiv / METR",
-    "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
-    "doi": "",
-    "methodology": "RCT, field experiment with experienced developers",
-    "methodology_details": "RCT with random assignment, within-subject crossover design",
-    "treatment_effect_size": "-19% (negative effect)",
-    "external_validity": "Experienced developers, realistic task environment",
-    "pocket": "evaluacion_experimental",
-    "keywords": [
-      "RCT",
-      "randomized experiment",
-      "open-source",
-      "experienced developers",
-      "task completion time",
-      "causal effect"
-    ],
-    "abstract": "Randomized controlled trial examining how AI tools at the frontier (Feb-June 2025) affect the productivity of experienced open-source developers on their own repositories.",
-    "key_findings": [
-      "19% increase in task completion time with AI enabled",
-      "AI makes experienced developers slower on exploration tasks",
-      "Different task types show heterogeneous treatment effects",
-      "Experience level is critical moderator of AI effectiveness"
-    ],
-    "citations_count": 45,
-    "h_index_author": 30,
-    "limitations": [
-      "No explicit limitations noted"
-    ],
-    "impact_score": 1,
-    "relevance_tags": [
-      "rct",
-      "evaluacion_experimental"
-    ],
-    "methodology_category": "RCT",
-    "outcome_variables": [
-      "time",
-      "satisfaction"
-    ],
-    "related_papers": [
-      "cui_2025_ai_software",
-      "google_2024_copilot",
-      "brynjolfsson_2024_qa",
-      "dear_diary_2024",
-      "scale_stanford_2024"
-    ]
-  },
-  {
-    "id": "google_2024_copilot",
-    "title": "The Impact of AI-Powered Code Assistance on Developer Productivity: Evidence from Google",
-    "authors": [
-      "Google Research Team"
-    ],
-    "year": 2024,
-    "venue": "arXiv / Google Blog",
-    "url": "https://research.google/",
-    "doi": "",
-    "methodology": "RCT with 96 software engineers",
-    "methodology_details": "RCT with 96 full-time engineers, logged task times",
-    "treatment_effect_size": "21% time reduction",
-    "external_validity": "Large tech firm, experienced developers",
-    "pocket": "evaluacion_experimental",
-    "keywords": [
-      "RCT",
-      "experiment",
-      "code completion",
-      "time spent on task",
-      "AI assistance",
-      "causal"
-    ],
-    "abstract": "Randomized controlled trial at Google examining how AI-powered code assistance affects developer productivity and time spent on tasks.",
-    "key_findings": [
-      "21% reduction in time spent on tasks",
-      "Larger effects for routine tasks vs complex tasks",
-      "Code quality maintained despite speed improvements",
-      "High adoption and satisfaction among participants"
-    ],
-    "citations_count": 200,
-    "h_index_author": 95,
-    "limitations": [
-      "No explicit limitations noted"
-    ],
-    "impact_score": 5,
-    "relevance_tags": [
-      "rct",
-      "evaluacion_experimental"
-    ],
-    "methodology_category": "RCT",
-    "outcome_variables": [
-      "time",
-      "adoption",
-      "satisfaction",
-      "quality"
-    ],
-    "related_papers": [
-      "cui_2025_ai_software",
-      "metr_2025_oss_developers",
-      "brynjolfsson_2024_qa",
-      "dear_diary_2024",
-      "scale_stanford_2024"
-    ]
-  },
-  {
-    "id": "brynjolfsson_2024_qa",
-    "title": "Generative AI at Work",
-    "authors": [
-      "Erik Brynjolfsson",
-      "Danielle Li",
-      "Lindsey Raymond"
-    ],
-    "year": 2024,
-    "venue": "The Quarterly Journal of Economics",
-    "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
-    "doi": "",
-    "methodology": "RCT, field experiment in customer support",
-    "methodology_details": "RCT at single firm, random assignment of AI access",
-    "treatment_effect_size": "14% overall, 35% for junior agents",
-    "external_validity": "Large firm, customer support context",
-    "pocket": "evaluacion_experimental",
-    "keywords": [
-      "RCT",
-      "randomized",
-      "field experiment",
-      "customer support",
-      "AI suggestions",
-      "causal effect"
-    ],
-    "abstract": "Randomized controlled trial examining how access to generative AI suggestions affects productivity of customer support agents.",
-    "key_findings": [
-      "14% productivity increase for agents with AI access",
-      "Larger gains for less experienced agents (35% improvement)",
-      "Improved job satisfaction",
-      "Quality metrics maintained or improved"
-    ],
-    "citations_count": 250,
-    "h_index_author": 95,
-    "limitations": [
-      "No explicit limitations noted"
-    ],
-    "impact_score": 5,
-    "relevance_tags": [
-      "rct",
-      "evaluacion_experimental"
-    ],
-    "methodology_category": "RCT",
-    "outcome_variables": [
-      "quality",
-      "employment",
-      "productivity",
-      "satisfaction"
-    ],
-    "related_papers": [
-      "cui_2025_ai_software",
-      "metr_2025_oss_developers",
-      "google_2024_copilot",
-      "dear_diary_2024",
-      "scale_stanford_2024"
-    ]
-  },
-  {
-    "id": "dear_diary_2024",
-    "title": "Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace",
-    "authors": [
-      "AI Research Collective"
-    ],
-    "year": 2024,
-    "venue": "arXiv",
-    "url": "https://arxiv.org/html/2410.18334v1",
-    "doi": "",
-    "methodology": "RCT, crossed design",
-    "methodology_details": "RCT with within-subject design, task-level measurement",
-    "treatment_effect_size": "50% on documentation tasks",
-    "external_validity": "Workplace setting, diverse programming tasks",
-    "pocket": "evaluacion_experimental",
-    "keywords": [
-      "RCT",
-      "workplace",
-      "coding tools",
-      "diary study",
-      "randomized",
-      "within-subject"
-    ],
-    "abstract": "Workplace randomized controlled trial of generative AI coding tools with crossed design to measure causal effects on various productivity dimensions.",
-    "key_findings": [
-      "50% time savings in code documentation",
-      "Heterogeneous effects across task types",
-      "Learning curves evident over study period"
-    ],
-    "citations_count": 35,
-    "h_index_author": 25,
-    "limitations": [
-      "No explicit limitations noted"
-    ],
-    "impact_score": 1,
-    "relevance_tags": [
-      "rct",
-      "evaluacion_experimental"
-    ],
-    "methodology_category": "RCT",
-    "outcome_variables": [
-      "time"
-    ],
-    "related_papers": [
-      "cui_2025_ai_software",
-      "metr_2025_oss_developers",
-      "google_2024_copilot",
-      "brynjolfsson_2024_qa",
-      "scale_stanford_2024"
-    ]
-  },
-  {
-    "id": "scale_stanford_2024",
-    "title": "Impact: Randomized Controlled Trial of AI Evaluation Methods",
-    "authors": [
-      "Stanford SCALE Initiative"
-    ],
-    "year": 2024,
-    "venue": "Stanford University",
-    "url": "https://scale.stanford.edu/ai/repository/impact-randomized-controlled-trial",
-    "doi": "",
-    "methodology": "RCT, evaluation methodology",
-    "methodology_details": "Multi-site RCT, standardized evaluation framework",
-    "treatment_effect_size": "Varies by task (5-50%)",
-    "external_validity": "Multiple sites, diverse task types",
-    "pocket": "evaluacion_experimental",
-    "keywords": [
-      "RCT",
-      "evaluation",
-      "methodology",
-      "impact assessment",
-      "causal inference"
-    ],
-    "abstract": "Randomized controlled trial examining best practices for evaluating AI impact on human performance and productivity.",
-    "key_findings": [
-      "Identification of key confounders in AI evaluation",
-      "Importance of task-specific outcome measurement",
-      "Learning effects require longer study periods"
-    ],
-    "citations_count": 80,
-    "h_index_author": 60,
-    "limitations": [
-      "No explicit limitations noted"
-    ],
-    "impact_score": 4,
-    "relevance_tags": [
-      "rct",
-      "evaluacion_experimental"
-    ],
-    "methodology_category": "RCT",
+    "methodology_category": "Other",
     "outcome_variables": [
       "general performance"
     ],
     "related_papers": [
-      "cui_2025_ai_software",
-      "metr_2025_oss_developers",
-      "google_2024_copilot",
-      "brynjolfsson_2024_qa",
-      "dear_diary_2024"
+      null
     ]
   },
   {
-    "id": "lechner_2011_did",
-    "title": "The Estimation of Causal Effects by Difference-in-Differences",
-    "authors": [
-      "Michael Lechner"
-    ],
-    "year": 2011,
-    "venue": "Econometrics Journal",
-    "url": "https://michael-lechner.eu/",
+    "id": null,
+    "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
     "doi": "",
-    "methodology": "Quasi-experimental (DID, difference-in-differences)",
-    "methodology_details": "Theoretical and practical guidance on DID estimation",
-    "treatment_effect_size": "Methodological paper",
-    "external_validity": "General methodology applicable to many settings",
-    "pocket": "evaluacion_experimental",
-    "keywords": [
-      "DID",
-      "difference-in-differences",
-      "quasi-experimental",
-      "causal inference",
-      "method"
-    ],
-    "abstract": "Foundational paper on difference-in-differences methodology for causal inference with quasi-experimental data.",
-    "key_findings": [
-      "DID removes time-invariant unobserved heterogeneity",
-      "Parallel trends assumption is critical",
-      "Extensions to multiple treatments and time periods"
-    ],
-    "citations_count": 150,
-    "h_index_author": 55,
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
     "limitations": [
       "No explicit limitations noted"
     ],
-    "impact_score": 5,
+    "impact_score": 0,
     "relevance_tags": [
-      "evaluacion_experimental",
-      "quasi-experimental"
+      "other"
     ],
-    "methodology_category": "Quasi-experimental",
+    "methodology_category": "Other",
     "outcome_variables": [
-      "time"
+      "general performance"
     ],
-    "related_papers": []
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Artificial intelligence can persuade people to take political actions",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Scrapyard AI",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Towards Generalizable Representations of Mathematical Strategies",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Twitch Third-Party Developers' Support Seeking and Provision Practices on Discord",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "The Need for a Green ICT Reference Framework",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Autonomous artificial intelligence increases real-world specialist clinicproductivityin a cluster-randomized trial",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Using arandom controlled trialto explore the impact ofAI-enabled learning",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Experimental evidence on theproductivityeffects of generative artificial intelligence",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Navigating the jagged technological frontier: Field experimental evidence of the effects ofAIon knowledge workerproductivityand quality",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Autonomous artificial intelligence increases screening and follow-up for diabetic retinopathy in youth: the ACCESSrandomized control trial",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Measuring the impact of early-2025AIon experienced open-source developerproductivity",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "The impact of artificial intelligence onproductivity, distribution and growth",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Human-AICollaborative Diagnostics: MeasuringProductivity, Accuracy, andClinicalDecision Confidence",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "The effects of generativeAIon high-skilled work: Evidence from three field experiments with software developers",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "AIandProductivityin Europe",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Effectiveness of mycophenolate mofetil among patients with progressive IgA nephropathy: arandomized clinical trial",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Save",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Howaiand human behaviors shape psychosocial effects of extended chatbot use: A longitudinalrandomized controlled study",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "HowAIimpacts skill formation",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Ai-powered lawyering:Aireasoning models, retrieval augmented generation, and the future of legal practice",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Dear Diary: Arandomized controlled trialofGenerative AIcoding tools in theworkplace",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Generative AITransformed My Work: Decoding Its Direct and Mediated Effects on Work Engagement Among Knowledge Workers",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Arandomized controlled trialon evaluating clinician-supervisedgenerative AIfor decision support",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "AIfeedback andworkplacesocial support in enhancing occupational self-efficacy: arandomized controlled trialin Japan",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "ChatGPT and Beyond: Exploring the Responsible Use ofGenerative AIin theWorkplace: M. Söllner et al.",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "The Meta-RCTApproach to MeasuringAI'sLabor Market Impact",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Using a random controlled trial to explore the impact ofAI-enabled learning",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Approaches for the use ofAIinworkplacehealth promotion and prevention: systematic scoping review",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "DoesGenerative AINarrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Whengenerative AImeetsworkplacelearning: Creating a realistic & motivating learning experience with agenerativePCA",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Enhancing work engagement throughgenerative AIconversations: a controlled trial on the positive and negative feedback in high vs. Low relational mobility …",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Generative AIand Software Developer Productivity-A Pilot Case Study at a Finnish Technology Consultancy",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "AGenerative AIFramework for Cognitive Intervention in Older Adults: An Integrated Engineering Design and Clinical Protocol",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "The effects ofgenerative AIon high-skilled work: Evidence from three field experiments with software developers",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Evaluating the impact of government orientation on theadoptionofAIin business: acausal inferencestudy",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Causalityandcausal inferencefor engineers: Beyond correlation, regression, prediction andartificial intelligence",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Evaluating digital agriculture recommendations withcausal inference",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Causal inferenceinAIbased decision support: Beyond correlation tocausation",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "A survey oncausal inferencefor recommendation",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Advanced A/B testing andcausal inferenceforAI-driven digital platforms: A comprehensive framework for US digital markets",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Causalanalysis ofartificial intelligence adoptionin project management",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Causalityfor trustworthyartificial intelligence: status, challenges and perspectives",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Recent developments incausal inferenceand machine learning",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Causal inferencein recommender systems: A survey and future directions",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Large language models andcausal inferencein collaboration: A comprehensive survey",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "AI adoptionin America: Who, what, and where",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "The role ofcausalityin explainableartificial intelligence",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Counterfactual Forecasting of Human Behavior using GenerativeAIandCausalGraphs",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
+  },
+  {
+    "id": null,
+    "title": "Causal Inferencefor Recommendation: Foundations, Methods, and Applications",
+    "authors": [],
+    "year": null,
+    "venue": null,
+    "url": null,
+    "doi": "",
+    "methodology": null,
+    "methodology_details": "",
+    "treatment_effect_size": "",
+    "external_validity": "",
+    "pocket": null,
+    "keywords": [],
+    "abstract": "",
+    "key_findings": [],
+    "citations_count": 0,
+    "h_index_author": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 0,
+    "relevance_tags": [
+      "other"
+    ],
+    "methodology_category": "Other",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      null
+    ]
   }
 ]

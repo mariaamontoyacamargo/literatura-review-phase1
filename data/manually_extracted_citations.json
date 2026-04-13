@@ -1,0 +1,121 @@
+{
+  "citations": [
+    {
+      "from": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "to": "Artificial intelligence can persuade people to take political actions",
+      "reason": "Mentions AI behavior control and influence",
+      "confidence": 0.75
+    },
+    {
+      "from": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "to": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "reason": "Mentions AI behavior control and influence",
+      "confidence": 0.75
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "Howaiand human behaviors shape psychosocial effects of extended chatbot use: A longitudinalrandomized controlled study",
+      "reason": "Related to AI influence on human behavior",
+      "confidence": 0.7
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "Counterfactual Forecasting of Human Behavior using GenerativeAIandCausalGraphs",
+      "reason": "Related to AI influence on human behavior",
+      "confidence": 0.7
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "Shifting attitudes and trust inAI: Influences onorganizational AI adoption",
+      "reason": "Related to AI influence on human behavior",
+      "confidence": 0.7
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "Investigating the influence ofartificial intelligenceon business value in the digital era ofstrategy: A literature review",
+      "reason": "Related to AI influence on human behavior",
+      "confidence": 0.7
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "The Statistical Profitability of Social Media Sports Betting Influencers: Evidence from the Nigerian Market",
+      "reason": "Related to AI influence on human behavior",
+      "confidence": 0.7
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "Pathways ofAIInfluence onWages,Employment, and Inequality in Europe: A Structural Mediation Analysis",
+      "reason": "Related to AI influence on human behavior",
+      "confidence": 0.7
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "AIand technology's influence on economicinequality: A study of wealth distribution in the US",
+      "reason": "Related to AI influence on human behavior",
+      "confidence": 0.7
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "Determinants ofgenerative AIsystemadoptionand usage behavior in Korean companies: Applying the UTAUT model",
+      "reason": "Related to AI influence on human behavior",
+      "confidence": 0.7
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "Artificial intelligence-oriented userinterfacedesign and human behavior recognition based on human–computer nature interaction",
+      "reason": "Related to AI influence on human behavior",
+      "confidence": 0.7
+    },
+    {
+      "from": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "to": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "reason": "Related to AI safety and alignment concerns",
+      "confidence": 0.7
+    },
+    {
+      "from": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "to": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "reason": "Related to agent behavior and evaluation",
+      "confidence": 0.65
+    },
+    {
+      "from": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "to": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "reason": "Related to agent behavior and evaluation",
+      "confidence": 0.65
+    },
+    {
+      "from": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "to": "The Shrinking Lifespan of LLMs in Science",
+      "reason": "Related to agent behavior and evaluation",
+      "confidence": 0.65
+    },
+    {
+      "from": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "to": "Howaiand human behaviors shape psychosocial effects of extended chatbot use: A longitudinalrandomized controlled study",
+      "reason": "Related to LLM behavior under conflicting incentives",
+      "confidence": 0.7
+    },
+    {
+      "from": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "to": "AI-enhanced chatbot for improving healthcareusabilityand accessibility for older adults",
+      "reason": "Related to LLM behavior under conflicting incentives",
+      "confidence": 0.7
+    },
+    {
+      "from": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "to": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "reason": "Related to AI safety and multi-agent systems",
+      "confidence": 0.75
+    },
+    {
+      "from": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "to": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "reason": "Related to AI safety and multi-agent systems",
+      "confidence": 0.75
+    }
+  ],
+  "method": "manual-abstract-analysis",
+  "papers_analyzed": 8,
+  "total_citations_found": 19
+}

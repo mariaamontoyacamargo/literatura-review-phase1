@@ -1,0 +1,1608 @@
+[
+  {
+    "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "authors": [
+        "Wiebke Hutiri",
+        "Morgan Scheuerman",
+        "Shruti Nagpal",
+        "Austin Hoag",
+        "Alice Xiang"
+      ],
+      "published": "2026-04-10T15:26:57Z",
+      "arxiv_id": "2604.09413v1",
+      "url": "https://arxiv.org/abs/2604.09413v1",
+      "summary": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+    "score": 5,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+      "authors": [
+        "Oleg Solozobov"
+      ],
+      "published": "2026-04-10T13:06:38Z",
+      "arxiv_id": "2604.09296v1",
+      "url": "https://arxiv.org/abs/2604.09296v1",
+      "summary": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Artificial intelligence can persuade people to take political actions",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "authors": [
+        "Kobi Hackenburg",
+        "Luke Hewitt",
+        "Caroline Wagner",
+        "Ben M. Tappin",
+        "Christopher Summerfield"
+      ],
+      "published": "2026-04-10T10:34:49Z",
+      "arxiv_id": "2604.09200v1",
+      "url": "https://arxiv.org/abs/2604.09200v1",
+      "summary": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+    "score": 8,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "authors": [
+        "Tommy Shaffer Shane",
+        "Simon Mylius",
+        "Hamish Hobbs"
+      ],
+      "published": "2026-04-10T08:37:18Z",
+      "arxiv_id": "2604.09104v1",
+      "url": "https://arxiv.org/abs/2604.09104v1",
+      "summary": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Scrapyard AI",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Scrapyard AI",
+      "authors": [
+        "Marc Böhlen",
+        "Sai Krishna"
+      ],
+      "published": "2026-04-09T22:38:57Z",
+      "arxiv_id": "2604.08803v1",
+      "url": "https://arxiv.org/abs/2604.08803v1",
+      "summary": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "authors": [
+        "Addison J. Wu",
+        "Ryan Liu",
+        "Shuyue Stella Li",
+        "Yulia Tsvetkov",
+        "Thomas L. Griffiths"
+      ],
+      "published": "2026-04-09T17:57:50Z",
+      "arxiv_id": "2604.08525v1",
+      "url": "https://arxiv.org/abs/2604.08525v1",
+      "summary": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "authors": [
+        "Juergen Dietrich"
+      ],
+      "published": "2026-04-09T17:00:26Z",
+      "arxiv_id": "2604.08465v1",
+      "url": "https://arxiv.org/abs/2604.08465v1",
+      "summary": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "authors": [
+        "Jyh-An Lee",
+        "Jingwen Liu"
+      ],
+      "published": "2026-04-09T15:19:40Z",
+      "arxiv_id": "2604.08353v1",
+      "url": "https://arxiv.org/abs/2604.08353v1",
+      "summary": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "authors": [
+        "Ralf Beuthan",
+        "Megan Coffee",
+        "Heejin Kim",
+        "Na Yeon Kim",
+        "Pedro Kringen"
+      ],
+      "published": "2026-04-09T13:14:34Z",
+      "arxiv_id": "2604.08217v1",
+      "url": "https://arxiv.org/abs/2604.08217v1",
+      "summary": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "The Sustainability Gap in Robotics: A Large-Scale Survey of Sustainability Awareness in 50,000 Research Articles",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The Sustainability Gap in Robotics: A Large-Scale Survey of Sustainability Awareness in 50,000 Research Articles",
+      "authors": [
+        "Antun Skuric",
+        "Leandro Von Werra",
+        "Thomas Wolf"
+      ],
+      "published": "2026-04-09T07:41:49Z",
+      "arxiv_id": "2604.07921v1",
+      "url": "https://arxiv.org/abs/2604.07921v1",
+      "summary": "We present a large-scale survey of sustainability communication and motivation in robotics research. Our analysis covers nearly 50,000 open-access papers from arXiv's cs.RO category published between 2015 and early 2026. In this study, we quantify how often papers mention social, ecological, and sustainability impacts, and we analyse their alignment with the UN Sustainable Development Goals (SDGs).\n  The results reveal a persistent gap between the field's potential and its stated intent. While a large fraction of robotics papers can be mapped to SDG-relevant domains, explicit sustainability motivation remains remarkably low. Specifically, mentions of sustainability-related impacts are typically below 2%, explicit SDG references stay below 0.1%, and the proportion of sustainability-motivated papers remains below 5%. These trends suggest that while the field of robotics is advancing rapidly, sustainability is not yet a standard part of research framing.\n  We conclude by proposing concrete actions for researchers, conferences, and institutions to close these awareness and motivation gaps, supporting a shift toward more intentional and responsible innovation.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+      "authors": [
+        "Arnab Paul Choudhury",
+        "Rahul Rathod",
+        "Aryan Yadav"
+      ],
+      "published": "2026-04-10T15:09:28Z",
+      "arxiv_id": "2604.09395v1",
+      "url": "https://arxiv.org/abs/2604.09395v1",
+      "summary": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "We Need Strong Preconditions For Using Simulations In Policy",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "We Need Strong Preconditions For Using Simulations In Policy",
+      "authors": [
+        "Steven Luo",
+        "Saanvi Arora",
+        "Carlos Guirado"
+      ],
+      "published": "2026-04-09T05:39:35Z",
+      "arxiv_id": "2604.07838v1",
+      "url": "https://arxiv.org/abs/2604.07838v1",
+      "summary": "Simulations, and more recently LLM agent simulations, have been adopted as useful tools for policymakers to explore interventions, rehearse potential scenarios, and forecast outcomes. While LLM simulations have enormous potential, two critical challenges remain understudied: the dual-use potential of accurate models of individual or population-level human behavior and the difficulty of validating simulation outputs. In light of these limitations, we must define boundaries for both simulation developers and decision-makers to ensure responsible development and ethical use. We propose and discuss three preconditions for societal-scale LLM agent simulations: 1) do not treat simulations of marginalized populations as neutral technical outputs, 2) do not simulate populations without their participation, and 3) do not simulate without accountability. We believe that these guardrails, combined with our call for simulation development and deployment reports, will help build trust among policymakers while promoting responsible development and use of societal-scale LLM agent simulations for the public benefit.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "The Weaponization of Computer Vision: Tracing Military-Surveillance Ties through Conference Sponsorship",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "The Weaponization of Computer Vision: Tracing Military-Surveillance Ties through Conference Sponsorship",
+      "authors": [
+        "Noa Garcia",
+        "Amelia Katirai"
+      ],
+      "published": "2026-04-09T04:54:44Z",
+      "arxiv_id": "2604.07803v1",
+      "url": "https://arxiv.org/abs/2604.07803v1",
+      "summary": "Computer vision, a core domain of artificial intelligence (AI), is the field that enables the computational analysis, understanding, and generation of visual data. Despite being historically rooted in military funding and increasingly deployed in warfare, the field tends to position itself as a neutral, purely technical endeavor, failing to engage in discussions about its dual-use applications. Yet it has been reported that computer vision systems are being systematically weaponized to assist in technologies that inflict harm, such as surveillance or warfare. Expanding on these concerns, we study the extent to which computer vision research is being used in the military and surveillance domains. We do so by collecting a dataset of tech companies with financial ties to the field's central research exchange platform: conferences. Conference sponsorship, we argue, not only serves as strong evidence of a company's investment in the field but also provides a privileged position for shaping its trajectory. By investigating sponsors' activities, we reveal that 44% of them have a direct connection with military or surveillance applications. We extend our analysis through two case studies in which we discuss the opportunities and limitations of sponsorship as a means for uncovering technological weaponization.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Google, AI Literacy, and the Learning Sciences: Multiple Modes of Research, Industry, and Practice Partnerships",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Google, AI Literacy, and the Learning Sciences: Multiple Modes of Research, Industry, and Practice Partnerships",
+      "authors": [
+        "Victor R. Lee",
+        "Michael Madaio",
+        "Ben Garside",
+        "Aimee Welch",
+        "Kristen Pilner Blair"
+      ],
+      "published": "2026-04-08T21:19:44Z",
+      "arxiv_id": "2604.07601v1",
+      "url": "https://arxiv.org/abs/2604.07601v1",
+      "summary": "Enabling AI literacy in the general population at scale is a complex challenge requiring multiple stakeholders and institutions collaborating together. Industry and technology companies are important actors with respect to AI, and as a field, we have the opportunity to consider how researchers and companies might be partners toward shared goals. In this symposium, we focus on a collection of partnership projects that all involve Google and all address AI literacy as a comparative set of examples. Through a combination of presentations, commentary, and moderated group discussion, the session, we will identify (1) at what points in the life cycle do research, practice, and industry partnerships clearly intersect; (2) what factors and histories shape the directional focus of the partnerships; and (3) where there may be future opportunities for new configurations of partnership that are jointly beneficial to all parties.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "PRISM: Evaluating a Rule-Based, Scenario-Driven Social Media Privacy Education Program for Young Autistic Adults",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "PRISM: Evaluating a Rule-Based, Scenario-Driven Social Media Privacy Education Program for Young Autistic Adults",
+      "authors": [
+        "Kirsten Chapman",
+        "Garrett Smith",
+        "Kaitlyn Klabacka",
+        "Joseph Thomas Bills",
+        "Addisyn Bushman"
+      ],
+      "published": "2026-04-08T19:13:59Z",
+      "arxiv_id": "2604.07531v1",
+      "url": "https://arxiv.org/abs/2604.07531v1",
+      "summary": "Young autistic adults may garner benefits through social media but also disproportionately experience privacy harms. Prior research found that these harms often stem from perceiving the affordances of social media differently than the general population, leading to unintentional risky behaviors and interactions with others. While educational interventions have been shown to increase social media privacy literacy for the general population, research has yet to focus on effective educational interventions for autistic young adults. We address this gap by developing and deploying Privacy Rules for Inclusive Social Media (PRISM), a classroom-based educational intervention tailored to the unique risks and neurodevelopmental differences of this population. Twenty-nine autistic students with substantial (level 2) support needs participated in a 14-week social media privacy literacy class. During these classes, participants often communicated their existing rule-based \"all or nothing\" approaches to privacy management (such as completely disengaging from social media to avoid privacy issues). Our course focused on empowering them by providing more nuanced guidance on safe privacy practices through the use of scenario-based formats and contextual, rule-based scenarios. Using pre- and post-knowledge assessments for each of our 6 course topics, our intervention led to a statistically significant increase in their making safer social media privacy decisions. We conclude with recommendations for how privacy educators and technology designers can leverage neuro-affirming educational interventions to increase privacy literacy for autistic social media users.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "The Shrinking Lifespan of LLMs in Science",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The Shrinking Lifespan of LLMs in Science",
+      "authors": [
+        "Ana Trišović"
+      ],
+      "published": "2026-04-08T19:12:09Z",
+      "arxiv_id": "2604.07530v1",
+      "url": "https://arxiv.org/abs/2604.07530v1",
+      "summary": "Scaling laws describe how language model capabilities grow with compute and data, but say nothing about how long a model matters once released. We provide the first large-scale empirical account of how scientists adopt and abandon language models over time. We track 62 LLMs across over 108k citing papers (2018-2025), each with at least three years of post-release data, and classify every citation as active adoption or background reference to construct per-model adoption trajectories that raw citation counts cannot resolve. We find three regularities. First, scientific adoption follows an inverted-U trajectory: usage rises after release, peaks, and declines as newer models appear, a pattern we term the \\textit{scientific adoption curve}. Second, this curve is compressing: each additional release year is associated with a 27\\% reduction in time-to-peak adoption ($p < 0.001$), robust to minimum-age thresholds and controls for model size. Third, release timing dominates model-level attributes as a predictor of lifecycle dynamics. Release year explains both time-to-peak and scientific lifespan more strongly than architecture, openness, or scale, though model size and access modality retain modest predictive power for total adoption volume. Together, these findings complement scaling laws with adoption-side regularities and suggest that the forces driving rapid capability progress may be the same forces compressing scientific relevance.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Mapping Child Malnutrition and Measuring Efficiency of Community Healthcare Workers through Location Based Games in India",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Mapping Child Malnutrition and Measuring Efficiency of Community Healthcare Workers through Location Based Games in India",
+      "authors": [
+        "Arka Majhi",
+        "Aparajita Mondal",
+        "Satish B. Agnihotri"
+      ],
+      "published": "2026-04-08T17:06:24Z",
+      "arxiv_id": "2604.07299v1",
+      "url": "https://arxiv.org/abs/2604.07299v1",
+      "summary": "In India, Community Healthcare Workers (CHWs) serve as critical intermediaries between the state and beneficiaries, including pregnant mothers and children. Effective planning and prioritization of care and services necessitate the collection of accurate health data from the community. Crowdsourcing child anthropometric data through CHWs could establish a valuable repository for evidence-based decision-making and service planning. However, existing platforms often fail to maintain CHWs' engagement over time and across different spatial contexts, resulting in spatially misrepresented and outdated data.\n  This study addresses these challenges by conducting a co-design exercise to develop innovative methods for collecting anthropometric data over time and space. The exercise involved analyzing data to create hotspot and density distribution maps. We implemented a trial of the developed game with two groups (n=94 per group) from various states across India, comparing the game-based and non-game-based data collection methods. Our findings reveal that the game-based approach significantly improved measuring efficiency (p<0.05) and demonstrated superior engagement and retention compared to the non-game-based method.\n  This research contributes to the expanding literature on co-design and Research through Design (RtD) methodologies for developing geospatial games, highlighting their potential to enhance data collection practices and improve engagement among CHWs.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Why teaching resists automation in an AI-inundated era: Human judgment, non-modular work, and the limits of delegation",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Why teaching resists automation in an AI-inundated era: Human judgment, non-modular work, and the limits of delegation",
+      "authors": [
+        "Songhee Han"
+      ],
+      "published": "2026-04-08T16:49:24Z",
+      "arxiv_id": "2604.07285v1",
+      "url": "https://arxiv.org/abs/2604.07285v1",
+      "summary": "Debates about artificial intelligence (AI) in education often portray teaching as a modular and procedural job that can increasingly be automated or delegated to technology. This brief communication paper argues that such claims depend on treating teaching as more separable than it is in practice. Drawing on recent literature and empirical studies of large language models and retrieval-augmented generation systems, I argue that although AI can support some bounded functions, instructional work remains difficult to automate in meaningful ways because it is inherently interpretive, relational, and grounded in professional judgment. More fundamentally, teaching and learning are shaped by human cognition, behavior, motivation, and social interaction in ways that cannot be fully specified, predicted, or exhaustively modeled. Tasks that may appear separable in principle derive their instructional value in practice from ongoing contextual interpretation across learners, situations, and relationships. As long as educational practice relies on emergent understanding of human cognition and learning, teaching remains a form of professional work that resists automation. AI may improve access to information and support selected instructional activities, but it does not remove the need for human judgment and relational accountability that effective teaching requires.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "The Rhetoric of Machine Learning",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The Rhetoric of Machine Learning",
+      "authors": [
+        "Robert C. Williamson"
+      ],
+      "published": "2026-04-08T07:20:38Z",
+      "arxiv_id": "2604.06754v1",
+      "url": "https://arxiv.org/abs/2604.06754v1",
+      "summary": "I examine the technology of machine learning from the perspective of rhetoric, which is simply the art of persuasion. Rather than being a neutral and \"objective\" way to build \"world models\" from data, machine learning is (I argue) inherently rhetorical. I explore some of its rhetorical features, and examine one pervasive business model where machine learning is widely used, \"manipulation as a service.\"",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "AI adoptionin America: Who, what, and where",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "AI adoptionin America: Who, what, and where",
+      "authors": "K McElheran",
+      "source": ",",
+      "year": 2026,
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jems.12576",
+      "scholar_link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jems.12576",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "What drivesartificial intelligence adoptionand use amongfirms? Empirical evidence from Brazilian companies",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "What drivesartificial intelligence adoptionand use amongfirms? Empirical evidence from Brazilian companies",
+      "authors": "R Katz,",
+      "source": "J Jung",
+      "year": 2025,
+      "url": "https://www.emerald.com/dprg/article/doi/10.1108/DPRG-05-2025-0135/1302773",
+      "scholar_link": "https://www.emerald.com/dprg/article/doi/10.1108/DPRG-05-2025-0135/1302773",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The role ofAI adoptionin transforming the accounting profession: adiffusionof innovations theory approach",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "The role ofAI adoptionin transforming the accounting profession: adiffusionof innovations theory approach",
+      "authors": "S Assidi",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/jaoc/article-abstract/21/5/915/1251767",
+      "scholar_link": "https://www.emerald.com/jaoc/article-abstract/21/5/915/1251767",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Unveiling organizationalAI adoptionpatterns in Italian companies through the lens of thediffusionof innovations theory",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Unveiling organizationalAI adoptionpatterns in Italian companies through the lens of thediffusionof innovations theory",
+      "authors": "GG Costa",
+      "source": ", F Venier,",
+      "year": 2026,
+      "url": "https://ojs.upr.si/index.php/fm/article/view/172",
+      "scholar_link": "https://ojs.upr.si/index.php/fm/article/view/172",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Examining thediffusionof innovations from a dynamic, differential-effects perspective: A longitudinal study onAI adoptionamong employees",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Examining thediffusionof innovations from a dynamic, differential-effects perspective: A longitudinal study onAI adoptionamong employees",
+      "authors": "S Xu",
+      "source": ",",
+      "year": 2026,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502231191832",
+      "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/00936502231191832",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Understandingartificial intelligence diffusionthrough anAIcapability maturity model",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Understandingartificial intelligence diffusionthrough anAIcapability maturity model",
+      "authors": "HF Hansen, E Lillesund,",
+      "source": "P Mikalef",
+      "year": 2024,
+      "url": "https://link.springer.com/article/10.1007/s10796-024-10528-4",
+      "scholar_link": "https://link.springer.com/article/10.1007/s10796-024-10528-4",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Exploring determinants influencingartificial intelligence adoption, reference todiffusionof innovation theory",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Exploring determinants influencingartificial intelligence adoption, reference todiffusionof innovation theory",
+      "authors": "P Patnaik",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0160791X24002987",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0160791X24002987",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "AI adoptionamong Germanfirms",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "AI adoptionamong Germanfirms",
+      "authors": "T Licht,",
+      "source": "K Wohlrabe",
+      "year": 2024,
+      "url": "https://www.econstor.eu/handle/10419/308355",
+      "scholar_link": "https://www.econstor.eu/handle/10419/308355",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "A review ofdiffusionof innovations theory (DOI) and technology, organization, and environment framework (TOE) in theadoptionofartificial intelligence",
+    "score": 5,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "A review ofdiffusionof innovations theory (DOI) and technology, organization, and environment framework (TOE) in theadoptionofartificial intelligence",
+      "authors": "SMN Alka'awneh,",
+      "source": "H Abdul-Halim",
+      "year": 2025,
+      "url": "https://kwpublications.com/papers_submitted/16849/a-review-of-diffusion-of-innovations-theory-doi-and-technology-organization-and-environment-framework-toe-in-the-adoption-of-artificial-intelligence.pdf",
+      "scholar_link": "https://kwpublications.com/papers_submitted/16849/a-review-of-diffusion-of-innovations-theory-doi-and-technology-organization-and-environment-framework-toe-in-the-adoption-of-artificial-intelligence.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Epidemic effects in thediffusionof emerging digital technologies: evidence fromartificial intelligence adoption",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Epidemic effects in thediffusionof emerging digital technologies: evidence fromartificial intelligence adoption",
+      "authors": "J Dahlke",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0048733323002019",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0048733323002019",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Adoptionofartificial intelligencein higher education: Adiffusionof innovation approach",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Adoptionofartificial intelligencein higher education: Adiffusionof innovation approach",
+      "authors": "M Gutiérrez-Leefmans",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/tqm/article/38/3/633/1269287",
+      "scholar_link": "https://www.emerald.com/tqm/article/38/3/633/1269287",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "A moderated model ofartificial intelligence adoptioninfirmsand its effects on their performance",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "A moderated model ofartificial intelligence adoptioninfirmsand its effects on their performance",
+      "authors": "J Chen",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s10799-024-00422-5",
+      "scholar_link": "https://link.springer.com/article/10.1007/s10799-024-00422-5",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Mind the Gap:AI Adoptionin Europe and the US",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Mind the Gap:AI Adoptionin Europe and the US",
+      "authors": "A Bick",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.nber.org/papers/w34995",
+      "scholar_link": "https://www.nber.org/papers/w34995",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The critical determinants impactingartificial intelligence adoptionat the organizational level",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "The critical determinants impactingartificial intelligence adoptionat the organizational level",
+      "authors": "OM Horani",
+      "source": ",",
+      "year": 2026,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/02666669231166889",
+      "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/02666669231166889",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The role of human-capital inartificial intelligence adoption",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "The role of human-capital inartificial intelligence adoption",
+      "authors": "B Brey",
+      "source": ", E van der Marel - Economics Letters, 2024 - Elsevier",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0165176524004336",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0165176524004336",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Breakingbarriers: investigatinggenerative AI adoptionand organizational use",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Breakingbarriers: investigatinggenerative AI adoptionand organizational use",
+      "authors": "N Albishri",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/jeim/article/39/1/267/1269903",
+      "scholar_link": "https://www.emerald.com/jeim/article/39/1/267/1269903",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Adopting generative aiin digital marketing campaigns: An empirical study of drivers andbarriers",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Adopting generative aiin digital marketing campaigns: An empirical study of drivers andbarriers",
+      "authors": "V Soni",
+      "source": "- Sage Science Review of Applied Machine Learning, 2023 - researchgate.net",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/Vishvesh-Soni/publication/376612647_Adopting_Generative_AI_in_Digital_Marketing_Campaigns_An_Empirical_Study_of_Drivers_and_Barriers/links/658092d32468df72d3b6e33d/Adopting-Generative-AI-in-Digital-Marketing-Campaigns-An-Empirical-Study-of-Drivers-and-Barriers.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/Vishvesh-Soni/publication/376612647_Adopting_Generative_AI_in_Digital_Marketing_Campaigns_An_Empirical_Study_of_Drivers_and_Barriers/links/658092d32468df72d3b6e33d/Adopting-Generative-AI-in-Digital-Marketing-Campaigns-An-Empirical-Study-of-Drivers-and-Barriers.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Generative AIin improving personalized patient care plans: opportunities andbarrierstowards its wideradoption",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generative AIin improving personalized patient care plans: opportunities andbarrierstowards its wideradoption",
+      "authors": "MM Baig",
+      "source": ", C Hobson,",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2076-3417/14/23/10899",
+      "scholar_link": "https://www.mdpi.com/2076-3417/14/23/10899",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "ExploringBarriersto theAdoptionofGenerative Artificial IntelligenceTools among University Students: A Perspective from Innovation Resistance Theory",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "ExploringBarriersto theAdoptionofGenerative Artificial IntelligenceTools among University Students: A Perspective from Innovation Resistance Theory",
+      "authors": "L Yonggang,",
+      "source": "H Awang",
+      "year": 2026,
+      "url": "https://www.ijmcer.com/wp-content/uploads/2024/12/IJMCER_V0660193201.pdf",
+      "scholar_link": "https://www.ijmcer.com/wp-content/uploads/2024/12/IJMCER_V0660193201.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Businessadoptionofgenerative AI: identifying and overcoming key challenges",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Businessadoptionofgenerative AI: identifying and overcoming key challenges",
+      "authors": "A Jokela - 2024 - oulurepo.oulu.fi",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://oulurepo.oulu.fi/handle/10024/52101",
+      "scholar_link": "https://oulurepo.oulu.fi/handle/10024/52101",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Generative artificial intelligence adoption: An exploration of challenges and perceptions",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generative artificial intelligence adoption: An exploration of challenges and perceptions",
+      "authors": "C Ziakis",
+      "source": "- The Economic Impact of Small and Medium-Sized …, 2025 - Springer",
+      "year": 2026,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-74554-6_10",
+      "scholar_link": "https://link.springer.com/chapter/10.1007/978-3-031-74554-6_10",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "BarrierstoGenerative AI AdoptionAmong Higher Vocational Students: Understanding Hesitancy and Resistance",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "BarrierstoGenerative AI AdoptionAmong Higher Vocational Students: Understanding Hesitancy and Resistance",
+      "authors": "J Lin, J Lin,",
+      "source": "X Luo",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/abstract/document/11158361/",
+      "scholar_link": "https://ieeexplore.ieee.org/abstract/document/11158361/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Towardsadoptionofgenerative AIin organizational settings",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Towardsadoptionofgenerative AIin organizational settings",
+      "authors": "K Prasad Agrawal",
+      "source": "- Journal of Computer Information Systems, 2024 - Taylor & Francis",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2023.2240744",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2023.2240744",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The rapidadoptionofgenerative AI",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The rapidadoptionofgenerative AI",
+      "authors": "A Bick",
+      "source": ",",
+      "year": 2026,
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.02523",
+      "scholar_link": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.02523",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Barriersto and opportunities for theadoptionofgenerative artificial intelligencein higher education in the global south: Insights from Sri Lanka",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Barriersto and opportunities for theadoptionofgenerative artificial intelligencein higher education in the global south: Insights from Sri Lanka",
+      "authors": "A Henadirage",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s40593-024-00439-5",
+      "scholar_link": "https://link.springer.com/article/10.1007/s40593-024-00439-5",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Learning toadopt generative AI",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Learning toadopt generative AI",
+      "authors": "L Ma",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2410.19806",
+      "scholar_link": "https://arxiv.org/abs/2410.19806",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Understanding acceptance and resistance towardgenerative AItechnologies: a multi-theoretical framework integrating functional, risk, and sociolegal factors",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Understanding acceptance and resistance towardgenerative AItechnologies: a multi-theoretical framework integrating functional, risk, and sociolegal factors",
+      "authors": "P Shrivastava - Frontiers in",
+      "source": "Artificial Intelligence",
+      "year": 2025,
+      "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1565927/full",
+      "scholar_link": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1565927/full",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Exploring thegenerative AI adoptionin service industry: A mixed-method analysis",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Exploring thegenerative AI adoptionin service industry: A mixed-method analysis",
+      "authors": "R Gupta",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0969698924002935",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0969698924002935",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Leveraginggenerative AI: strategicadoptionpatterns for enterprises",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Leveraginggenerative AI: strategicadoptionpatterns for enterprises",
+      "authors": "R Reznikov",
+      "source": "- Available at SSRN 4851632, 2024 - papers.ssrn.com",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851632",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851632",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Generative artificial intelligenceusage by researchers at work: Effects of gender, career stage, type of workplace, and perceivedbarriers",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generative artificial intelligenceusage by researchers at work: Effects of gender, career stage, type of workplace, and perceivedbarriers",
+      "authors": "P Dorta-González",
+      "source": ", AJ López-Puig… - Telematics and …, 2024 - Elsevier",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0736585324000911",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0736585324000911",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "A cognitive model fortechnology adoption",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 0,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "A cognitive model fortechnology adoption",
+      "authors": "F Sobhanmanesh,",
+      "source": "A Beheshti",
+      "year": 2023,
+      "url": "https://www.mdpi.com/1999-4893/16/3/155",
+      "scholar_link": "https://www.mdpi.com/1999-4893/16/3/155",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Technologyreadiness and the organizational journey towardsAI adoption: An empirical study",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Technologyreadiness and the organizational journey towardsAI adoption: An empirical study",
+      "authors": "V Uren",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0268401222001220",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0268401222001220",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "SMEs' use ofAIfor new product development:Adoptionrates by application and readiness-to-adopt",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "SMEs' use ofAIfor new product development:Adoptionrates by application and readiness-to-adopt",
+      "authors": "RG Cooper - Industrial Marketing Management, 2025 - Elsevier",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0019850125000161",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0019850125000161",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "AI adoptionand inequality",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "AI adoptionand inequality",
+      "authors": "EJ Rockall",
+      "source": ",",
+      "year": 2026,
+      "url": "https://books.google.com/books?hl=en&lr=&id=OqxUEQAAQBAJ&oi=fnd&pg=PA1&dq=technology+adoption+curves+AI&ots=b2bBvahXkU&sig=3ZFmEzOgBWGzE7eSGnWxJuwDriw",
+      "scholar_link": "https://books.google.com/books?hl=en&lr=&id=OqxUEQAAQBAJ&oi=fnd&pg=PA1&dq=technology+adoption+curves+AI&ots=b2bBvahXkU&sig=3ZFmEzOgBWGzE7eSGnWxJuwDriw",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "TheadoptionofAIin new product development: Results of a multi-firm study in the US and Europe",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "TheadoptionofAIin new product development: Results of a multi-firm study in the US and Europe",
+      "authors": "RG Cooper,",
+      "source": "AM Brem",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/08956308.2024.2324241",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/08956308.2024.2324241",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "An empirical evaluation of a generativeartificial intelligence technology adoptionmodel from entrepreneurs' perspectives",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "An empirical evaluation of a generativeartificial intelligence technology adoptionmodel from entrepreneurs' perspectives",
+      "authors": "V Gupta - Systems, 2024 - mdpi.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2079-8954/12/3/103",
+      "scholar_link": "https://www.mdpi.com/2079-8954/12/3/103",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Leading edge or bleeding edge: Designing a framework for theadoptionofAI technologyin an educational organization",
+    "score": 5,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Leading edge or bleeding edge: Designing a framework for theadoptionofAI technologyin an educational organization",
+      "authors": "SF Ahmad",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2071-1050/15/8/6540",
+      "scholar_link": "https://www.mdpi.com/2071-1050/15/8/6540",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Artificial intelligence adoptionin the post COVID-19 new-normal and role of smarttechnologiesin transforming business: a review",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Artificial intelligence adoptionin the post COVID-19 new-normal and role of smarttechnologiesin transforming business: a review",
+      "authors": "P Agarwal",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/jstpm/article/15/3/506/1222172",
+      "scholar_link": "https://www.emerald.com/jstpm/article/15/3/506/1222172",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Artificial intelligence adoptionamong human resource professionals: Does market turbulence play a role?",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Artificial intelligence adoptionamong human resource professionals: Does market turbulence play a role?",
+      "authors": "MA Islam",
+      "source": ",",
+      "year": 2026,
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/joe.22226",
+      "scholar_link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/joe.22226",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "TheAItransformation of product innovation",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "TheAItransformation of product innovation",
+      "authors": "RG Cooper - Industrial Marketing Management, 2024 - Elsevier",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0019850124000464",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0019850124000464",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Adoptionofartificial intelligencein financial services: a policy framework",
+    "score": 5,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Adoptionofartificial intelligencein financial services: a policy framework",
+      "authors": "B Kumari",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/jstpm/article/15/2/396/1216079",
+      "scholar_link": "https://www.emerald.com/jstpm/article/15/2/396/1216079",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "GenerativeAI adoptionin classroom in context oftechnologyacceptance model (TAM) and the innovation diffusion theory (IDT)",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "GenerativeAI adoptionin classroom in context oftechnologyacceptance model (TAM) and the innovation diffusion theory (IDT)",
+      "authors": "A Ghimire",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2406.15360",
+      "scholar_link": "https://arxiv.org/abs/2406.15360",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The rapidadoptionof generativeAI",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The rapidadoptionof generativeAI",
+      "authors": "A Bick",
+      "source": ",",
+      "year": 2026,
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.02523",
+      "scholar_link": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.02523",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Bending the automation biascurve: A study of human andAI-based decision making in national security contexts",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Bending the automation biascurve: A study of human andAI-based decision making in national security contexts",
+      "authors": "MC Horowitz",
+      "source": ",",
+      "year": 2026,
+      "url": "https://academic.oup.com/isq/article-abstract/68/2/sqae020/7638566",
+      "scholar_link": "https://academic.oup.com/isq/article-abstract/68/2/sqae020/7638566",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  }
+]

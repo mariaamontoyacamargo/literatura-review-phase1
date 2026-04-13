@@ -55,27 +55,28 @@ class Mapper:
         return self.graph
 
     def find_relations(self, paper1, paper2):
-        """Find all types of relations between two papers"""
+        """Find all types of relations between two papers - IMPROVED: More selective"""
         relations = []
 
-        # 1. Keyword overlap (semantic similarity)
+        # 1. Keyword overlap (semantic similarity) - STRICTER threshold
         keyword_overlap = self.keyword_overlap(paper1, paper2)
-        if keyword_overlap > 0.15:
+        if keyword_overlap > 0.4:  # Increased from 0.15 - only strong matches
             relations.append(("keyword-shared", keyword_overlap))
 
-        # 2. Same pocket (thematic)
+        # 2. Same pocket (thematic) - STRONG relation
         if paper1.get("pocket") == paper2.get("pocket"):
-            relations.append(("same-pocket", 0.3))
+            relations.append(("same-pocket", 0.5))  # Increased from 0.3
 
-        # 3. Similar methodology
+        # 3. Similar methodology - STRICT matching
         if self.similar_methodology(paper1, paper2):
-            relations.append(("similar-methodology", 0.25))
+            relations.append(("similar-methodology", 0.4))  # Increased from 0.25
 
-        # 4. Temporal sequence (close years)
-        year1 = paper1.get("year", 0)
-        year2 = paper2.get("year", 0)
-        if abs(year1 - year2) <= 1 and year1 > 0 and year2 > 0:
-            relations.append(("temporal-sequence", 0.15))
+        # 4. Temporal sequence (close years) - Only immediate neighbors
+        year1 = paper1.get("year") or 0
+        year2 = paper2.get("year") or 0
+        if year1 > 0 and year2 > 0 and abs(year1 - year2) <= 1 and year1 >= 2024:
+            # Only recent papers in temporal sequence
+            relations.append(("temporal-sequence", 0.3))  # Increased from 0.15
 
         # 5. Author overlap (shared authorship)
         if self.shared_author(paper1, paper2):
@@ -84,9 +85,20 @@ class Mapper:
         return relations
 
     def keyword_overlap(self, paper1, paper2):
-        """Calculate keyword overlap (Jaccard similarity)"""
+        """Calculate keyword overlap (Jaccard similarity) - IMPROVED: Use title/summary if no keywords"""
         keywords1 = set(paper1.get("keywords", []) or [])
         keywords2 = set(paper2.get("keywords", []) or [])
+
+        # If no keywords, try to extract from title/summary
+        if not keywords1:
+            title1 = (paper1.get("title") or "").lower().split()
+            summary1 = (paper1.get("summary") or "")[:200].lower().split()
+            keywords1 = set([w for w in title1 + summary1 if len(w) > 4])
+
+        if not keywords2:
+            title2 = (paper2.get("title") or "").lower().split()
+            summary2 = (paper2.get("summary") or "")[:200].lower().split()
+            keywords2 = set([w for w in title2 + summary2 if len(w) > 4])
 
         if not keywords1 or not keywords2:
             return 0

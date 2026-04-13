@@ -1,0 +1,1579 @@
+[
+  {
+    "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "authors": [
+        "Wiebke Hutiri",
+        "Morgan Scheuerman",
+        "Shruti Nagpal",
+        "Austin Hoag",
+        "Alice Xiang"
+      ],
+      "published": "2026-04-10T15:26:57Z",
+      "arxiv_id": "2604.09413v1",
+      "url": "https://arxiv.org/abs/2604.09413v1",
+      "summary": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "arxiv:2604.09413v1"
+  },
+  {
+    "title": "The Need for a Green ICT Reference Framework",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The Need for a Green ICT Reference Framework",
+      "authors": [
+        "Marco Aiello",
+        "Mina Alipour",
+        "Antonio Brogi",
+        "Rafael Capilla",
+        "Lidia Fuentes"
+      ],
+      "published": "2026-04-10T13:15:43Z",
+      "arxiv_id": "2604.09307v1",
+      "url": "https://arxiv.org/abs/2604.09307v1",
+      "summary": "The sustainability impacts of ICT systems are difficult to assess and govern due to structural complexity, fragmented measurement practices, and unclear responsibilities across system layers. We argue that these challenges cannot be addressed solely by metrics and motivate the need for a shared Green ICT reference framework that integrates sustainability across multiple perspectives and domains, lifecycle phases, and governance contexts. We present an initial framework developed within the Informatics Europe Green ICT Working Group as a first step towards a comprehensive reference framework.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "arxiv:2604.09307v1"
+  },
+  {
+    "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+    "score": 5,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+      "authors": [
+        "Oleg Solozobov"
+      ],
+      "published": "2026-04-10T13:06:38Z",
+      "arxiv_id": "2604.09296v1",
+      "url": "https://arxiv.org/abs/2604.09296v1",
+      "summary": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "arxiv:2604.09296v1"
+  },
+  {
+    "title": "Artificial intelligence can persuade people to take political actions",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "authors": [
+        "Kobi Hackenburg",
+        "Luke Hewitt",
+        "Caroline Wagner",
+        "Ben M. Tappin",
+        "Christopher Summerfield"
+      ],
+      "published": "2026-04-10T10:34:49Z",
+      "arxiv_id": "2604.09200v1",
+      "url": "https://arxiv.org/abs/2604.09200v1",
+      "summary": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "arxiv:2604.09200v1"
+  },
+  {
+    "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+    "score": 8,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "authors": [
+        "Tommy Shaffer Shane",
+        "Simon Mylius",
+        "Hamish Hobbs"
+      ],
+      "published": "2026-04-10T08:37:18Z",
+      "arxiv_id": "2604.09104v1",
+      "url": "https://arxiv.org/abs/2604.09104v1",
+      "summary": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "arxiv:2604.09104v1"
+  },
+  {
+    "title": "Scrapyard AI",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Scrapyard AI",
+      "authors": [
+        "Marc Böhlen",
+        "Sai Krishna"
+      ],
+      "published": "2026-04-09T22:38:57Z",
+      "arxiv_id": "2604.08803v1",
+      "url": "https://arxiv.org/abs/2604.08803v1",
+      "summary": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "arxiv:2604.08803v1"
+  },
+  {
+    "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "authors": [
+        "Addison J. Wu",
+        "Ryan Liu",
+        "Shuyue Stella Li",
+        "Yulia Tsvetkov",
+        "Thomas L. Griffiths"
+      ],
+      "published": "2026-04-09T17:57:50Z",
+      "arxiv_id": "2604.08525v1",
+      "url": "https://arxiv.org/abs/2604.08525v1",
+      "summary": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "arxiv:2604.08525v1"
+  },
+  {
+    "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "authors": [
+        "Juergen Dietrich"
+      ],
+      "published": "2026-04-09T17:00:26Z",
+      "arxiv_id": "2604.08465v1",
+      "url": "https://arxiv.org/abs/2604.08465v1",
+      "summary": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "arxiv:2604.08465v1"
+  },
+  {
+    "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "authors": [
+        "Jyh-An Lee",
+        "Jingwen Liu"
+      ],
+      "published": "2026-04-09T15:19:40Z",
+      "arxiv_id": "2604.08353v1",
+      "url": "https://arxiv.org/abs/2604.08353v1",
+      "summary": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "arxiv:2604.08353v1"
+  },
+  {
+    "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "authors": [
+        "Ralf Beuthan",
+        "Megan Coffee",
+        "Heejin Kim",
+        "Na Yeon Kim",
+        "Pedro Kringen"
+      ],
+      "published": "2026-04-09T13:14:34Z",
+      "arxiv_id": "2604.08217v1",
+      "url": "https://arxiv.org/abs/2604.08217v1",
+      "summary": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "arxiv:2604.08217v1"
+  },
+  {
+    "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+      "authors": [
+        "Arnab Paul Choudhury",
+        "Rahul Rathod",
+        "Aryan Yadav"
+      ],
+      "published": "2026-04-10T15:09:28Z",
+      "arxiv_id": "2604.09395v1",
+      "url": "https://arxiv.org/abs/2604.09395v1",
+      "summary": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "arxiv:2604.09395v1"
+  },
+  {
+    "title": "Towards Generalizable Representations of Mathematical Strategies",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Towards Generalizable Representations of Mathematical Strategies",
+      "authors": [
+        "Siddhartha Pradhan",
+        "Ethan Prihar",
+        "Erin Ottmar"
+      ],
+      "published": "2026-04-09T18:26:13Z",
+      "arxiv_id": "2604.08693v1",
+      "url": "https://arxiv.org/abs/2604.08693v1",
+      "summary": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "arxiv:2604.08693v1"
+  },
+  {
+    "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "authors": [
+        "David Shoresh",
+        "Sarit Kraus",
+        "Yonatan Loewenstein"
+      ],
+      "published": "2026-04-09T19:40:15Z",
+      "arxiv_id": "2604.08727v1",
+      "url": "https://arxiv.org/abs/2604.08727v1",
+      "summary": "As large language model (LLM) agents become more prevalent in real world social settings, social intelligence will play an increasingly critical role. But social intelligence is still a poorly defined construct, for humans and artificial agents. We introduce a multiplayer arena of mixed cooperative and competitive social games to study LLM social intelligence. The controllability of LLM based agents enables systematic evaluation, which also supports broader inferences about social intelligence per se. We evaluated eight diverse LLMs (24B to 1T parameters) using a Communicate Predict Act (COMPACT) interaction protocol and fine grained probing of social dynamics. Elo style ratings reveal consistent performance differences across models, but this scalar measure provides only a partial characterization of social intelligence. To address this limitation, we analyze gameplay traces to extract sociocognitive metrics capturing action prediction, communicative influence, strategic reasoning, and tradeoffs under conflicting interests. These sociocognitive metrics exhibit strong intramodel consistency and they reliably predict pairwise agent advantage in game outcomes (AUC ROC = 0.82). Feature importance analysis indicates that surprisingly, influence, transparency, and adaptability are more predictive of success than Theory of Mind inference or deep planning. Together, our results advance a testable, multidimensional conception of social intelligence and provide empirical insights into the capacities that underpin it.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "arxiv:2604.08727v1"
+  },
+  {
+    "title": "Impact andRegulationsofAIonLaborMarket and Employment in USA",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Impact andRegulationsofAIonLaborMarket and Employment in USA",
+      "authors": "P Adhikari",
+      "source": ", P Hamal - 2024 - preprints.org",
+      "year": 2026,
+      "url": "https://www.preprints.org/frontend/manuscript/08d40f43c600d4e43cfc86de5e706f16/download_pub",
+      "scholar_link": "https://www.preprints.org/frontend/manuscript/08d40f43c600d4e43cfc86de5e706f16/download_pub",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Impact andRegulationsofAIonLab"
+  },
+  {
+    "title": "RegulatingAIinLaborRelations: A Governance Framework for the Future Workforce",
+    "score": 5,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "RegulatingAIinLaborRelations: A Governance Framework for the Future Workforce",
+      "authors": "AA Murshed, A Alrahamneh,",
+      "source": "AH Alhalalmeh",
+      "year": 2026,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-95310-1_117",
+      "scholar_link": "https://link.springer.com/chapter/10.1007/978-3-031-95310-1_117",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:RegulatingAIinLaborRelations: "
+  },
+  {
+    "title": "AI, mental and physicallabor, and a justpolicyframework",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "AI, mental and physicallabor, and a justpolicyframework",
+      "authors": "Y Harel",
+      "source": "-",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s00146-025-02490-9",
+      "scholar_link": "https://link.springer.com/article/10.1007/s00146-025-02490-9",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:AI, mental and physicallabor, "
+  },
+  {
+    "title": "Introduction to theTransferspecial issue. RegulatingAIat work: labour relations, automation, and algorithmic management",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Introduction to theTransferspecial issue. RegulatingAIat work: labour relations, automation, and algorithmic management",
+      "authors": "V De Stefano",
+      "source": ",",
+      "year": 2026,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/10242589231157656",
+      "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/10242589231157656",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Introduction to theTransferspe"
+  },
+  {
+    "title": "The economic impacts and theregulationofAI: A review of the academic literature andpolicyactions",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The economic impacts and theregulationofAI: A review of the academic literature andpolicyactions",
+      "authors": "M Comunale",
+      "source": ",",
+      "year": 2026,
+      "url": "https://books.google.com/books?hl=en&lr=&id=BggBEQAAQBAJ&oi=fnd&pg=PP1&dq=AI+policy+regulation+labor&ots=YbRowzQDGj&sig=RJSs5uXH2tfooN9ir3lrfyk7YFk",
+      "scholar_link": "https://books.google.com/books?hl=en&lr=&id=BggBEQAAQBAJ&oi=fnd&pg=PP1&dq=AI+policy+regulation+labor&ots=YbRowzQDGj&sig=RJSs5uXH2tfooN9ir3lrfyk7YFk",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:The economic impacts and there"
+  },
+  {
+    "title": "Between risk mitigation and labour rights enforcement: Assessing the transatlantic race to governAI-driven decision-making through a comparative lens",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Between risk mitigation and labour rights enforcement: Assessing the transatlantic race to governAI-driven decision-making through a comparative lens",
+      "authors": "A Aloisi",
+      "source": ",",
+      "year": 2026,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/20319525231167982",
+      "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/20319525231167982",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Between risk mitigation and la"
+  },
+  {
+    "title": "Economicpolicychallenges for the age ofAI",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Economicpolicychallenges for the age ofAI",
+      "authors": "A Korinek",
+      "source": "- 2024 - nber.org",
+      "year": 2026,
+      "url": "https://www.nber.org/papers/w32980",
+      "scholar_link": "https://www.nber.org/papers/w32980",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Economicpolicychallenges for t"
+  },
+  {
+    "title": "The governance ofartificial intelligence: Harnessing opportunities and mitigating challenges",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The governance ofartificial intelligence: Harnessing opportunities and mitigating challenges",
+      "authors": "M Goos",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0048733323002123",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0048733323002123",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:The governance ofartificial in"
+  },
+  {
+    "title": "Artificial intelligenceand thelabormarket",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligenceand thelabormarket",
+      "authors": "M Hampole",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.aeaweb.org/conference/2026/program/paper/DfFG2sBZ",
+      "scholar_link": "https://www.aeaweb.org/conference/2026/program/paper/DfFG2sBZ",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Artificial intelligenceand the"
+  },
+  {
+    "title": "The Impact ofArtificial IntelligenceonLaborMarket Income Inequality",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "The Impact ofArtificial IntelligenceonLaborMarket Income Inequality",
+      "authors": "Y Gu",
+      "source": ",",
+      "year": 2026,
+      "url": "https://jandoopress.com/journal/ijas/article/view/169",
+      "scholar_link": "https://jandoopress.com/journal/ijas/article/view/169",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:The Impact ofArtificial Intell"
+  },
+  {
+    "title": "Managing the race to the moon: Globalpolicyand governance inArtificial Intelligence regulation—A contemporary overview and an analysis of socioeconomic …",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Managing the race to the moon: Globalpolicyand governance inArtificial Intelligence regulation—A contemporary overview and an analysis of socioeconomic …",
+      "authors": "Y Walter - Discover",
+      "source": "Artificial Intelligence",
+      "year": 2024,
+      "url": "https://link.springer.com/article/10.1007/s44163-024-00109-4",
+      "scholar_link": "https://link.springer.com/article/10.1007/s44163-024-00109-4",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Managing the race to the moon:"
+  },
+  {
+    "title": "TrustworthyAIin the public sector: An empirical analysis of a Swedishlabormarket decision-support system",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "TrustworthyAIin the public sector: An empirical analysis of a Swedishlabormarket decision-support system",
+      "authors": "A Berman",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0160791X24000198",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0160791X24000198",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:TrustworthyAIin the public sec"
+  },
+  {
+    "title": "Regulating the Risks ofAI",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Regulating the Risks ofAI",
+      "authors": "ME Kaminski - BUL Rev., 2023 - HeinOnline",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/bulr103&section=41",
+      "scholar_link": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/bulr103&section=41",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Regulating the Risks ofAI"
+  },
+  {
+    "title": "Apolicyprimer and roadmap onAIworker surveillance and productivity scoring tools",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Apolicyprimer and roadmap onAIworker surveillance and productivity scoring tools",
+      "authors": "M Hickok",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s43681-023-00275-8",
+      "scholar_link": "https://link.springer.com/article/10.1007/s43681-023-00275-8",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Apolicyprimer and roadmap onAI"
+  },
+  {
+    "title": "Economics of ChatGPT: Alabormarket view on the occupational impact ofartificial intelligence",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Economics of ChatGPT: Alabormarket view on the occupational impact ofartificial intelligence",
+      "authors": "A Zarifhonarvar",
+      "source": "- Journal of Electronic Business & Digital Economics, 2024 - emerald.com",
+      "year": 2026,
+      "url": "https://www.emerald.com/jebde/article/3/2/100/1233608",
+      "scholar_link": "https://www.emerald.com/jebde/article/3/2/100/1233608",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Economics of ChatGPT: Alaborma"
+  },
+  {
+    "title": "Governanceofgenerative AI",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Governanceofgenerative AI",
+      "authors": "A Taeihagh",
+      "source": "- Policy and society, 2025 - academic.oup.com",
+      "year": 2026,
+      "url": "https://academic.oup.com/policyandsociety/article-abstract/44/1/1/7997395",
+      "scholar_link": "https://academic.oup.com/policyandsociety/article-abstract/44/1/1/7997395",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Governanceofgenerative AI"
+  },
+  {
+    "title": "Navigatinggovernanceparadigms: A cross-regional comparative study ofgenerative AI governanceprocesses & principles",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Navigatinggovernanceparadigms: A cross-regional comparative study ofgenerative AI governanceprocesses & principles",
+      "authors": "J Luna",
+      "source": ",",
+      "year": 2026,
+      "url": "https://ojs.aaai.org/index.php/AIES/article/view/31692",
+      "scholar_link": "https://ojs.aaai.org/index.php/AIES/article/view/31692",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Navigatinggovernanceparadigms:"
+  },
+  {
+    "title": "Governanceofgenerative artificial intelligencefor companies",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Governanceofgenerative artificial intelligencefor companies",
+      "authors": "J Schneider, P Kuss, R Abraham,",
+      "source": "C Meske",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2403.08802",
+      "scholar_link": "https://arxiv.org/abs/2403.08802",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Governanceofgenerative artific"
+  },
+  {
+    "title": "Observe, inspect, modify: Three conditions forgenerative AI governance",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Observe, inspect, modify: Three conditions forgenerative AI governance",
+      "authors": "F Ferrari",
+      "source": ", J Van Dijck… - New Media & …, 2025 - journals.sagepub.com",
+      "year": 2026,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448231214811",
+      "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/14614448231214811",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Observe, inspect, modify: Thre"
+  },
+  {
+    "title": "Governancefix? Power and politics in controversies aboutgoverning generative AI",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Governancefix? Power and politics in controversies aboutgoverning generative AI",
+      "authors": "I Ulnicane",
+      "source": "- Policy and Society, 2025 - academic.oup.com",
+      "year": 2026,
+      "url": "https://academic.oup.com/policyandsociety/article-abstract/44/1/70/7702536",
+      "scholar_link": "https://academic.oup.com/policyandsociety/article-abstract/44/1/70/7702536",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Governancefix? Power and polit"
+  },
+  {
+    "title": "Generative AIneeds adaptivegovernance",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generative AIneeds adaptivegovernance",
+      "authors": "A Reuel",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2406.04554",
+      "scholar_link": "https://arxiv.org/abs/2406.04554",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Generative AIneeds adaptivegov"
+  },
+  {
+    "title": "Responsiblegovernanceofgenerative AI: conceptualizing GenAI as complex adaptive systems",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Responsiblegovernanceofgenerative AI: conceptualizing GenAI as complex adaptive systems",
+      "authors": "M Janssen",
+      "source": "- Policy and Society, 2025 - academic.oup.com",
+      "year": 2026,
+      "url": "https://academic.oup.com/policyandsociety/article-abstract/44/1/38/7965776",
+      "scholar_link": "https://academic.oup.com/policyandsociety/article-abstract/44/1/38/7965776",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Responsiblegovernanceofgenerat"
+  },
+  {
+    "title": "A framework for developing university policies ongenerative AI governance: A cross-national comparative study",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "A framework for developing university policies ongenerative AI governance: A cross-national comparative study",
+      "authors": "M Li",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2504.02636",
+      "scholar_link": "https://arxiv.org/abs/2504.02636",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:A framework for developing uni"
+  },
+  {
+    "title": "Generative AI Governance& Secure Content Automation in Higher Education",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Generative AI Governance& Secure Content Automation in Higher Education",
+      "authors": "Y Jayaram",
+      "source": ",",
+      "year": 2026,
+      "url": "https://ijaidsml.org/index.php/ijaidsml/article/view/354",
+      "scholar_link": "https://ijaidsml.org/index.php/ijaidsml/article/view/354",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Generative AI Governance& Secu"
+  },
+  {
+    "title": "Future Shock:Generative AIand the internationalAIpolicy andgovernancecrisis",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Future Shock:Generative AIand the internationalAIpolicy andgovernancecrisis",
+      "authors": "D Leslie,",
+      "source": "AM Perini",
+      "year": 2024,
+      "url": "https://hdsr.mitpress.mit.edu/pub/yixt9mqu",
+      "scholar_link": "https://hdsr.mitpress.mit.edu/pub/yixt9mqu",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Future Shock:Generative AIand "
+  },
+  {
+    "title": "Shapinggenerative AI governancein higher education: Insights from student perception",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Shapinggenerative AI governancein higher education: Insights from student perception",
+      "authors": "OP Barus",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666374025000184",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S2666374025000184",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Shapinggenerative AI governanc"
+  },
+  {
+    "title": "Generative artificial intelligencepolicies: informationgovernance",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generative artificial intelligencepolicies: informationgovernance",
+      "authors": "X Wang",
+      "source": ", B Liu, L Bao - Management Decision, 2025 - emerald.com",
+      "year": 2026,
+      "url": "https://www.emerald.com/md/article/doi/10.1108/MD-06-2024-1422/1269049",
+      "scholar_link": "https://www.emerald.com/md/article/doi/10.1108/MD-06-2024-1422/1269049",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Generative artificial intellig"
+  },
+  {
+    "title": "The consequences ofgenerative AIfor democracy,governanceand war",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The consequences ofgenerative AIfor democracy,governanceand war",
+      "authors": "S Feldstein",
+      "source": "- Survival: October–November 2023, 2023 - taylorfrancis.com",
+      "year": 2026,
+      "url": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003429388-13/consequences-generative-ai-democracy-governance-war-steven-feldstein",
+      "scholar_link": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003429388-13/consequences-generative-ai-democracy-governance-war-steven-feldstein",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:The consequences ofgenerative "
+  },
+  {
+    "title": "Generative AIin healthcare: an implementation science informed translational path on application, integration andgovernance",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generative AIin healthcare: an implementation science informed translational path on application, integration andgovernance",
+      "authors": "S Reddy",
+      "source": "- Implementation Science, 2024 - Springer",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1186/s13012-024-01357-9",
+      "scholar_link": "https://link.springer.com/article/10.1186/s13012-024-01357-9",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Generative AIin healthcare: an"
+  },
+  {
+    "title": "AI-driven solutions for robust datagovernance: A focus ongenerative aiapplications",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "AI-driven solutions for robust datagovernance: A focus ongenerative aiapplications",
+      "authors": "AR Sugureddy",
+      "source": "- Journal ID, 2023 - academia.edu",
+      "year": 2026,
+      "url": "https://www.academia.edu/download/121413580/IJDA_03_01_007.pdf",
+      "scholar_link": "https://www.academia.edu/download/121413580/IJDA_03_01_007.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:AI-driven solutions for robust"
+  },
+  {
+    "title": "The privacy of emotions: From theGDPRto theAIAct, an overview of emotionalAI regulationand the protection of privacy and personal data",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The privacy of emotions: From theGDPRto theAIAct, an overview of emotionalAI regulationand the protection of privacy and personal data",
+      "authors": "M Durovic, T Corno - Privacy, data protection and data-driven …, 2024 - taylorfrancis.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003502791-18/privacy-emotions-mateja-durovic-tommaso-corno",
+      "scholar_link": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003502791-18/privacy-emotions-mateja-durovic-tommaso-corno",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:The privacy of emotions: From "
+  },
+  {
+    "title": "SustainableAI regulation",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "SustainableAI regulation",
+      "authors": "P Hacker",
+      "source": "- Common Market Law Review, 2024 - testcdn.kluwerlawonline.com",
+      "year": 2026,
+      "url": "https://testcdn.kluwerlawonline.com/journalarticle/Common+Market+Law+Review/61.2/COLA2024025",
+      "scholar_link": "https://testcdn.kluwerlawonline.com/journalarticle/Common+Market+Law+Review/61.2/COLA2024025",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:SustainableAI regulation"
+  },
+  {
+    "title": "AnAIframework to support decisions onGDPRcompliance",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "AnAIframework to support decisions onGDPRcompliance",
+      "authors": "F Lorè,",
+      "source": "P Basile",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s10844-023-00782-4",
+      "scholar_link": "https://link.springer.com/article/10.1007/s10844-023-00782-4",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:AnAIframework to support decis"
+  },
+  {
+    "title": "Lessons fromGDPRforAIPolicymaking",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Lessons fromGDPRforAIPolicymaking",
+      "authors": "J Wolff",
+      "source": ",",
+      "year": 2026,
+      "url": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/vjolt27&section=9",
+      "scholar_link": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/vjolt27&section=9",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Lessons fromGDPRforAIPolicymak"
+  },
+  {
+    "title": "ExplainableAI: Can theAIAct and theGDPRgo out for a date?",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "ExplainableAI: Can theAIAct and theGDPRgo out for a date?",
+      "authors": "M Nisevic",
+      "source": ", A Cuypers… - 2024 International Joint …, 2024 - ieeexplore.ieee.org",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/abstract/document/10649994/",
+      "scholar_link": "https://ieeexplore.ieee.org/abstract/document/10649994/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:ExplainableAI: Can theAIAct an"
+  },
+  {
+    "title": "Artificial intelligenceethics and challenges in healthcare applications: a comprehensive review in the context of the EuropeanGDPRmandate",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Artificial intelligenceethics and challenges in healthcare applications: a comprehensive review in the context of the EuropeanGDPRmandate",
+      "authors": "M Mohammad Amini",
+      "source": ", M Jesus… - Machine Learning and …, 2023 - mdpi.com",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2504-4990/5/3/53",
+      "scholar_link": "https://www.mdpi.com/2504-4990/5/3/53",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Artificial intelligenceethics "
+  },
+  {
+    "title": "Advances in data protection andartificial intelligence: Trends and challenges",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Advances in data protection andartificial intelligence: Trends and challenges",
+      "authors": "AKY Yanamala",
+      "source": ", S Suryadevara - International Journal of Advanced …, 2023 - academia.edu",
+      "year": 2026,
+      "url": "https://www.academia.edu/download/119087519/294_319_ijaeti_2023.pdf",
+      "scholar_link": "https://www.academia.edu/download/119087519/294_319_ijaeti_2023.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Advances in data protection an"
+  },
+  {
+    "title": "Theregulationofartificial intelligence",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Theregulationofartificial intelligence",
+      "authors": "G Finocchiaro",
+      "source": "-",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s00146-023-01650-z",
+      "scholar_link": "https://link.springer.com/article/10.1007/s00146-023-01650-z",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Theregulationofartificial inte"
+  },
+  {
+    "title": "Evaluating the impact of data protectionregulationsonAIdevelopment and deployment",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Evaluating the impact of data protectionregulationsonAIdevelopment and deployment",
+      "authors": "AKY Yanamala",
+      "source": ", S Suryadevara, VDR Kalli - International Journal of …, 2023 - neliti.com",
+      "year": 2026,
+      "url": "https://www.neliti.com/publications/603784/evaluating-the-impact-of-data-protection-regulations-on-ai-development-and-deplo",
+      "scholar_link": "https://www.neliti.com/publications/603784/evaluating-the-impact-of-data-protection-regulations-on-ai-development-and-deplo",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Evaluating the impact of data "
+  },
+  {
+    "title": "Bridging compliance and innovation: A comparative analysis of the EUAIAct andGDPRfor enhanced organisational strategy",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Bridging compliance and innovation: A comparative analysis of the EUAIAct andGDPRfor enhanced organisational strategy",
+      "authors": "S Musch, MC Borrelli, C Kerrigan - Journal of Data Protection & …, 2024 - ingentaconnect.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.ingentaconnect.com/content/hsp/jdpp/2024/00000007/00000001/art00003",
+      "scholar_link": "https://www.ingentaconnect.com/content/hsp/jdpp/2024/00000007/00000001/art00003",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Bridging compliance and innova"
+  },
+  {
+    "title": "The Right to an Explanation Under theGDPRand theAIAct",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "The Right to an Explanation Under theGDPRand theAIAct",
+      "authors": "BA Juliussen - International Conference on Multimedia Modeling, 2025 - Springer",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://link.springer.com/chapter/10.1007/978-981-96-2071-5_14",
+      "scholar_link": "https://link.springer.com/chapter/10.1007/978-981-96-2071-5_14",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:The Right to an Explanation Un"
+  },
+  {
+    "title": "“Please understand we cannot provide further information”: evaluating content and transparency ofGDPR-mandatedAIdisclosures",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "“Please understand we cannot provide further information”: evaluating content and transparency ofGDPR-mandatedAIdisclosures",
+      "authors": "AJ Wulf,",
+      "source": "O Seizov",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s00146-022-01424-z",
+      "scholar_link": "https://link.springer.com/article/10.1007/s00146-022-01424-z",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:“Please understand we cannot p"
+  },
+  {
+    "title": "Artificial Intelligencein Decision-Making: A Test of Consistency between the\" EUAIAct\" and the\"General Data Protection Regulation\"",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial Intelligencein Decision-Making: A Test of Consistency between the\" EUAIAct\" and the\"General Data Protection Regulation\"",
+      "authors": "C Sarra - Athens JL, 2025 - HeinOnline",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/atnsj11&section=8",
+      "scholar_link": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/atnsj11&section=8",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Artificial Intelligencein Deci"
+  },
+  {
+    "title": "Balancing security and privacy: Web bot detection, privacy challenges, andregulatorycompliance under theGDPRandAIact",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Balancing security and privacy: Web bot detection, privacy challenges, andregulatorycompliance under theGDPRandAIact",
+      "authors": "JM Llamas",
+      "source": ", K Vranckaert,",
+      "year": 2026,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11962364/",
+      "scholar_link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11962364/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:Balancing security and privacy"
+  },
+  {
+    "title": "The Right to an Explanation in Practice: Insights from Case Law for theGDPRand theAIAct",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "The Right to an Explanation in Practice: Insights from Case Law for theGDPRand theAIAct",
+      "authors": "L Metikoš",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/17579961.2025.2469349",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/17579961.2025.2469349",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "policy",
+    "doi": "gs:The Right to an Explanation in"
+  }
+]

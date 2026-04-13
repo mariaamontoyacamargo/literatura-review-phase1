@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "id": "brynjolfsson_2024",
+      "title": "Generative AI at Work",
+      "year": 2024,
+      "pocket": "worker-level",
+      "keywords": [
+        "generative AI",
+        "productivity",
+        "customer support",
+        "RCT",
+        "worker-level"
+      ]
+    },
+    {
+      "id": "cui_2025",
+      "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
+      "year": 2025,
+      "pocket": "worker-level",
+      "keywords": [
+        "generative AI",
+        "software developers",
+        "productivity",
+        "RCT",
+        "high-skilled work"
+      ]
+    },
+    {
+      "id": "metr_2025",
+      "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+      "year": 2025,
+      "pocket": "task-level",
+      "keywords": [
+        "generative AI",
+        "developer productivity",
+        "open-source",
+        "RCT",
+        "task-level"
+      ]
+    },
+    {
+      "id": "wharton_2025",
+      "title": "The Projected Impact of Generative AI on Future Productivity Growth",
+      "year": 2025,
+      "pocket": "firm-level",
+      "keywords": [
+        "generative AI",
+        "productivity growth",
+        "TFP",
+        "macroeconomic",
+        "firm-level"
+      ]
+    },
+    {
+      "id": "stlouisfed_2025",
+      "title": "Generative AI, Productivity and the Future of Work",
+      "year": 2025,
+      "pocket": "team-level",
+      "keywords": [
+        "generative AI",
+        "productivity",
+        "labor",
+        "economic impacts",
+        "team"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "brynjolfsson_2024",
+      "target": "cui_2025",
+      "weight": 0.42857142857142855
+    },
+    {
+      "source": "brynjolfsson_2024",
+      "target": "metr_2025",
+      "weight": 0.25
+    },
+    {
+      "source": "brynjolfsson_2024",
+      "target": "stlouisfed_2025",
+      "weight": 0.25
+    },
+    {
+      "source": "cui_2025",
+      "target": "metr_2025",
+      "weight": 0.25
+    },
+    {
+      "source": "cui_2025",
+      "target": "stlouisfed_2025",
+      "weight": 0.25
+    }
+  ],
+  "stats": {
+    "nodes": 5,
+    "edges": 5,
+    "density": 0.5,
+    "avg_degree": 2.0
+  },
+  "gaps": {
+    "identified": [
+      "task-level: only 1 paper(s)",
+      "firm-level: only 1 paper(s)",
+      "team-level: only 1 paper(s)",
+      "Year 2023: only 0 paper(s)",
+      "Year 2024: only 1 paper(s)"
+    ],
+    "distribution": {
+      "methodologies": {
+        "RCT, field experiment": 2,
+        "RCT, three field experiments": 1,
+        "Macroeconomic modeling, panel data analysis": 1,
+        "Panel data analysis, survey": 1
+      },
+      "pockets": {
+        "worker-level": 2,
+        "task-level": 1,
+        "firm-level": 1,
+        "team-level": 1
+      },
+      "years": {
+        "2024": 1,
+        "2025": 4
+      }
+    }
+  }
+}

@@ -1,313 +1,1500 @@
 [
   {
-    "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
-    "score": 9,
-    "status": "ACEPTADO",
-    "breakdown": {
-      "methodology": 3,
-      "causalidity": 2,
-      "top_tier": 2,
-      "novelty": 1,
-      "relevance": 1
-    },
-    "metadata": {
-      "id": "cui_2025_ai_software",
-      "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
-      "authors": [
-        "Zheyuan Cui",
-        "Mert Demirer",
-        "Sonia Jaffe",
-        "Leon Musolff",
-        "Sida Peng",
-        "Tobias Salz"
-      ],
-      "year": 2025,
-      "venue": "Management Science / SSRN",
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566",
-      "methodology": "RCT, three field experiments",
-      "h_index": 45,
-      "citations": 120,
-      "pocket": "evaluacion_experimental",
-      "keywords": [
-        "RCT",
-        "randomized experiment",
-        "software developers",
-        "GitHub Copilot",
-        "productivity",
-        "causal inference",
-        "field experiment"
-      ],
-      "abstract": "We conduct three randomized controlled trials with software developers at Microsoft, Accenture, and a Fortune 100 company to examine the causal impact of generative AI coding tools on developer productivity, code quality, and job satisfaction.",
-      "key_findings": [
-        "26% productivity increase for developers using GitHub Copilot",
-        "Larger gains for less experienced developers",
-        "Productivity effects vary by developer experience level",
-        "Sustained effects over 6+ months of use"
-      ],
-      "methodology_details": "RCT design, random assignment to treatment/control, blinded evaluation",
-      "treatment_effect_size": "26%",
-      "external_validity": "Multiple firms, diverse developer experience levels"
-    }
-  },
-  {
-    "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
-    "score": 8,
-    "status": "ACEPTADO",
-    "breakdown": {
-      "methodology": 3,
-      "causalidity": 2,
-      "top_tier": 1,
-      "novelty": 1,
-      "relevance": 1
-    },
-    "metadata": {
-      "id": "metr_2025_oss_developers",
-      "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
-      "authors": [
-        "METR Research Team"
-      ],
-      "year": 2025,
-      "venue": "arXiv / METR",
-      "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
-      "methodology": "RCT, field experiment with experienced developers",
-      "h_index": 30,
-      "citations": 45,
-      "pocket": "evaluacion_experimental",
-      "keywords": [
-        "RCT",
-        "randomized experiment",
-        "open-source",
-        "experienced developers",
-        "task completion time",
-        "causal effect"
-      ],
-      "abstract": "Randomized controlled trial examining how AI tools at the frontier (Feb-June 2025) affect the productivity of experienced open-source developers on their own repositories.",
-      "key_findings": [
-        "19% increase in task completion time with AI enabled",
-        "AI makes experienced developers slower on exploration tasks",
-        "Different task types show heterogeneous treatment effects",
-        "Experience level is critical moderator of AI effectiveness"
-      ],
-      "methodology_details": "RCT with random assignment, within-subject crossover design",
-      "treatment_effect_size": "-19% (negative effect)",
-      "external_validity": "Experienced developers, realistic task environment"
-    }
-  },
-  {
-    "title": "The Impact of AI-Powered Code Assistance on Developer Productivity: Evidence from Google",
-    "score": 9,
-    "status": "ACEPTADO",
-    "breakdown": {
-      "methodology": 3,
-      "causalidity": 2,
-      "top_tier": 2,
-      "novelty": 1,
-      "relevance": 1
-    },
-    "metadata": {
-      "id": "google_2024_copilot",
-      "title": "The Impact of AI-Powered Code Assistance on Developer Productivity: Evidence from Google",
-      "authors": [
-        "Google Research Team"
-      ],
-      "year": 2024,
-      "venue": "arXiv / Google Blog",
-      "url": "https://research.google/",
-      "methodology": "RCT with 96 software engineers",
-      "h_index": 95,
-      "citations": 200,
-      "pocket": "evaluacion_experimental",
-      "keywords": [
-        "RCT",
-        "experiment",
-        "code completion",
-        "time spent on task",
-        "AI assistance",
-        "causal"
-      ],
-      "abstract": "Randomized controlled trial at Google examining how AI-powered code assistance affects developer productivity and time spent on tasks.",
-      "key_findings": [
-        "21% reduction in time spent on tasks",
-        "Larger effects for routine tasks vs complex tasks",
-        "Code quality maintained despite speed improvements",
-        "High adoption and satisfaction among participants"
-      ],
-      "methodology_details": "RCT with 96 full-time engineers, logged task times",
-      "treatment_effect_size": "21% time reduction",
-      "external_validity": "Large tech firm, experienced developers"
-    }
-  },
-  {
-    "title": "Generative AI at Work",
-    "score": 8,
-    "status": "ACEPTADO",
-    "breakdown": {
-      "methodology": 3,
-      "causalidity": 2,
-      "top_tier": 1,
-      "novelty": 1,
-      "relevance": 1
-    },
-    "metadata": {
-      "id": "brynjolfsson_2024_qa",
-      "title": "Generative AI at Work",
-      "authors": [
-        "Erik Brynjolfsson",
-        "Danielle Li",
-        "Lindsey Raymond"
-      ],
-      "year": 2024,
-      "venue": "The Quarterly Journal of Economics",
-      "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
-      "methodology": "RCT, field experiment in customer support",
-      "h_index": 95,
-      "citations": 250,
-      "pocket": "evaluacion_experimental",
-      "keywords": [
-        "RCT",
-        "randomized",
-        "field experiment",
-        "customer support",
-        "AI suggestions",
-        "causal effect"
-      ],
-      "abstract": "Randomized controlled trial examining how access to generative AI suggestions affects productivity of customer support agents.",
-      "key_findings": [
-        "14% productivity increase for agents with AI access",
-        "Larger gains for less experienced agents (35% improvement)",
-        "Improved job satisfaction",
-        "Quality metrics maintained or improved"
-      ],
-      "methodology_details": "RCT at single firm, random assignment of AI access",
-      "treatment_effect_size": "14% overall, 35% for junior agents",
-      "external_validity": "Large firm, customer support context"
-    }
-  },
-  {
-    "title": "Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace",
+    "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
     "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "authors": [
+        "Wiebke Hutiri",
+        "Morgan Scheuerman",
+        "Shruti Nagpal",
+        "Austin Hoag",
+        "Alice Xiang"
+      ],
+      "published": "2026-04-10T15:26:57Z",
+      "arxiv_id": "2604.09413v1",
+      "url": "https://arxiv.org/abs/2604.09413v1",
+      "summary": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+      "authors": [
+        "Arnab Paul Choudhury",
+        "Rahul Rathod",
+        "Aryan Yadav"
+      ],
+      "published": "2026-04-10T15:09:28Z",
+      "arxiv_id": "2604.09395v1",
+      "url": "https://arxiv.org/abs/2604.09395v1",
+      "summary": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Artificial intelligence can persuade people to take political actions",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "authors": [
+        "Kobi Hackenburg",
+        "Luke Hewitt",
+        "Caroline Wagner",
+        "Ben M. Tappin",
+        "Christopher Summerfield"
+      ],
+      "published": "2026-04-10T10:34:49Z",
+      "arxiv_id": "2604.09200v1",
+      "url": "https://arxiv.org/abs/2604.09200v1",
+      "summary": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+    "score": 8,
     "status": "ACEPTADO",
     "breakdown": {
-      "methodology": 3,
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "authors": [
+        "Tommy Shaffer Shane",
+        "Simon Mylius",
+        "Hamish Hobbs"
+      ],
+      "published": "2026-04-10T08:37:18Z",
+      "arxiv_id": "2604.09104v1",
+      "url": "https://arxiv.org/abs/2604.09104v1",
+      "summary": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Scrapyard AI",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Scrapyard AI",
+      "authors": [
+        "Marc Böhlen",
+        "Sai Krishna"
+      ],
+      "published": "2026-04-09T22:38:57Z",
+      "arxiv_id": "2604.08803v1",
+      "url": "https://arxiv.org/abs/2604.08803v1",
+      "summary": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "authors": [
+        "David Shoresh",
+        "Sarit Kraus",
+        "Yonatan Loewenstein"
+      ],
+      "published": "2026-04-09T19:40:15Z",
+      "arxiv_id": "2604.08727v1",
+      "url": "https://arxiv.org/abs/2604.08727v1",
+      "summary": "As large language model (LLM) agents become more prevalent in real world social settings, social intelligence will play an increasingly critical role. But social intelligence is still a poorly defined construct, for humans and artificial agents. We introduce a multiplayer arena of mixed cooperative and competitive social games to study LLM social intelligence. The controllability of LLM based agents enables systematic evaluation, which also supports broader inferences about social intelligence per se. We evaluated eight diverse LLMs (24B to 1T parameters) using a Communicate Predict Act (COMPACT) interaction protocol and fine grained probing of social dynamics. Elo style ratings reveal consistent performance differences across models, but this scalar measure provides only a partial characterization of social intelligence. To address this limitation, we analyze gameplay traces to extract sociocognitive metrics capturing action prediction, communicative influence, strategic reasoning, and tradeoffs under conflicting interests. These sociocognitive metrics exhibit strong intramodel consistency and they reliably predict pairwise agent advantage in game outcomes (AUC ROC = 0.82). Feature importance analysis indicates that surprisingly, influence, transparency, and adaptability are more predictive of success than Theory of Mind inference or deep planning. Together, our results advance a testable, multidimensional conception of social intelligence and provide empirical insights into the capacities that underpin it.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "authors": [
+        "Addison J. Wu",
+        "Ryan Liu",
+        "Shuyue Stella Li",
+        "Yulia Tsvetkov",
+        "Thomas L. Griffiths"
+      ],
+      "published": "2026-04-09T17:57:50Z",
+      "arxiv_id": "2604.08525v1",
+      "url": "https://arxiv.org/abs/2604.08525v1",
+      "summary": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "authors": [
+        "Juergen Dietrich"
+      ],
+      "published": "2026-04-09T17:00:26Z",
+      "arxiv_id": "2604.08465v1",
+      "url": "https://arxiv.org/abs/2604.08465v1",
+      "summary": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "authors": [
+        "Jyh-An Lee",
+        "Jingwen Liu"
+      ],
+      "published": "2026-04-09T15:19:40Z",
+      "arxiv_id": "2604.08353v1",
+      "url": "https://arxiv.org/abs/2604.08353v1",
+      "summary": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "authors": [
+        "Ralf Beuthan",
+        "Megan Coffee",
+        "Heejin Kim",
+        "Na Yeon Kim",
+        "Pedro Kringen"
+      ],
+      "published": "2026-04-09T13:14:34Z",
+      "arxiv_id": "2604.08217v1",
+      "url": "https://arxiv.org/abs/2604.08217v1",
+      "summary": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+    "score": 5,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+      "authors": [
+        "Oleg Solozobov"
+      ],
+      "published": "2026-04-10T13:06:38Z",
+      "arxiv_id": "2604.09296v1",
+      "url": "https://arxiv.org/abs/2604.09296v1",
+      "summary": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "authors": [
+        "Ramakrishnan Krishnamurthy",
+        "Arpit Agarwal",
+        "Lakshminarayanan Subramanian",
+        "Maximilian Nickel"
+      ],
+      "published": "2026-04-09T17:45:15Z",
+      "arxiv_id": "2604.08643v1",
+      "url": "https://arxiv.org/abs/2604.08643v1",
+      "summary": "User interactions in online recommendation platforms create interdependencies among content creators: feedback on one creator's content influences the system's learning and, in turn, the exposure of other creators' contents. To analyze incentives in such settings, we model collaboration as a multi-agent stochastic linear bandit problem with a transferable utility (TU) cooperative game formulation, where a coalition's value equals the negative sum of its members' cumulative regrets.\n  We show that, for identical (homogenous) agents with fixed action sets, the induced TU game is convex under mild algorithmic conditions, implying a non-empty core that contains the Shapley value and ensures both stability and fairness. For heterogeneous agents, the game still admits a non-empty core, though convexity and Shapley value core-membership are no longer guaranteed. To address this, we propose a simple regret-based payout rule that satisfies three out of the four Shapley axioms and also lies in the core. Experiments on MovieLens-100k dataset illustrate when the empirical payout aligns with -- and diverges from -- the Shapley fairness across different settings and algorithms.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Towards Generalizable Representations of Mathematical Strategies",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Towards Generalizable Representations of Mathematical Strategies",
+      "authors": [
+        "Siddhartha Pradhan",
+        "Ethan Prihar",
+        "Erin Ottmar"
+      ],
+      "published": "2026-04-09T18:26:13Z",
+      "arxiv_id": "2604.08693v1",
+      "url": "https://arxiv.org/abs/2604.08693v1",
+      "summary": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Twitch Third-Party Developers' Support Seeking and Provision Practices on Discord",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
       "causalidity": 2,
       "top_tier": 0,
       "novelty": 1,
       "relevance": 0
     },
     "metadata": {
-      "id": "dear_diary_2024",
-      "title": "Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace",
+      "title": "Twitch Third-Party Developers' Support Seeking and Provision Practices on Discord",
       "authors": [
-        "AI Research Collective"
+        "Jie Cai",
+        "He Zhang",
+        "Yueyan Liu",
+        "John M. Carroll",
+        "Chun Yu"
       ],
-      "year": 2024,
-      "venue": "arXiv",
-      "url": "https://arxiv.org/html/2410.18334v1",
-      "methodology": "RCT, crossed design",
-      "h_index": 25,
-      "citations": 35,
-      "pocket": "evaluacion_experimental",
-      "keywords": [
-        "RCT",
-        "workplace",
-        "coding tools",
-        "diary study",
-        "randomized",
-        "within-subject"
-      ],
-      "abstract": "Workplace randomized controlled trial of generative AI coding tools with crossed design to measure causal effects on various productivity dimensions.",
-      "key_findings": [
-        "50% time savings in code documentation",
-        "Heterogeneous effects across task types",
-        "Learning curves evident over study period"
-      ],
-      "methodology_details": "RCT with within-subject design, task-level measurement",
-      "treatment_effect_size": "50% on documentation tasks",
-      "external_validity": "Workplace setting, diverse programming tasks"
+      "published": "2026-04-09T02:29:15Z",
+      "arxiv_id": "2604.07732v1",
+      "url": "https://arxiv.org/abs/2604.07732v1",
+      "summary": "Third-party developers (TPDs) often turn to online communities for support when they can't get immediate responses from the platform. Twitch, as a leading live streaming platform, attracted many TPDs and formed an online support community on Discord. This study explores TPDs' support practices via mixed method (a topic modeling to identify topics related to support seeking and provision first and a follow-up in-depth qualitative analysis with these topics) and found that: (1) TPDs' support-seeking practices around social, technical, and policy matters are highly dependent on Twitch, and this dependence acts as a form of platform labor; (2) TPDs need to switch between Discord and Twitch regarding seeking and provision, exacerbating TPDs' platform labor; (3) TPDs' flexible role practices reflect the community's flourishing on Discord but require roles to bridge the two platforms and transfer informal support seeking to possible formal support from Twitch. We propose implications for effectively managing support seeking and provision between formal and informal spaces to improve the development of TPDs. We also contribute to community support practice and to platform ecology work in CSCW.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
     }
   },
   {
-    "title": "Impact: Randomized Controlled Trial of AI Evaluation Methods",
-    "score": 7,
-    "status": "ACEPTADO",
+    "title": "The Need for a Green ICT Reference Framework",
+    "score": 6,
+    "status": "REVISAR",
     "breakdown": {
-      "methodology": 3,
+      "methodology": 2,
       "causalidity": 2,
-      "top_tier": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The Need for a Green ICT Reference Framework",
+      "authors": [
+        "Marco Aiello",
+        "Mina Alipour",
+        "Antonio Brogi",
+        "Rafael Capilla",
+        "Lidia Fuentes"
+      ],
+      "published": "2026-04-10T13:15:43Z",
+      "arxiv_id": "2604.09307v1",
+      "url": "https://arxiv.org/abs/2604.09307v1",
+      "summary": "The sustainability impacts of ICT systems are difficult to assess and govern due to structural complexity, fragmented measurement practices, and unclear responsibilities across system layers. We argue that these challenges cannot be addressed solely by metrics and motivate the need for a shared Green ICT reference framework that integrates sustainability across multiple perspectives and domains, lifecycle phases, and governance contexts. We present an initial framework developed within the Informatics Europe Green ICT Working Group as a first step towards a comprehensive reference framework.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Autonomous artificial intelligence increases real-world specialist clinicproductivityin a cluster-randomized trial",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Autonomous artificial intelligence increases real-world specialist clinicproductivityin a cluster-randomized trial",
+      "authors": "MD Abramoff",
+      "source": ", N Whitestone, JL Patnaik, E Rich… - NPJ digital …, 2023 - nature.com",
+      "year": 2026,
+      "url": "https://www.nature.com/articles/s41746-023-00931-7",
+      "scholar_link": "https://www.nature.com/articles/s41746-023-00931-7",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Using arandom controlled trialto explore the impact ofAI-enabled learning",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Using arandom controlled trialto explore the impact ofAI-enabled learning",
+      "authors": "D Lynch, M DeGenarro - International Journal of Advanced …, 2024 - search.proquest.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://search.proquest.com/openview/ee8c5e8eb777980ff094703c5ddde5a3/1?pq-origsite=gscholar&cbl=4425142",
+      "scholar_link": "https://search.proquest.com/openview/ee8c5e8eb777980ff094703c5ddde5a3/1?pq-origsite=gscholar&cbl=4425142",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Experimental evidence on theproductivityeffects of generative artificial intelligence",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Experimental evidence on theproductivityeffects of generative artificial intelligence",
+      "authors": "S Noy",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.science.org/doi/abs/10.1126/science.adh2586",
+      "scholar_link": "https://www.science.org/doi/abs/10.1126/science.adh2586",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Navigating the jagged technological frontier: Field experimental evidence of the effects ofAIon knowledge workerproductivityand quality",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Navigating the jagged technological frontier: Field experimental evidence of the effects ofAIon knowledge workerproductivityand quality",
+      "authors": "F Dell'Acqua",
+      "source": ",",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Autonomous artificial intelligence increases screening and follow-up for diabetic retinopathy in youth: the ACCESSrandomized control trial",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
       "novelty": 1,
       "relevance": 0
     },
     "metadata": {
-      "id": "scale_stanford_2024",
-      "title": "Impact: Randomized Controlled Trial of AI Evaluation Methods",
-      "authors": [
-        "Stanford SCALE Initiative"
-      ],
-      "year": 2024,
-      "venue": "Stanford University",
-      "url": "https://scale.stanford.edu/ai/repository/impact-randomized-controlled-trial",
-      "methodology": "RCT, evaluation methodology",
-      "h_index": 60,
-      "citations": 80,
-      "pocket": "evaluacion_experimental",
-      "keywords": [
-        "RCT",
-        "evaluation",
-        "methodology",
-        "impact assessment",
-        "causal inference"
-      ],
-      "abstract": "Randomized controlled trial examining best practices for evaluating AI impact on human performance and productivity.",
-      "key_findings": [
-        "Identification of key confounders in AI evaluation",
-        "Importance of task-specific outcome measurement",
-        "Learning effects require longer study periods"
-      ],
-      "methodology_details": "Multi-site RCT, standardized evaluation framework",
-      "treatment_effect_size": "Varies by task (5-50%)",
-      "external_validity": "Multiple sites, diverse task types"
+      "title": "Autonomous artificial intelligence increases screening and follow-up for diabetic retinopathy in youth: the ACCESSrandomized control trial",
+      "authors": "RM Wolf",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.nature.com/articles/s41467-023-44676-z",
+      "scholar_link": "https://www.nature.com/articles/s41467-023-44676-z",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
     }
   },
   {
-    "title": "The Estimation of Causal Effects by Difference-in-Differences",
-    "score": 9,
-    "status": "ACEPTADO",
+    "title": "Measuring the impact of early-2025AIon experienced open-source developerproductivity",
+    "score": 4,
+    "status": "REVISAR",
     "breakdown": {
-      "methodology": 7,
+      "methodology": 0,
       "causalidity": 2,
-      "top_tier": 1,
-      "novelty": -1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Measuring the impact of early-2025AIon experienced open-source developerproductivity",
+      "authors": "J Becker",
+      "source": ", N Rush,",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2507.09089",
+      "scholar_link": "https://arxiv.org/abs/2507.09089",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The impact of artificial intelligence onproductivity, distribution and growth",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The impact of artificial intelligence onproductivity, distribution and growth",
+      "authors": "F Filippucci",
+      "source": ",",
+      "year": 2026,
+      "url": "https://iris.luiss.it/handle/11385/240418",
+      "scholar_link": "https://iris.luiss.it/handle/11385/240418",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Human-AICollaborative Diagnostics: MeasuringProductivity, Accuracy, andClinicalDecision Confidence",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Human-AICollaborative Diagnostics: MeasuringProductivity, Accuracy, andClinicalDecision Confidence",
+      "authors": "H Raposo",
+      "source": "- … , and",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6200098",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6200098",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The effects of generativeAIon high-skilled work: Evidence from three field experiments with software developers",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The effects of generativeAIon high-skilled work: Evidence from three field experiments with software developers",
+      "authors": "KZ Cui",
+      "source": ",",
+      "year": 2026,
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.00535",
+      "scholar_link": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.00535",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "AIandProductivityin Europe",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "AIandProductivityin Europe",
+      "authors": "F Misch, B Park,",
+      "source": "C Pizzinelli",
+      "year": 2026,
+      "url": "https://books.google.com/books?hl=en&lr=&id=UKxUEQAAQBAJ&oi=fnd&pg=PA3&dq=randomized+controlled+trial+AI+productivity&ots=-wh2lvU0S3&sig=g-Nf2B9kXg3KRRU0UsBOTZg9g18",
+      "scholar_link": "https://books.google.com/books?hl=en&lr=&id=UKxUEQAAQBAJ&oi=fnd&pg=PA3&dq=randomized+controlled+trial+AI+productivity&ots=-wh2lvU0S3&sig=g-Nf2B9kXg3KRRU0UsBOTZg9g18",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Effectiveness of mycophenolate mofetil among patients with progressive IgA nephropathy: arandomized clinical trial",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
       "relevance": 0
     },
     "metadata": {
-      "id": "lechner_2011_did",
-      "title": "The Estimation of Causal Effects by Difference-in-Differences",
-      "authors": [
-        "Michael Lechner"
-      ],
-      "year": 2011,
-      "venue": "Econometrics Journal",
-      "url": "https://michael-lechner.eu/",
-      "methodology": "Quasi-experimental (DID, difference-in-differences)",
-      "h_index": 55,
-      "citations": 150,
-      "pocket": "evaluacion_experimental",
-      "keywords": [
-        "DID",
-        "difference-in-differences",
-        "quasi-experimental",
-        "causal inference",
-        "method"
-      ],
-      "abstract": "Foundational paper on difference-in-differences methodology for causal inference with quasi-experimental data.",
-      "key_findings": [
-        "DID removes time-invariant unobserved heterogeneity",
-        "Parallel trends assumption is critical",
-        "Extensions to multiple treatments and time periods"
-      ],
-      "methodology_details": "Theoretical and practical guidance on DID estimation",
-      "treatment_effect_size": "Methodological paper",
-      "external_validity": "General methodology applicable to many settings"
+      "title": "Effectiveness of mycophenolate mofetil among patients with progressive IgA nephropathy: arandomized clinical trial",
+      "authors": "FF Hou, D Xie,",
+      "source": "J Wang",
+      "year": 2026,
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2800997",
+      "scholar_link": "https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2800997",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Save",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Save",
+      "authors": "TV Kumar - 2024",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "javascript:void(0)",
+      "scholar_link": "javascript:void(0)",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Howaiand human behaviors shape psychosocial effects of extended chatbot use: A longitudinalrandomized controlled study",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Howaiand human behaviors shape psychosocial effects of extended chatbot use: A longitudinalrandomized controlled study",
+      "authors": "CM Fang",
+      "source": ", AR Liu,",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2503.17473",
+      "scholar_link": "https://arxiv.org/abs/2503.17473",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "HowAIimpacts skill formation",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "HowAIimpacts skill formation",
+      "authors": "JH Shen",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2601.20245",
+      "scholar_link": "https://arxiv.org/abs/2601.20245",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Ai-powered lawyering:Aireasoning models, retrieval augmented generation, and the future of legal practice",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Ai-powered lawyering:Aireasoning models, retrieval augmented generation, and the future of legal practice",
+      "authors": "D Schwarcz",
+      "source": ",",
+      "year": 2026,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/2755323X261427048",
+      "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/2755323X261427048",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Dear Diary: Arandomized controlled trialofGenerative AIcoding tools in theworkplace",
+    "score": 8,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Dear Diary: Arandomized controlled trialofGenerative AIcoding tools in theworkplace",
+      "authors": "J Butler",
+      "source": ",",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/abstract/document/11121735/",
+      "scholar_link": "https://ieeexplore.ieee.org/abstract/document/11121735/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Generative AITransformed My Work: Decoding Its Direct and Mediated Effects on Work Engagement Among Knowledge Workers",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generative AITransformed My Work: Decoding Its Direct and Mediated Effects on Work Engagement Among Knowledge Workers",
+      "authors": "J Yuan - 2025 - search.proquest.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://search.proquest.com/openview/177d6fc3cf63b17f1286c961676dd23f/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "scholar_link": "https://search.proquest.com/openview/177d6fc3cf63b17f1286c961676dd23f/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Arandomized controlled trialon evaluating clinician-supervisedgenerative AIfor decision support",
+    "score": 8,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Arandomized controlled trialon evaluating clinician-supervisedgenerative AIfor decision support",
+      "authors": "RE Harari",
+      "source": ", A Altaweel, T Ahram, M Keehner… - International Journal of …, 2025 - Elsevier",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1386505624003642",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S1386505624003642",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "AIfeedback andworkplacesocial support in enhancing occupational self-efficacy: arandomized controlled trialin Japan",
+    "score": 8,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "AIfeedback andworkplacesocial support in enhancing occupational self-efficacy: arandomized controlled trialin Japan",
+      "authors": "Y Watanabe",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.nature.com/articles/s41598-025-94985-0",
+      "scholar_link": "https://www.nature.com/articles/s41598-025-94985-0",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "ChatGPT and Beyond: Exploring the Responsible Use ofGenerative AIin theWorkplace: M. Söllner et al.",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "ChatGPT and Beyond: Exploring the Responsible Use ofGenerative AIin theWorkplace: M. Söllner et al.",
+      "authors": "M Söllner",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s12599-025-00932-8",
+      "scholar_link": "https://link.springer.com/article/10.1007/s12599-025-00932-8",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The Meta-RCTApproach to MeasuringAI'sLabor Market Impact",
+    "score": 9,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "The Meta-RCTApproach to MeasuringAI'sLabor Market Impact",
+      "authors": "K Gulati",
+      "source": "- Available at SSRN, 2025 - papers.ssrn.com",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5486566",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5486566",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Using a random controlled trial to explore the impact ofAI-enabled learning",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Using a random controlled trial to explore the impact ofAI-enabled learning",
+      "authors": "D Lynch, M DeGenarro - International Journal of Advanced …, 2024 - search.proquest.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://search.proquest.com/openview/ee8c5e8eb777980ff094703c5ddde5a3/1?pq-origsite=gscholar&cbl=4425142",
+      "scholar_link": "https://search.proquest.com/openview/ee8c5e8eb777980ff094703c5ddde5a3/1?pq-origsite=gscholar&cbl=4425142",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Approaches for the use ofAIinworkplacehealth promotion and prevention: systematic scoping review",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Approaches for the use ofAIinworkplacehealth promotion and prevention: systematic scoping review",
+      "authors": "M Lange, A Löwe,",
+      "source": "I Kayser",
+      "year": 2026,
+      "url": "https://ai.jmir.org/2024/1/e53506/",
+      "scholar_link": "https://ai.jmir.org/2024/1/e53506/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "DoesGenerative AINarrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment",
+    "score": 9,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "DoesGenerative AINarrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment",
+      "authors": "G Cruces",
+      "source": ", DF Meijide,",
+      "year": 2026,
+      "url": "https://www.nber.org/papers/w34851",
+      "scholar_link": "https://www.nber.org/papers/w34851",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Whengenerative AImeetsworkplacelearning: Creating a realistic & motivating learning experience with agenerativePCA",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Whengenerative AImeetsworkplacelearning: Creating a realistic & motivating learning experience with agenerativePCA",
+      "authors": "A Bucher",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2405.15561",
+      "scholar_link": "https://arxiv.org/abs/2405.15561",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Enhancing work engagement throughgenerative AIconversations: a controlled trial on the positive and negative feedback in high vs. Low relational mobility …",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Enhancing work engagement throughgenerative AIconversations: a controlled trial on the positive and negative feedback in high vs. Low relational mobility …",
+      "authors": "Y Watanabe",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s12144-025-08129-8",
+      "scholar_link": "https://link.springer.com/article/10.1007/s12144-025-08129-8",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Generative AIand Software Developer Productivity-A Pilot Case Study at a Finnish Technology Consultancy",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generative AIand Software Developer Productivity-A Pilot Case Study at a Finnish Technology Consultancy",
+      "authors": "P Häkkinen - 2025 - aaltodoc.aalto.fi",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://aaltodoc.aalto.fi/items/826ea826-a839-40c5-a543-e285c6932fb4",
+      "scholar_link": "https://aaltodoc.aalto.fi/items/826ea826-a839-40c5-a543-e285c6932fb4",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "AGenerative AIFramework for Cognitive Intervention in Older Adults: An Integrated Engineering Design and Clinical Protocol",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "AGenerative AIFramework for Cognitive Intervention in Older Adults: An Integrated Engineering Design and Clinical Protocol",
+      "authors": "T Jeong, G Hwang,",
+      "source": "DY Kim",
+      "year": 2025,
+      "url": "https://www.mdpi.com/2227-9032/13/24/3225",
+      "scholar_link": "https://www.mdpi.com/2227-9032/13/24/3225",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The effects ofgenerative AIon high-skilled work: Evidence from three field experiments with software developers",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The effects ofgenerative AIon high-skilled work: Evidence from three field experiments with software developers",
+      "authors": "KZ Cui",
+      "source": ",",
+      "year": 2026,
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.00535",
+      "scholar_link": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.00535",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Evaluating the impact of government orientation on theadoptionofAIin business: acausal inferencestudy",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Evaluating the impact of government orientation on theadoptionofAIin business: acausal inferencestudy",
+      "authors": "C Lea,",
+      "source": "M Misuraca",
+      "year": 2026,
+      "url": "https://www.iris.unisa.it/handle/11386/4918039",
+      "scholar_link": "https://www.iris.unisa.it/handle/11386/4918039",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Causalityandcausal inferencefor engineers: Beyond correlation, regression, prediction andartificial intelligence",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Causalityandcausal inferencefor engineers: Beyond correlation, regression, prediction andartificial intelligence",
+      "authors": "MZ Naser",
+      "source": "- Wiley Interdisciplinary Reviews: Data Mining and …, 2024 - Wiley Online Library",
+      "year": 2026,
+      "url": "https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.1533",
+      "scholar_link": "https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.1533",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Evaluating digital agriculture recommendations withcausal inference",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Evaluating digital agriculture recommendations withcausal inference",
+      "authors": "I Tsoumas",
+      "source": ",",
+      "year": 2026,
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26697",
+      "scholar_link": "https://ojs.aaai.org/index.php/AAAI/article/view/26697",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Causal inferenceinAIbased decision support: Beyond correlation tocausation",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Causal inferenceinAIbased decision support: Beyond correlation tocausation",
+      "authors": "MK Mannava",
+      "source": "- 2024 4th International Conference on …, 2024 - ieeexplore.ieee.org",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/abstract/document/10866582/",
+      "scholar_link": "https://ieeexplore.ieee.org/abstract/document/10866582/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "A survey oncausal inferencefor recommendation",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "A survey oncausal inferencefor recommendation",
+      "authors": "H Luo",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.cell.com/the-innovation/fulltext/S2666-6758(24)00028-6",
+      "scholar_link": "https://www.cell.com/the-innovation/fulltext/S2666-6758(24)00028-6",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Advanced A/B testing andcausal inferenceforAI-driven digital platforms: A comprehensive framework for US digital markets",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Advanced A/B testing andcausal inferenceforAI-driven digital platforms: A comprehensive framework for US digital markets",
+      "authors": "KA Taiwo",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.academia.edu/download/131661208/ijcatr13061004.pdf",
+      "scholar_link": "https://www.academia.edu/download/131661208/ijcatr13061004.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Causalanalysis ofartificial intelligence adoptionin project management",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Causalanalysis ofartificial intelligence adoptionin project management",
+      "authors": "E Sarafanov,",
+      "source": "OF Valilai",
+      "year": 2026,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-47721-8_17",
+      "scholar_link": "https://link.springer.com/chapter/10.1007/978-3-031-47721-8_17",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Causalityfor trustworthyartificial intelligence: status, challenges and perspectives",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Causalityfor trustworthyartificial intelligence: status, challenges and perspectives",
+      "authors": "A Rawal, A Raglin,",
+      "source": "DB Rawat",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3665494",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3665494",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Recent developments incausal inferenceand machine learning",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Recent developments incausal inferenceand machine learning",
+      "authors": "JE Brand",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-soc-030420-015345",
+      "scholar_link": "https://www.annualreviews.org/content/journals/10.1146/annurev-soc-030420-015345",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Causal inferencein recommender systems: A survey and future directions",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Causal inferencein recommender systems: A survey and future directions",
+      "authors": "C Gao",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3639048",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3639048",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Large language models andcausal inferencein collaboration: A comprehensive survey",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Large language models andcausal inferencein collaboration: A comprehensive survey",
+      "authors": "…,",
+      "source": "T Guan",
+      "year": 2026,
+      "url": "https://aclanthology.org/2025.findings-naacl.427/",
+      "scholar_link": "https://aclanthology.org/2025.findings-naacl.427/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "AI adoptionin America: Who, what, and where",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "AI adoptionin America: Who, what, and where",
+      "authors": "K McElheran",
+      "source": ",",
+      "year": 2026,
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jems.12576",
+      "scholar_link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jems.12576",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The role ofcausalityin explainableartificial intelligence",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The role ofcausalityin explainableartificial intelligence",
+      "authors": "G Carloni",
+      "source": ",",
+      "year": 2026,
+      "url": "https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.70015",
+      "scholar_link": "https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.70015",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Counterfactual Forecasting of Human Behavior using GenerativeAIandCausalGraphs",
+    "score": 8,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Counterfactual Forecasting of Human Behavior using GenerativeAIandCausalGraphs",
+      "authors": "DP Uddandarao, RK Vadlamani - arXiv preprint arXiv:2511.07484, 2025 - arxiv.org",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2511.07484",
+      "scholar_link": "https://arxiv.org/abs/2511.07484",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Causal Inferencefor Recommendation: Foundations, Methods, and Applications",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Causal Inferencefor Recommendation: Foundations, Methods, and Applications",
+      "authors": "S Xu",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3714430",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3714430",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
     }
   }
 ]

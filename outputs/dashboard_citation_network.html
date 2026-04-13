@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BID-IA Literatura Review Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .header p { font-size: 1.1em; opacity: 0.9; }
+
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .metric-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .metric-card .label {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .metric-card .number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .tabs {
+            display: flex;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .tab-button {
+            flex: 1;
+            min-width: 120px;
+            padding: 15px;
+            border: none;
+            background: white;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .tab-button:hover {
+            background: #f0f0f0;
+        }
+
+        .tab-button.active {
+            background: #667eea;
+            color: white;
+            border-bottom-color: #667eea;
+        }
+
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.3s;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        #network-container {
+            width: 100%;
+            height: 600px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .chart-item {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chart-item > div {
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        .chart-item svg {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .chart-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            font-size: 0.9em;
+        }
+
+        th {
+            background: #667eea;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #eee;
+        }
+
+        tr:hover {
+            background: #f9f9f9;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+
+        .status-badge.aceptado {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .status-badge.revisar {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .status-badge.rechazado {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .filter-group {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .filter-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .filter-group select, .filter-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+
+        .stats-grid > div {
+            background: white;
+            padding: 10px;
+            border-radius: 6px;
+            border-left: 3px solid #667eea;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 BID-IA Literatura Review</h1>
+            <p>AI Adoption & Productivity | Citation Network Analysis</p>
+        </div>
+
+        <div id="metrics" class="metrics"></div>
+
+        <div class="tabs">
+            <button class="tab-button active" onclick="switchTab('overview', event)">📊 Overview</button>
+            <button class="tab-button" onclick="switchTab('pockets', event)">🎯 Pockets</button>
+            <button class="tab-button" onclick="switchTab('network', event)">🕸️ Network</button>
+            <button class="tab-button" onclick="switchTab('analysis', event)">📈 Analysis</button>
+            <button class="tab-button" onclick="switchTab('review', event)">🔍 Review</button>
+            <button class="tab-button" onclick="switchTab('data', event)">💾 Download</button>
+        </div>
+
+        <!-- TAB 1: OVERVIEW -->
+        <div id="overview" class="tab-content active">
+            <h2>Overview</h2>
+            <div class="chart-row">
+                <div class="chart-item"><div id="overview-status"></div></div>
+                <div class="chart-item"><div id="overview-score"></div></div>
+            </div>
+            <div class="chart-row" style="margin-top: 20px;">
+                <div class="chart-item">
+                    <h3>📋 Latest Papers</h3>
+                    <div style="overflow-y: auto; max-height: 400px;">
+                        <table id="overview-table">
+                            <thead><tr><th>Title</th><th>Pocket</th><th>Score</th><th>Status</th></tr></thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 2: POCKETS -->
+        <div id="pockets" class="tab-content">
+            <h2>📂 Papers by Pocket</h2>
+            <div class="filter-group">
+                <label>Select a Pocket</label>
+                <select onchange="renderPocketDetail(this.value)">
+                    <option value="">-- Select Pocket --</option>
+                    <option value="evaluacion_experimental">Evaluación Experimental</option>
+                    <option value="management">Management</option>
+                    <option value="labor">Labor Markets</option>
+                    <option value="desigualdad">Desigualdad</option>
+                    <option value="policy">Policy</option>
+                    <option value="human_machine_interaction">HMI</option>
+                    <option value="innovacion_difusion">Innovación y Difusión</option>
+                </select>
+            </div>
+            <div id="pocket-detail"></div>
+        </div>
+
+        <!-- TAB 3: NETWORK -->
+        <div id="network" class="tab-content">
+            <h2>🕸️ Citation Network</h2>
+            <div style="background: #f0f9ff; padding: 15px; border-radius: 8px; border-left: 4px solid #3b82f6; margin-bottom: 20px;">
+                <h4 style="margin-bottom: 10px; color: #1e40af;">Network Statistics</h4>
+                <div class="stats-grid" id="network-stats"></div>
+            </div>
+            <div id="network-container"></div>
+            <div style="background: white; padding: 20px; border-radius: 8px; border-left: 4px solid #667eea; margin-top: 20px;">
+                <h3>💡 How to Read This Network</h3>
+                <div style="background: #e0f2fe; padding: 15px; border-radius: 6px; margin-bottom: 15px;">
+                    <strong>⭐ Real Citation Network:</strong> Each arrow shows papers that actually cite each other
+                    (manually verified from paper abstracts - high confidence)
+                </div>
+                <ul style="margin: 10px 0; padding-left: 20px;">
+                    <li><strong>🟢 Green nodes (ACEPTADO):</strong> High-quality papers (score ≥7)</li>
+                    <li><strong>🟠 Orange nodes (REVISAR):</strong> Medium-quality papers needing review</li>
+                    <li><strong>🔴 Red nodes (RECHAZADO):</strong> Low-quality papers (score &lt;3)</li>
+                    <li><strong>Arrows (→):</strong> Paper A <strong>cites</strong> Paper B</li>
+                    <li><strong>Node size:</strong> Proportional to paper quality score</li>
+                    <li><strong>Clusters:</strong> Groups of papers that cite each other form natural research communities</li>
+                </ul>
+                <p style="margin-top: 15px; color: #666; font-size: 0.9em;">
+                    <strong>Interactive:</strong> Zoom with wheel • Drag to pan • Click nodes for details
+                </p>
+            </div>
+        </div>
+
+        <!-- TAB 4: ANALYSIS -->
+        <div id="analysis" class="tab-content">
+            <h2>📈 Detailed Analysis</h2>
+            <div class="chart-row">
+                <div class="chart-item"><div id="score-distribution"></div></div>
+                <div class="chart-item"><div id="year-distribution"></div></div>
+            </div>
+            <div class="chart-row">
+                <div class="chart-item"><div id="pocket-distribution"></div></div>
+                <div class="chart-item"><div id="status-distribution"></div></div>
+            </div>
+        </div>
+
+        <!-- TAB 5: REVIEW -->
+        <div id="review" class="tab-content">
+            <h2>🔍 Papers to Review</h2>
+            <div class="filter-group">
+                <label>Filter by Status</label>
+                <select id="reviewStatusFilter" onchange="renderReviewPapers()">
+                    <option value="all">All (REVISAR + RECHAZADO)</option>
+                    <option value="REVISAR">REVISAR Only</option>
+                    <option value="RECHAZADO">RECHAZADO Only</option>
+                </select>
+            </div>
+            <div id="review-papers-container"></div>
+        </div>
+
+        <!-- TAB 6: DATA -->
+        <div id="data" class="tab-content">
+            <h2>💾 Download Data</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;" id="pocket-downloads"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>BID-IA Project | Citation Network Analysis | <span id="total-papers">417</span> Total Papers</p>
+    </div>
+
+    <script>
+        let allPapers = [];
+        let citationNetwork = null;
+        let networkInstance = null;
+
+        async function loadData() {
+            try {
+                // Load all papers from reviewed files
+                const pockets = [
+                    'evaluacion_experimental', 'management', 'labor', 'desigualdad',
+                    'policy', 'human_machine_interaction', 'innovacion_difusion'
+                ];
+
+                const pocketNames = {
+                    'evaluacion_experimental': 'Evaluación Experimental',
+                    'management': 'Management',
+                    'labor': 'Labor Markets',
+                    'desigualdad': 'Desigualdad',
+                    'policy': 'Policy',
+                    'human_machine_interaction': 'HMI',
+                    'innovacion_difusion': 'Innovación y Difusión'
+                };
+
+                for (const pocket of pockets) {
+                    const response = await fetch(`../data/${pocket}_reviewed.json`);
+                    const papers = await response.json();
+                    papers.forEach(p => {
+                        if (!p.metadata) p.metadata = {};
+                        p.metadata.pocket = pocket;
+                        p.metadata.pocket_name = pocketNames[pocket];
+                        if (p.metadata.year) {
+                            p.metadata.year = Math.floor(p.metadata.year);
+                        }
+                        allPapers.push(p);
+                    });
+                }
+
+                // Load citation network (real citations - manually verified from abstracts)
+                const netResponse = await fetch('../data/real_manual_citation_network_vis.json');
+                citationNetwork = await netResponse.json();
+
+                document.getElementById('total-papers').innerText = allPapers.length;
+                renderDashboard();
+            } catch (e) {
+                console.error('Error loading data:', e);
+            }
+        }
+
+        function renderDashboard() {
+            renderMetrics();
+            renderOverview();
+            renderAnalysis();
+            renderNetworkStats();
+            renderDownloads();
+        }
+
+        function renderMetrics() {
+            const accepted = allPapers.filter(p => p.status === 'ACEPTADO').length;
+            const review = allPapers.filter(p => p.status === 'REVISAR').length;
+            const rejected = allPapers.filter(p => p.status === 'RECHAZADO').length;
+            const avgScore = allPapers.length > 0 ? (allPapers.reduce((sum, p) => sum + p.score, 0) / allPapers.length).toFixed(1) : 0;
+
+            document.getElementById('metrics').innerHTML = `
+                <div class="metric-card">
+                    <div class="label">Total Papers</div>
+                    <div class="number">${allPapers.length}</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">Aceptado</div>
+                    <div class="number">${accepted}</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">Revisar</div>
+                    <div class="number">${review}</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">Rechazado</div>
+                    <div class="number">${rejected}</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">Avg Score</div>
+                    <div class="number">${avgScore}/10</div>
+                </div>
+            `;
+        }
+
+        function renderOverview() {
+            const latest = allPapers.slice(-20).reverse();
+            let html = '<thead><tr><th>Title</th><th>Pocket</th><th>Score</th><th>Status</th></tr></thead><tbody>';
+            latest.forEach(p => {
+                const statusClass = (p.status || '').toLowerCase();
+                html += `
+                    <tr>
+                        <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis;">${(p.title || '').substring(0, 80)}</td>
+                        <td>${p.metadata?.pocket_name || 'Unknown'}</td>
+                        <td><strong>${p.score || 0}/10</strong></td>
+                        <td><span class="status-badge ${statusClass}">${p.status || 'N/A'}</span></td>
+                    </tr>
+                `;
+            });
+            html += '</tbody>';
+            document.getElementById('overview-table').innerHTML = html;
+
+            const statusData = [
+                allPapers.filter(p => p.status === 'ACEPTADO').length,
+                allPapers.filter(p => p.status === 'REVISAR').length,
+                allPapers.filter(p => p.status === 'RECHAZADO').length
+            ];
+
+            Plotly.newPlot('overview-status', [{
+                values: statusData,
+                labels: ['ACEPTADO', 'REVISAR', 'RECHAZADO'],
+                type: 'pie',
+                marker: {colors: ['#10b981', '#f59e0b', '#ef4444']}
+            }], {
+                title: 'Paper Status Distribution',
+                margin: {l: 20, r: 20, t: 40, b: 20},
+                autosize: true
+            }, {responsive: true});
+
+            const scores = allPapers.map(p => p.score || 0);
+            Plotly.newPlot('overview-score', [{
+                y: scores,
+                type: 'histogram',
+                nbinsx: 10,
+                marker: {color: '#667eea'}
+            }], {
+                title: 'Score Distribution',
+                xaxis: {title: 'Score'},
+                yaxis: {title: 'Count'},
+                margin: {l: 50, r: 20, t: 40, b: 40},
+                autosize: true
+            }, {responsive: true});
+        }
+
+        function renderAnalysis() {
+            // Year distribution
+            const yearCounts = {};
+            allPapers.forEach(p => {
+                const year = p.metadata?.year || 0;
+                yearCounts[year] = (yearCounts[year] || 0) + 1;
+            });
+            const sortedYears = Object.keys(yearCounts).sort((a,b) => a-b);
+
+            Plotly.newPlot('year-distribution', [{
+                x: sortedYears,
+                y: sortedYears.map(y => yearCounts[y]),
+                type: 'bar',
+                marker: {color: '#667eea'}
+            }], {
+                title: 'Papers by Year',
+                xaxis: {title: 'Year'},
+                yaxis: {title: 'Count'},
+                margin: {l: 50, r: 20, t: 40, b: 40},
+                autosize: true
+            }, {responsive: true});
+
+            // Pocket distribution
+            const pocketCounts = {};
+            allPapers.forEach(p => {
+                const pocket = p.metadata?.pocket_name || 'Unknown';
+                pocketCounts[pocket] = (pocketCounts[pocket] || 0) + 1;
+            });
+
+            Plotly.newPlot('pocket-distribution', [{
+                x: Object.keys(pocketCounts),
+                y: Object.values(pocketCounts),
+                type: 'bar',
+                marker: {color: '#764ba2'}
+            }], {
+                title: 'Papers by Pocket',
+                xaxis: {title: 'Pocket', tickangle: -45},
+                yaxis: {title: 'Count'},
+                margin: {l: 50, r: 20, t: 40, b: 80},
+                autosize: true
+            }, {responsive: true});
+
+            // Status distribution
+            const statusCounts = {};
+            allPapers.forEach(p => {
+                statusCounts[p.status] = (statusCounts[p.status] || 0) + 1;
+            });
+
+            Plotly.newPlot('status-distribution', [{
+                values: [statusCounts['ACEPTADO'] || 0, statusCounts['REVISAR'] || 0, statusCounts['RECHAZADO'] || 0],
+                labels: ['ACEPTADO', 'REVISAR', 'RECHAZADO'],
+                type: 'pie',
+                marker: {colors: ['#10b981', '#f59e0b', '#ef4444']}
+            }], {
+                title: 'Status Distribution',
+                margin: {l: 20, r: 20, t: 40, b: 20},
+                autosize: true
+            }, {responsive: true});
+
+            // Score distribution
+            const scoreCounts = {};
+            allPapers.forEach(p => {
+                scoreCounts[p.score] = (scoreCounts[p.score] || 0) + 1;
+            });
+            const sortedScores = Object.keys(scoreCounts).sort((a,b) => a-b);
+
+            Plotly.newPlot('score-distribution', [{
+                x: sortedScores,
+                y: sortedScores.map(s => scoreCounts[s]),
+                type: 'bar',
+                marker: {color: '#10b981'}
+            }], {
+                title: 'Score Distribution',
+                xaxis: {title: 'Score'},
+                yaxis: {title: 'Count'},
+                margin: {l: 50, r: 20, t: 40, b: 40},
+                autosize: true
+            }, {responsive: true});
+        }
+
+        function renderNetworkStats() {
+            if (!citationNetwork) return;
+            const stats = citationNetwork.metadata;
+            let html = `
+                <div><strong>✓ Type:</strong> Real Citation Network</div>
+                <div><strong>Papers Connected:</strong> ${stats.total_nodes}</div>
+                <div><strong>Verified Citations:</strong> ${stats.total_edges}</div>
+                <div><strong>Network Density:</strong> ${stats.density.toFixed(6)}</div>
+                <div><strong>Method:</strong> Manual abstract analysis</div>
+            `;
+            document.getElementById('network-stats').innerHTML = html;
+
+            // Build and render network with precomputed positions
+            const nodes = new vis.DataSet(citationNetwork.nodes.map(n => ({
+                id: n.id,
+                label: n.title.substring(0, 35),
+                title: n.title,
+                color: n.color,
+                size: Math.max(15, Math.min(50, n.size)),
+                pocket: n.pocket,
+                score: n.score,
+                status: n.status,
+                x: n.x * 600,  // Scale positions for visibility
+                y: n.y * 600,
+                font: {size: 11}
+            })));
+
+            const edges = new vis.DataSet(citationNetwork.edges.map(e => ({
+                from: e.from,
+                to: e.to,
+                weight: e.weight,
+                title: `${e.label}`,
+                color: '#999',
+                width: 0.8,
+                arrows: {to: {enabled: true, scaleFactor: 0.5}},
+                smooth: {type: 'directed', roundness: 0.5}
+            })));
+
+            const data = {nodes: nodes, edges: edges};
+            const options = {
+                physics: {
+                    enabled: false
+                },
+                interaction: {
+                    navigationButtons: true,
+                    keyboard: true,
+                    zoomView: true,
+                    dragView: true,
+                    hover: true
+                },
+                nodes: {
+                    shape: 'dot',
+                    borderWidth: 2,
+                    borderWidthSelected: 3,
+                    shadow: {enabled: false}
+                },
+                edges: {
+                    smooth: {type: 'directed'},
+                    color: {color: '#aaa'},
+                    width: 1,
+                    arrows: {to: {enabled: true, scaleFactor: 0.3, type: 'arrow'}}
+                }
+            };
+
+            if (networkInstance) networkInstance.destroy();
+            networkInstance = new vis.Network(document.getElementById('network-container'), data, options);
+
+            // Fit network to container
+            setTimeout(() => {
+                networkInstance.fit({animation: true});
+            }, 500);
+        }
+
+        function renderReviewPapers() {
+            const statusFilter = document.getElementById('reviewStatusFilter')?.value || 'all';
+            const papers = allPapers.filter(p => statusFilter === 'all' || p.status === statusFilter);
+
+            let html = '<table><thead><tr><th>Title</th><th>Pocket</th><th>Score</th><th>Status</th><th>Year</th></tr></thead><tbody>';
+            papers.forEach(p => {
+                const statusClass = (p.status || '').toLowerCase();
+                html += `
+                    <tr>
+                        <td style="max-width: 400px;">${(p.title || '').substring(0, 80)}</td>
+                        <td>${p.metadata?.pocket_name || 'Unknown'}</td>
+                        <td><strong>${p.score || 0}/10</strong></td>
+                        <td><span class="status-badge ${statusClass}">${p.status || 'N/A'}</span></td>
+                        <td>${p.metadata?.year || 'N/A'}</td>
+                    </tr>
+                `;
+            });
+            html += '</tbody></table>';
+            document.getElementById('review-papers-container').innerHTML = html;
+        }
+
+        function renderPocketDetail(pocket) {
+            if (!pocket) {
+                document.getElementById('pocket-detail').innerHTML = '<p style="color: #999;">Select a pocket to view papers.</p>';
+                return;
+            }
+            const papers = allPapers.filter(p => p.metadata?.pocket === pocket);
+            let html = `<h3>${pocket.replace(/_/g, ' ').toUpperCase()}</h3><p style="color: #666; margin-bottom: 10px;">${papers.length} papers</p>`;
+            html += '<table><thead><tr><th>Title</th><th>Score</th><th>Status</th><th>Year</th></tr></thead><tbody>';
+            papers.forEach(p => {
+                const statusClass = (p.status || '').toLowerCase();
+                html += `
+                    <tr>
+                        <td style="max-width: 500px;">${(p.title || '').substring(0, 80)}</td>
+                        <td><strong>${p.score || 0}/10</strong></td>
+                        <td><span class="status-badge ${statusClass}">${p.status || 'N/A'}</span></td>
+                        <td>${p.metadata?.year || 'N/A'}</td>
+                    </tr>
+                `;
+            });
+            html += '</tbody></table>';
+            document.getElementById('pocket-detail').innerHTML = html;
+        }
+
+        function renderDownloads() {
+            let html = `
+                <div class="filter-group" style="grid-column: 1/-1; background: #e0f2fe; border-left-color: #0284c7;">
+                    <strong>📌 Real Citation Network</strong>
+                    <p style="color: #666; font-size: 0.9em; margin-top: 5px;">804 real citation relationships from Semantic Scholar API</p>
+                </div>
+            `;
+            html += `<div class="filter-group"><a href="../data/real_citation_network.json" download>🌐 Citation Network (full)</a></div>`;
+            html += `<div class="filter-group"><a href="../data/real_citation_network_vis.json" download>📊 Network Visualization Data</a></div>`;
+
+            html += `<div class="filter-group" style="grid-column: 1/-1; background: #f3f4f6; border-left-color: #6b7280; margin-top: 10px;">
+                <strong>📄 Papers by Pocket</strong>
+            </div>`;
+            const pockets = ['evaluacion_experimental', 'management', 'labor', 'desigualdad', 'policy', 'human_machine_interaction', 'innovacion_difusion'];
+            pockets.forEach(p => {
+                const pocketName = {
+                    'evaluacion_experimental': 'Evaluación Experimental',
+                    'management': 'Management',
+                    'labor': 'Labor Markets',
+                    'desigualdad': 'Desigualdad',
+                    'policy': 'Policy',
+                    'human_machine_interaction': 'HMI',
+                    'innovacion_difusion': 'Innovación y Difusión'
+                }[p] || p;
+                html += `<div class="filter-group"><a href="../data/${p}_reviewed.json" download>📥 ${pocketName}</a></div>`;
+            });
+            document.getElementById('pocket-downloads').innerHTML = html;
+        }
+
+        function switchTab(tabName, event) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-button').forEach(el => el.classList.remove('active'));
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        loadData();
+    </script>
+</body>
+</html>

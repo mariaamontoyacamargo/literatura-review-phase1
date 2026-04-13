@@ -1,0 +1,380 @@
+{
+  "nodes": [
+    {
+      "id": "Artificial intelligence-oriented userinterfacedesign and human behavior recognition based on human\u2013computer nature interaction",
+      "label": "Artificial intelligence-oriented userint",
+      "title": "Artificial intelligence-oriented userinterfacedesign and human behavior recognition based on human\u2013computer nature interaction",
+      "x": -0.016829505996696442,
+      "y": 0.9592459685531234,
+      "color": "#ef4444",
+      "size": 30,
+      "score": 2,
+      "status": "RECHAZADO",
+      "pocket": "human_machine_interaction",
+      "year": 2026
+    },
+    {
+      "id": "The Shrinking Lifespan of LLMs in Science",
+      "label": "The Shrinking Lifespan of LLMs in Scienc",
+      "title": "The Shrinking Lifespan of LLMs in Science",
+      "x": 0.9275743378891861,
+      "y": -0.025709118578900583,
+      "color": "#f59e0b",
+      "size": 30,
+      "score": 6,
+      "status": "REVISAR",
+      "pocket": "innovacion_difusion",
+      "year": 2026
+    },
+    {
+      "id": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "label": "Creator Incentives in Recommender System",
+      "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "x": -0.3257648520572907,
+      "y": -0.9525366759537851,
+      "color": "#10b981",
+      "size": 35,
+      "score": 7,
+      "status": "ACEPTADO",
+      "pocket": "human_machine_interaction",
+      "year": 2026
+    },
+    {
+      "id": "AIand technology's influence on economicinequality: A study of wealth distribution in the US",
+      "label": "AIand technology's influence on economic",
+      "title": "AIand technology's influence on economicinequality: A study of wealth distribution in the US",
+      "x": -0.9569132637844275,
+      "y": 0.3105900615193141,
+      "color": "#ef4444",
+      "size": 30,
+      "score": 2,
+      "status": "RECHAZADO",
+      "pocket": "desigualdad",
+      "year": 2026
+    },
+    {
+      "id": "Howaiand human behaviors shape psychosocial effects of extended chatbot use: A longitudinalrandomized controlled study",
+      "label": "Howaiand human behaviors shape psychosoc",
+      "title": "Howaiand human behaviors shape psychosocial effects of extended chatbot use: A longitudinalrandomized controlled study",
+      "x": 0.6090461894106661,
+      "y": 0.6797561499480342,
+      "color": "#f59e0b",
+      "size": 35,
+      "score": 4,
+      "status": "REVISAR",
+      "pocket": "evaluacion_experimental",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligence can persuade people to take political actions",
+      "label": "Artificial intelligence can persuade peo",
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "x": -0.23169180896826194,
+      "y": 0.22965533177555963,
+      "color": "#f59e0b",
+      "size": 75,
+      "score": 6,
+      "status": "REVISAR",
+      "pocket": "innovacion_difusion",
+      "year": 2026
+    },
+    {
+      "id": "Determinants ofgenerative AIsystemadoptionand usage behavior in Korean companies: Applying the UTAUT model",
+      "label": "Determinants ofgenerative AIsystemadopti",
+      "title": "Determinants ofgenerative AIsystemadoptionand usage behavior in Korean companies: Applying the UTAUT model",
+      "x": 0.774402894791287,
+      "y": -0.6158260830786229,
+      "color": "#f59e0b",
+      "size": 30,
+      "score": 6,
+      "status": "REVISAR",
+      "pocket": "human_machine_interaction",
+      "year": 2024
+    },
+    {
+      "id": "Shifting attitudes and trust inAI: Influences onorganizational AI adoption",
+      "label": "Shifting attitudes and trust inAI: Influ",
+      "title": "Shifting attitudes and trust inAI: Influences onorganizational AI adoption",
+      "x": -0.930531517297901,
+      "y": -0.38448567841976233,
+      "color": "#f59e0b",
+      "size": 30,
+      "score": 3,
+      "status": "REVISAR",
+      "pocket": "management",
+      "year": 2026
+    },
+    {
+      "id": "The Statistical Profitability of Social Media Sports Betting Influencers: Evidence from the Nigerian Market",
+      "label": "The Statistical Profitability of Social ",
+      "title": "The Statistical Profitability of Social Media Sports Betting Influencers: Evidence from the Nigerian Market",
+      "x": -0.5994384503585292,
+      "y": 0.6787115903033768,
+      "color": "#f59e0b",
+      "size": 30,
+      "score": 4,
+      "status": "REVISAR",
+      "pocket": "labor",
+      "year": 2026
+    },
+    {
+      "id": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "label": "Ads in AI Chatbots? An Analysis of How L",
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "x": 0.08110306583598145,
+      "y": -0.1989731128453647,
+      "color": "#f59e0b",
+      "size": 40,
+      "score": 6,
+      "status": "REVISAR",
+      "pocket": "innovacion_difusion",
+      "year": 2026
+    },
+    {
+      "id": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "label": "From Safety Risk to Design Principle: Pe",
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "x": 0.47824977018092496,
+      "y": -0.8680858583712507,
+      "color": "#f59e0b",
+      "size": 45,
+      "score": 6,
+      "status": "REVISAR",
+      "pocket": "innovacion_difusion",
+      "year": 2026
+    },
+    {
+      "id": "Investigating the influence ofartificial intelligenceon business value in the digital era ofstrategy: A literature review",
+      "label": "Investigating the influence ofartificial",
+      "title": "Investigating the influence ofartificial intelligenceon business value in the digital era ofstrategy: A literature review",
+      "x": -0.716588550493659,
+      "y": -0.6693619858977188,
+      "color": "#ef4444",
+      "size": 30,
+      "score": 2,
+      "status": "RECHAZADO",
+      "pocket": "management",
+      "year": 2026
+    },
+    {
+      "id": "Pathways ofAIInfluence onWages,Employment, and Inequality in Europe: A Structural Mediation Analysis",
+      "label": "Pathways ofAIInfluence onWages,Employmen",
+      "title": "Pathways ofAIInfluence onWages,Employment, and Inequality in Europe: A Structural Mediation Analysis",
+      "x": 0.3042046582908747,
+      "y": 0.8651197826181783,
+      "color": "#f59e0b",
+      "size": 30,
+      "score": 3,
+      "status": "REVISAR",
+      "pocket": "labor",
+      "year": 2026
+    },
+    {
+      "id": "Counterfactual Forecasting of Human Behavior using GenerativeAIandCausalGraphs",
+      "label": "Counterfactual Forecasting of Human Beha",
+      "title": "Counterfactual Forecasting of Human Behavior using GenerativeAIandCausalGraphs",
+      "x": -0.980287107912462,
+      "y": -0.044706307281717914,
+      "color": "#10b981",
+      "size": 30,
+      "score": 8,
+      "status": "ACEPTADO",
+      "pocket": "evaluacion_experimental",
+      "year": 2026
+    },
+    {
+      "id": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "label": "Communicate-Predict-Act: Evaluating Soci",
+      "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "x": 0.20371030116887953,
+      "y": -1.0,
+      "color": "#f59e0b",
+      "size": 45,
+      "score": 6,
+      "status": "REVISAR",
+      "pocket": "human_machine_interaction",
+      "year": 2026
+    },
+    {
+      "id": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "label": "Scheming in the wild: detecting real-wor",
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "x": 0.8608704831875237,
+      "y": -0.31420099783741373,
+      "color": "#10b981",
+      "size": 30,
+      "score": 8,
+      "status": "ACEPTADO",
+      "pocket": "innovacion_difusion",
+      "year": 2026
+    },
+    {
+      "id": "AI-enhanced chatbot for improving healthcareusabilityand accessibility for older adults",
+      "label": "AI-enhanced chatbot for improving health",
+      "title": "AI-enhanced chatbot for improving healthcareusabilityand accessibility for older adults",
+      "x": -0.3618839763279483,
+      "y": 0.916703396300844,
+      "color": "#ef4444",
+      "size": 30,
+      "score": 2,
+      "status": "RECHAZADO",
+      "pocket": "human_machine_interaction",
+      "year": 2026
+    },
+    {
+      "id": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "label": "Yes, But Not Always. Generative AI Needs",
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "x": 0.8807673324418526,
+      "y": 0.4341035372461068,
+      "color": "#f59e0b",
+      "size": 35,
+      "score": 6,
+      "status": "REVISAR",
+      "pocket": "innovacion_difusion",
+      "year": 2026
+    }
+  ],
+  "edges": [
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "Howaiand human behaviors shape psychosocial effects of extended chatbot use: A longitudinalrandomized controlled study",
+      "weight": 0.7,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "Counterfactual Forecasting of Human Behavior using GenerativeAIandCausalGraphs",
+      "weight": 0.7,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "Shifting attitudes and trust inAI: Influences onorganizational AI adoption",
+      "weight": 0.7,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "Investigating the influence ofartificial intelligenceon business value in the digital era ofstrategy: A literature review",
+      "weight": 0.7,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "The Statistical Profitability of Social Media Sports Betting Influencers: Evidence from the Nigerian Market",
+      "weight": 0.7,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "Pathways ofAIInfluence onWages,Employment, and Inequality in Europe: A Structural Mediation Analysis",
+      "weight": 0.7,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "AIand technology's influence on economicinequality: A study of wealth distribution in the US",
+      "weight": 0.7,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "Determinants ofgenerative AIsystemadoptionand usage behavior in Korean companies: Applying the UTAUT model",
+      "weight": 0.7,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Artificial intelligence can persuade people to take political actions",
+      "to": "Artificial intelligence-oriented userinterfacedesign and human behavior recognition based on human\u2013computer nature interaction",
+      "weight": 0.7,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "to": "Howaiand human behaviors shape psychosocial effects of extended chatbot use: A longitudinalrandomized controlled study",
+      "weight": 0.7,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "to": "AI-enhanced chatbot for improving healthcareusabilityand accessibility for older adults",
+      "weight": 0.7,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "to": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "weight": 0.75,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "to": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "weight": 0.75,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "to": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "weight": 0.65,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "to": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "weight": 0.65,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "to": "The Shrinking Lifespan of LLMs in Science",
+      "weight": 0.65,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "to": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "weight": 0.7,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "to": "Artificial intelligence can persuade people to take political actions",
+      "weight": 0.75,
+      "label": "cites",
+      "arrows": "to"
+    },
+    {
+      "from": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "to": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "weight": 0.75,
+      "label": "cites",
+      "arrows": "to"
+    }
+  ],
+  "metadata": {
+    "total_nodes": 18,
+    "total_edges": 19,
+    "density": 0.06209150326797386,
+    "type": "Real Manual Citation Network - Verified",
+    "source": "Manual abstract analysis of 10 papers"
+  }
+}

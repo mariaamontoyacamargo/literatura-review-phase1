@@ -1,0 +1,1640 @@
+[
+  {
+    "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "authors": [
+        "Wiebke Hutiri",
+        "Morgan Scheuerman",
+        "Shruti Nagpal",
+        "Austin Hoag",
+        "Alice Xiang"
+      ],
+      "published": "2026-04-10T15:26:57Z",
+      "arxiv_id": "2604.09413v1",
+      "url": "https://arxiv.org/abs/2604.09413v1",
+      "summary": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.09413v1"
+  },
+  {
+    "title": "The Need for a Green ICT Reference Framework",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The Need for a Green ICT Reference Framework",
+      "authors": [
+        "Marco Aiello",
+        "Mina Alipour",
+        "Antonio Brogi",
+        "Rafael Capilla",
+        "Lidia Fuentes"
+      ],
+      "published": "2026-04-10T13:15:43Z",
+      "arxiv_id": "2604.09307v1",
+      "url": "https://arxiv.org/abs/2604.09307v1",
+      "summary": "The sustainability impacts of ICT systems are difficult to assess and govern due to structural complexity, fragmented measurement practices, and unclear responsibilities across system layers. We argue that these challenges cannot be addressed solely by metrics and motivate the need for a shared Green ICT reference framework that integrates sustainability across multiple perspectives and domains, lifecycle phases, and governance contexts. We present an initial framework developed within the Informatics Europe Green ICT Working Group as a first step towards a comprehensive reference framework.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.09307v1"
+  },
+  {
+    "title": "Artificial intelligence can persuade people to take political actions",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "authors": [
+        "Kobi Hackenburg",
+        "Luke Hewitt",
+        "Caroline Wagner",
+        "Ben M. Tappin",
+        "Christopher Summerfield"
+      ],
+      "published": "2026-04-10T10:34:49Z",
+      "arxiv_id": "2604.09200v1",
+      "url": "https://arxiv.org/abs/2604.09200v1",
+      "summary": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.09200v1"
+  },
+  {
+    "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+    "score": 8,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "authors": [
+        "Tommy Shaffer Shane",
+        "Simon Mylius",
+        "Hamish Hobbs"
+      ],
+      "published": "2026-04-10T08:37:18Z",
+      "arxiv_id": "2604.09104v1",
+      "url": "https://arxiv.org/abs/2604.09104v1",
+      "summary": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.09104v1"
+  },
+  {
+    "title": "Scrapyard AI",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Scrapyard AI",
+      "authors": [
+        "Marc Böhlen",
+        "Sai Krishna"
+      ],
+      "published": "2026-04-09T22:38:57Z",
+      "arxiv_id": "2604.08803v1",
+      "url": "https://arxiv.org/abs/2604.08803v1",
+      "summary": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.08803v1"
+  },
+  {
+    "title": "Towards Generalizable Representations of Mathematical Strategies",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Towards Generalizable Representations of Mathematical Strategies",
+      "authors": [
+        "Siddhartha Pradhan",
+        "Ethan Prihar",
+        "Erin Ottmar"
+      ],
+      "published": "2026-04-09T18:26:13Z",
+      "arxiv_id": "2604.08693v1",
+      "url": "https://arxiv.org/abs/2604.08693v1",
+      "summary": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.08693v1"
+  },
+  {
+    "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "authors": [
+        "Addison J. Wu",
+        "Ryan Liu",
+        "Shuyue Stella Li",
+        "Yulia Tsvetkov",
+        "Thomas L. Griffiths"
+      ],
+      "published": "2026-04-09T17:57:50Z",
+      "arxiv_id": "2604.08525v1",
+      "url": "https://arxiv.org/abs/2604.08525v1",
+      "summary": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.08525v1"
+  },
+  {
+    "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "authors": [
+        "Juergen Dietrich"
+      ],
+      "published": "2026-04-09T17:00:26Z",
+      "arxiv_id": "2604.08465v1",
+      "url": "https://arxiv.org/abs/2604.08465v1",
+      "summary": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.08465v1"
+  },
+  {
+    "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "authors": [
+        "Jyh-An Lee",
+        "Jingwen Liu"
+      ],
+      "published": "2026-04-09T15:19:40Z",
+      "arxiv_id": "2604.08353v1",
+      "url": "https://arxiv.org/abs/2604.08353v1",
+      "summary": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.08353v1"
+  },
+  {
+    "title": "The Statistical Profitability of Social Media Sports Betting Influencers: Evidence from the Nigerian Market",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "The Statistical Profitability of Social Media Sports Betting Influencers: Evidence from the Nigerian Market",
+      "authors": [
+        "Kayode Makinde",
+        "Oluwatimileyin Onasanya",
+        "Frances Adelakun"
+      ],
+      "published": "2026-04-09T13:41:41Z",
+      "arxiv_id": "2604.08251v1",
+      "url": "https://arxiv.org/abs/2604.08251v1",
+      "summary": "This study examines whether following popular Nigerian sports betting influencers on social media is a financially sound strategy. To avoid the survivorship bias that occurs when influencers only share their winning bets, we tracked 5,467 pre-match betting slips from three prominent tipsters on X (formerly Twitter) and Telegram. We verified the outcomes against official Stake.com records, resulting in a final dataset covering approximately $4.8 million in tracked bets. We analyzed raw performance, assessed risk based on odds sizes, and applied four common staking strategies (Flat, Inverse, Square Root, and Fixed Return) to simulate realistic follower outcomes. The results show a sharp contrast between the wealth these influencers display online and the actual financial results. The influencers themselves collectively lost 25.24% on their promoted bets, while a follower who staked the same amount on every tip would lose 38.27% on their investment. Across all tested strategies, following these influencers consistently led to significant financial losses. These findings raise serious consumer protection concerns in Nigeria's expanding gambling market.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.08251v1"
+  },
+  {
+    "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+      "authors": [
+        "Arnab Paul Choudhury",
+        "Rahul Rathod",
+        "Aryan Yadav"
+      ],
+      "published": "2026-04-10T15:09:28Z",
+      "arxiv_id": "2604.09395v1",
+      "url": "https://arxiv.org/abs/2604.09395v1",
+      "summary": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.09395v1"
+  },
+  {
+    "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+    "score": 5,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+      "authors": [
+        "Oleg Solozobov"
+      ],
+      "published": "2026-04-10T13:06:38Z",
+      "arxiv_id": "2604.09296v1",
+      "url": "https://arxiv.org/abs/2604.09296v1",
+      "summary": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.09296v1"
+  },
+  {
+    "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "authors": [
+        "Ralf Beuthan",
+        "Megan Coffee",
+        "Heejin Kim",
+        "Na Yeon Kim",
+        "Pedro Kringen"
+      ],
+      "published": "2026-04-09T13:14:34Z",
+      "arxiv_id": "2604.08217v1",
+      "url": "https://arxiv.org/abs/2604.08217v1",
+      "summary": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.08217v1"
+  },
+  {
+    "title": "The Weaponization of Computer Vision: Tracing Military-Surveillance Ties through Conference Sponsorship",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "The Weaponization of Computer Vision: Tracing Military-Surveillance Ties through Conference Sponsorship",
+      "authors": [
+        "Noa Garcia",
+        "Amelia Katirai"
+      ],
+      "published": "2026-04-09T04:54:44Z",
+      "arxiv_id": "2604.07803v1",
+      "url": "https://arxiv.org/abs/2604.07803v1",
+      "summary": "Computer vision, a core domain of artificial intelligence (AI), is the field that enables the computational analysis, understanding, and generation of visual data. Despite being historically rooted in military funding and increasingly deployed in warfare, the field tends to position itself as a neutral, purely technical endeavor, failing to engage in discussions about its dual-use applications. Yet it has been reported that computer vision systems are being systematically weaponized to assist in technologies that inflict harm, such as surveillance or warfare. Expanding on these concerns, we study the extent to which computer vision research is being used in the military and surveillance domains. We do so by collecting a dataset of tech companies with financial ties to the field's central research exchange platform: conferences. Conference sponsorship, we argue, not only serves as strong evidence of a company's investment in the field but also provides a privileged position for shaping its trajectory. By investigating sponsors' activities, we reveal that 44% of them have a direct connection with military or surveillance applications. We extend our analysis through two case studies in which we discuss the opportunities and limitations of sponsorship as a means for uncovering technological weaponization.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.07803v1"
+  },
+  {
+    "title": "We Need Strong Preconditions For Using Simulations In Policy",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "We Need Strong Preconditions For Using Simulations In Policy",
+      "authors": [
+        "Steven Luo",
+        "Saanvi Arora",
+        "Carlos Guirado"
+      ],
+      "published": "2026-04-09T05:39:35Z",
+      "arxiv_id": "2604.07838v1",
+      "url": "https://arxiv.org/abs/2604.07838v1",
+      "summary": "Simulations, and more recently LLM agent simulations, have been adopted as useful tools for policymakers to explore interventions, rehearse potential scenarios, and forecast outcomes. While LLM simulations have enormous potential, two critical challenges remain understudied: the dual-use potential of accurate models of individual or population-level human behavior and the difficulty of validating simulation outputs. In light of these limitations, we must define boundaries for both simulation developers and decision-makers to ensure responsible development and ethical use. We propose and discuss three preconditions for societal-scale LLM agent simulations: 1) do not treat simulations of marginalized populations as neutral technical outputs, 2) do not simulate populations without their participation, and 3) do not simulate without accountability. We believe that these guardrails, combined with our call for simulation development and deployment reports, will help build trust among policymakers while promoting responsible development and use of societal-scale LLM agent simulations for the public benefit.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "arxiv:2604.07838v1"
+  },
+  {
+    "title": "Augmenting or automating labor? TheeffectofAIdevelopment on new work,employment, andwages",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Augmenting or automating labor? TheeffectofAIdevelopment on new work,employment, andwages",
+      "authors": "D Marguerit",
+      "source": "- arXiv preprint arXiv:2503.19159, 2025 - arxiv.org",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2503.19159",
+      "scholar_link": "https://arxiv.org/abs/2503.19159",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Augmenting or automating labor"
+  },
+  {
+    "title": "TheEffectsofArtificial Intelligenceand Robotics onEmploymentandWagesin Korean Manufacturing Firms",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "TheEffectsofArtificial Intelligenceand Robotics onEmploymentandWagesin Korean Manufacturing Firms",
+      "authors": "JH Jeong, HJ Jo - Weizenbaum Journal of the Digital …, 2025 - ojs.weizenbaum-institut.de",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/240",
+      "scholar_link": "https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/240",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:TheEffectsofArtificial Intelli"
+  },
+  {
+    "title": "Leveragingartificial intelligenceto study and forecast its impacts onemploymentmanagement andwagesin China's key cities",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Leveragingartificial intelligenceto study and forecast its impacts onemploymentmanagement andwagesin China's key cities",
+      "authors": "A Hassani",
+      "source": ",",
+      "year": 2026,
+      "url": "http://www.sems-journal.org/index.php/sems/article/view/60",
+      "scholar_link": "http://www.sems-journal.org/index.php/sems/article/view/60",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Leveragingartificial intellige"
+  },
+  {
+    "title": "Artificial intelligence,wagedynamics, and inequality: Empirical evidence from Chinese listed firms",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Artificial intelligence,wagedynamics, and inequality: Empirical evidence from Chinese listed firms",
+      "authors": "Y Wu, Z Lin, Q Zhang,",
+      "source": "W Wang",
+      "year": 2024,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1059056024007317",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S1059056024007317",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Artificial intelligence,wagedy"
+  },
+  {
+    "title": "Pathways ofAIInfluence onWages,Employment, and Inequality in Europe: A Structural Mediation Analysis",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Pathways ofAIInfluence onWages,Employment, and Inequality in Europe: A Structural Mediation Analysis",
+      "authors": "S SenGupta",
+      "source": "-",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5249913",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5249913",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Pathways ofAIInfluence onWages"
+  },
+  {
+    "title": "High-skilled human workers in non-routine jobs are susceptible toAIautomation butwagebenefits differ between occupations",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "High-skilled human workers in non-routine jobs are susceptible toAIautomation butwagebenefits differ between occupations",
+      "authors": "P Ozgul, MC Fregin,",
+      "source": "M Stops",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2404.06472",
+      "scholar_link": "https://arxiv.org/abs/2404.06472",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:High-skilled human workers in "
+  },
+  {
+    "title": "The impact ofartificial intelligence(AI) onemployees' skills and well-being in global labor markets: A systematic review",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "The impact ofartificial intelligence(AI) onemployees' skills and well-being in global labor markets: A systematic review",
+      "authors": "RE Cramarenco,",
+      "source": "MI Burcă-Voicu",
+      "year": 2026,
+      "url": "https://www.ceeol.com/search/article-detail?id=1192670",
+      "scholar_link": "https://www.ceeol.com/search/article-detail?id=1192670",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:The impact ofartificial intell"
+  },
+  {
+    "title": "The Impact ofArtificial Intelligenceon Labor Market Income Inequality",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "The Impact ofArtificial Intelligenceon Labor Market Income Inequality",
+      "authors": "Y Gu",
+      "source": ",",
+      "year": 2026,
+      "url": "https://jandoopress.com/journal/ijas/article/view/169",
+      "scholar_link": "https://jandoopress.com/journal/ijas/article/view/169",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:The Impact ofArtificial Intell"
+  },
+  {
+    "title": "The short-termeffectsof generativeartificial intelligenceonemployment: Evidence from an online labor market",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "The short-termeffectsof generativeartificial intelligenceonemployment: Evidence from an online labor market",
+      "authors": "X Hui",
+      "source": ",",
+      "year": 2026,
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/orsc.2023.18441",
+      "scholar_link": "https://pubsonline.informs.org/doi/abs/10.1287/orsc.2023.18441",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:The short-termeffectsof genera"
+  },
+  {
+    "title": "Canaries in the Coal Mine?: Six Facts about the RecentEmployment EffectsofArtificial Intelligence",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Canaries in the Coal Mine?: Six Facts about the RecentEmployment EffectsofArtificial Intelligence",
+      "authors": "E Brynjolfsson",
+      "source": ",",
+      "year": 2026,
+      "url": "https://digitaleconomy.stanford.edu/app/uploads/2025/12/CanariesintheCoalMine_Nov25.pdf",
+      "scholar_link": "https://digitaleconomy.stanford.edu/app/uploads/2025/12/CanariesintheCoalMine_Nov25.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Canaries in the Coal Mine?: Si"
+  },
+  {
+    "title": "The simple macroeconomics ofAI",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "The simple macroeconomics ofAI",
+      "authors": "D Acemoglu",
+      "source": "- Economic Policy, 2025 - academic.oup.com",
+      "year": 2026,
+      "url": "https://academic.oup.com/economicpolicy/article-abstract/40/121/13/7728473",
+      "scholar_link": "https://academic.oup.com/economicpolicy/article-abstract/40/121/13/7728473",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:The simple macroeconomics ofAI"
+  },
+  {
+    "title": "The labor marketeffectsof generativeAI: A difference-in-differences analysis ofAIexposure",
+    "score": 8,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The labor marketeffectsof generativeAI: A difference-in-differences analysis ofAIexposure",
+      "authors": "AC Johnston",
+      "source": ",",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5375017",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5375017",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:The labor marketeffectsof gene"
+  },
+  {
+    "title": "Doesartificial intelligenceaffect firms' innerwagegap?",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Doesartificial intelligenceaffect firms' innerwagegap?",
+      "authors": "Y Yuan,",
+      "source": "Y Sun",
+      "year": 2025,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00036846.2024.2324090",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/00036846.2024.2324090",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Doesartificial intelligenceaff"
+  },
+  {
+    "title": "The impact of generativeAIonemploymentand labor productivity",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "The impact of generativeAIonemploymentand labor productivity",
+      "authors": "J Yu,",
+      "source": "C Qi",
+      "year": 2024,
+      "url": "https://search.proquest.com/openview/ef4a16ccdd3ada374a981a60edf32f2a/1?pq-origsite=gscholar&cbl=36534",
+      "scholar_link": "https://search.proquest.com/openview/ef4a16ccdd3ada374a981a60edf32f2a/1?pq-origsite=gscholar&cbl=36534",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:The impact of generativeAIonem"
+  },
+  {
+    "title": "Impact ofartificial intelligenceon the labor income distribution: Labor substitution or production upgrading?",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Impact ofartificial intelligenceon the labor income distribution: Labor substitution or production upgrading?",
+      "authors": "C Wang, D Jiao - Finance Research Letters, 2025 - Elsevier",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1544612324017033",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S1544612324017033",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Impact ofartificial intelligen"
+  },
+  {
+    "title": "Howgenerative artificial intelligencetechnologies shape partialjob displacementand labor productivity growth",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Howgenerative artificial intelligencetechnologies shape partialjob displacementand labor productivity growth",
+      "authors": "G Lazaroiu",
+      "source": ", E Rogalska - Oeconomia Copernicana, 2023 - cejsh.icm.edu.pl",
+      "year": 2026,
+      "url": "https://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_24136_oc_2023_020/c/articles-19900462.pdf.pdf",
+      "scholar_link": "https://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_24136_oc_2023_020/c/articles-19900462.pdf.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Howgenerative artificial intel"
+  },
+  {
+    "title": "Generative artificial intelligencealgorithms in talent and performance management,job displacementand creation, and employee productivity and well-being",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Generative artificial intelligencealgorithms in talent and performance management,job displacementand creation, and employee productivity and well-being",
+      "authors": "DP Ljungholm",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.ceeol.com/search/article-detail?id=1207536",
+      "scholar_link": "https://www.ceeol.com/search/article-detail?id=1207536",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Generative artificial intellig"
+  },
+  {
+    "title": "DisplacementOr Complementarity?: The Labor Market Impact ofGenerative AI",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "DisplacementOr Complementarity?: The Labor Market Impact ofGenerative AI",
+      "authors": "WX Chen",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.hbs.edu/ris/Publication%20Files/25-039_05fbec84-1f23-459b-8410-e3cd7ab6c88a.pdf",
+      "scholar_link": "https://www.hbs.edu/ris/Publication%20Files/25-039_05fbec84-1f23-459b-8410-e3cd7ab6c88a.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:DisplacementOr Complementarity"
+  },
+  {
+    "title": "Introduction toGenerative AI: Its Impact onJobs, Education, Work and Policy Making",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Introduction toGenerative AI: Its Impact onJobs, Education, Work and Policy Making",
+      "authors": "S Joshi - 2025 - preprints.org",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.preprints.org/frontend/manuscript/067481cf12fab5f129296e8dbda83ed1/download_pub",
+      "scholar_link": "https://www.preprints.org/frontend/manuscript/067481cf12fab5f129296e8dbda83ed1/download_pub",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Introduction toGenerative AI: "
+  },
+  {
+    "title": "Generative AImay create a socioeconomic tipping point through labourdisplacement",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Generative AImay create a socioeconomic tipping point through labourdisplacement",
+      "authors": "JA Occhipinti",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.nature.com/articles/s41598-025-08498-x",
+      "scholar_link": "https://www.nature.com/articles/s41598-025-08498-x",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Generative AImay create a soci"
+  },
+  {
+    "title": "Generative AIandJobVulnerability: A Global Review",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generative AIandJobVulnerability: A Global Review",
+      "authors": "S Pokhrel",
+      "source": ",",
+      "year": 2026,
+      "url": "https://ray.yorksj.ac.uk/id/eprint/13382/",
+      "scholar_link": "https://ray.yorksj.ac.uk/id/eprint/13382/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Generative AIandJobVulnerabili"
+  },
+  {
+    "title": "Generative AI: Mitigating workforce and economic disruptions while strategizing policy responses for governments and companies",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generative AI: Mitigating workforce and economic disruptions while strategizing policy responses for governments and companies",
+      "authors": "S Joshi",
+      "source": "- Available at SSRN 5135229, 2025 - papers.ssrn.com",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5135229",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5135229",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Generative AI: Mitigating work"
+  },
+  {
+    "title": "Generative AI, PerceivedJob Displacement, and Policy Preferences: Experimental Evidence from China May, 2025",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generative AI, PerceivedJob Displacement, and Policy Preferences: Experimental Evidence from China May, 2025",
+      "authors": "M Shen",
+      "source": ", Q Xiao, X Chen,",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5241136",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5241136",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Generative AI, PerceivedJob Di"
+  },
+  {
+    "title": "Generative Ai, PerceivedJob Displacement, and Policy Preferences: Experimental Evidence from China",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generative Ai, PerceivedJob Displacement, and Policy Preferences: Experimental Evidence from China",
+      "authors": "M Shen, Q Xiao, X Chen,",
+      "source": "S Fang",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5254768",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5254768",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Generative Ai, PerceivedJob Di"
+  },
+  {
+    "title": "The recessionary pressures ofgenerative AI: A threat to wellbeing",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "The recessionary pressures ofgenerative AI: A threat to wellbeing",
+      "authors": "JA Occhipinti",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2403.17405",
+      "scholar_link": "https://arxiv.org/abs/2403.17405",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:The recessionary pressures ofg"
+  },
+  {
+    "title": "Generative AI: A turning point for labor's share",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generative AI: A turning point for labor's share",
+      "authors": "LA Drozd,",
+      "source": "M Tavares",
+      "year": 2024,
+      "url": "http://www.lukasz-drozd.com/uploads/4/3/1/8/43183209/eiq124-generative-ai.pdf",
+      "scholar_link": "http://www.lukasz-drozd.com/uploads/4/3/1/8/43183209/eiq124-generative-ai.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Generative AI: A turning point"
+  },
+  {
+    "title": "Generative artificial intelligenceand the emergence of creativedisplacementanxiety",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Generative artificial intelligenceand the emergence of creativedisplacementanxiety",
+      "authors": "N Caporusso",
+      "source": "- Research in Psychology and Behavior, 2023 - researchdirects.com",
+      "year": 2026,
+      "url": "https://researchdirects.com/index.php/psychology/article/view/95",
+      "scholar_link": "https://researchdirects.com/index.php/psychology/article/view/95",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Generative artificial intellig"
+  },
+  {
+    "title": "The dark side ofgenerative artificial intelligence: A critical analysis of controversies and risks of ChatGPT",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "The dark side ofgenerative artificial intelligence: A critical analysis of controversies and risks of ChatGPT",
+      "authors": "K Wach",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.ceeol.com/search/article-detail?id=1205845",
+      "scholar_link": "https://www.ceeol.com/search/article-detail?id=1205845",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:The dark side ofgenerative art"
+  },
+  {
+    "title": "What is the Future of Work in theGenerative AIEra? A Marxist and Ricardian Analysis",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "What is the Future of Work in theGenerative AIEra? A Marxist and Ricardian Analysis",
+      "authors": "L Liu",
+      "source": "- tripleC: Communication, Capitalism & Critique. Open …, 2025 - triple-c.at",
+      "year": 2026,
+      "url": "https://triple-c.at/index.php/tripleC/article/view/1536",
+      "scholar_link": "https://triple-c.at/index.php/tripleC/article/view/1536",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:What is the Future of Work in "
+  },
+  {
+    "title": "A review ofgenerative AI'simpact on workforce transformation and future skill requirements",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "A review ofgenerative AI'simpact on workforce transformation and future skill requirements",
+      "authors": "K Oyetade",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/Kayode-Oyetade/publication/397097756_A_Review_of_Generative_AI's_Impact_on_Workforce_Transformation_and_Future_Skill_Requirements/links/690499df9708d52f2da41ed4/A-Review-of-Generative-AIs-Impact-on-Workforce-Transformation-and-Future-Skill-Requirements.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/Kayode-Oyetade/publication/397097756_A_Review_of_Generative_AI's_Impact_on_Workforce_Transformation_and_Future_Skill_Requirements/links/690499df9708d52f2da41ed4/A-Review-of-Generative-AIs-Impact-on-Workforce-Transformation-and-Future-Skill-Requirements.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:A review ofgenerative AI'simpa"
+  },
+  {
+    "title": "Economics of ChatGPT: Alabor marketview on the occupationalimpactofartificial intelligence",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Economics of ChatGPT: Alabor marketview on the occupationalimpactofartificial intelligence",
+      "authors": "A Zarifhonarvar",
+      "source": "- Journal of Electronic Business & Digital Economics,",
+      "year": 2024,
+      "url": "https://www.emerald.com/jebde/article/3/2/100/1233608",
+      "scholar_link": "https://www.emerald.com/jebde/article/3/2/100/1233608",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Economics of ChatGPT: Alabor m"
+  },
+  {
+    "title": "Assessing theimpactofartificial intelligenceon Russianlabor marketdevelopment scenarios: Industry analysis",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Assessing theimpactofartificial intelligenceon Russianlabor marketdevelopment scenarios: Industry analysis",
+      "authors": "RV Faizullin, PL Ototsky, EN Gorlacheva… - Economic and Social …, 2025 - library.volnc.ru",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "http://library.volnc.ru/Files/articles/1743415560.pdf",
+      "scholar_link": "http://library.volnc.ru/Files/articles/1743415560.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Assessing theimpactofartificia"
+  },
+  {
+    "title": "Artificial intelligenceand thelabor market",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligenceand thelabor market",
+      "authors": "M Hampole",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.aeaweb.org/conference/2026/program/paper/DfFG2sBZ",
+      "scholar_link": "https://www.aeaweb.org/conference/2026/program/paper/DfFG2sBZ",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Artificial intelligenceand the"
+  },
+  {
+    "title": "Technological disruption in thelabor market",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Technological disruption in thelabor market",
+      "authors": "DJ Deming",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.nber.org/papers/w33323",
+      "scholar_link": "https://www.nber.org/papers/w33323",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Technological disruption in th"
+  },
+  {
+    "title": "Thelabor market effectsof generativeAI: A difference-in-differences analysis ofAIexposure",
+    "score": 8,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Thelabor market effectsof generativeAI: A difference-in-differences analysis ofAIexposure",
+      "authors": "AC Johnston",
+      "source": ",",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5375017",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5375017",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Thelabor market effectsof gene"
+  },
+  {
+    "title": "Theimpactofartificial intelligence(AI) on employees' skills and well-being in globallabor markets: A systematic review",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Theimpactofartificial intelligence(AI) on employees' skills and well-being in globallabor markets: A systematic review",
+      "authors": "RE Cramarenco,",
+      "source": "MI Burcă-Voicu",
+      "year": 2026,
+      "url": "https://www.ceeol.com/search/article-detail?id=1192670",
+      "scholar_link": "https://www.ceeol.com/search/article-detail?id=1192670",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Theimpactofartificial intellig"
+  },
+  {
+    "title": "Displacement Or Complementarity?: TheLabor Market Impactof GenerativeAI",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Displacement Or Complementarity?: TheLabor Market Impactof GenerativeAI",
+      "authors": "WX Chen",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.hbs.edu/ris/Publication%20Files/25-039_05fbec84-1f23-459b-8410-e3cd7ab6c88a.pdf",
+      "scholar_link": "https://www.hbs.edu/ris/Publication%20Files/25-039_05fbec84-1f23-459b-8410-e3cd7ab6c88a.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Displacement Or Complementarit"
+  },
+  {
+    "title": "\" Generate\" the Future of Work throughAI: Empirical Evidence from OnlineLabor Markets",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "\" Generate\" the Future of Work throughAI: Empirical Evidence from OnlineLabor Markets",
+      "authors": "J Liu",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2308.05201",
+      "scholar_link": "https://arxiv.org/abs/2308.05201",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:\" Generate\" the Future of Work"
+  },
+  {
+    "title": "Large language models, smalllabor market effects",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Large language models, smalllabor market effects",
+      "authors": "A Humlum",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.nber.org/papers/w33777",
+      "scholar_link": "https://www.nber.org/papers/w33777",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Large language models, smallla"
+  },
+  {
+    "title": "The short-termeffectsof generativeartificial intelligenceonemployment: Evidence from an onlinelabor market",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "The short-termeffectsof generativeartificial intelligenceonemployment: Evidence from an onlinelabor market",
+      "authors": "X Hui",
+      "source": ",",
+      "year": 2026,
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/orsc.2023.18441",
+      "scholar_link": "https://pubsonline.informs.org/doi/abs/10.1287/orsc.2023.18441",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:The short-termeffectsof genera"
+  },
+  {
+    "title": "Artificial intelligence: intensifying or mitigating unemployment?",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligence: intensifying or mitigating unemployment?",
+      "authors": "M Qin",
+      "source": ", Y Wan, J Dou,",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0160791X24003038",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0160791X24003038",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Artificial intelligence: inten"
+  },
+  {
+    "title": "AI-exposure andlabour market: a systematic literature review on estimations, validations, and perceptions: D. Ghosh et al.",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "AI-exposure andlabour market: a systematic literature review on estimations, validations, and perceptions: D. Ghosh et al.",
+      "authors": "D Ghosh",
+      "source": ", R Ghosh,",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s11301-023-00393-x",
+      "scholar_link": "https://link.springer.com/article/10.1007/s11301-023-00393-x",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:AI-exposure andlabour market: "
+  },
+  {
+    "title": "Theimpactofartificial intelligenceon productivity, distribution and growth",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Theimpactofartificial intelligenceon productivity, distribution and growth",
+      "authors": "F Filippucci",
+      "source": ",",
+      "year": 2026,
+      "url": "https://iris.luiss.it/handle/11385/240418",
+      "scholar_link": "https://iris.luiss.it/handle/11385/240418",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Theimpactofartificial intellig"
+  },
+  {
+    "title": "Dynamics of the digital workforce: Assessing the interplay andimpactofAI, automation, andemploymentpolicies",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Dynamics of the digital workforce: Assessing the interplay andimpactofAI, automation, andemploymentpolicies",
+      "authors": "OO Olaniyi",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/Oluwaseun-Olaniyi/publication/380068372_Digital_Workforce_Assessing_the_Interplay_and_Impact_of_AI_Automation_and_Employment_Policies/links/6629431435243041534098d1/Digital-Workforce-Assessing-the-Interplay-and-Impact-of-AI-Automation-and-Employment-Policies.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/Oluwaseun-Olaniyi/publication/380068372_Digital_Workforce_Assessing_the_Interplay_and_Impact_of_AI_Automation_and_Employment_Policies/links/6629431435243041534098d1/Digital-Workforce-Assessing-the-Interplay-and-Impact-of-AI-Automation-and-Employment-Policies.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Dynamics of the digital workfo"
+  },
+  {
+    "title": "Artificial intelligencedevelopment and disseminationimpacton the sports industrylabor market",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligencedevelopment and disseminationimpacton the sports industrylabor market",
+      "authors": "E Glebova",
+      "source": ", DØ Madsen, P Mihaľová,",
+      "year": 2026,
+      "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2024.1363892/full",
+      "scholar_link": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2024.1363892/full",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "labor",
+    "doi": "gs:Artificial intelligencedevelop"
+  }
+]

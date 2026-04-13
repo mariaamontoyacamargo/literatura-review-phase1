@@ -1,0 +1,2799 @@
+{
+  "nodes": [
+    {
+      "id": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "score": 6,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+      "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligence can persuade people to take political actions",
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "score": 6,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "score": 8,
+      "pocket": "innovacion_difusion",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "Scrapyard AI",
+      "title": "Scrapyard AI",
+      "score": 6,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "score": 6,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "score": 6,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "score": 6,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "score": 6,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "score": 6,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+      "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+      "score": 5,
+      "pocket": "innovacion_difusion",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "score": 7,
+      "pocket": "human_machine_interaction",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "Towards Generalizable Representations of Mathematical Strategies",
+      "title": "Towards Generalizable Representations of Mathematical Strategies",
+      "score": 6,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Twitch Third-Party Developers' Support Seeking and Provision Practices on Discord",
+      "title": "Twitch Third-Party Developers' Support Seeking and Provision Practices on Discord",
+      "score": 5,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The Need for a Green ICT Reference Framework",
+      "title": "The Need for a Green ICT Reference Framework",
+      "score": 6,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Autonomous artificial intelligence increases real-world specialist clinicproductivityin a cluster-randomized trial",
+      "title": "Autonomous artificial intelligence increases real-world specialist clinicproductivityin a cluster-randomized trial",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Using arandom controlled trialto explore the impact ofAI-enabled learning",
+      "title": "Using arandom controlled trialto explore the impact ofAI-enabled learning",
+      "score": 3,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Experimental evidence on theproductivityeffects of generative artificial intelligence",
+      "title": "Experimental evidence on theproductivityeffects of generative artificial intelligence",
+      "score": 5,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Navigating the jagged technological frontier: Field experimental evidence of the effects ofAIon knowledge workerproductivityand quality",
+      "title": "Navigating the jagged technological frontier: Field experimental evidence of the effects ofAIon knowledge workerproductivityand quality",
+      "score": 5,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Autonomous artificial intelligence increases screening and follow-up for diabetic retinopathy in youth: the ACCESSrandomized control trial",
+      "title": "Autonomous artificial intelligence increases screening and follow-up for diabetic retinopathy in youth: the ACCESSrandomized control trial",
+      "score": 3,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Measuring the impact of early-2025AIon experienced open-source developerproductivity",
+      "title": "Measuring the impact of early-2025AIon experienced open-source developerproductivity",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The impact of artificial intelligence onproductivity, distribution and growth",
+      "title": "The impact of artificial intelligence onproductivity, distribution and growth",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Human-AICollaborative Diagnostics: MeasuringProductivity, Accuracy, andClinicalDecision Confidence",
+      "title": "Human-AICollaborative Diagnostics: MeasuringProductivity, Accuracy, andClinicalDecision Confidence",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The effects of generativeAIon high-skilled work: Evidence from three field experiments with software developers",
+      "title": "The effects of generativeAIon high-skilled work: Evidence from three field experiments with software developers",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "AIandProductivityin Europe",
+      "title": "AIandProductivityin Europe",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Effectiveness of mycophenolate mofetil among patients with progressive IgA nephropathy: arandomized clinical trial",
+      "title": "Effectiveness of mycophenolate mofetil among patients with progressive IgA nephropathy: arandomized clinical trial",
+      "score": 3,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Save",
+      "title": "Save",
+      "score": 1,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Howaiand human behaviors shape psychosocial effects of extended chatbot use: A longitudinalrandomized controlled study",
+      "title": "Howaiand human behaviors shape psychosocial effects of extended chatbot use: A longitudinalrandomized controlled study",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "HowAIimpacts skill formation",
+      "title": "HowAIimpacts skill formation",
+      "score": 3,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Ai-powered lawyering:Aireasoning models, retrieval augmented generation, and the future of legal practice",
+      "title": "Ai-powered lawyering:Aireasoning models, retrieval augmented generation, and the future of legal practice",
+      "score": 3,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Dear Diary: Arandomized controlled trialofGenerative AIcoding tools in theworkplace",
+      "title": "Dear Diary: Arandomized controlled trialofGenerative AIcoding tools in theworkplace",
+      "score": 8,
+      "pocket": "evaluacion_experimental",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "Generative AITransformed My Work: Decoding Its Direct and Mediated Effects on Work Engagement Among Knowledge Workers",
+      "title": "Generative AITransformed My Work: Decoding Its Direct and Mediated Effects on Work Engagement Among Knowledge Workers",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Arandomized controlled trialon evaluating clinician-supervisedgenerative AIfor decision support",
+      "title": "Arandomized controlled trialon evaluating clinician-supervisedgenerative AIfor decision support",
+      "score": 8,
+      "pocket": "evaluacion_experimental",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "AIfeedback andworkplacesocial support in enhancing occupational self-efficacy: arandomized controlled trialin Japan",
+      "title": "AIfeedback andworkplacesocial support in enhancing occupational self-efficacy: arandomized controlled trialin Japan",
+      "score": 8,
+      "pocket": "evaluacion_experimental",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "ChatGPT and Beyond: Exploring the Responsible Use ofGenerative AIin theWorkplace: M. Söllner et al.",
+      "title": "ChatGPT and Beyond: Exploring the Responsible Use ofGenerative AIin theWorkplace: M. Söllner et al.",
+      "score": 3,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The Meta-RCTApproach to MeasuringAI'sLabor Market Impact",
+      "title": "The Meta-RCTApproach to MeasuringAI'sLabor Market Impact",
+      "score": 9,
+      "pocket": "evaluacion_experimental",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "Using a random controlled trial to explore the impact ofAI-enabled learning",
+      "title": "Using a random controlled trial to explore the impact ofAI-enabled learning",
+      "score": 3,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Approaches for the use ofAIinworkplacehealth promotion and prevention: systematic scoping review",
+      "title": "Approaches for the use ofAIinworkplacehealth promotion and prevention: systematic scoping review",
+      "score": 1,
+      "pocket": "evaluacion_experimental",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "DoesGenerative AINarrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment",
+      "title": "DoesGenerative AINarrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment",
+      "score": 9,
+      "pocket": "evaluacion_experimental",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "Whengenerative AImeetsworkplacelearning: Creating a realistic & motivating learning experience with agenerativePCA",
+      "title": "Whengenerative AImeetsworkplacelearning: Creating a realistic & motivating learning experience with agenerativePCA",
+      "score": 3,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Enhancing work engagement throughgenerative AIconversations: a controlled trial on the positive and negative feedback in high vs. Low relational mobility …",
+      "title": "Enhancing work engagement throughgenerative AIconversations: a controlled trial on the positive and negative feedback in high vs. Low relational mobility …",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative AIand Software Developer Productivity-A Pilot Case Study at a Finnish Technology Consultancy",
+      "title": "Generative AIand Software Developer Productivity-A Pilot Case Study at a Finnish Technology Consultancy",
+      "score": 6,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "AGenerative AIFramework for Cognitive Intervention in Older Adults: An Integrated Engineering Design and Clinical Protocol",
+      "title": "AGenerative AIFramework for Cognitive Intervention in Older Adults: An Integrated Engineering Design and Clinical Protocol",
+      "score": 6,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2025
+    },
+    {
+      "id": "The effects ofgenerative AIon high-skilled work: Evidence from three field experiments with software developers",
+      "title": "The effects ofgenerative AIon high-skilled work: Evidence from three field experiments with software developers",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Evaluating the impact of government orientation on theadoptionofAIin business: acausal inferencestudy",
+      "title": "Evaluating the impact of government orientation on theadoptionofAIin business: acausal inferencestudy",
+      "score": 5,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Causalityandcausal inferencefor engineers: Beyond correlation, regression, prediction andartificial intelligence",
+      "title": "Causalityandcausal inferencefor engineers: Beyond correlation, regression, prediction andartificial intelligence",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Evaluating digital agriculture recommendations withcausal inference",
+      "title": "Evaluating digital agriculture recommendations withcausal inference",
+      "score": 3,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Causal inferenceinAIbased decision support: Beyond correlation tocausation",
+      "title": "Causal inferenceinAIbased decision support: Beyond correlation tocausation",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "A survey oncausal inferencefor recommendation",
+      "title": "A survey oncausal inferencefor recommendation",
+      "score": 3,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Advanced A/B testing andcausal inferenceforAI-driven digital platforms: A comprehensive framework for US digital markets",
+      "title": "Advanced A/B testing andcausal inferenceforAI-driven digital platforms: A comprehensive framework for US digital markets",
+      "score": 6,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Causalanalysis ofartificial intelligence adoptionin project management",
+      "title": "Causalanalysis ofartificial intelligence adoptionin project management",
+      "score": 6,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Causalityfor trustworthyartificial intelligence: status, challenges and perspectives",
+      "title": "Causalityfor trustworthyartificial intelligence: status, challenges and perspectives",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Recent developments incausal inferenceand machine learning",
+      "title": "Recent developments incausal inferenceand machine learning",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Causal inferencein recommender systems: A survey and future directions",
+      "title": "Causal inferencein recommender systems: A survey and future directions",
+      "score": 3,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Large language models andcausal inferencein collaboration: A comprehensive survey",
+      "title": "Large language models andcausal inferencein collaboration: A comprehensive survey",
+      "score": 6,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "AI adoptionin America: Who, what, and where",
+      "title": "AI adoptionin America: Who, what, and where",
+      "score": 2,
+      "pocket": "innovacion_difusion",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "The role ofcausalityin explainableartificial intelligence",
+      "title": "The role ofcausalityin explainableartificial intelligence",
+      "score": 4,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Counterfactual Forecasting of Human Behavior using GenerativeAIandCausalGraphs",
+      "title": "Counterfactual Forecasting of Human Behavior using GenerativeAIandCausalGraphs",
+      "score": 8,
+      "pocket": "evaluacion_experimental",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "Causal Inferencefor Recommendation: Foundations, Methods, and Applications",
+      "title": "Causal Inferencefor Recommendation: Foundations, Methods, and Applications",
+      "score": 3,
+      "pocket": "evaluacion_experimental",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "We Need Strong Preconditions For Using Simulations In Policy",
+      "title": "We Need Strong Preconditions For Using Simulations In Policy",
+      "score": 6,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Adoptionand integration ofAIin organizations: a systematic review of challenges and drivers towards future directions of research",
+      "title": "Adoptionand integration ofAIin organizations: a systematic review of challenges and drivers towards future directions of research",
+      "score": 5,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The critical determinants impactingartificial intelligence adoptionat theorganizationallevel",
+      "title": "The critical determinants impactingartificial intelligence adoptionat theorganizationallevel",
+      "score": 4,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Towardsadoptionof generativeAIinorganizationalsettings",
+      "title": "Towardsadoptionof generativeAIinorganizationalsettings",
+      "score": 5,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Technology readiness and theorganizationaljourney towardsAI adoption: An empirical study",
+      "title": "Technology readiness and theorganizationaljourney towardsAI adoption: An empirical study",
+      "score": 3,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Strategic integration of generativeAIinorganizationalsettings: Applications, challenges, andadoptionrequirements",
+      "title": "Strategic integration of generativeAIinorganizationalsettings: Applications, challenges, andadoptionrequirements",
+      "score": 5,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "AI adoption: a bridge or a barrier? The moderating role oforganizationalsupport in the path toward employee well-being",
+      "title": "AI adoption: a bridge or a barrier? The moderating role oforganizationalsupport in the path toward employee well-being",
+      "score": 3,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Shifting attitudes and trust inAI: Influences onorganizational AI adoption",
+      "title": "Shifting attitudes and trust inAI: Influences onorganizational AI adoption",
+      "score": 3,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The impact ofAI adoptiononorganizationalperformance: ethical and technological factors in Iran's startup ecosystem",
+      "title": "The impact ofAI adoptiononorganizationalperformance: ethical and technological factors in Iran's startup ecosystem",
+      "score": 4,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Barriers and enablers ofAI adoptionin human resource management: A critical analysis oforganizationaland technological factors",
+      "title": "Barriers and enablers ofAI adoptionin human resource management: A critical analysis oforganizationaland technological factors",
+      "score": 4,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Exploringartificial intelligence adoptionin public organizations: a comparative case study",
+      "title": "Exploringartificial intelligence adoptionin public organizations: a comparative case study",
+      "score": 7,
+      "pocket": "management",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "AI adoptionin supply chain management: A systematic literature review",
+      "title": "AI adoptionin supply chain management: A systematic literature review",
+      "score": 3,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "R Khan",
+      "title": "R Khan",
+      "score": 1,
+      "pocket": "management",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Environmental,organizational, and individual determinants ofAI adoption: A multilevel knowledge and analysis",
+      "title": "Environmental,organizational, and individual determinants ofAI adoption: A multilevel knowledge and analysis",
+      "score": 5,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Organizationalgovernance of emerging technologies:AI adoptionin healthcare",
+      "title": "Organizationalgovernance of emerging technologies:AI adoptionin healthcare",
+      "score": 3,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligence adoptionand system‐wide change",
+      "title": "Artificial intelligence adoptionand system‐wide change",
+      "score": 3,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The GenAI is out of the bottle:generative artificial intelligencefrom abusiness modelinnovation perspective",
+      "title": "The GenAI is out of the bottle:generative artificial intelligencefrom abusiness modelinnovation perspective",
+      "score": 6,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Howgenerative AIwill drive enterprise innovation",
+      "title": "Howgenerative AIwill drive enterprise innovation",
+      "score": 3,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Leveraginggenerative artificial intelligencefor sustainablebusiness modelinnovation in production systems",
+      "title": "Leveraginggenerative artificial intelligencefor sustainablebusiness modelinnovation in production systems",
+      "score": 6,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Transformingbusinesswithgenerative AI: Research, innovation, market deployment and future shifts inbusiness models",
+      "title": "Transformingbusinesswithgenerative AI: Research, innovation, market deployment and future shifts inbusiness models",
+      "score": 6,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The Future ofBusinesswithGenerative AI Modelsand Insights",
+      "title": "The Future ofBusinesswithGenerative AI Modelsand Insights",
+      "score": 6,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Understandinggenerative AI businessapplications",
+      "title": "Understandinggenerative AI businessapplications",
+      "score": 4,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Harnessinggenerative AIforbusinessgrowth and opportunities",
+      "title": "Harnessinggenerative AIforbusinessgrowth and opportunities",
+      "score": 4,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "AI-poweredbusiness modelinnovation: Analyzing the implications ofgenerative AIon value creation, operational efficiency and market dynamics",
+      "title": "AI-poweredbusiness modelinnovation: Analyzing the implications ofgenerative AIon value creation, operational efficiency and market dynamics",
+      "score": 6,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Advancements and applications ofgenerative artificial intelligenceand large languagemodelsonbusinessmanagement: A comprehensive review",
+      "title": "Advancements and applications ofgenerative artificial intelligenceand large languagemodelsonbusinessmanagement: A comprehensive review",
+      "score": 6,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative artificial intelligenceand evaluating strategic decisions",
+      "title": "Generative artificial intelligenceand evaluating strategic decisions",
+      "score": 3,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "How organizations can innovate withgenerative AI",
+      "title": "How organizations can innovate withgenerative AI",
+      "score": 4,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative AI: S. Feuerriegel et al.",
+      "title": "Generative AI: S. Feuerriegel et al.",
+      "score": 3,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative artificial intelligenceand the challenges to adding value ethically",
+      "title": "Generative artificial intelligenceand the challenges to adding value ethically",
+      "score": 3,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Role and challenges of ChatGPT and similargenerative artificial intelligenceinbusinessmanagement",
+      "title": "Role and challenges of ChatGPT and similargenerative artificial intelligenceinbusinessmanagement",
+      "score": 4,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Large processmodels: a vision forbusinessprocess management in the age ofgenerative AI",
+      "title": "Large processmodels: a vision forbusinessprocess management in the age ofgenerative AI",
+      "score": 6,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Technology trends instrategic managementin theAIera: Systematic literature review",
+      "title": "Technology trends instrategic managementin theAIera: Systematic literature review",
+      "score": 2,
+      "pocket": "management",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "The analysis ofstrategic managementdecisions and corporate competitiveness based onartificial intelligence",
+      "title": "The analysis ofstrategic managementdecisions and corporate competitiveness based onartificial intelligence",
+      "score": 5,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligenceinstrategic management: Examining novelAIapplications in organizationalstrategicdecision-making",
+      "title": "Artificial intelligenceinstrategic management: Examining novelAIapplications in organizationalstrategicdecision-making",
+      "score": 2,
+      "pocket": "management",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Designing anAI-drivenmanagementsystem forstrategyimplementation",
+      "title": "Designing anAI-drivenmanagementsystem forstrategyimplementation",
+      "score": 4,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "AI-driven decision support systems inmanagement: enhancingstrategicplanning and execution",
+      "title": "AI-driven decision support systems inmanagement: enhancingstrategicplanning and execution",
+      "score": 4,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "AIin decision making: transforming businessstrategies",
+      "title": "AIin decision making: transforming businessstrategies",
+      "score": 2,
+      "pocket": "management",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Generativeartificial intelligenceand evaluatingstrategicdecisions",
+      "title": "Generativeartificial intelligenceand evaluatingstrategicdecisions",
+      "score": 3,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Integratingartificial intelligenceinstrategicbusiness decision-making: A systematic review of predictive models",
+      "title": "Integratingartificial intelligenceinstrategicbusiness decision-making: A systematic review of predictive models",
+      "score": 6,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Strategicintegration ofartificial intelligencefor sustainable businesses: Implications for datamanagementand human user engagement in the digital era",
+      "title": "Strategicintegration ofartificial intelligencefor sustainable businesses: Implications for datamanagementand human user engagement in the digital era",
+      "score": 2,
+      "pocket": "management",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligenceandstrategicdecision-making: Evidence from entrepreneurs and investors",
+      "title": "Artificial intelligenceandstrategicdecision-making: Evidence from entrepreneurs and investors",
+      "score": 1,
+      "pocket": "management",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Investigating the influence ofartificial intelligenceon business value in the digital era ofstrategy: A literature review",
+      "title": "Investigating the influence ofartificial intelligenceon business value in the digital era ofstrategy: A literature review",
+      "score": 2,
+      "pocket": "management",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligenceand the changing sources of competitive advantage",
+      "title": "Artificial intelligenceand the changing sources of competitive advantage",
+      "score": 3,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Competitive advantage throughartificial intelligence: Toward a theory of situatedAI",
+      "title": "Competitive advantage throughartificial intelligence: Toward a theory of situatedAI",
+      "score": 3,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generativeartificial intelligencein business: towards astrategichuman resourcemanagementframework",
+      "title": "Generativeartificial intelligencein business: towards astrategichuman resourcemanagementframework",
+      "score": 6,
+      "pocket": "management",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligence, machine learning, and deep learning for advanced businessstrategies: a review",
+      "title": "Artificial intelligence, machine learning, and deep learning for advanced businessstrategies: a review",
+      "score": 2,
+      "pocket": "management",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "The Statistical Profitability of Social Media Sports Betting Influencers: Evidence from the Nigerian Market",
+      "title": "The Statistical Profitability of Social Media Sports Betting Influencers: Evidence from the Nigerian Market",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The Weaponization of Computer Vision: Tracing Military-Surveillance Ties through Conference Sponsorship",
+      "title": "The Weaponization of Computer Vision: Tracing Military-Surveillance Ties through Conference Sponsorship",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Augmenting or automating labor? TheeffectofAIdevelopment on new work,employment, andwages",
+      "title": "Augmenting or automating labor? TheeffectofAIdevelopment on new work,employment, andwages",
+      "score": 5,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "TheEffectsofArtificial Intelligenceand Robotics onEmploymentandWagesin Korean Manufacturing Firms",
+      "title": "TheEffectsofArtificial Intelligenceand Robotics onEmploymentandWagesin Korean Manufacturing Firms",
+      "score": 5,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Leveragingartificial intelligenceto study and forecast its impacts onemploymentmanagement andwagesin China's key cities",
+      "title": "Leveragingartificial intelligenceto study and forecast its impacts onemploymentmanagement andwagesin China's key cities",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligence,wagedynamics, and inequality: Empirical evidence from Chinese listed firms",
+      "title": "Artificial intelligence,wagedynamics, and inequality: Empirical evidence from Chinese listed firms",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2024
+    },
+    {
+      "id": "Pathways ofAIInfluence onWages,Employment, and Inequality in Europe: A Structural Mediation Analysis",
+      "title": "Pathways ofAIInfluence onWages,Employment, and Inequality in Europe: A Structural Mediation Analysis",
+      "score": 3,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "High-skilled human workers in non-routine jobs are susceptible toAIautomation butwagebenefits differ between occupations",
+      "title": "High-skilled human workers in non-routine jobs are susceptible toAIautomation butwagebenefits differ between occupations",
+      "score": 3,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The impact ofartificial intelligence(AI) onemployees' skills and well-being in global labor markets: A systematic review",
+      "title": "The impact ofartificial intelligence(AI) onemployees' skills and well-being in global labor markets: A systematic review",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The Impact ofArtificial Intelligenceon Labor Market Income Inequality",
+      "title": "The Impact ofArtificial Intelligenceon Labor Market Income Inequality",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The short-termeffectsof generativeartificial intelligenceonemployment: Evidence from an online labor market",
+      "title": "The short-termeffectsof generativeartificial intelligenceonemployment: Evidence from an online labor market",
+      "score": 5,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Canaries in the Coal Mine?: Six Facts about the RecentEmployment EffectsofArtificial Intelligence",
+      "title": "Canaries in the Coal Mine?: Six Facts about the RecentEmployment EffectsofArtificial Intelligence",
+      "score": 5,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The simple macroeconomics ofAI",
+      "title": "The simple macroeconomics ofAI",
+      "score": 1,
+      "pocket": "labor",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "The labor marketeffectsof generativeAI: A difference-in-differences analysis ofAIexposure",
+      "title": "The labor marketeffectsof generativeAI: A difference-in-differences analysis ofAIexposure",
+      "score": 8,
+      "pocket": "labor",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "Doesartificial intelligenceaffect firms' innerwagegap?",
+      "title": "Doesartificial intelligenceaffect firms' innerwagegap?",
+      "score": 3,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2025
+    },
+    {
+      "id": "The impact of generativeAIonemploymentand labor productivity",
+      "title": "The impact of generativeAIonemploymentand labor productivity",
+      "score": 5,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2024
+    },
+    {
+      "id": "Impact ofartificial intelligenceon the labor income distribution: Labor substitution or production upgrading?",
+      "title": "Impact ofartificial intelligenceon the labor income distribution: Labor substitution or production upgrading?",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Howgenerative artificial intelligencetechnologies shape partialjob displacementand labor productivity growth",
+      "title": "Howgenerative artificial intelligencetechnologies shape partialjob displacementand labor productivity growth",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative artificial intelligencealgorithms in talent and performance management,job displacementand creation, and employee productivity and well-being",
+      "title": "Generative artificial intelligencealgorithms in talent and performance management,job displacementand creation, and employee productivity and well-being",
+      "score": 5,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "DisplacementOr Complementarity?: The Labor Market Impact ofGenerative AI",
+      "title": "DisplacementOr Complementarity?: The Labor Market Impact ofGenerative AI",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Introduction toGenerative AI: Its Impact onJobs, Education, Work and Policy Making",
+      "title": "Introduction toGenerative AI: Its Impact onJobs, Education, Work and Policy Making",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative AImay create a socioeconomic tipping point through labourdisplacement",
+      "title": "Generative AImay create a socioeconomic tipping point through labourdisplacement",
+      "score": 3,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative AIandJobVulnerability: A Global Review",
+      "title": "Generative AIandJobVulnerability: A Global Review",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative AI: Mitigating workforce and economic disruptions while strategizing policy responses for governments and companies",
+      "title": "Generative AI: Mitigating workforce and economic disruptions while strategizing policy responses for governments and companies",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative AI, PerceivedJob Displacement, and Policy Preferences: Experimental Evidence from China May, 2025",
+      "title": "Generative AI, PerceivedJob Displacement, and Policy Preferences: Experimental Evidence from China May, 2025",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative Ai, PerceivedJob Displacement, and Policy Preferences: Experimental Evidence from China",
+      "title": "Generative Ai, PerceivedJob Displacement, and Policy Preferences: Experimental Evidence from China",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The recessionary pressures ofgenerative AI: A threat to wellbeing",
+      "title": "The recessionary pressures ofgenerative AI: A threat to wellbeing",
+      "score": 3,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative AI: A turning point for labor's share",
+      "title": "Generative AI: A turning point for labor's share",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2024
+    },
+    {
+      "id": "Generative artificial intelligenceand the emergence of creativedisplacementanxiety",
+      "title": "Generative artificial intelligenceand the emergence of creativedisplacementanxiety",
+      "score": 3,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The dark side ofgenerative artificial intelligence: A critical analysis of controversies and risks of ChatGPT",
+      "title": "The dark side ofgenerative artificial intelligence: A critical analysis of controversies and risks of ChatGPT",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "What is the Future of Work in theGenerative AIEra? A Marxist and Ricardian Analysis",
+      "title": "What is the Future of Work in theGenerative AIEra? A Marxist and Ricardian Analysis",
+      "score": 3,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "A review ofgenerative AI'simpact on workforce transformation and future skill requirements",
+      "title": "A review ofgenerative AI'simpact on workforce transformation and future skill requirements",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Economics of ChatGPT: Alabor marketview on the occupationalimpactofartificial intelligence",
+      "title": "Economics of ChatGPT: Alabor marketview on the occupationalimpactofartificial intelligence",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2024
+    },
+    {
+      "id": "Assessing theimpactofartificial intelligenceon Russianlabor marketdevelopment scenarios: Industry analysis",
+      "title": "Assessing theimpactofartificial intelligenceon Russianlabor marketdevelopment scenarios: Industry analysis",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligenceand thelabor market",
+      "title": "Artificial intelligenceand thelabor market",
+      "score": 2,
+      "pocket": "labor",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Technological disruption in thelabor market",
+      "title": "Technological disruption in thelabor market",
+      "score": 1,
+      "pocket": "labor",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Thelabor market effectsof generativeAI: A difference-in-differences analysis ofAIexposure",
+      "title": "Thelabor market effectsof generativeAI: A difference-in-differences analysis ofAIexposure",
+      "score": 8,
+      "pocket": "labor",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "Theimpactofartificial intelligence(AI) on employees' skills and well-being in globallabor markets: A systematic review",
+      "title": "Theimpactofartificial intelligence(AI) on employees' skills and well-being in globallabor markets: A systematic review",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Displacement Or Complementarity?: TheLabor Market Impactof GenerativeAI",
+      "title": "Displacement Or Complementarity?: TheLabor Market Impactof GenerativeAI",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "\" Generate\" the Future of Work throughAI: Empirical Evidence from OnlineLabor Markets",
+      "title": "\" Generate\" the Future of Work throughAI: Empirical Evidence from OnlineLabor Markets",
+      "score": 3,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Large language models, smalllabor market effects",
+      "title": "Large language models, smalllabor market effects",
+      "score": 6,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The short-termeffectsof generativeartificial intelligenceonemployment: Evidence from an onlinelabor market",
+      "title": "The short-termeffectsof generativeartificial intelligenceonemployment: Evidence from an onlinelabor market",
+      "score": 5,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligence: intensifying or mitigating unemployment?",
+      "title": "Artificial intelligence: intensifying or mitigating unemployment?",
+      "score": 2,
+      "pocket": "labor",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "AI-exposure andlabour market: a systematic literature review on estimations, validations, and perceptions: D. Ghosh et al.",
+      "title": "AI-exposure andlabour market: a systematic literature review on estimations, validations, and perceptions: D. Ghosh et al.",
+      "score": 1,
+      "pocket": "labor",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Theimpactofartificial intelligenceon productivity, distribution and growth",
+      "title": "Theimpactofartificial intelligenceon productivity, distribution and growth",
+      "score": 4,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Dynamics of the digital workforce: Assessing the interplay andimpactofAI, automation, andemploymentpolicies",
+      "title": "Dynamics of the digital workforce: Assessing the interplay andimpactofAI, automation, andemploymentpolicies",
+      "score": 5,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligencedevelopment and disseminationimpacton the sports industrylabor market",
+      "title": "Artificial intelligencedevelopment and disseminationimpacton the sports industrylabor market",
+      "score": 3,
+      "pocket": "labor",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The Sustainability Gap in Robotics: A Large-Scale Survey of Sustainability Awareness in 50,000 Research Articles",
+      "title": "The Sustainability Gap in Robotics: A Large-Scale Survey of Sustainability Awareness in 50,000 Research Articles",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Doctoral Theses in France (1985-2025): A Linked Dataset of PhDs, Academic Networks, and Institutions",
+      "title": "Doctoral Theses in France (1985-2025): A Linked Dataset of PhDs, Academic Networks, and Institutions",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Socialinequalityin the age ofAI: Implications for labor,wagedistribution, and worker power",
+      "title": "Socialinequalityin the age ofAI: Implications for labor,wagedistribution, and worker power",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "AIAND THE FUTURE OF WORK:WAGE INEQUALITY, INDUSTRY TRANSFORMATION, AND RESKILLING BENEFITS",
+      "title": "AIAND THE FUTURE OF WORK:WAGE INEQUALITY, INDUSTRY TRANSFORMATION, AND RESKILLING BENEFITS",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2025
+    },
+    {
+      "id": "The Impact ofArtificial Intelligenceon Labor Market IncomeInequality",
+      "title": "The Impact ofArtificial Intelligenceon Labor Market IncomeInequality",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Robots &AIexposure andwage inequality: a within occupation approach",
+      "title": "Robots &AIexposure andwage inequality: a within occupation approach",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligence,wagedynamics, andinequality: Empirical evidence from Chinese listed firms",
+      "title": "Artificial intelligence,wagedynamics, andinequality: Empirical evidence from Chinese listed firms",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2024
+    },
+    {
+      "id": "AIand incomeinequality: The danger of exacerbating existing trends toward polarization in the US workforce",
+      "title": "AIand incomeinequality: The danger of exacerbating existing trends toward polarization in the US workforce",
+      "score": 2,
+      "pocket": "desigualdad",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "TheAIrevolution with 21st century skills: Implications for thewage inequalityand technical change",
+      "title": "TheAIrevolution with 21st century skills: Implications for thewage inequalityand technical change",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2024
+    },
+    {
+      "id": "Artificial intelligenceandinequality: Challenges and opportunities",
+      "title": "Artificial intelligenceandinequality: Challenges and opportunities",
+      "score": 2,
+      "pocket": "desigualdad",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Doesartificial intelligenceaffect firms' innerwage gap?",
+      "title": "Doesartificial intelligenceaffect firms' innerwage gap?",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2025
+    },
+    {
+      "id": "GenerativeAIand the Future ofInequality",
+      "title": "GenerativeAIand the Future ofInequality",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "AIoccupational exposure andwagedistribution: The case of Italy",
+      "title": "AIoccupational exposure andwagedistribution: The case of Italy",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2025
+    },
+    {
+      "id": "Inequalityin the digital economy: The impact ofartificial intelligenceon incomegap—an empirical analysis based on county-level data from China",
+      "title": "Inequalityin the digital economy: The impact ofartificial intelligenceon incomegap—an empirical analysis based on county-level data from China",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Study on the Impact ofArtificial Intelligenceon Employment and IncomeInequality, Based",
+      "title": "Study on the Impact ofArtificial Intelligenceon Employment and IncomeInequality, Based",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "AIand technology's influence on economicinequality: A study of wealth distribution in the US",
+      "title": "AIand technology's influence on economicinequality: A study of wealth distribution in the US",
+      "score": 2,
+      "pocket": "desigualdad",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligenceat work: An integrative perspective on the impact ofAIon workplaceinequality",
+      "title": "Artificial intelligenceat work: An integrative perspective on the impact ofAIon workplaceinequality",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "TheSkill PremiumAcross Countries in the Era of Industrial Robots andGenerative AI",
+      "title": "TheSkill PremiumAcross Countries in the Era of Industrial Robots andGenerative AI",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "AI'simpact on wage inequality andskill premium",
+      "title": "AI'simpact on wage inequality andskill premium",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Areartificial intelligence skillsa reward or a gamble? Deconstructing theAIwagepremiumin Europe",
+      "title": "Areartificial intelligence skillsa reward or a gamble? Deconstructing theAIwagepremiumin Europe",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2025
+    },
+    {
+      "id": "Generative AI.",
+      "title": "Generative AI.",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The Turing transformation:Artificial intelligence, intelligence augmentation, andskill premiums",
+      "title": "The Turing transformation:Artificial intelligence, intelligence augmentation, andskill premiums",
+      "score": 2,
+      "pocket": "desigualdad",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "The rise ofgenerative AI: Modelling exposure, substitution, and inequality effects on the US labour market",
+      "title": "The rise ofgenerative AI: Modelling exposure, substitution, and inequality effects on the US labour market",
+      "score": 6,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Winners and losers ofgenerative AI: Early Evidence of Shifts in Freelancer Demand",
+      "title": "Winners and losers ofgenerative AI: Early Evidence of Shifts in Freelancer Demand",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Competence Dynamics in the Age ofAI-A qualitative study examining howgenerative AIalters the relevance and need of competences among high-skilled workers",
+      "title": "Competence Dynamics in the Age ofAI-A qualitative study examining howgenerative AIalters the relevance and need of competences among high-skilled workers",
+      "score": 6,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The rise ofgenerative AIand possible effects on the economy",
+      "title": "The rise ofgenerative AIand possible effects on the economy",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "WhyPremium AISubscriptions Don't Transform Mediocrity Into Genius: Empirical Evidence on the Creativity Gap in Human-AICollaboration",
+      "title": "WhyPremium AISubscriptions Don't Transform Mediocrity Into Genius: Empirical Evidence on the Creativity Gap in Human-AICollaboration",
+      "score": 6,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The labor market effect ofgenerative artificial intelligenceon artists",
+      "title": "The labor market effect ofgenerative artificial intelligenceon artists",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative AIand the Future of Inequality",
+      "title": "Generative AIand the Future of Inequality",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The'Super-Employee'Paradox: HowGenerative AIDrivesSkillInflation and Semantic Drift in Vietnam's Job Market",
+      "title": "The'Super-Employee'Paradox: HowGenerative AIDrivesSkillInflation and Semantic Drift in Vietnam's Job Market",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Demand for Creativity andAI Skillsin the Post-ChatGPT Labour Market: Evidence from UK Job Vacancies",
+      "title": "Demand for Creativity andAI Skillsin the Post-ChatGPT Labour Market: Evidence from UK Job Vacancies",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Artifical intelligence as the reason and the solution ofdigital divide",
+      "title": "Artifical intelligence as the reason and the solution ofdigital divide",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Thedigital dividein action: how experiences ofdigitaltechnology shape future relationships withartificial intelligence",
+      "title": "Thedigital dividein action: how experiences ofdigitaltechnology shape future relationships withartificial intelligence",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Exploring the determinants ofartificial intelligence(AI) literacy:Digital divide, computational thinking, cognitive absorption",
+      "title": "Exploring the determinants ofartificial intelligence(AI) literacy:Digital divide, computational thinking, cognitive absorption",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Bridging thedigital divide: Exploring the role ofartificial intelligenceand automation in enhancing connectivity in developing nations",
+      "title": "Bridging thedigital divide: Exploring the role ofartificial intelligenceand automation in enhancing connectivity in developing nations",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Chatgpt needs spade (sustainability, privacy,digital divide, and ethics) evaluation: A review",
+      "title": "Chatgpt needs spade (sustainability, privacy,digital divide, and ethics) evaluation: A review",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Theartificial intelligence divide: Who is the most vulnerable?",
+      "title": "Theartificial intelligence divide: Who is the most vulnerable?",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Aied unplugged: Leapfrogging thedigital divideto reach the underserved",
+      "title": "Aied unplugged: Leapfrogging thedigital divideto reach the underserved",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Health disparities, clinical trials, and thedigital divide",
+      "title": "Health disparities, clinical trials, and thedigital divide",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "College students' literacy, ChatGPT activities, educational outcomes, and trust from adigital divideperspective",
+      "title": "College students' literacy, ChatGPT activities, educational outcomes, and trust from adigital divideperspective",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Bridging thedigital divide",
+      "title": "Bridging thedigital divide",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Bridging thedigital divide: exploring the challenges and solutions fordigitalexclusion in rural South Africa",
+      "title": "Bridging thedigital divide: exploring the challenges and solutions fordigitalexclusion in rural South Africa",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "From Access to Ability: Educator's Perspectives onAIand NewDigital Dividesin Higher Education",
+      "title": "From Access to Ability: Educator's Perspectives onAIand NewDigital Dividesin Higher Education",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Systematised evidence mapping of generativeartificial intelligence(GenAI) anddigital dividephenomena in higher education",
+      "title": "Systematised evidence mapping of generativeartificial intelligence(GenAI) anddigital dividephenomena in higher education",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "2025 EDUCAUSEAILandscape Study: Into theDigital AI Divide.",
+      "title": "2025 EDUCAUSEAILandscape Study: Into theDigital AI Divide.",
+      "score": 4,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Overcoming 'Digital Divides': Leveraging higher education to develop next generationdigitalagriculture professionals",
+      "title": "Overcoming 'Digital Divides': Leveraging higher education to develop next generationdigitalagriculture professionals",
+      "score": 3,
+      "pocket": "desigualdad",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Impact andRegulationsofAIonLaborMarket and Employment in USA",
+      "title": "Impact andRegulationsofAIonLaborMarket and Employment in USA",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "RegulatingAIinLaborRelations: A Governance Framework for the Future Workforce",
+      "title": "RegulatingAIinLaborRelations: A Governance Framework for the Future Workforce",
+      "score": 5,
+      "pocket": "policy",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "AI, mental and physicallabor, and a justpolicyframework",
+      "title": "AI, mental and physicallabor, and a justpolicyframework",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Introduction to theTransferspecial issue. RegulatingAIat work: labour relations, automation, and algorithmic management",
+      "title": "Introduction to theTransferspecial issue. RegulatingAIat work: labour relations, automation, and algorithmic management",
+      "score": 2,
+      "pocket": "policy",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "The economic impacts and theregulationofAI: A review of the academic literature andpolicyactions",
+      "title": "The economic impacts and theregulationofAI: A review of the academic literature andpolicyactions",
+      "score": 3,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Between risk mitigation and labour rights enforcement: Assessing the transatlantic race to governAI-driven decision-making through a comparative lens",
+      "title": "Between risk mitigation and labour rights enforcement: Assessing the transatlantic race to governAI-driven decision-making through a comparative lens",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Economicpolicychallenges for the age ofAI",
+      "title": "Economicpolicychallenges for the age ofAI",
+      "score": 2,
+      "pocket": "policy",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "The governance ofartificial intelligence: Harnessing opportunities and mitigating challenges",
+      "title": "The governance ofartificial intelligence: Harnessing opportunities and mitigating challenges",
+      "score": 2,
+      "pocket": "policy",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligenceand thelabormarket",
+      "title": "Artificial intelligenceand thelabormarket",
+      "score": 2,
+      "pocket": "policy",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "The Impact ofArtificial IntelligenceonLaborMarket Income Inequality",
+      "title": "The Impact ofArtificial IntelligenceonLaborMarket Income Inequality",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Managing the race to the moon: Globalpolicyand governance inArtificial Intelligence regulation—A contemporary overview and an analysis of socioeconomic …",
+      "title": "Managing the race to the moon: Globalpolicyand governance inArtificial Intelligence regulation—A contemporary overview and an analysis of socioeconomic …",
+      "score": 3,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2024
+    },
+    {
+      "id": "TrustworthyAIin the public sector: An empirical analysis of a Swedishlabormarket decision-support system",
+      "title": "TrustworthyAIin the public sector: An empirical analysis of a Swedishlabormarket decision-support system",
+      "score": 3,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Regulating the Risks ofAI",
+      "title": "Regulating the Risks ofAI",
+      "score": 1,
+      "pocket": "policy",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Apolicyprimer and roadmap onAIworker surveillance and productivity scoring tools",
+      "title": "Apolicyprimer and roadmap onAIworker surveillance and productivity scoring tools",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Economics of ChatGPT: Alabormarket view on the occupational impact ofartificial intelligence",
+      "title": "Economics of ChatGPT: Alabormarket view on the occupational impact ofartificial intelligence",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Governanceofgenerative AI",
+      "title": "Governanceofgenerative AI",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Navigatinggovernanceparadigms: A cross-regional comparative study ofgenerative AI governanceprocesses & principles",
+      "title": "Navigatinggovernanceparadigms: A cross-regional comparative study ofgenerative AI governanceprocesses & principles",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Governanceofgenerative artificial intelligencefor companies",
+      "title": "Governanceofgenerative artificial intelligencefor companies",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2024
+    },
+    {
+      "id": "Observe, inspect, modify: Three conditions forgenerative AI governance",
+      "title": "Observe, inspect, modify: Three conditions forgenerative AI governance",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Governancefix? Power and politics in controversies aboutgoverning generative AI",
+      "title": "Governancefix? Power and politics in controversies aboutgoverning generative AI",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative AIneeds adaptivegovernance",
+      "title": "Generative AIneeds adaptivegovernance",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Responsiblegovernanceofgenerative AI: conceptualizing GenAI as complex adaptive systems",
+      "title": "Responsiblegovernanceofgenerative AI: conceptualizing GenAI as complex adaptive systems",
+      "score": 6,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "A framework for developing university policies ongenerative AI governance: A cross-national comparative study",
+      "title": "A framework for developing university policies ongenerative AI governance: A cross-national comparative study",
+      "score": 6,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative AI Governance& Secure Content Automation in Higher Education",
+      "title": "Generative AI Governance& Secure Content Automation in Higher Education",
+      "score": 5,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Future Shock:Generative AIand the internationalAIpolicy andgovernancecrisis",
+      "title": "Future Shock:Generative AIand the internationalAIpolicy andgovernancecrisis",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2024
+    },
+    {
+      "id": "Shapinggenerative AI governancein higher education: Insights from student perception",
+      "title": "Shapinggenerative AI governancein higher education: Insights from student perception",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative artificial intelligencepolicies: informationgovernance",
+      "title": "Generative artificial intelligencepolicies: informationgovernance",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The consequences ofgenerative AIfor democracy,governanceand war",
+      "title": "The consequences ofgenerative AIfor democracy,governanceand war",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative AIin healthcare: an implementation science informed translational path on application, integration andgovernance",
+      "title": "Generative AIin healthcare: an implementation science informed translational path on application, integration andgovernance",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "AI-driven solutions for robust datagovernance: A focus ongenerative aiapplications",
+      "title": "AI-driven solutions for robust datagovernance: A focus ongenerative aiapplications",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The privacy of emotions: From theGDPRto theAIAct, an overview of emotionalAI regulationand the protection of privacy and personal data",
+      "title": "The privacy of emotions: From theGDPRto theAIAct, an overview of emotionalAI regulationand the protection of privacy and personal data",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "SustainableAI regulation",
+      "title": "SustainableAI regulation",
+      "score": 2,
+      "pocket": "policy",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "AnAIframework to support decisions onGDPRcompliance",
+      "title": "AnAIframework to support decisions onGDPRcompliance",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Lessons fromGDPRforAIPolicymaking",
+      "title": "Lessons fromGDPRforAIPolicymaking",
+      "score": 2,
+      "pocket": "policy",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "ExplainableAI: Can theAIAct and theGDPRgo out for a date?",
+      "title": "ExplainableAI: Can theAIAct and theGDPRgo out for a date?",
+      "score": 1,
+      "pocket": "policy",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligenceethics and challenges in healthcare applications: a comprehensive review in the context of the EuropeanGDPRmandate",
+      "title": "Artificial intelligenceethics and challenges in healthcare applications: a comprehensive review in the context of the EuropeanGDPRmandate",
+      "score": 3,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Advances in data protection andartificial intelligence: Trends and challenges",
+      "title": "Advances in data protection andartificial intelligence: Trends and challenges",
+      "score": 1,
+      "pocket": "policy",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Theregulationofartificial intelligence",
+      "title": "Theregulationofartificial intelligence",
+      "score": 2,
+      "pocket": "policy",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Evaluating the impact of data protectionregulationsonAIdevelopment and deployment",
+      "title": "Evaluating the impact of data protectionregulationsonAIdevelopment and deployment",
+      "score": 3,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Bridging compliance and innovation: A comparative analysis of the EUAIAct andGDPRfor enhanced organisational strategy",
+      "title": "Bridging compliance and innovation: A comparative analysis of the EUAIAct andGDPRfor enhanced organisational strategy",
+      "score": 5,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The Right to an Explanation Under theGDPRand theAIAct",
+      "title": "The Right to an Explanation Under theGDPRand theAIAct",
+      "score": 1,
+      "pocket": "policy",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "“Please understand we cannot provide further information”: evaluating content and transparency ofGDPR-mandatedAIdisclosures",
+      "title": "“Please understand we cannot provide further information”: evaluating content and transparency ofGDPR-mandatedAIdisclosures",
+      "score": 1,
+      "pocket": "policy",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Artificial Intelligencein Decision-Making: A Test of Consistency between the\" EUAIAct\" and the\"General Data Protection Regulation\"",
+      "title": "Artificial Intelligencein Decision-Making: A Test of Consistency between the\" EUAIAct\" and the\"General Data Protection Regulation\"",
+      "score": 2,
+      "pocket": "policy",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Balancing security and privacy: Web bot detection, privacy challenges, andregulatorycompliance under theGDPRandAIact",
+      "title": "Balancing security and privacy: Web bot detection, privacy challenges, andregulatorycompliance under theGDPRandAIact",
+      "score": 4,
+      "pocket": "policy",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The Right to an Explanation in Practice: Insights from Case Law for theGDPRand theAIAct",
+      "title": "The Right to an Explanation in Practice: Insights from Case Law for theGDPRand theAIAct",
+      "score": 1,
+      "pocket": "policy",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "UnpackingHuman-AI interactions: Frominteractionprimitives to adesignspace",
+      "title": "UnpackingHuman-AI interactions: Frominteractionprimitives to adesignspace",
+      "score": 4,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Automation ofinteraction—interaction designat the crossroads of user experience (UX) andartificial intelligence(AI)",
+      "title": "Automation ofinteraction—interaction designat the crossroads of user experience (UX) andartificial intelligence(AI)",
+      "score": 3,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "DesigningcreativeAIpartners with COFI: A framework for modelinginteractioninhuman-AIco-creative systems",
+      "title": "DesigningcreativeAIpartners with COFI: A framework for modelinginteractioninhuman-AIco-creative systems",
+      "score": 6,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Transitioning tohuman interactionwithAIsystems: New challenges and opportunities for HCI professionals to enablehuman-centeredAI",
+      "title": "Transitioning tohuman interactionwithAIsystems: New challenges and opportunities for HCI professionals to enablehuman-centeredAI",
+      "score": 2,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Human-AI interactionresearch agenda: A user-centered perspective",
+      "title": "Human-AI interactionresearch agenda: A user-centered perspective",
+      "score": 4,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Understandingdesigncollaboration betweendesignersandartificial intelligence: a systematic literature review",
+      "title": "Understandingdesigncollaboration betweendesignersandartificial intelligence: a systematic literature review",
+      "score": 2,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "A situation awareness perspective onhuman-AI interaction: Tensions and opportunities",
+      "title": "A situation awareness perspective onhuman-AI interaction: Tensions and opportunities",
+      "score": 4,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "\" help me help theai\": Understanding how explainability can supporthuman-ai interaction",
+      "title": "\" help me help theai\": Understanding how explainability can supporthuman-ai interaction",
+      "score": 2,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "The evolution of HCI andhumanfactors: Integratinghumanandartificial intelligence",
+      "title": "The evolution of HCI andhumanfactors: Integratinghumanandartificial intelligence",
+      "score": 2,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Whenhuman-AI interactionsbecome parasocial: Agency and anthropomorphism in affectivedesign",
+      "title": "Whenhuman-AI interactionsbecome parasocial: Agency and anthropomorphism in affectivedesign",
+      "score": 4,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Towards a science ofhuman-AIdecision making: An overview ofdesignspace in empiricalhuman-subject studies",
+      "title": "Towards a science ofhuman-AIdecision making: An overview ofdesignspace in empiricalhuman-subject studies",
+      "score": 2,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "An HCI-centric survey and taxonomy ofhuman-generative-AI interactions",
+      "title": "An HCI-centric survey and taxonomy ofhuman-generative-AI interactions",
+      "score": 4,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Co-designofhuman-centered, explainableAIfor clinical decision support",
+      "title": "Co-designofhuman-centered, explainableAIfor clinical decision support",
+      "score": 2,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligence(AI) for user experience (UX)design: a systematic literature review and future research agenda",
+      "title": "Artificial intelligence(AI) for user experience (UX)design: a systematic literature review and future research agenda",
+      "score": 2,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Investigating how practitioners usehuman-aiguidelines: A case study on the people+aiguidebook",
+      "title": "Investigating how practitioners usehuman-aiguidelines: A case study on the people+aiguidebook",
+      "score": 4,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative AI, why, how, and outcomes: Auser adoptionstudy",
+      "title": "Generative AI, why, how, and outcomes: Auser adoptionstudy",
+      "score": 5,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Adoptionand impacts ofgenerative artificial intelligence: Theoretical underpinnings and research agenda",
+      "title": "Adoptionand impacts ofgenerative artificial intelligence: Theoretical underpinnings and research agenda",
+      "score": 7,
+      "pocket": "human_machine_interaction",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "The rapidadoptionofgenerative AI",
+      "title": "The rapidadoptionofgenerative AI",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "An empirical evaluation of agenerative artificial intelligencetechnologyadoptionmodel from entrepreneurs' perspectives",
+      "title": "An empirical evaluation of agenerative artificial intelligencetechnologyadoptionmodel from entrepreneurs' perspectives",
+      "score": 6,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Breaking barriers: investigatinggenerative AI adoptionand organizationaluse",
+      "title": "Breaking barriers: investigatinggenerative AI adoptionand organizationaluse",
+      "score": 5,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Learning to adoptgenerative AI",
+      "title": "Learning to adoptgenerative AI",
+      "score": 3,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative artificial intelligence(AI) technologyadoptionmodel for entrepreneurs: case of ChatGPT",
+      "title": "Generative artificial intelligence(AI) technologyadoptionmodel for entrepreneurs: case of ChatGPT",
+      "score": 6,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Towardsadoptionofgenerative AIin organizational settings",
+      "title": "Towardsadoptionofgenerative AIin organizational settings",
+      "score": 5,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Usinggenerative AIto assist with technologyadoptionassessment",
+      "title": "Usinggenerative AIto assist with technologyadoptionassessment",
+      "score": 5,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Driving factors ofgenerative AI adoptionin new product development teams from a UTAUT perspective",
+      "title": "Driving factors ofgenerative AI adoptionin new product development teams from a UTAUT perspective",
+      "score": 4,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2025
+    },
+    {
+      "id": "Trust inAIand top management support ingenerative-AI adoption",
+      "title": "Trust inAIand top management support ingenerative-AI adoption",
+      "score": 5,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Determinants ofgenerative AIsystemadoptionand usage behavior in Korean companies: Applying the UTAUT model",
+      "title": "Determinants ofgenerative AIsystemadoptionand usage behavior in Korean companies: Applying the UTAUT model",
+      "score": 6,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2024
+    },
+    {
+      "id": "Navigating the complexity ofgenerative ai adoptionin software engineering",
+      "title": "Navigating the complexity ofgenerative ai adoptionin software engineering",
+      "score": 4,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Is it the end of the technology acceptance model in the era ofgenerative artificial intelligence?",
+      "title": "Is it the end of the technology acceptance model in the era ofgenerative artificial intelligence?",
+      "score": 5,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Predicting theusabilityof mobile applications usingAItools: the rise of large userinterfacemodels, opportunities, and challenges",
+      "title": "Predicting theusabilityof mobile applications usingAItools: the rise of large userinterfacemodels, opportunities, and challenges",
+      "score": 4,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "U “AI” testing: userinterfaceandusabilitytesting of a chest X-rayAItool in a simulated real-world workflow",
+      "title": "U “AI” testing: userinterfaceandusabilitytesting of a chest X-rayAItool in a simulated real-world workflow",
+      "score": 2,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Towards anAI-driven userinterfacedesign for web applications",
+      "title": "Towards anAI-driven userinterfacedesign for web applications",
+      "score": 4,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Intelligent UserInterface: UsableArtificial IntelligenceandArtificial IntelligenceforUsability",
+      "title": "Intelligent UserInterface: UsableArtificial IntelligenceandArtificial IntelligenceforUsability",
+      "score": 2,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "AI-enhanced chatbot for improving healthcareusabilityand accessibility for older adults",
+      "title": "AI-enhanced chatbot for improving healthcareusabilityand accessibility for older adults",
+      "score": 2,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Exploring user experience andusabilityin a metaverse learning environment for students: Ausabilitystudy of theartificial intelligence, innovation, and society …",
+      "title": "Exploring user experience andusabilityin a metaverse learning environment for students: Ausabilitystudy of theartificial intelligence, innovation, and society …",
+      "score": 2,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Enhancinginterfacedesign withAI: an exploratory study on a CHATGPT-4-based tool for cognitive walkthrough inspired evaluations",
+      "title": "Enhancinginterfacedesign withAI: an exploratory study on a CHATGPT-4-based tool for cognitive walkthrough inspired evaluations",
+      "score": 4,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Human-AIcollaboration: Exploringinterfacesfor interactive machine learning",
+      "title": "Human-AIcollaboration: Exploringinterfacesfor interactive machine learning",
+      "score": 5,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "AI-driven userinterfacedesign: enhancing digital learning and skill development",
+      "title": "AI-driven userinterfacedesign: enhancing digital learning and skill development",
+      "score": 4,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Quality,usability, and effectiveness of mHealth apps and the role ofartificial intelligence: current scenario and challenges",
+      "title": "Quality,usability, and effectiveness of mHealth apps and the role ofartificial intelligence: current scenario and challenges",
+      "score": 3,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2023
+    },
+    {
+      "id": "Generativeaiin multimodal userinterfaces: Trends, challenges, and cross-platform adaptability",
+      "title": "Generativeaiin multimodal userinterfaces: Trends, challenges, and cross-platform adaptability",
+      "score": 4,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Need for UAI–anatomy of the paradigm of usableartificial intelligencefor domain-specificAIapplicability",
+      "title": "Need for UAI–anatomy of the paradigm of usableartificial intelligencefor domain-specificAIapplicability",
+      "score": 1,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Automation of interaction—interaction design at the crossroads of user experience (UX) andartificial intelligence(AI)",
+      "title": "Automation of interaction—interaction design at the crossroads of user experience (UX) andartificial intelligence(AI)",
+      "score": 3,
+      "pocket": "human_machine_interaction",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligence-oriented userinterfacedesign and human behavior recognition based on human–computer nature interaction",
+      "title": "Artificial intelligence-oriented userinterfacedesign and human behavior recognition based on human–computer nature interaction",
+      "score": 2,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "TheAI interface: Designing for the ideal machine-human experience",
+      "title": "TheAI interface: Designing for the ideal machine-human experience",
+      "score": 2,
+      "pocket": "human_machine_interaction",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Google, AI Literacy, and the Learning Sciences: Multiple Modes of Research, Industry, and Practice Partnerships",
+      "title": "Google, AI Literacy, and the Learning Sciences: Multiple Modes of Research, Industry, and Practice Partnerships",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "PRISM: Evaluating a Rule-Based, Scenario-Driven Social Media Privacy Education Program for Young Autistic Adults",
+      "title": "PRISM: Evaluating a Rule-Based, Scenario-Driven Social Media Privacy Education Program for Young Autistic Adults",
+      "score": 6,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The Shrinking Lifespan of LLMs in Science",
+      "title": "The Shrinking Lifespan of LLMs in Science",
+      "score": 6,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Mapping Child Malnutrition and Measuring Efficiency of Community Healthcare Workers through Location Based Games in India",
+      "title": "Mapping Child Malnutrition and Measuring Efficiency of Community Healthcare Workers through Location Based Games in India",
+      "score": 5,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Why teaching resists automation in an AI-inundated era: Human judgment, non-modular work, and the limits of delegation",
+      "title": "Why teaching resists automation in an AI-inundated era: Human judgment, non-modular work, and the limits of delegation",
+      "score": 7,
+      "pocket": "innovacion_difusion",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "The Rhetoric of Machine Learning",
+      "title": "The Rhetoric of Machine Learning",
+      "score": 6,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "What drivesartificial intelligence adoptionand use amongfirms? Empirical evidence from Brazilian companies",
+      "title": "What drivesartificial intelligence adoptionand use amongfirms? Empirical evidence from Brazilian companies",
+      "score": 6,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2025
+    },
+    {
+      "id": "The role ofAI adoptionin transforming the accounting profession: adiffusionof innovations theory approach",
+      "title": "The role ofAI adoptionin transforming the accounting profession: adiffusionof innovations theory approach",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Unveiling organizationalAI adoptionpatterns in Italian companies through the lens of thediffusionof innovations theory",
+      "title": "Unveiling organizationalAI adoptionpatterns in Italian companies through the lens of thediffusionof innovations theory",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Examining thediffusionof innovations from a dynamic, differential-effects perspective: A longitudinal study onAI adoptionamong employees",
+      "title": "Examining thediffusionof innovations from a dynamic, differential-effects perspective: A longitudinal study onAI adoptionamong employees",
+      "score": 5,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Understandingartificial intelligence diffusionthrough anAIcapability maturity model",
+      "title": "Understandingartificial intelligence diffusionthrough anAIcapability maturity model",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2024
+    },
+    {
+      "id": "Exploring determinants influencingartificial intelligence adoption, reference todiffusionof innovation theory",
+      "title": "Exploring determinants influencingartificial intelligence adoption, reference todiffusionof innovation theory",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "AI adoptionamong Germanfirms",
+      "title": "AI adoptionamong Germanfirms",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2024
+    },
+    {
+      "id": "A review ofdiffusionof innovations theory (DOI) and technology, organization, and environment framework (TOE) in theadoptionofartificial intelligence",
+      "title": "A review ofdiffusionof innovations theory (DOI) and technology, organization, and environment framework (TOE) in theadoptionofartificial intelligence",
+      "score": 5,
+      "pocket": "innovacion_difusion",
+      "status": "ACEPTADO",
+      "year": 2025
+    },
+    {
+      "id": "Epidemic effects in thediffusionof emerging digital technologies: evidence fromartificial intelligence adoption",
+      "title": "Epidemic effects in thediffusionof emerging digital technologies: evidence fromartificial intelligence adoption",
+      "score": 5,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Adoptionofartificial intelligencein higher education: Adiffusionof innovation approach",
+      "title": "Adoptionofartificial intelligencein higher education: Adiffusionof innovation approach",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "A moderated model ofartificial intelligence adoptioninfirmsand its effects on their performance",
+      "title": "A moderated model ofartificial intelligence adoptioninfirmsand its effects on their performance",
+      "score": 7,
+      "pocket": "innovacion_difusion",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "Mind the Gap:AI Adoptionin Europe and the US",
+      "title": "Mind the Gap:AI Adoptionin Europe and the US",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The critical determinants impactingartificial intelligence adoptionat the organizational level",
+      "title": "The critical determinants impactingartificial intelligence adoptionat the organizational level",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "The role of human-capital inartificial intelligence adoption",
+      "title": "The role of human-capital inartificial intelligence adoption",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Breakingbarriers: investigatinggenerative AI adoptionand organizational use",
+      "title": "Breakingbarriers: investigatinggenerative AI adoptionand organizational use",
+      "score": 5,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Adopting generative aiin digital marketing campaigns: An empirical study of drivers andbarriers",
+      "title": "Adopting generative aiin digital marketing campaigns: An empirical study of drivers andbarriers",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative AIin improving personalized patient care plans: opportunities andbarrierstowards its wideradoption",
+      "title": "Generative AIin improving personalized patient care plans: opportunities andbarrierstowards its wideradoption",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "ExploringBarriersto theAdoptionofGenerative Artificial IntelligenceTools among University Students: A Perspective from Innovation Resistance Theory",
+      "title": "ExploringBarriersto theAdoptionofGenerative Artificial IntelligenceTools among University Students: A Perspective from Innovation Resistance Theory",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Businessadoptionofgenerative AI: identifying and overcoming key challenges",
+      "title": "Businessadoptionofgenerative AI: identifying and overcoming key challenges",
+      "score": 5,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative artificial intelligence adoption: An exploration of challenges and perceptions",
+      "title": "Generative artificial intelligence adoption: An exploration of challenges and perceptions",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "BarrierstoGenerative AI AdoptionAmong Higher Vocational Students: Understanding Hesitancy and Resistance",
+      "title": "BarrierstoGenerative AI AdoptionAmong Higher Vocational Students: Understanding Hesitancy and Resistance",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Barriersto and opportunities for theadoptionofgenerative artificial intelligencein higher education in the global south: Insights from Sri Lanka",
+      "title": "Barriersto and opportunities for theadoptionofgenerative artificial intelligencein higher education in the global south: Insights from Sri Lanka",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Learning toadopt generative AI",
+      "title": "Learning toadopt generative AI",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Understanding acceptance and resistance towardgenerative AItechnologies: a multi-theoretical framework integrating functional, risk, and sociolegal factors",
+      "title": "Understanding acceptance and resistance towardgenerative AItechnologies: a multi-theoretical framework integrating functional, risk, and sociolegal factors",
+      "score": 5,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2025
+    },
+    {
+      "id": "Exploring thegenerative AI adoptionin service industry: A mixed-method analysis",
+      "title": "Exploring thegenerative AI adoptionin service industry: A mixed-method analysis",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Leveraginggenerative AI: strategicadoptionpatterns for enterprises",
+      "title": "Leveraginggenerative AI: strategicadoptionpatterns for enterprises",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Generative artificial intelligenceusage by researchers at work: Effects of gender, career stage, type of workplace, and perceivedbarriers",
+      "title": "Generative artificial intelligenceusage by researchers at work: Effects of gender, career stage, type of workplace, and perceivedbarriers",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "A cognitive model fortechnology adoption",
+      "title": "A cognitive model fortechnology adoption",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2023
+    },
+    {
+      "id": "Technologyreadiness and the organizational journey towardsAI adoption: An empirical study",
+      "title": "Technologyreadiness and the organizational journey towardsAI adoption: An empirical study",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "SMEs' use ofAIfor new product development:Adoptionrates by application and readiness-to-adopt",
+      "title": "SMEs' use ofAIfor new product development:Adoptionrates by application and readiness-to-adopt",
+      "score": 2,
+      "pocket": "innovacion_difusion",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "AI adoptionand inequality",
+      "title": "AI adoptionand inequality",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "TheadoptionofAIin new product development: Results of a multi-firm study in the US and Europe",
+      "title": "TheadoptionofAIin new product development: Results of a multi-firm study in the US and Europe",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "An empirical evaluation of a generativeartificial intelligence technology adoptionmodel from entrepreneurs' perspectives",
+      "title": "An empirical evaluation of a generativeartificial intelligence technology adoptionmodel from entrepreneurs' perspectives",
+      "score": 6,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Leading edge or bleeding edge: Designing a framework for theadoptionofAI technologyin an educational organization",
+      "title": "Leading edge or bleeding edge: Designing a framework for theadoptionofAI technologyin an educational organization",
+      "score": 5,
+      "pocket": "innovacion_difusion",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligence adoptionin the post COVID-19 new-normal and role of smarttechnologiesin transforming business: a review",
+      "title": "Artificial intelligence adoptionin the post COVID-19 new-normal and role of smarttechnologiesin transforming business: a review",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Artificial intelligence adoptionamong human resource professionals: Does market turbulence play a role?",
+      "title": "Artificial intelligence adoptionamong human resource professionals: Does market turbulence play a role?",
+      "score": 3,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "TheAItransformation of product innovation",
+      "title": "TheAItransformation of product innovation",
+      "score": 1,
+      "pocket": "innovacion_difusion",
+      "status": "RECHAZADO",
+      "year": 2026
+    },
+    {
+      "id": "Adoptionofartificial intelligencein financial services: a policy framework",
+      "title": "Adoptionofartificial intelligencein financial services: a policy framework",
+      "score": 5,
+      "pocket": "innovacion_difusion",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "GenerativeAI adoptionin classroom in context oftechnologyacceptance model (TAM) and the innovation diffusion theory (IDT)",
+      "title": "GenerativeAI adoptionin classroom in context oftechnologyacceptance model (TAM) and the innovation diffusion theory (IDT)",
+      "score": 7,
+      "pocket": "innovacion_difusion",
+      "status": "ACEPTADO",
+      "year": 2026
+    },
+    {
+      "id": "The rapidadoptionof generativeAI",
+      "title": "The rapidadoptionof generativeAI",
+      "score": 4,
+      "pocket": "innovacion_difusion",
+      "status": "REVISAR",
+      "year": 2026
+    },
+    {
+      "id": "Bending the automation biascurve: A study of human andAI-based decision making in national security contexts",
+      "title": "Bending the automation biascurve: A study of human andAI-based decision making in national security contexts",
+      "score": 2,
+      "pocket": "innovacion_difusion",
+      "status": "RECHAZADO",
+      "year": 2026
+    }
+  ],
+  "edges": [
+    {
+      "source": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "target": "Artificial intelligence can persuade people to take political actions",
+      "weight": 0.75,
+      "reason": "Mentions AI behavior control and influence"
+    },
+    {
+      "source": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "target": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "weight": 0.75,
+      "reason": "Mentions AI behavior control and influence"
+    },
+    {
+      "source": "Artificial intelligence can persuade people to take political actions",
+      "target": "Howaiand human behaviors shape psychosocial effects of extended chatbot use: A longitudinalrandomized controlled study",
+      "weight": 0.7,
+      "reason": "Related to AI influence on human behavior"
+    },
+    {
+      "source": "Artificial intelligence can persuade people to take political actions",
+      "target": "Counterfactual Forecasting of Human Behavior using GenerativeAIandCausalGraphs",
+      "weight": 0.7,
+      "reason": "Related to AI influence on human behavior"
+    },
+    {
+      "source": "Artificial intelligence can persuade people to take political actions",
+      "target": "Shifting attitudes and trust inAI: Influences onorganizational AI adoption",
+      "weight": 0.7,
+      "reason": "Related to AI influence on human behavior"
+    },
+    {
+      "source": "Artificial intelligence can persuade people to take political actions",
+      "target": "Investigating the influence ofartificial intelligenceon business value in the digital era ofstrategy: A literature review",
+      "weight": 0.7,
+      "reason": "Related to AI influence on human behavior"
+    },
+    {
+      "source": "Artificial intelligence can persuade people to take political actions",
+      "target": "The Statistical Profitability of Social Media Sports Betting Influencers: Evidence from the Nigerian Market",
+      "weight": 0.7,
+      "reason": "Related to AI influence on human behavior"
+    },
+    {
+      "source": "Artificial intelligence can persuade people to take political actions",
+      "target": "Pathways ofAIInfluence onWages,Employment, and Inequality in Europe: A Structural Mediation Analysis",
+      "weight": 0.7,
+      "reason": "Related to AI influence on human behavior"
+    },
+    {
+      "source": "Artificial intelligence can persuade people to take political actions",
+      "target": "AIand technology's influence on economicinequality: A study of wealth distribution in the US",
+      "weight": 0.7,
+      "reason": "Related to AI influence on human behavior"
+    },
+    {
+      "source": "Artificial intelligence can persuade people to take political actions",
+      "target": "Determinants ofgenerative AIsystemadoptionand usage behavior in Korean companies: Applying the UTAUT model",
+      "weight": 0.7,
+      "reason": "Related to AI influence on human behavior"
+    },
+    {
+      "source": "Artificial intelligence can persuade people to take political actions",
+      "target": "Artificial intelligence-oriented userinterfacedesign and human behavior recognition based on human–computer nature interaction",
+      "weight": 0.7,
+      "reason": "Related to AI influence on human behavior"
+    },
+    {
+      "source": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "target": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "weight": 0.7,
+      "reason": "Related to AI safety and alignment concerns"
+    },
+    {
+      "source": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "target": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "weight": 0.65,
+      "reason": "Related to agent behavior and evaluation"
+    },
+    {
+      "source": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "target": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "weight": 0.65,
+      "reason": "Related to agent behavior and evaluation"
+    },
+    {
+      "source": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "target": "The Shrinking Lifespan of LLMs in Science",
+      "weight": 0.65,
+      "reason": "Related to agent behavior and evaluation"
+    },
+    {
+      "source": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "target": "Howaiand human behaviors shape psychosocial effects of extended chatbot use: A longitudinalrandomized controlled study",
+      "weight": 0.7,
+      "reason": "Related to LLM behavior under conflicting incentives"
+    },
+    {
+      "source": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "target": "AI-enhanced chatbot for improving healthcareusabilityand accessibility for older adults",
+      "weight": 0.7,
+      "reason": "Related to LLM behavior under conflicting incentives"
+    },
+    {
+      "source": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "target": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "weight": 0.75,
+      "reason": "Related to AI safety and multi-agent systems"
+    },
+    {
+      "source": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "target": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "weight": 0.75,
+      "reason": "Related to AI safety and multi-agent systems"
+    }
+  ],
+  "stats": {
+    "nodes": 334,
+    "edges": 19,
+    "density": 0.00017082951214687742,
+    "type": "Real Manual Citation Network",
+    "source": "Manual abstract analysis"
+  }
+}

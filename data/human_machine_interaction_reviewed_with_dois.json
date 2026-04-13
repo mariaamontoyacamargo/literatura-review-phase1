@@ -1,0 +1,1578 @@
+[
+  {
+    "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "authors": [
+        "Wiebke Hutiri",
+        "Morgan Scheuerman",
+        "Shruti Nagpal",
+        "Austin Hoag",
+        "Alice Xiang"
+      ],
+      "published": "2026-04-10T15:26:57Z",
+      "arxiv_id": "2604.09413v1",
+      "url": "https://arxiv.org/abs/2604.09413v1",
+      "summary": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "arxiv:2604.09413v1"
+  },
+  {
+    "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+      "authors": [
+        "Arnab Paul Choudhury",
+        "Rahul Rathod",
+        "Aryan Yadav"
+      ],
+      "published": "2026-04-10T15:09:28Z",
+      "arxiv_id": "2604.09395v1",
+      "url": "https://arxiv.org/abs/2604.09395v1",
+      "summary": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "arxiv:2604.09395v1"
+  },
+  {
+    "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+    "score": 5,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+      "authors": [
+        "Oleg Solozobov"
+      ],
+      "published": "2026-04-10T13:06:38Z",
+      "arxiv_id": "2604.09296v1",
+      "url": "https://arxiv.org/abs/2604.09296v1",
+      "summary": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "arxiv:2604.09296v1"
+  },
+  {
+    "title": "Artificial intelligence can persuade people to take political actions",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "authors": [
+        "Kobi Hackenburg",
+        "Luke Hewitt",
+        "Caroline Wagner",
+        "Ben M. Tappin",
+        "Christopher Summerfield"
+      ],
+      "published": "2026-04-10T10:34:49Z",
+      "arxiv_id": "2604.09200v1",
+      "url": "https://arxiv.org/abs/2604.09200v1",
+      "summary": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "arxiv:2604.09200v1"
+  },
+  {
+    "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+    "score": 8,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "authors": [
+        "Tommy Shaffer Shane",
+        "Simon Mylius",
+        "Hamish Hobbs"
+      ],
+      "published": "2026-04-10T08:37:18Z",
+      "arxiv_id": "2604.09104v1",
+      "url": "https://arxiv.org/abs/2604.09104v1",
+      "summary": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "arxiv:2604.09104v1"
+  },
+  {
+    "title": "Scrapyard AI",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Scrapyard AI",
+      "authors": [
+        "Marc Böhlen",
+        "Sai Krishna"
+      ],
+      "published": "2026-04-09T22:38:57Z",
+      "arxiv_id": "2604.08803v1",
+      "url": "https://arxiv.org/abs/2604.08803v1",
+      "summary": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "arxiv:2604.08803v1"
+  },
+  {
+    "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "authors": [
+        "David Shoresh",
+        "Sarit Kraus",
+        "Yonatan Loewenstein"
+      ],
+      "published": "2026-04-09T19:40:15Z",
+      "arxiv_id": "2604.08727v1",
+      "url": "https://arxiv.org/abs/2604.08727v1",
+      "summary": "As large language model (LLM) agents become more prevalent in real world social settings, social intelligence will play an increasingly critical role. But social intelligence is still a poorly defined construct, for humans and artificial agents. We introduce a multiplayer arena of mixed cooperative and competitive social games to study LLM social intelligence. The controllability of LLM based agents enables systematic evaluation, which also supports broader inferences about social intelligence per se. We evaluated eight diverse LLMs (24B to 1T parameters) using a Communicate Predict Act (COMPACT) interaction protocol and fine grained probing of social dynamics. Elo style ratings reveal consistent performance differences across models, but this scalar measure provides only a partial characterization of social intelligence. To address this limitation, we analyze gameplay traces to extract sociocognitive metrics capturing action prediction, communicative influence, strategic reasoning, and tradeoffs under conflicting interests. These sociocognitive metrics exhibit strong intramodel consistency and they reliably predict pairwise agent advantage in game outcomes (AUC ROC = 0.82). Feature importance analysis indicates that surprisingly, influence, transparency, and adaptability are more predictive of success than Theory of Mind inference or deep planning. Together, our results advance a testable, multidimensional conception of social intelligence and provide empirical insights into the capacities that underpin it.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "arxiv:2604.08727v1"
+  },
+  {
+    "title": "Towards Generalizable Representations of Mathematical Strategies",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Towards Generalizable Representations of Mathematical Strategies",
+      "authors": [
+        "Siddhartha Pradhan",
+        "Ethan Prihar",
+        "Erin Ottmar"
+      ],
+      "published": "2026-04-09T18:26:13Z",
+      "arxiv_id": "2604.08693v1",
+      "url": "https://arxiv.org/abs/2604.08693v1",
+      "summary": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "arxiv:2604.08693v1"
+  },
+  {
+    "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "authors": [
+        "Addison J. Wu",
+        "Ryan Liu",
+        "Shuyue Stella Li",
+        "Yulia Tsvetkov",
+        "Thomas L. Griffiths"
+      ],
+      "published": "2026-04-09T17:57:50Z",
+      "arxiv_id": "2604.08525v1",
+      "url": "https://arxiv.org/abs/2604.08525v1",
+      "summary": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "arxiv:2604.08525v1"
+  },
+  {
+    "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "authors": [
+        "Ramakrishnan Krishnamurthy",
+        "Arpit Agarwal",
+        "Lakshminarayanan Subramanian",
+        "Maximilian Nickel"
+      ],
+      "published": "2026-04-09T17:45:15Z",
+      "arxiv_id": "2604.08643v1",
+      "url": "https://arxiv.org/abs/2604.08643v1",
+      "summary": "User interactions in online recommendation platforms create interdependencies among content creators: feedback on one creator's content influences the system's learning and, in turn, the exposure of other creators' contents. To analyze incentives in such settings, we model collaboration as a multi-agent stochastic linear bandit problem with a transferable utility (TU) cooperative game formulation, where a coalition's value equals the negative sum of its members' cumulative regrets.\n  We show that, for identical (homogenous) agents with fixed action sets, the induced TU game is convex under mild algorithmic conditions, implying a non-empty core that contains the Shapley value and ensures both stability and fairness. For heterogeneous agents, the game still admits a non-empty core, though convexity and Shapley value core-membership are no longer guaranteed. To address this, we propose a simple regret-based payout rule that satisfies three out of the four Shapley axioms and also lies in the core. Experiments on MovieLens-100k dataset illustrate when the empirical payout aligns with -- and diverges from -- the Shapley fairness across different settings and algorithms.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "arxiv:2604.08643v1"
+  },
+  {
+    "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "authors": [
+        "Juergen Dietrich"
+      ],
+      "published": "2026-04-09T17:00:26Z",
+      "arxiv_id": "2604.08465v1",
+      "url": "https://arxiv.org/abs/2604.08465v1",
+      "summary": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "arxiv:2604.08465v1"
+  },
+  {
+    "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "authors": [
+        "Jyh-An Lee",
+        "Jingwen Liu"
+      ],
+      "published": "2026-04-09T15:19:40Z",
+      "arxiv_id": "2604.08353v1",
+      "url": "https://arxiv.org/abs/2604.08353v1",
+      "summary": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "arxiv:2604.08353v1"
+  },
+  {
+    "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "authors": [
+        "Ralf Beuthan",
+        "Megan Coffee",
+        "Heejin Kim",
+        "Na Yeon Kim",
+        "Pedro Kringen"
+      ],
+      "published": "2026-04-09T13:14:34Z",
+      "arxiv_id": "2604.08217v1",
+      "url": "https://arxiv.org/abs/2604.08217v1",
+      "summary": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "arxiv:2604.08217v1"
+  },
+  {
+    "title": "UnpackingHuman-AI interactions: Frominteractionprimitives to adesignspace",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "UnpackingHuman-AI interactions: Frominteractionprimitives to adesignspace",
+      "authors": "K Tsiakas",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3664522",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3664522",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:UnpackingHuman-AI interactions"
+  },
+  {
+    "title": "Automation ofinteraction—interaction designat the crossroads of user experience (UX) andartificial intelligence(AI)",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Automation ofinteraction—interaction designat the crossroads of user experience (UX) andartificial intelligence(AI)",
+      "authors": "M Wiberg",
+      "source": ", E Stolterman Bergqvist - Personal and Ubiquitous Computing, 2023 - Springer",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s00779-023-01779-0",
+      "scholar_link": "https://link.springer.com/article/10.1007/s00779-023-01779-0",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Automation ofinteraction—inter"
+  },
+  {
+    "title": "DesigningcreativeAIpartners with COFI: A framework for modelinginteractioninhuman-AIco-creative systems",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "DesigningcreativeAIpartners with COFI: A framework for modelinginteractioninhuman-AIco-creative systems",
+      "authors": "J Rezwana",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3519026",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3519026",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:DesigningcreativeAIpartners wi"
+  },
+  {
+    "title": "Transitioning tohuman interactionwithAIsystems: New challenges and opportunities for HCI professionals to enablehuman-centeredAI",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Transitioning tohuman interactionwithAIsystems: New challenges and opportunities for HCI professionals to enablehuman-centeredAI",
+      "authors": "W Xu",
+      "source": ", MJ Dainoff, L Ge,",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2022.2041900",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2022.2041900",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Transitioning tohuman interact"
+  },
+  {
+    "title": "Human-AI interactionresearch agenda: A user-centered perspective",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Human-AI interactionresearch agenda: A user-centered perspective",
+      "authors": "T Jiang, Z Sun, S Fu, Y Lv - Data and Information Management, 2024 - Elsevier",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2543925124000147",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S2543925124000147",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Human-AI interactionresearch a"
+  },
+  {
+    "title": "Understandingdesigncollaboration betweendesignersandartificial intelligence: a systematic literature review",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Understandingdesigncollaboration betweendesignersandartificial intelligence: a systematic literature review",
+      "authors": "Y Shi",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3610217",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3610217",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Understandingdesigncollaborati"
+  },
+  {
+    "title": "A situation awareness perspective onhuman-AI interaction: Tensions and opportunities",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "A situation awareness perspective onhuman-AI interaction: Tensions and opportunities",
+      "authors": "J Jiang",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2022.2093863",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2022.2093863",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:A situation awareness perspect"
+  },
+  {
+    "title": "\" help me help theai\": Understanding how explainability can supporthuman-ai interaction",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "\" help me help theai\": Understanding how explainability can supporthuman-ai interaction",
+      "authors": "SSY Kim",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3544548.3581001",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3544548.3581001",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:\" help me help theai\": Underst"
+  },
+  {
+    "title": "The evolution of HCI andhumanfactors: Integratinghumanandartificial intelligence",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The evolution of HCI andhumanfactors: Integratinghumanandartificial intelligence",
+      "authors": "M Chignell",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3557891",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3557891",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:The evolution of HCI andhumanf"
+  },
+  {
+    "title": "Whenhuman-AI interactionsbecome parasocial: Agency and anthropomorphism in affectivedesign",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Whenhuman-AI interactionsbecome parasocial: Agency and anthropomorphism in affectivedesign",
+      "authors": "T Maeda",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3630106.3658956",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3630106.3658956",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Whenhuman-AI interactionsbecom"
+  },
+  {
+    "title": "Towards a science ofhuman-AIdecision making: An overview ofdesignspace in empiricalhuman-subject studies",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Towards a science ofhuman-AIdecision making: An overview ofdesignspace in empiricalhuman-subject studies",
+      "authors": "V Lai,",
+      "source": "C Chen",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3593013.3594087",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3593013.3594087",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Towards a science ofhuman-AIde"
+  },
+  {
+    "title": "An HCI-centric survey and taxonomy ofhuman-generative-AI interactions",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "An HCI-centric survey and taxonomy ofhuman-generative-AI interactions",
+      "authors": "J Shi",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2310.07127",
+      "scholar_link": "https://arxiv.org/abs/2310.07127",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:An HCI-centric survey and taxo"
+  },
+  {
+    "title": "Co-designofhuman-centered, explainableAIfor clinical decision support",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Co-designofhuman-centered, explainableAIfor clinical decision support",
+      "authors": "C Panigutti",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3587271",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3587271",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Co-designofhuman-centered, exp"
+  },
+  {
+    "title": "Artificial intelligence(AI) for user experience (UX)design: a systematic literature review and future research agenda",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligence(AI) for user experience (UX)design: a systematic literature review and future research agenda",
+      "authors": "Å Stige,",
+      "source": "ED Zamani",
+      "year": 2026,
+      "url": "https://www.emerald.com/itp/article-abstract/37/6/2324/1231169",
+      "scholar_link": "https://www.emerald.com/itp/article-abstract/37/6/2324/1231169",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Artificial intelligence(AI) fo"
+  },
+  {
+    "title": "Investigating how practitioners usehuman-aiguidelines: A case study on the people+aiguidebook",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Investigating how practitioners usehuman-aiguidelines: A case study on the people+aiguidebook",
+      "authors": "N Yildirim",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3544548.3580900",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3544548.3580900",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Investigating how practitioner"
+  },
+  {
+    "title": "Generative AI, why, how, and outcomes: Auser adoptionstudy",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Generative AI, why, how, and outcomes: Auser adoptionstudy",
+      "authors": "LV Huy",
+      "source": ",",
+      "year": 2026,
+      "url": "https://aisel.aisnet.org/thci/vol16/iss1/1/",
+      "scholar_link": "https://aisel.aisnet.org/thci/vol16/iss1/1/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Generative AI, why, how, and o"
+  },
+  {
+    "title": "Adoptionand impacts ofgenerative artificial intelligence: Theoretical underpinnings and research agenda",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Adoptionand impacts ofgenerative artificial intelligence: Theoretical underpinnings and research agenda",
+      "authors": "R Gupta",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2667096824000211",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S2667096824000211",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Adoptionand impacts ofgenerati"
+  },
+  {
+    "title": "The rapidadoptionofgenerative AI",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The rapidadoptionofgenerative AI",
+      "authors": "A Bick",
+      "source": ",",
+      "year": 2026,
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.02523",
+      "scholar_link": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.02523",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:The rapidadoptionofgenerative "
+  },
+  {
+    "title": "An empirical evaluation of agenerative artificial intelligencetechnologyadoptionmodel from entrepreneurs' perspectives",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "An empirical evaluation of agenerative artificial intelligencetechnologyadoptionmodel from entrepreneurs' perspectives",
+      "authors": "V Gupta - Systems, 2024 - mdpi.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2079-8954/12/3/103",
+      "scholar_link": "https://www.mdpi.com/2079-8954/12/3/103",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:An empirical evaluation of age"
+  },
+  {
+    "title": "Breaking barriers: investigatinggenerative AI adoptionand organizationaluse",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Breaking barriers: investigatinggenerative AI adoptionand organizationaluse",
+      "authors": "N Albishri",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/jeim/article/39/1/267/1269903",
+      "scholar_link": "https://www.emerald.com/jeim/article/39/1/267/1269903",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Breaking barriers: investigati"
+  },
+  {
+    "title": "Learning to adoptgenerative AI",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Learning to adoptgenerative AI",
+      "authors": "L Ma",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2410.19806",
+      "scholar_link": "https://arxiv.org/abs/2410.19806",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Learning to adoptgenerative AI"
+  },
+  {
+    "title": "Generative artificial intelligence(AI) technologyadoptionmodel for entrepreneurs: case of ChatGPT",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generative artificial intelligence(AI) technologyadoptionmodel for entrepreneurs: case of ChatGPT",
+      "authors": "V Gupta, H Yang - Internet Reference Services Quarterly, 2024 - Taylor & Francis",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10875301.2023.2300114",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/10875301.2023.2300114",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Generative artificial intellig"
+  },
+  {
+    "title": "Towardsadoptionofgenerative AIin organizational settings",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Towardsadoptionofgenerative AIin organizational settings",
+      "authors": "K Prasad Agrawal",
+      "source": "- Journal of Computer Information Systems, 2024 - Taylor & Francis",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2023.2240744",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2023.2240744",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Towardsadoptionofgenerative AI"
+  },
+  {
+    "title": "Usinggenerative AIto assist with technologyadoptionassessment",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Usinggenerative AIto assist with technologyadoptionassessment",
+      "authors": "C Nugent",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-48306-6_20",
+      "scholar_link": "https://link.springer.com/chapter/10.1007/978-3-031-48306-6_20",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Usinggenerative AIto assist wi"
+  },
+  {
+    "title": "Driving factors ofgenerative AI adoptionin new product development teams from a UTAUT perspective",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Driving factors ofgenerative AI adoptionin new product development teams from a UTAUT perspective",
+      "authors": "Y Xia,",
+      "source": "Y Chen",
+      "year": 2025,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2024.2375686",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2024.2375686",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Driving factors ofgenerative A"
+  },
+  {
+    "title": "Trust inAIand top management support ingenerative-AI adoption",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Trust inAIand top management support ingenerative-AI adoption",
+      "authors": "P Korzyński",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2024.2401986",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2024.2401986",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Trust inAIand top management s"
+  },
+  {
+    "title": "Save",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Save",
+      "authors": "DK Seon, JH You - The Journal of Information …, 2024 - Korea Association of Information …",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "javascript:void(0)",
+      "scholar_link": "javascript:void(0)",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Save"
+  },
+  {
+    "title": "Determinants ofgenerative AIsystemadoptionand usage behavior in Korean companies: Applying the UTAUT model",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Determinants ofgenerative AIsystemadoptionand usage behavior in Korean companies: Applying the UTAUT model",
+      "authors": "Y Kim, V Blazquez,",
+      "source": "T Oh",
+      "year": 2024,
+      "url": "https://www.mdpi.com/2076-328X/14/11/1035",
+      "scholar_link": "https://www.mdpi.com/2076-328X/14/11/1035",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Determinants ofgenerative AIsy"
+  },
+  {
+    "title": "Navigating the complexity ofgenerative ai adoptionin software engineering",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Navigating the complexity ofgenerative ai adoptionin software engineering",
+      "authors": "D Russo",
+      "source": "- ACM Transactions on Software Engineering and …, 2024 - dl.acm.org",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3652154",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3652154",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Navigating the complexity ofge"
+  },
+  {
+    "title": "Is it the end of the technology acceptance model in the era ofgenerative artificial intelligence?",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Is it the end of the technology acceptance model in the era ofgenerative artificial intelligence?",
+      "authors": "E Mogaji",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/insight/content/doi/10.1108/ijchm-08-2023-1271/full/pdf",
+      "scholar_link": "https://www.emerald.com/insight/content/doi/10.1108/ijchm-08-2023-1271/full/pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Is it the end of the technolog"
+  },
+  {
+    "title": "Predicting theusabilityof mobile applications usingAItools: the rise of large userinterfacemodels, opportunities, and challenges",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Predicting theusabilityof mobile applications usingAItools: the rise of large userinterfacemodels, opportunities, and challenges",
+      "authors": "A Namoun",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1877050924013127",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S1877050924013127",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Predicting theusabilityof mobi"
+  },
+  {
+    "title": "U “AI” testing: userinterfaceandusabilitytesting of a chest X-rayAItool in a simulated real-world workflow",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "U “AI” testing: userinterfaceandusabilitytesting of a chest X-rayAItool in a simulated real-world workflow",
+      "authors": "J Lam Shin Cheung, A Ali… - … of Radiologists Journal, 2023 - journals.sagepub.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/08465371221131200",
+      "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/08465371221131200",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:U “AI” testing: userinterfacea"
+  },
+  {
+    "title": "Towards anAI-driven userinterfacedesign for web applications",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Towards anAI-driven userinterfacedesign for web applications",
+      "authors": "A Costa",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1877050924011104",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S1877050924011104",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Towards anAI-driven userinterf"
+  },
+  {
+    "title": "Intelligent UserInterface: UsableArtificial IntelligenceandArtificial IntelligenceforUsability",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Intelligent UserInterface: UsableArtificial IntelligenceandArtificial IntelligenceforUsability",
+      "authors": "P Biswas",
+      "source": "- 2026 - books.google.com",
+      "year": 2026,
+      "url": "https://books.google.com/books?hl=en&lr=&id=RtitEQAAQBAJ&oi=fnd&pg=PT8&dq=AI+interface+usability&ots=v-mIshshuI&sig=4GJZE0FJduIUXY0H2A9G1BCp-rc",
+      "scholar_link": "https://books.google.com/books?hl=en&lr=&id=RtitEQAAQBAJ&oi=fnd&pg=PT8&dq=AI+interface+usability&ots=v-mIshshuI&sig=4GJZE0FJduIUXY0H2A9G1BCp-rc",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Intelligent UserInterface: Usa"
+  },
+  {
+    "title": "AI-enhanced chatbot for improving healthcareusabilityand accessibility for older adults",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "AI-enhanced chatbot for improving healthcareusabilityand accessibility for older adults",
+      "authors": "A Khamaj",
+      "source": "- Alexandria Engineering Journal, 2025 - Elsevier",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1110016824016880",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S1110016824016880",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:AI-enhanced chatbot for improv"
+  },
+  {
+    "title": "Exploring user experience andusabilityin a metaverse learning environment for students: Ausabilitystudy of theartificial intelligence, innovation, and society …",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Exploring user experience andusabilityin a metaverse learning environment for students: Ausabilitystudy of theartificial intelligence, innovation, and society …",
+      "authors": "A Pyae",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2079-9292/12/20/4283",
+      "scholar_link": "https://www.mdpi.com/2079-9292/12/20/4283",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Exploring user experience andu"
+  },
+  {
+    "title": "Enhancinginterfacedesign withAI: an exploratory study on a CHATGPT-4-based tool for cognitive walkthrough inspired evaluations",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Enhancinginterfacedesign withAI: an exploratory study on a CHATGPT-4-based tool for cognitive walkthrough inspired evaluations",
+      "authors": "A Bisante",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3656650.3656676",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3656650.3656676",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Enhancinginterfacedesign withA"
+  },
+  {
+    "title": "Human-AIcollaboration: Exploringinterfacesfor interactive machine learning",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Human-AIcollaboration: Exploringinterfacesfor interactive machine learning",
+      "authors": "GC Saha",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/Gonesh-Saha-2/publication/375747449_Human-AI_Collaboration_Exploring_interfaces_for_interactive_Machine_Learning/links/6571fed4ea5f7f02054cddc9/Human-AI-Collaboration-Exploring-interfaces-for-interactive-Machine-Learning.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/Gonesh-Saha-2/publication/375747449_Human-AI_Collaboration_Exploring_interfaces_for_interactive_Machine_Learning/links/6571fed4ea5f7f02054cddc9/Human-AI-Collaboration-Exploring-interfaces-for-interactive-Machine-Learning.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Human-AIcollaboration: Explori"
+  },
+  {
+    "title": "AI-driven userinterfacedesign: enhancing digital learning and skill development",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "AI-driven userinterfacedesign: enhancing digital learning and skill development",
+      "authors": "A Razaque",
+      "source": ", S Hariri,",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5114814",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5114814",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:AI-driven userinterfacedesign:"
+  },
+  {
+    "title": "Quality,usability, and effectiveness of mHealth apps and the role ofartificial intelligence: current scenario and challenges",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 0,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Quality,usability, and effectiveness of mHealth apps and the role ofartificial intelligence: current scenario and challenges",
+      "authors": "A Deniz-Garcia,",
+      "source": "H Fabelo",
+      "year": 2023,
+      "url": "https://www.jmir.org/2023/1/e44030/",
+      "scholar_link": "https://www.jmir.org/2023/1/e44030/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Quality,usability, and effecti"
+  },
+  {
+    "title": "Generativeaiin multimodal userinterfaces: Trends, challenges, and cross-platform adaptability",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generativeaiin multimodal userinterfaces: Trends, challenges, and cross-platform adaptability",
+      "authors": "J Bieniek",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2411.10234",
+      "scholar_link": "https://arxiv.org/abs/2411.10234",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Generativeaiin multimodal user"
+  },
+  {
+    "title": "Need for UAI–anatomy of the paradigm of usableartificial intelligencefor domain-specificAIapplicability",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Need for UAI–anatomy of the paradigm of usableartificial intelligencefor domain-specificAIapplicability",
+      "authors": "H Wiemer,",
+      "source": "D Schneider",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2414-4088/7/3/27",
+      "scholar_link": "https://www.mdpi.com/2414-4088/7/3/27",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Need for UAI–anatomy of the pa"
+  },
+  {
+    "title": "Automation of interaction—interaction design at the crossroads of user experience (UX) andartificial intelligence(AI)",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Automation of interaction—interaction design at the crossroads of user experience (UX) andartificial intelligence(AI)",
+      "authors": "M Wiberg",
+      "source": ", E Stolterman Bergqvist - Personal and Ubiquitous Computing, 2023 - Springer",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s00779-023-01779-0",
+      "scholar_link": "https://link.springer.com/article/10.1007/s00779-023-01779-0",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Automation of interaction—inte"
+  },
+  {
+    "title": "Artificial intelligence-oriented userinterfacedesign and human behavior recognition based on human–computer nature interaction",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligence-oriented userinterfacedesign and human behavior recognition based on human–computer nature interaction",
+      "authors": "X Han, D Huang, S Eun-Lee… - International Journal of …, 2023 - World Scientific",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.worldscientific.com/doi/abs/10.1142/S0219843622500207",
+      "scholar_link": "https://www.worldscientific.com/doi/abs/10.1142/S0219843622500207",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:Artificial intelligence-orient"
+  },
+  {
+    "title": "TheAI interface: Designing for the ideal machine-human experience",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "TheAI interface: Designing for the ideal machine-human experience",
+      "authors": "A Sundar",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0747563224004072",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0747563224004072",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    },
+    "pocket": "human_machine_interaction",
+    "doi": "gs:TheAI interface: Designing for"
+  }
+]

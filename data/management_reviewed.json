@@ -1,0 +1,1522 @@
+[
+  {
+    "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "authors": [
+        "Wiebke Hutiri",
+        "Morgan Scheuerman",
+        "Shruti Nagpal",
+        "Austin Hoag",
+        "Alice Xiang"
+      ],
+      "published": "2026-04-10T15:26:57Z",
+      "arxiv_id": "2604.09413v1",
+      "url": "https://arxiv.org/abs/2604.09413v1",
+      "summary": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+      "authors": [
+        "Arnab Paul Choudhury",
+        "Rahul Rathod",
+        "Aryan Yadav"
+      ],
+      "published": "2026-04-10T15:09:28Z",
+      "arxiv_id": "2604.09395v1",
+      "url": "https://arxiv.org/abs/2604.09395v1",
+      "summary": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+    "score": 5,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+      "authors": [
+        "Oleg Solozobov"
+      ],
+      "published": "2026-04-10T13:06:38Z",
+      "arxiv_id": "2604.09296v1",
+      "url": "https://arxiv.org/abs/2604.09296v1",
+      "summary": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Artificial intelligence can persuade people to take political actions",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "authors": [
+        "Kobi Hackenburg",
+        "Luke Hewitt",
+        "Caroline Wagner",
+        "Ben M. Tappin",
+        "Christopher Summerfield"
+      ],
+      "published": "2026-04-10T10:34:49Z",
+      "arxiv_id": "2604.09200v1",
+      "url": "https://arxiv.org/abs/2604.09200v1",
+      "summary": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+    "score": 8,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "authors": [
+        "Tommy Shaffer Shane",
+        "Simon Mylius",
+        "Hamish Hobbs"
+      ],
+      "published": "2026-04-10T08:37:18Z",
+      "arxiv_id": "2604.09104v1",
+      "url": "https://arxiv.org/abs/2604.09104v1",
+      "summary": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Scrapyard AI",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Scrapyard AI",
+      "authors": [
+        "Marc Böhlen",
+        "Sai Krishna"
+      ],
+      "published": "2026-04-09T22:38:57Z",
+      "arxiv_id": "2604.08803v1",
+      "url": "https://arxiv.org/abs/2604.08803v1",
+      "summary": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Towards Generalizable Representations of Mathematical Strategies",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Towards Generalizable Representations of Mathematical Strategies",
+      "authors": [
+        "Siddhartha Pradhan",
+        "Ethan Prihar",
+        "Erin Ottmar"
+      ],
+      "published": "2026-04-09T18:26:13Z",
+      "arxiv_id": "2604.08693v1",
+      "url": "https://arxiv.org/abs/2604.08693v1",
+      "summary": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "authors": [
+        "Addison J. Wu",
+        "Ryan Liu",
+        "Shuyue Stella Li",
+        "Yulia Tsvetkov",
+        "Thomas L. Griffiths"
+      ],
+      "published": "2026-04-09T17:57:50Z",
+      "arxiv_id": "2604.08525v1",
+      "url": "https://arxiv.org/abs/2604.08525v1",
+      "summary": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "authors": [
+        "Juergen Dietrich"
+      ],
+      "published": "2026-04-09T17:00:26Z",
+      "arxiv_id": "2604.08465v1",
+      "url": "https://arxiv.org/abs/2604.08465v1",
+      "summary": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "authors": [
+        "Jyh-An Lee",
+        "Jingwen Liu"
+      ],
+      "published": "2026-04-09T15:19:40Z",
+      "arxiv_id": "2604.08353v1",
+      "url": "https://arxiv.org/abs/2604.08353v1",
+      "summary": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "authors": [
+        "David Shoresh",
+        "Sarit Kraus",
+        "Yonatan Loewenstein"
+      ],
+      "published": "2026-04-09T19:40:15Z",
+      "arxiv_id": "2604.08727v1",
+      "url": "https://arxiv.org/abs/2604.08727v1",
+      "summary": "As large language model (LLM) agents become more prevalent in real world social settings, social intelligence will play an increasingly critical role. But social intelligence is still a poorly defined construct, for humans and artificial agents. We introduce a multiplayer arena of mixed cooperative and competitive social games to study LLM social intelligence. The controllability of LLM based agents enables systematic evaluation, which also supports broader inferences about social intelligence per se. We evaluated eight diverse LLMs (24B to 1T parameters) using a Communicate Predict Act (COMPACT) interaction protocol and fine grained probing of social dynamics. Elo style ratings reveal consistent performance differences across models, but this scalar measure provides only a partial characterization of social intelligence. To address this limitation, we analyze gameplay traces to extract sociocognitive metrics capturing action prediction, communicative influence, strategic reasoning, and tradeoffs under conflicting interests. These sociocognitive metrics exhibit strong intramodel consistency and they reliably predict pairwise agent advantage in game outcomes (AUC ROC = 0.82). Feature importance analysis indicates that surprisingly, influence, transparency, and adaptability are more predictive of success than Theory of Mind inference or deep planning. Together, our results advance a testable, multidimensional conception of social intelligence and provide empirical insights into the capacities that underpin it.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "authors": [
+        "Ramakrishnan Krishnamurthy",
+        "Arpit Agarwal",
+        "Lakshminarayanan Subramanian",
+        "Maximilian Nickel"
+      ],
+      "published": "2026-04-09T17:45:15Z",
+      "arxiv_id": "2604.08643v1",
+      "url": "https://arxiv.org/abs/2604.08643v1",
+      "summary": "User interactions in online recommendation platforms create interdependencies among content creators: feedback on one creator's content influences the system's learning and, in turn, the exposure of other creators' contents. To analyze incentives in such settings, we model collaboration as a multi-agent stochastic linear bandit problem with a transferable utility (TU) cooperative game formulation, where a coalition's value equals the negative sum of its members' cumulative regrets.\n  We show that, for identical (homogenous) agents with fixed action sets, the induced TU game is convex under mild algorithmic conditions, implying a non-empty core that contains the Shapley value and ensures both stability and fairness. For heterogeneous agents, the game still admits a non-empty core, though convexity and Shapley value core-membership are no longer guaranteed. To address this, we propose a simple regret-based payout rule that satisfies three out of the four Shapley axioms and also lies in the core. Experiments on MovieLens-100k dataset illustrate when the empirical payout aligns with -- and diverges from -- the Shapley fairness across different settings and algorithms.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "authors": [
+        "Ralf Beuthan",
+        "Megan Coffee",
+        "Heejin Kim",
+        "Na Yeon Kim",
+        "Pedro Kringen"
+      ],
+      "published": "2026-04-09T13:14:34Z",
+      "arxiv_id": "2604.08217v1",
+      "url": "https://arxiv.org/abs/2604.08217v1",
+      "summary": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "We Need Strong Preconditions For Using Simulations In Policy",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "We Need Strong Preconditions For Using Simulations In Policy",
+      "authors": [
+        "Steven Luo",
+        "Saanvi Arora",
+        "Carlos Guirado"
+      ],
+      "published": "2026-04-09T05:39:35Z",
+      "arxiv_id": "2604.07838v1",
+      "url": "https://arxiv.org/abs/2604.07838v1",
+      "summary": "Simulations, and more recently LLM agent simulations, have been adopted as useful tools for policymakers to explore interventions, rehearse potential scenarios, and forecast outcomes. While LLM simulations have enormous potential, two critical challenges remain understudied: the dual-use potential of accurate models of individual or population-level human behavior and the difficulty of validating simulation outputs. In light of these limitations, we must define boundaries for both simulation developers and decision-makers to ensure responsible development and ethical use. We propose and discuss three preconditions for societal-scale LLM agent simulations: 1) do not treat simulations of marginalized populations as neutral technical outputs, 2) do not simulate populations without their participation, and 3) do not simulate without accountability. We believe that these guardrails, combined with our call for simulation development and deployment reports, will help build trust among policymakers while promoting responsible development and use of societal-scale LLM agent simulations for the public benefit.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "The Need for a Green ICT Reference Framework",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The Need for a Green ICT Reference Framework",
+      "authors": [
+        "Marco Aiello",
+        "Mina Alipour",
+        "Antonio Brogi",
+        "Rafael Capilla",
+        "Lidia Fuentes"
+      ],
+      "published": "2026-04-10T13:15:43Z",
+      "arxiv_id": "2604.09307v1",
+      "url": "https://arxiv.org/abs/2604.09307v1",
+      "summary": "The sustainability impacts of ICT systems are difficult to assess and govern due to structural complexity, fragmented measurement practices, and unclear responsibilities across system layers. We argue that these challenges cannot be addressed solely by metrics and motivate the need for a shared Green ICT reference framework that integrates sustainability across multiple perspectives and domains, lifecycle phases, and governance contexts. We present an initial framework developed within the Informatics Europe Green ICT Working Group as a first step towards a comprehensive reference framework.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ]
+    }
+  },
+  {
+    "title": "Adoptionand integration ofAIin organizations: a systematic review of challenges and drivers towards future directions of research",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Adoptionand integration ofAIin organizations: a systematic review of challenges and drivers towards future directions of research",
+      "authors": "E Romeo",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/k/article/55/3/1286/1259501",
+      "scholar_link": "https://www.emerald.com/k/article/55/3/1286/1259501",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The critical determinants impactingartificial intelligence adoptionat theorganizationallevel",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "The critical determinants impactingartificial intelligence adoptionat theorganizationallevel",
+      "authors": "OM Horani",
+      "source": ",",
+      "year": 2026,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/02666669231166889",
+      "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/02666669231166889",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Towardsadoptionof generativeAIinorganizationalsettings",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Towardsadoptionof generativeAIinorganizationalsettings",
+      "authors": "K Prasad Agrawal",
+      "source": "- Journal of Computer Information Systems, 2024 - Taylor & Francis",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2023.2240744",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2023.2240744",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Technology readiness and theorganizationaljourney towardsAI adoption: An empirical study",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Technology readiness and theorganizationaljourney towardsAI adoption: An empirical study",
+      "authors": "V Uren",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0268401222001220",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0268401222001220",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Strategic integration of generativeAIinorganizationalsettings: Applications, challenges, andadoptionrequirements",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Strategic integration of generativeAIinorganizationalsettings: Applications, challenges, andadoptionrequirements",
+      "authors": "M Al-Kfairy",
+      "source": "- IEEE Engineering Management Review, 2025 - ieeexplore.ieee.org",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/abstract/document/10854655/",
+      "scholar_link": "https://ieeexplore.ieee.org/abstract/document/10854655/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "AI adoption: a bridge or a barrier? The moderating role oforganizationalsupport in the path toward employee well-being",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "AI adoption: a bridge or a barrier? The moderating role oforganizationalsupport in the path toward employee well-being",
+      "authors": "S Soomro",
+      "source": ", M Fan,",
+      "year": 2026,
+      "url": "https://www.emerald.com/k/article-pdf/55/2/1059/11202201/k-07-2024-1889en.pdf",
+      "scholar_link": "https://www.emerald.com/k/article-pdf/55/2/1059/11202201/k-07-2024-1889en.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Shifting attitudes and trust inAI: Influences onorganizational AI adoption",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Shifting attitudes and trust inAI: Influences onorganizational AI adoption",
+      "authors": "SJ Daly,",
+      "source": "A Wiewiora",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0040162525001398",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0040162525001398",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The impact ofAI adoptiononorganizationalperformance: ethical and technological factors in Iran's startup ecosystem",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "The impact ofAI adoptiononorganizationalperformance: ethical and technological factors in Iran's startup ecosystem",
+      "authors": "A Salamzadeh",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/sl/article/doi/10.1108/SL-04-2025-0091/1309961",
+      "scholar_link": "https://www.emerald.com/sl/article/doi/10.1108/SL-04-2025-0091/1309961",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Barriers and enablers ofAI adoptionin human resource management: A critical analysis oforganizationaland technological factors",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Barriers and enablers ofAI adoptionin human resource management: A critical analysis oforganizationaland technological factors",
+      "authors": "M Madanchian",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2078-2489/16/1/51",
+      "scholar_link": "https://www.mdpi.com/2078-2489/16/1/51",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Exploringartificial intelligence adoptionin public organizations: a comparative case study",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Exploringartificial intelligence adoptionin public organizations: a comparative case study",
+      "authors": "O Neumann",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/14719037.2022.2048685",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/14719037.2022.2048685",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "AI adoptionin supply chain management: A systematic literature review",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "AI adoptionin supply chain management: A systematic literature review",
+      "authors": "G Shahzadi",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/jmtm/article-abstract/35/6/1125/1234430",
+      "scholar_link": "https://www.emerald.com/jmtm/article-abstract/35/6/1125/1234430",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "R Khan",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "R Khan",
+      "authors": "M Usman,",
+      "source": "R Khan",
+      "year": 2026,
+      "url": "/citations?user=yCZ2VqcAAAAJ&hl=en&num=15&oi=sra",
+      "scholar_link": "https://scholar.google.com/citations?user=yCZ2VqcAAAAJ&hl=en&num=15&oi=sra",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Environmental,organizational, and individual determinants ofAI adoption: A multilevel knowledge and analysis",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Environmental,organizational, and individual determinants ofAI adoption: A multilevel knowledge and analysis",
+      "authors": "F Tiago",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2444569X25002793",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S2444569X25002793",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Organizationalgovernance of emerging technologies:AI adoptionin healthcare",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "title": "Organizationalgovernance of emerging technologies:AI adoptionin healthcare",
+      "authors": "JY Kim",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3593013.3594089",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3593013.3594089",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Artificial intelligence adoptionand system‐wide change",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligence adoptionand system‐wide change",
+      "authors": "A Agrawal",
+      "source": ",",
+      "year": 2026,
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jems.12521",
+      "scholar_link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jems.12521",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The GenAI is out of the bottle:generative artificial intelligencefrom abusiness modelinnovation perspective",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The GenAI is out of the bottle:generative artificial intelligencefrom abusiness modelinnovation perspective",
+      "authors": "DK Kanbach",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s11846-023-00696-z",
+      "scholar_link": "https://link.springer.com/article/10.1007/s11846-023-00696-z",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Howgenerative AIwill drive enterprise innovation",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Howgenerative AIwill drive enterprise innovation",
+      "authors": "A Marshall, C Bieck, J Dencik, BC Goehring… - Strategy & …, 2024 - emerald.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.emerald.com/sl/article/52/1/23/1212500",
+      "scholar_link": "https://www.emerald.com/sl/article/52/1/23/1212500",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Leveraginggenerative artificial intelligencefor sustainablebusiness modelinnovation in production systems",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Leveraginggenerative artificial intelligencefor sustainablebusiness modelinnovation in production systems",
+      "authors": "S Wang",
+      "source": ", H Zhang - International Journal of Production Research, 2025 - Taylor & Francis",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00207543.2025.2485318",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/00207543.2025.2485318",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Transformingbusinesswithgenerative AI: Research, innovation, market deployment and future shifts inbusiness models",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Transformingbusinesswithgenerative AI: Research, innovation, market deployment and future shifts inbusiness models",
+      "authors": "N Singh",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2411.14437",
+      "scholar_link": "https://arxiv.org/abs/2411.14437",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The Future ofBusinesswithGenerative AI Modelsand Insights",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The Future ofBusinesswithGenerative AI Modelsand Insights",
+      "authors": "M Sharma",
+      "source": ", V Selvi,",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/abstract/document/10969226/",
+      "scholar_link": "https://ieeexplore.ieee.org/abstract/document/10969226/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Understandinggenerative AI businessapplications",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Understandinggenerative AI businessapplications",
+      "authors": "I Cronin - Apress eBooks, 2024 - Springer",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://link.springer.com/content/pdf/10.1007/979-8-8688-0282-9.pdf",
+      "scholar_link": "https://link.springer.com/content/pdf/10.1007/979-8-8688-0282-9.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Harnessinggenerative AIforbusinessgrowth and opportunities",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Harnessinggenerative AIforbusinessgrowth and opportunities",
+      "authors": "JVN Ramesh",
+      "source": ", SS Singh, A Vora… - …",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/abstract/document/10882452/",
+      "scholar_link": "https://ieeexplore.ieee.org/abstract/document/10882452/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "AI-poweredbusiness modelinnovation: Analyzing the implications ofgenerative AIon value creation, operational efficiency and market dynamics",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "AI-poweredbusiness modelinnovation: Analyzing the implications ofgenerative AIon value creation, operational efficiency and market dynamics",
+      "authors": "O Sarioguz",
+      "source": ", E Miser - World Journal of Advanced Engineering …, 2024 - researchgate.net",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/James-Benardo/publication/386078480_AI-powered_business_model_innovation_Analyzing_the_implications_of_generative_AI_on_value_creation_operational_efficiency_and_market_dynamics/links/67422aa56dedd318c896f023/AI-powered-business-model-innovation-Analyzing-the-implications-of-generative-AI-on-value-creation-operational-efficiency-and-market-dynamics.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/James-Benardo/publication/386078480_AI-powered_business_model_innovation_Analyzing_the_implications_of_generative_AI_on_value_creation_operational_efficiency_and_market_dynamics/links/67422aa56dedd318c896f023/AI-powered-business-model-innovation-Analyzing-the-implications-of-generative-AI-on-value-creation-operational-efficiency-and-market-dynamics.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Advancements and applications ofgenerative artificial intelligenceand large languagemodelsonbusinessmanagement: A comprehensive review",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Advancements and applications ofgenerative artificial intelligenceand large languagemodelsonbusinessmanagement: A comprehensive review",
+      "authors": "AA Linkon",
+      "source": ",",
+      "year": 2026,
+      "url": "https://al-kindipublishers.org/index.php/jcsts/article/view/6947",
+      "scholar_link": "https://al-kindipublishers.org/index.php/jcsts/article/view/6947",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Generative artificial intelligenceand evaluating strategic decisions",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Generative artificial intelligenceand evaluating strategic decisions",
+      "authors": "AR Doshi",
+      "source": ",",
+      "year": 2026,
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/smj.3677",
+      "scholar_link": "https://onlinelibrary.wiley.com/doi/full/10.1002/smj.3677",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "How organizations can innovate withgenerative AI",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "How organizations can innovate withgenerative AI",
+      "authors": "J Holmström",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0007681324000247",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0007681324000247",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Generative AI: S. Feuerriegel et al.",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Generative AI: S. Feuerriegel et al.",
+      "authors": "S Feuerriegel",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s12599-023-00834-7",
+      "scholar_link": "https://link.springer.com/article/10.1007/s12599-023-00834-7",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Generative artificial intelligenceand the challenges to adding value ethically",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Generative artificial intelligenceand the challenges to adding value ethically",
+      "authors": "SF Wamba",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0166497225000677",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0166497225000677",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Role and challenges of ChatGPT and similargenerative artificial intelligenceinbusinessmanagement",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Role and challenges of ChatGPT and similargenerative artificial intelligenceinbusinessmanagement",
+      "authors": "N Rane",
+      "source": "- Available at SSRN 4603227, 2023 - papers.ssrn.com",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4603227",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4603227",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Large processmodels: a vision forbusinessprocess management in the age ofgenerative AI",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Large processmodels: a vision forbusinessprocess management in the age ofgenerative AI",
+      "authors": "T Kampik",
+      "source": ", C Warmuth,",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s13218-024-00863-8",
+      "scholar_link": "https://link.springer.com/article/10.1007/s13218-024-00863-8",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Technology trends instrategic managementin theAIera: Systematic literature review",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Technology trends instrategic managementin theAIera: Systematic literature review",
+      "authors": "W Alhyasat",
+      "source": ",",
+      "year": 2026,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/01672533251322396",
+      "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/01672533251322396",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "The analysis ofstrategic managementdecisions and corporate competitiveness based onartificial intelligence",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "The analysis ofstrategic managementdecisions and corporate competitiveness based onartificial intelligence",
+      "authors": "Y Pu, H Li, W Hou, X Pan - Scientific Reports, 2025 - nature.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.nature.com/articles/s41598-025-02842-x",
+      "scholar_link": "https://www.nature.com/articles/s41598-025-02842-x",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Artificial intelligenceinstrategic management: Examining novelAIapplications in organizationalstrategicdecision-making",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligenceinstrategic management: Examining novelAIapplications in organizationalstrategicdecision-making",
+      "authors": "MG Asiabar, MG Asiabar, AG Asiabar - 2024 - preprints.org",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.preprints.org/frontend/manuscript/f35f4c26e817caee4d39e55bf9289bc0/download_pub",
+      "scholar_link": "https://www.preprints.org/frontend/manuscript/f35f4c26e817caee4d39e55bf9289bc0/download_pub",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Designing anAI-drivenmanagementsystem forstrategyimplementation",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Designing anAI-drivenmanagementsystem forstrategyimplementation",
+      "authors": "O Latvakoski - 2025 - aaltodoc.aalto.fi",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://aaltodoc.aalto.fi/items/361130b5-67c9-4f42-b4fb-48ed55187793",
+      "scholar_link": "https://aaltodoc.aalto.fi/items/361130b5-67c9-4f42-b4fb-48ed55187793",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "AI-driven decision support systems inmanagement: enhancingstrategicplanning and execution",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "AI-driven decision support systems inmanagement: enhancingstrategicplanning and execution",
+      "authors": "S Narne",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/Suresh-Dodda/publication/383950090_AI-Driven_Decision_Support_Systems_in_Management_Enhancing_Strategic_Planning_and_Execution/links/66e25265bd20173667cacb87/AI-Driven-Decision-Support-Systems-in-Management-Enhancing-Strategic-Planning-and-Execution.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/Suresh-Dodda/publication/383950090_AI-Driven_Decision_Support_Systems_in_Management_Enhancing_Strategic_Planning_and_Execution/links/66e25265bd20173667cacb87/AI-Driven-Decision-Support-Systems-in-Management-Enhancing-Strategic-Planning-and-Execution.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "AIin decision making: transforming businessstrategies",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "AIin decision making: transforming businessstrategies",
+      "authors": "S Kaggwa",
+      "source": ", TF Eleogu, F Okonkwo… - … Journal of Research …, 2024 - researchgate.net",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/Oluwatoyin-Farayola/publication/377345979_AI_in_Decision_Making_Transforming_Business_Strategies/links/6601fe2fa4857c796282c14e/AI-in-Decision-Making-Transforming-Business-Strategies.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/Oluwatoyin-Farayola/publication/377345979_AI_in_Decision_Making_Transforming_Business_Strategies/links/6601fe2fa4857c796282c14e/AI-in-Decision-Making-Transforming-Business-Strategies.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Generativeartificial intelligenceand evaluatingstrategicdecisions",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Generativeartificial intelligenceand evaluatingstrategicdecisions",
+      "authors": "AR Doshi",
+      "source": ",",
+      "year": 2026,
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/smj.3677",
+      "scholar_link": "https://onlinelibrary.wiley.com/doi/full/10.1002/smj.3677",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Integratingartificial intelligenceinstrategicbusiness decision-making: A systematic review of predictive models",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Integratingartificial intelligenceinstrategicbusiness decision-making: A systematic review of predictive models",
+      "authors": "S Vudugula",
+      "source": ",",
+      "year": 2026,
+      "url": "http://ijsir.org/index.php/IJSIR/article/view/2",
+      "scholar_link": "http://ijsir.org/index.php/IJSIR/article/view/2",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Strategicintegration ofartificial intelligencefor sustainable businesses: Implications for datamanagementand human user engagement in the digital era",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Strategicintegration ofartificial intelligencefor sustainable businesses: Implications for datamanagementand human user engagement in the digital era",
+      "authors": "SD Jankovic, DM Curovic - Sustainability, 2023 - mdpi.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2071-1050/15/21/15208",
+      "scholar_link": "https://www.mdpi.com/2071-1050/15/21/15208",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Artificial intelligenceandstrategicdecision-making: Evidence from entrepreneurs and investors",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Artificial intelligenceandstrategicdecision-making: Evidence from entrepreneurs and investors",
+      "authors": "FA Csaszar",
+      "source": ",",
+      "year": 2026,
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/stsc.2024.0190",
+      "scholar_link": "https://pubsonline.informs.org/doi/abs/10.1287/stsc.2024.0190",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Investigating the influence ofartificial intelligenceon business value in the digital era ofstrategy: A literature review",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Investigating the influence ofartificial intelligenceon business value in the digital era ofstrategy: A literature review",
+      "authors": "NA Perifanis",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2078-2489/14/2/85",
+      "scholar_link": "https://www.mdpi.com/2078-2489/14/2/85",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Artificial intelligenceand the changing sources of competitive advantage",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Artificial intelligenceand the changing sources of competitive advantage",
+      "authors": "S Krakowski",
+      "source": ",",
+      "year": 2026,
+      "url": "https://sms.onlinelibrary.wiley.com/doi/abs/10.1002/smj.3387",
+      "scholar_link": "https://sms.onlinelibrary.wiley.com/doi/abs/10.1002/smj.3387",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Competitive advantage throughartificial intelligence: Toward a theory of situatedAI",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "metadata": {
+      "title": "Competitive advantage throughartificial intelligence: Toward a theory of situatedAI",
+      "authors": "A Kemp",
+      "source": "- Academy of",
+      "year": 2026,
+      "url": "https://journals.aom.org/doi/abs/10.5465/amr.2020.0205",
+      "scholar_link": "https://journals.aom.org/doi/abs/10.5465/amr.2020.0205",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Generativeartificial intelligencein business: towards astrategichuman resourcemanagementframework",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Generativeartificial intelligencein business: towards astrategichuman resourcemanagementframework",
+      "authors": "S Chowdhury",
+      "source": ",",
+      "year": 2026,
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-8551.12824",
+      "scholar_link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-8551.12824",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  },
+  {
+    "title": "Artificial intelligence, machine learning, and deep learning for advanced businessstrategies: a review",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "title": "Artificial intelligence, machine learning, and deep learning for advanced businessstrategies: a review",
+      "authors": "NL Rane",
+      "source": ",",
+      "year": 2026,
+      "url": "https://puiij.com/index.php/research/article/view/143",
+      "scholar_link": "https://puiij.com/index.php/research/article/view/143",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ]
+    }
+  }
+]
