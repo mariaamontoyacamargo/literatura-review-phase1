@@ -1,0 +1,86 @@
+{
+  "evaluacion_experimental": {
+    "name": "Evaluaci\u00f3n Experimental",
+    "queries": [
+      "generative AI RCT randomized controlled trial 2024-2026",
+      "AI quasi-experimental field experiment productivity causal",
+      "machine learning causal inference experiments treatment effect",
+      "AI evaluation methodology impact assessment",
+      "natural experiment AI adoption estimation"
+    ],
+    "target_papers": 7,
+    "priority": "HIGH"
+  },
+  "human_machine_interaction": {
+    "name": "Human-Machine Interaction (HMI)",
+    "queries": [
+      "human-machine interaction AI design user experience 2024-2026",
+      "generative AI user behavior adoption barriers",
+      "AI interface design human factors usability",
+      "explainable AI transparency user trust",
+      "cognitive load AI tools decision support"
+    ],
+    "target_papers": 7,
+    "priority": "HIGH"
+  },
+  "innovacion_difusion": {
+    "name": "Innovaci\u00f3n y Difusi\u00f3n",
+    "queries": [
+      "AI innovation adoption diffusion firms 2023-2026",
+      "generative AI adoption curves S-curve technology diffusion",
+      "AI adoption barriers firm implementation organizational",
+      "technology diffusion patterns innovation spillovers",
+      "complementarities AI adoption organizational change"
+    ],
+    "target_papers": 7,
+    "priority": "MEDIUM"
+  },
+  "labor": {
+    "name": "Labor Markets",
+    "queries": [
+      "AI impact labor markets employment 2024-2026",
+      "generative AI job displacement automation worker",
+      "AI labor demand wage effects skill premium",
+      "worker reskilling retraining AI adoption",
+      "AI automation occupational change labor economics"
+    ],
+    "target_papers": 7,
+    "priority": "HIGH"
+  },
+  "desigualdad": {
+    "name": "Desigualdad",
+    "queries": [
+      "AI inequality wage gaps income distribution 2024-2026",
+      "generative AI skill premium wage polarization",
+      "AI gender gap occupational segregation",
+      "digital divide AI access disparities",
+      "skill-biased technological change AI labor"
+    ],
+    "target_papers": 7,
+    "priority": "MEDIUM-HIGH"
+  },
+  "policy": {
+    "name": "Policy",
+    "queries": [
+      "AI policy regulation governance frameworks 2024-2026",
+      "generative AI labor policy worker protection",
+      "AI education policy skills development",
+      "data privacy policy AI regulation",
+      "AI competition policy antitrust digital markets"
+    ],
+    "target_papers": 7,
+    "priority": "MEDIUM"
+  },
+  "management": {
+    "name": "Management",
+    "queries": [
+      "AI organizational adoption management strategy 2024-2026",
+      "generative AI firm implementation business model",
+      "organizational change AI adoption capability",
+      "AI leadership strategy firm competitiveness",
+      "AI talent acquisition organizational structure"
+    ],
+    "target_papers": 7,
+    "priority": "HIGH"
+  }
+}

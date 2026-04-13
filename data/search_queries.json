@@ -1,0 +1,58 @@
+{
+  "evaluacion_experimental": {
+    "description": "Evaluaci\u00f3n Experimental - RCTs y field experiments",
+    "queries": [
+      "generative AI RCT randomized controlled trial 2024-2026",
+      "AI quasi-experimental field experiment productivity",
+      "machine learning causal inference experiment"
+    ]
+  },
+  "hmi": {
+    "description": "Human-Machine Interaction - Dise\u00f1o y comportamiento",
+    "queries": [
+      "human-machine interaction AI design user experience",
+      "AI collaboration worker behavior adoption",
+      "generative AI interface design human factors"
+    ]
+  },
+  "innovacion_difusion": {
+    "description": "Innovaci\u00f3n y Difusi\u00f3n - Adopci\u00f3n tecnol\u00f3gica",
+    "queries": [
+      "AI innovation adoption diffusion firms 2023-2026",
+      "generative AI technology adoption curves",
+      "AI adoption barriers firm implementation"
+    ]
+  },
+  "labor": {
+    "description": "Labor Markets - Mercados de trabajo",
+    "queries": [
+      "AI impact labor markets employment 2024-2026",
+      "generative AI job displacement automation",
+      "AI worker productivity labor economics"
+    ]
+  },
+  "desigualdad": {
+    "description": "Desigualdad - Distribuci\u00f3n de ingresos y oportunidades",
+    "queries": [
+      "AI inequality wage gaps income distribution",
+      "generative AI skill premium labor",
+      "AI digital divide regional disparities"
+    ]
+  },
+  "policy": {
+    "description": "Policy - Pol\u00edticas y regulaci\u00f3n",
+    "queries": [
+      "AI policy regulation governance 2024-2026",
+      "generative AI labor policy frameworks",
+      "AI data privacy policy recommendations"
+    ]
+  },
+  "management": {
+    "description": "Management - Adopci\u00f3n organizacional",
+    "queries": [
+      "AI organizational adoption management strategy",
+      "generative AI firm implementation change",
+      "AI business models organizational structure"
+    ]
+  }
+}

@@ -5,27 +5,42 @@ Recolectar papers TOP-TIER globales sobre adopción de IA y productividad, filtr
 
 ---
 
-## Pockets Temáticos (Ejes de Búsqueda)
+## Pockets Temáticos (Ejes de Búsqueda) - 7 Temas Principales
 
-### 1. **AI Adoption at Firm Level**
-- Queries: `"AI adoption firm productivity papers 2023-2026"`, `"enterprise AI implementation impact on productivity"`
+### 1. **Evaluación Experimental**
+- Queries: `"generative AI RCT experiment 2024-2026"`, `"AI randomized controlled trial productivity"`
 - Target: 5-10 papers mínimo
-- Métricas clave: firm-level productivity, revenue, TFP
+- Métricas clave: metodología RCT, quasi-experimental, field experiments, causal identification
 
-### 2. **AI Adoption at Worker Level**
-- Queries: `"generative AI worker productivity RCTs 2024-2026"`, `"AI tools impact on individual worker output"`
+### 2. **Human-Machine Interaction (HMI)**
+- Queries: `"human AI interaction design"`, `"AI collaboration human workers"`, `"user experience generative AI"`
 - Target: 5-10 papers mínimo
-- Métricas clave: task completion time, quality, error rates
+- Métricas clave: interaction patterns, user behavior, adoption barriers, interface design
 
-### 3. **AI Adoption at Team Level**
-- Queries: `"AI collaboration team productivity"`, `"generative AI impact on team collaboration"`
+### 3. **Innovación y Difusión**
+- Queries: `"AI innovation adoption diffusion"`, `"generative AI technology diffusion firms"`, `"AI adoption barriers"`
 - Target: 5-10 papers mínimo
-- Métricas clave: team output, coordination efficiency, innovation
+- Métricas clave: adoption rates, diffusion curves, innovation cycles, technological spillovers
 
-### 4. **AI Adoption at Task Level**
-- Queries: `"generative AI task productivity 2024-2026"`, `"AI automation specific tasks productivity gains"`
+### 4. **Labor Markets (Labor)**
+- Queries: `"AI impact labor markets employment"`, `"generative AI job displacement automation"`, `"worker reskilling AI"`
 - Target: 5-10 papers mínimo
-- Métricas clave: task speedup, error reduction, scalability
+- Métricas clave: employment effects, wage impacts, skill requirements, labor demand
+
+### 5. **Desigualdad**
+- Queries: `"AI inequality wage gaps"`, `"generative AI income distribution"`, `"AI skill premium labor"`, `"AI digital divide"`
+- Target: 5-10 papers mínimo
+- Métricas clave: inequality metrics, skill distribution, gender gaps, regional disparities
+
+### 6. **Policy**
+- Queries: `"AI policy regulation governance"`, `"generative AI policy frameworks"`, `"AI labor policy"`, `"data privacy AI"`
+- Target: 5-10 papers mínimo
+- Métricas clave: policy recommendations, regulatory frameworks, international comparisons
+
+### 7. **Management**
+- Queries: `"AI organizational adoption management"`, `"generative AI firm strategy"`, `"AI implementation organizational change"`
+- Target: 5-10 papers mínimo
+- Métricas clave: organizational strategy, change management, firm structure, business models
 
 ---
 

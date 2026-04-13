@@ -1,0 +1,318 @@
+# POCKETS_CONFIG.YAML - Delimitación Clara de 7 Ejes Temáticos
+# Fuente única de verdad para búsquedas, reviews y análisis
+# Última actualización: 2026-04-13
+
+pockets:
+
+  # ============================================================================
+  # 1. EVALUACIÓN EXPERIMENTAL
+  # ============================================================================
+  evaluacion_experimental:
+    name: "Evaluación Experimental"
+    description: "Metodología científica rigurosa para medir impacto de IA"
+
+    focus:
+      - "Randomized Controlled Trials (RCTs)"
+      - "Quasi-experimental designs (IV, RDD, DID, matching)"
+      - "Field experiments"
+      - "Causal inference methods"
+      - "Identification strategies"
+
+    key_metrics:
+      - "Treatment effect size"
+      - "Statistical significance"
+      - "External validity"
+      - "Sample representativeness"
+
+    search_queries:
+      - "generative AI RCT randomized controlled trial 2024-2026"
+      - "AI quasi-experimental field experiment productivity causal"
+      - "machine learning causal inference experiments treatment effect"
+      - "AI evaluation methodology impact assessment"
+      - "natural experiment AI adoption estimation"
+
+    examples_keywords:
+      - RCT, randomized, experimental, treatment, control
+      - quasi-experimental, difference-in-differences, DID
+      - instrumental variable, IV, causal, propensity score
+      - field study, lab experiment, A/B test
+
+    target_papers: 7
+    priority: "HIGH"
+    status: "active"
+    notes: "Priorizar papers con metodología sólida y causal identification clara"
+
+  # ============================================================================
+  # 2. HUMAN-MACHINE INTERACTION (HMI)
+  # ============================================================================
+  human_machine_interaction:
+    name: "Human-Machine Interaction (HMI)"
+    description: "Cómo interactúan humanos con sistemas de IA, diseño, UX, comportamiento"
+
+    focus:
+      - "User interface design para AI tools"
+      - "User behavior and adoption patterns"
+      - "AI explainability and transparency"
+      - "Human factors in AI integration"
+      - "Cognitive load and decision-making"
+
+    key_metrics:
+      - "User adoption rates"
+      - "Interaction patterns"
+      - "Usability scores"
+      - "Trust measures"
+      - "Learning curves"
+
+    search_queries:
+      - "human-machine interaction AI design user experience 2024-2026"
+      - "generative AI user behavior adoption barriers"
+      - "AI interface design human factors usability"
+      - "explainable AI transparency user trust"
+      - "cognitive load AI tools decision support"
+
+    examples_keywords:
+      - HCI, interaction, design, UI/UX, usability
+      - user behavior, adoption, engagement, trust
+      - human factors, cognitive, learning, expertise
+      - transparency, explainability, interpretability
+
+    target_papers: 7
+    priority: "HIGH"
+    status: "active"
+    notes: "Incluir papers sobre cómo el diseño afecta adopción y efectividad"
+
+  # ============================================================================
+  # 3. INNOVACIÓN Y DIFUSIÓN
+  # ============================================================================
+  innovacion_difusion:
+    name: "Innovación y Difusión"
+    description: "Patrones de adopción tecnológica, curvas S, barreras y aceleración"
+
+    focus:
+      - "Technology adoption curves (S-curves, diffusion patterns)"
+      - "Firm-level adoption decisions"
+      - "Adoption barriers and enablers"
+      - "Network effects and complementarities"
+      - "Learning by doing in adoption"
+
+    key_metrics:
+      - "Adoption rate (% firms/workers)"
+      - "Diffusion speed"
+      - "Barriers to adoption"
+      - "Time to full adoption"
+      - "Complementary investments"
+
+    search_queries:
+      - "AI innovation adoption diffusion firms 2023-2026"
+      - "generative AI adoption curves S-curve technology diffusion"
+      - "AI adoption barriers firm implementation organizational"
+      - "technology diffusion patterns innovation spillovers"
+      - "complementarities AI adoption organizational change"
+
+    examples_keywords:
+      - adoption, diffusion, S-curve, innovation, spillover
+      - barriers, enablers, adoption rate, speed
+      - complementarities, investments, organizational change
+      - early adopters, laggards, network effects
+
+    target_papers: 7
+    priority: "MEDIUM"
+    status: "active"
+    notes: "Enfoque en modelos de difusión y factors que aceleran o frenan adopción"
+
+  # ============================================================================
+  # 4. LABOR MARKETS (MERCADOS DE TRABAJO)
+  # ============================================================================
+  labor:
+    name: "Labor Markets"
+    description: "Efectos en mercados de trabajo, empleo, desplazamiento, reentrenamiento"
+
+    focus:
+      - "Employment effects (job creation/destruction)"
+      - "Job displacement and automation"
+      - "Worker retraining and reskilling"
+      - "Wage effects by skill level"
+      - "Labor demand shifts"
+
+    key_metrics:
+      - "Employment levels (% change)"
+      - "Job displacement rates"
+      - "Wage changes"
+      - "Skill requirements"
+      - "Retraining effectiveness"
+
+    search_queries:
+      - "AI impact labor markets employment 2024-2026"
+      - "generative AI job displacement automation worker"
+      - "AI labor demand wage effects skill premium"
+      - "worker reskilling retraining AI adoption"
+      - "AI automation occupational change labor economics"
+
+    examples_keywords:
+      - employment, job creation, job loss, displacement
+      - wage, earnings, income, compensation
+      - skill, reskilling, retraining, human capital
+      - occupational change, labor demand, task-based
+
+    target_papers: 7
+    priority: "HIGH"
+    status: "active"
+    notes: "Crítico para entender impacto socioeconómico en región/países"
+
+  # ============================================================================
+  # 5. DESIGUALDAD
+  # ============================================================================
+  desigualdad:
+    name: "Desigualdad"
+    description: "Distribución desigual de beneficios de IA, brechas, disparidades"
+
+    focus:
+      - "Skill-biased technological change"
+      - "Wage inequality and income distribution"
+      - "Gender and demographic gaps"
+      - "Regional and geographic disparities"
+      - "Access to AI tools (digital divide)"
+
+    key_metrics:
+      - "Gini coefficient / wage ratio"
+      - "Gender wage gap"
+      - "Skill premium (high vs low skill)"
+      - "Intergenerational mobility"
+      - "Access gaps (by region, income, etc)"
+
+    search_queries:
+      - "AI inequality wage gaps income distribution 2024-2026"
+      - "generative AI skill premium wage polarization"
+      - "AI gender gap occupational segregation"
+      - "digital divide AI access disparities"
+      - "skill-biased technological change AI labor"
+
+    examples_keywords:
+      - inequality, wage gap, income distribution, Gini
+      - skill-biased, skill premium, polarization
+      - gender, demographic, discrimination, bias
+      - digital divide, access, regional disparities
+
+    target_papers: 7
+    priority: "MEDIUM-HIGH"
+    status: "active"
+    notes: "Especialmente relevante para análisis en LatAm/Colombia"
+
+  # ============================================================================
+  # 6. POLICY (POLÍTICAS Y REGULACIÓN)
+  # ============================================================================
+  policy:
+    name: "Policy"
+    description: "Marcos de política, regulación, gobernanza para AI"
+
+    focus:
+      - "AI governance and regulation frameworks"
+      - "Labor policy and worker protections"
+      - "Education and skills policy"
+      - "Data privacy and security regulations"
+      - "Antitrust and competition policy"
+
+    key_metrics:
+      - "Policy stringency index"
+      - "Coverage of workforce"
+      - "Policy effectiveness (measured outcomes)"
+      - "International comparisons"
+
+    search_queries:
+      - "AI policy regulation governance frameworks 2024-2026"
+      - "generative AI labor policy worker protection"
+      - "AI education policy skills development"
+      - "data privacy policy AI regulation"
+      - "AI competition policy antitrust digital markets"
+
+    examples_keywords:
+      - policy, regulation, governance, framework
+      - labor policy, worker protection, rights
+      - education, skills policy, training
+      - data privacy, GDPR, security
+      - competition, antitrust, market power
+
+    target_papers: 7
+    priority: "MEDIUM"
+    status: "active"
+    notes: "Importante para recomendaciones de política en BID"
+
+  # ============================================================================
+  # 7. MANAGEMENT (ADOPCIÓN ORGANIZACIONAL)
+  # ============================================================================
+  management:
+    name: "Management"
+    description: "Cómo las organizaciones adoptan, implementan e integran IA"
+
+    focus:
+      - "Organizational adoption and implementation strategies"
+      - "Change management and capability building"
+      - "Business model innovation with AI"
+      - "Organizational structure and skill gaps"
+      - "Leadership and strategy for AI adoption"
+
+    key_metrics:
+      - "Adoption speed (time to implementation)"
+      - "Capability maturity level"
+      - "Business model changes"
+      - "Organizational restructuring"
+      - "Internal adoption rate (% employees)"
+
+    search_queries:
+      - "AI organizational adoption management strategy 2024-2026"
+      - "generative AI firm implementation business model"
+      - "organizational change AI adoption capability"
+      - "AI leadership strategy firm competitiveness"
+      - "AI talent acquisition organizational structure"
+
+    examples_keywords:
+      - adoption, implementation, strategy, business model
+      - organizational change, structure, culture
+      - capability, skills, training, talent
+      - change management, leadership, governance
+
+    target_papers: 7
+    priority: "HIGH"
+    status: "active"
+    notes: "Puente entre decisiones firmes y impactos en trabajadores"
+
+# ============================================================================
+# TARGETING GENERAL
+# ============================================================================
+general_targets:
+  total_papers_target: 50
+  papers_per_pocket: 7
+
+  methodology_preferences:
+    - "RCT / Randomized experiments (score: 7)"
+    - "Quasi-experimental (IV, DID, matching) (score: 7)"
+    - "Panel data with causal identification (score: 5)"
+    - "Observational with controls (score: 3)"
+
+  venue_preferences:
+    - "Nature, Science (score: +2)"
+    - "Top 25 CS/Economics venues (score: +2)"
+    - "NBER, SSRN working papers (score: +1)"
+    - "arXiv recent (2025-2026) (score: +1)"
+
+  author_quality:
+    - "h-index > 30 (score: +2)"
+    - "h-index > 20 (score: +1)"
+
+  recency:
+    - "2024-2026 (score: +1)"
+    - "2023 (score: 0)"
+    - "2020-2022 (score: 0)"
+    - "< 2020 (score: -1)"
+
+# ============================================================================
+# NOTES FOR REVIEWS
+# ============================================================================
+review_notes:
+  acceptance_criteria: "Score >= 6/10 en rubrica Reviewer"
+  rejection_criteria: "Score < 3/10"
+  review_boundary: "3-5/10: Re-evaluate o clarify relevance con Synthesizer"
+
+  iteration_1_focus: "Evaluación Experimental + Management (metodología sólida)"
+  iteration_2_focus: "Labor + Desigualdad (impacto socioeconómico)"
+  iteration_3_focus: "HMI + Innovación + Policy (contexto y sistemas)"
