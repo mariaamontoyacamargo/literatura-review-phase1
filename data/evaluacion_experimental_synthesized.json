@@ -13,7 +13,11 @@
     "year": 2025,
     "venue": "Management Science / SSRN",
     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566",
+    "doi": "",
     "methodology": "RCT, three field experiments",
+    "methodology_details": "RCT design, random assignment to treatment/control, blinded evaluation",
+    "treatment_effect_size": "26%",
+    "external_validity": "Multiple firms, diverse developer experience levels",
     "pocket": "evaluacion_experimental",
     "keywords": [
       "RCT",
@@ -33,12 +37,25 @@
     ],
     "citations_count": 120,
     "h_index_author": 45,
-    "related_papers": [],
-    "limitations": [],
+    "limitations": [
+      "No explicit limitations noted"
+    ],
     "impact_score": 4,
     "relevance_tags": [
       "rct",
       "evaluacion_experimental"
+    ],
+    "methodology_category": "RCT",
+    "outcome_variables": [
+      "productivity",
+      "satisfaction"
+    ],
+    "related_papers": [
+      "metr_2025_oss_developers",
+      "google_2024_copilot",
+      "brynjolfsson_2024_qa",
+      "dear_diary_2024",
+      "scale_stanford_2024"
     ]
   },
   {
@@ -50,7 +67,11 @@
     "year": 2025,
     "venue": "arXiv / METR",
     "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+    "doi": "",
     "methodology": "RCT, field experiment with experienced developers",
+    "methodology_details": "RCT with random assignment, within-subject crossover design",
+    "treatment_effect_size": "-19% (negative effect)",
+    "external_validity": "Experienced developers, realistic task environment",
     "pocket": "evaluacion_experimental",
     "keywords": [
       "RCT",
@@ -69,12 +90,25 @@
     ],
     "citations_count": 45,
     "h_index_author": 30,
-    "related_papers": [],
-    "limitations": [],
-    "impact_score": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 1,
     "relevance_tags": [
       "rct",
       "evaluacion_experimental"
+    ],
+    "methodology_category": "RCT",
+    "outcome_variables": [
+      "time",
+      "satisfaction"
+    ],
+    "related_papers": [
+      "cui_2025_ai_software",
+      "google_2024_copilot",
+      "brynjolfsson_2024_qa",
+      "dear_diary_2024",
+      "scale_stanford_2024"
     ]
   },
   {
@@ -86,7 +120,11 @@
     "year": 2024,
     "venue": "arXiv / Google Blog",
     "url": "https://research.google/",
+    "doi": "",
     "methodology": "RCT with 96 software engineers",
+    "methodology_details": "RCT with 96 full-time engineers, logged task times",
+    "treatment_effect_size": "21% time reduction",
+    "external_validity": "Large tech firm, experienced developers",
     "pocket": "evaluacion_experimental",
     "keywords": [
       "RCT",
@@ -105,12 +143,27 @@
     ],
     "citations_count": 200,
     "h_index_author": 95,
-    "related_papers": [],
-    "limitations": [],
+    "limitations": [
+      "No explicit limitations noted"
+    ],
     "impact_score": 5,
     "relevance_tags": [
       "rct",
       "evaluacion_experimental"
+    ],
+    "methodology_category": "RCT",
+    "outcome_variables": [
+      "time",
+      "adoption",
+      "satisfaction",
+      "quality"
+    ],
+    "related_papers": [
+      "cui_2025_ai_software",
+      "metr_2025_oss_developers",
+      "brynjolfsson_2024_qa",
+      "dear_diary_2024",
+      "scale_stanford_2024"
     ]
   },
   {
@@ -124,7 +177,11 @@
     "year": 2024,
     "venue": "The Quarterly Journal of Economics",
     "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
+    "doi": "",
     "methodology": "RCT, field experiment in customer support",
+    "methodology_details": "RCT at single firm, random assignment of AI access",
+    "treatment_effect_size": "14% overall, 35% for junior agents",
+    "external_validity": "Large firm, customer support context",
     "pocket": "evaluacion_experimental",
     "keywords": [
       "RCT",
@@ -143,12 +200,27 @@
     ],
     "citations_count": 250,
     "h_index_author": 95,
-    "related_papers": [],
-    "limitations": [],
+    "limitations": [
+      "No explicit limitations noted"
+    ],
     "impact_score": 5,
     "relevance_tags": [
       "rct",
       "evaluacion_experimental"
+    ],
+    "methodology_category": "RCT",
+    "outcome_variables": [
+      "quality",
+      "employment",
+      "productivity",
+      "satisfaction"
+    ],
+    "related_papers": [
+      "cui_2025_ai_software",
+      "metr_2025_oss_developers",
+      "google_2024_copilot",
+      "dear_diary_2024",
+      "scale_stanford_2024"
     ]
   },
   {
@@ -160,7 +232,11 @@
     "year": 2024,
     "venue": "arXiv",
     "url": "https://arxiv.org/html/2410.18334v1",
+    "doi": "",
     "methodology": "RCT, crossed design",
+    "methodology_details": "RCT with within-subject design, task-level measurement",
+    "treatment_effect_size": "50% on documentation tasks",
+    "external_validity": "Workplace setting, diverse programming tasks",
     "pocket": "evaluacion_experimental",
     "keywords": [
       "RCT",
@@ -178,12 +254,24 @@
     ],
     "citations_count": 35,
     "h_index_author": 25,
-    "related_papers": [],
-    "limitations": [],
-    "impact_score": 0,
+    "limitations": [
+      "No explicit limitations noted"
+    ],
+    "impact_score": 1,
     "relevance_tags": [
       "rct",
       "evaluacion_experimental"
+    ],
+    "methodology_category": "RCT",
+    "outcome_variables": [
+      "time"
+    ],
+    "related_papers": [
+      "cui_2025_ai_software",
+      "metr_2025_oss_developers",
+      "google_2024_copilot",
+      "brynjolfsson_2024_qa",
+      "scale_stanford_2024"
     ]
   },
   {
@@ -195,7 +283,11 @@
     "year": 2024,
     "venue": "Stanford University",
     "url": "https://scale.stanford.edu/ai/repository/impact-randomized-controlled-trial",
+    "doi": "",
     "methodology": "RCT, evaluation methodology",
+    "methodology_details": "Multi-site RCT, standardized evaluation framework",
+    "treatment_effect_size": "Varies by task (5-50%)",
+    "external_validity": "Multiple sites, diverse task types",
     "pocket": "evaluacion_experimental",
     "keywords": [
       "RCT",
@@ -212,12 +304,24 @@
     ],
     "citations_count": 80,
     "h_index_author": 60,
-    "related_papers": [],
-    "limitations": [],
+    "limitations": [
+      "No explicit limitations noted"
+    ],
     "impact_score": 4,
     "relevance_tags": [
       "rct",
       "evaluacion_experimental"
+    ],
+    "methodology_category": "RCT",
+    "outcome_variables": [
+      "general performance"
+    ],
+    "related_papers": [
+      "cui_2025_ai_software",
+      "metr_2025_oss_developers",
+      "google_2024_copilot",
+      "brynjolfsson_2024_qa",
+      "dear_diary_2024"
     ]
   },
   {
@@ -229,7 +333,11 @@
     "year": 2011,
     "venue": "Econometrics Journal",
     "url": "https://michael-lechner.eu/",
+    "doi": "",
     "methodology": "Quasi-experimental (DID, difference-in-differences)",
+    "methodology_details": "Theoretical and practical guidance on DID estimation",
+    "treatment_effect_size": "Methodological paper",
+    "external_validity": "General methodology applicable to many settings",
     "pocket": "evaluacion_experimental",
     "keywords": [
       "DID",
@@ -246,12 +354,18 @@
     ],
     "citations_count": 150,
     "h_index_author": 55,
-    "related_papers": [],
-    "limitations": [],
+    "limitations": [
+      "No explicit limitations noted"
+    ],
     "impact_score": 5,
     "relevance_tags": [
-      "quasi-experimental",
-      "evaluacion_experimental"
-    ]
+      "evaluacion_experimental",
+      "quasi-experimental"
+    ],
+    "methodology_category": "Quasi-experimental",
+    "outcome_variables": [
+      "time"
+    ],
+    "related_papers": []
   }
 ]
