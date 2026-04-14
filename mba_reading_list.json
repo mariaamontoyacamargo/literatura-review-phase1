@@ -1,0 +1,609 @@
+{
+  "title": "MBA Reading List: AI Adoption",
+  "papers": [
+    {
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "score": 8,
+      "status": "ACEPTADO",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "risks",
+      "url": "https://arxiv.org/abs/2604.09104v1"
+    },
+    {
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "score": 8,
+      "status": "ACEPTADO",
+      "year": 2026,
+      "pocket": "labor",
+      "theme": "risks",
+      "url": "https://arxiv.org/abs/2604.09104v1"
+    },
+    {
+      "title": "The labor marketeffectsof generativeAI: A difference-in-differences analysis ofAIexposure",
+      "score": 8,
+      "status": "ACEPTADO",
+      "year": 2026,
+      "pocket": "labor",
+      "theme": "impact",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5375017"
+    },
+    {
+      "title": "Thelabor market effectsof generativeAI: A difference-in-differences analysis ofAIexposure",
+      "score": 8,
+      "status": "ACEPTADO",
+      "year": 2026,
+      "pocket": "labor",
+      "theme": "impact",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5375017"
+    },
+    {
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "score": 8,
+      "status": "ACEPTADO",
+      "year": 2026,
+      "pocket": "policy",
+      "theme": "risks",
+      "url": "https://arxiv.org/abs/2604.09104v1"
+    },
+    {
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "score": 8,
+      "status": "ACEPTADO",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "risks",
+      "url": "https://arxiv.org/abs/2604.09104v1"
+    },
+    {
+      "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "score": 7,
+      "status": "ACEPTADO",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08643v1"
+    },
+    {
+      "title": "Exploringartificial intelligence adoptionin public organizations: a comparative case study",
+      "score": 7,
+      "status": "ACEPTADO",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/14719037.2022.2048685"
+    },
+    {
+      "title": "Why teaching resists automation in an AI-inundated era: Human judgment, non-modular work, and the limits of delegation",
+      "score": 7,
+      "status": "ACEPTADO",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.07285v1"
+    },
+    {
+      "title": "A moderated model ofartificial intelligence adoptioninfirmsand its effects on their performance",
+      "score": 7,
+      "status": "ACEPTADO",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://link.springer.com/article/10.1007/s10799-024-00422-5"
+    },
+    {
+      "title": "GenerativeAI adoptionin classroom in context oftechnologyacceptance model (TAM) and the innovation diffusion theory (IDT)",
+      "score": 7,
+      "status": "ACEPTADO",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2406.15360"
+    },
+    {
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "innovation",
+      "url": "https://arxiv.org/abs/2604.09413v1"
+    },
+    {
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.09200v1"
+    },
+    {
+      "title": "Scrapyard AI",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08803v1"
+    },
+    {
+      "title": "Towards Generalizable Representations of Mathematical Strategies",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08693v1"
+    },
+    {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08525v1"
+    },
+    {
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08465v1"
+    },
+    {
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08353v1"
+    },
+    {
+      "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08727v1"
+    },
+    {
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08217v1"
+    },
+    {
+      "title": "We Need Strong Preconditions For Using Simulations In Policy",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.07838v1"
+    },
+    {
+      "title": "The Need for a Green ICT Reference Framework",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.09307v1"
+    },
+    {
+      "title": "The GenAI is out of the bottle:generative artificial intelligencefrom abusiness modelinnovation perspective",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://link.springer.com/article/10.1007/s11846-023-00696-z"
+    },
+    {
+      "title": "Leveraginggenerative artificial intelligencefor sustainablebusiness modelinnovation in production systems",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00207543.2025.2485318"
+    },
+    {
+      "title": "Transformingbusinesswithgenerative AI: Research, innovation, market deployment and future shifts inbusiness models",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2411.14437"
+    },
+    {
+      "title": "The Future ofBusinesswithGenerative AI Modelsand Insights",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10969226/"
+    },
+    {
+      "title": "AI-poweredbusiness modelinnovation: Analyzing the implications ofgenerative AIon value creation, operational efficiency and market dynamics",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://www.researchgate.net/profile/James-Benardo/publication/386078480_AI-powered_business_model_innovation_Analyzing_the_implications_of_generative_AI_on_value_creation_operational_efficiency_and_market_dynamics/links/67422aa56dedd318c896f023/AI-powered-business-model-innovation-Analyzing-the-implications-of-generative-AI-on-value-creation-operational-efficiency-and-market-dynamics.pdf"
+    },
+    {
+      "title": "Advancements and applications ofgenerative artificial intelligenceand large languagemodelsonbusinessmanagement: A comprehensive review",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://al-kindipublishers.org/index.php/jcsts/article/view/6947"
+    },
+    {
+      "title": "Large processmodels: a vision forbusinessprocess management in the age ofgenerative AI",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://link.springer.com/article/10.1007/s13218-024-00863-8"
+    },
+    {
+      "title": "Integratingartificial intelligenceinstrategicbusiness decision-making: A systematic review of predictive models",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "http://ijsir.org/index.php/IJSIR/article/view/2"
+    },
+    {
+      "title": "Generativeartificial intelligencein business: towards astrategichuman resourcemanagementframework",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "management",
+      "theme": "ai_adoption_strategy",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-8551.12824"
+    },
+    {
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "labor",
+      "theme": "impact",
+      "url": "https://arxiv.org/abs/2604.09413v1"
+    },
+    {
+      "title": "The Need for a Green ICT Reference Framework",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "labor",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.09307v1"
+    },
+    {
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "labor",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.09200v1"
+    },
+    {
+      "title": "Scrapyard AI",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "labor",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08803v1"
+    },
+    {
+      "title": "Towards Generalizable Representations of Mathematical Strategies",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "labor",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08693v1"
+    },
+    {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "labor",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08525v1"
+    },
+    {
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "labor",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08465v1"
+    },
+    {
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "labor",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08353v1"
+    },
+    {
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "labor",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08217v1"
+    },
+    {
+      "title": "We Need Strong Preconditions For Using Simulations In Policy",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "labor",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.07838v1"
+    },
+    {
+      "title": "Large language models, smalllabor market effects",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "labor",
+      "theme": "ai_adoption_strategy",
+      "url": "https://www.nber.org/papers/w33777"
+    },
+    {
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "policy",
+      "theme": "risks",
+      "url": "https://arxiv.org/abs/2604.09413v1"
+    },
+    {
+      "title": "The Need for a Green ICT Reference Framework",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "policy",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.09307v1"
+    },
+    {
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "policy",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.09200v1"
+    },
+    {
+      "title": "Scrapyard AI",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "policy",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08803v1"
+    },
+    {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "policy",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08525v1"
+    },
+    {
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "policy",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08465v1"
+    },
+    {
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "policy",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08353v1"
+    },
+    {
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "policy",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08217v1"
+    },
+    {
+      "title": "Towards Generalizable Representations of Mathematical Strategies",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "policy",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08693v1"
+    },
+    {
+      "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "policy",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08727v1"
+    },
+    {
+      "title": "Responsiblegovernanceofgenerative AI: conceptualizing GenAI as complex adaptive systems",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "policy",
+      "theme": "risks",
+      "url": "https://academic.oup.com/policyandsociety/article-abstract/44/1/38/7965776"
+    },
+    {
+      "title": "A framework for developing university policies ongenerative AI governance: A cross-national comparative study",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "policy",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2504.02636"
+    },
+    {
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "innovation",
+      "url": "https://arxiv.org/abs/2604.09413v1"
+    },
+    {
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.09200v1"
+    },
+    {
+      "title": "Scrapyard AI",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08803v1"
+    },
+    {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08525v1"
+    },
+    {
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08465v1"
+    },
+    {
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08353v1"
+    },
+    {
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.08217v1"
+    },
+    {
+      "title": "We Need Strong Preconditions For Using Simulations In Policy",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.07838v1"
+    },
+    {
+      "title": "PRISM: Evaluating a Rule-Based, Scenario-Driven Social Media Privacy Education Program for Young Autistic Adults",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.07531v1"
+    },
+    {
+      "title": "The Shrinking Lifespan of LLMs in Science",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.07530v1"
+    },
+    {
+      "title": "The Rhetoric of Machine Learning",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://arxiv.org/abs/2604.06754v1"
+    },
+    {
+      "title": "What drivesartificial intelligence adoptionand use amongfirms? Empirical evidence from Brazilian companies",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2025,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://www.emerald.com/dprg/article/doi/10.1108/DPRG-05-2025-0135/1302773"
+    },
+    {
+      "title": "An empirical evaluation of a generativeartificial intelligence technology adoptionmodel from entrepreneurs' perspectives",
+      "score": 6,
+      "status": "REVISAR",
+      "year": 2026,
+      "pocket": "innovacion_difusion",
+      "theme": "ai_adoption_strategy",
+      "url": "https://www.mdpi.com/2079-8954/12/3/103"
+    }
+  ],
+  "total": 67
+}
