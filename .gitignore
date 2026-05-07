@@ -1,36 +1,28 @@
-# Large data files
-data/consolidated_graph.json
-data/*_papers.json
-data/*_papers_combined.json
-data/*_papers_real.json
-data/*_papers_scholar.json
-data/backup_synthetic/
-
-# Intermediate citation networks
-data/citation_network.json
-data/citation_network_vis.json
-data/doi_citation_network.json
-data/real_citation_network.json
-data/real_citation_network_vis.json
-data/claude_extracted_citations.json
-
-# Keep only the final versions
-!data/manually_extracted_citations.json
-!data/real_manual_citation_network.json
-!data/real_manual_citation_network_vis.json
-!data/*_reviewed.json
-!data/*_reviewed_with_dois.json
-!data/*_synthesized.json
-
-# Outputs - keep dashboard
-outputs/dashboard_consolidated.html
-outputs/dashboard_consolidated_v2.html
-outputs/dashboard_v3.html
+# Environment & secrets
+.env
+.env.save
+venv/
 
 # Python
 __pycache__/
 *.pyc
-.env
+*.pyo
 
 # OS
 .DS_Store
+
+# Archive data (too large / intermediate)
+data/archive/
+data/backup_synthetic/
+
+# Active data: keep reviewed + network files
+# (data/*_reviewed_enriched.json, data/*_reviewed.json, data/bid_network.json are tracked)
+
+# Old outputs (superseded by main_dashboard.html)
+outputs/dashboard_consolidated.html
+outputs/dashboard_consolidated_v2.html
+outputs/dashboard_v3.html
+outputs/dashboard_per_pocket.html
+outputs/guidelines_dashboard.html
+outputs/project_hub.html
+outputs/bid_dashboard.html

@@ -1,0 +1,3272 @@
+[
+  {
+    "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "authors": [
+        "Wiebke Hutiri",
+        "Morgan Scheuerman",
+        "Shruti Nagpal",
+        "Austin Hoag",
+        "Alice Xiang"
+      ],
+      "published": "2026-04-10T15:26:57Z",
+      "arxiv_id": "2604.09413v1",
+      "url": "https://arxiv.org/abs/2604.09413v1",
+      "summary": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": true
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+      "authors": [
+        "Arnab Paul Choudhury",
+        "Rahul Rathod",
+        "Aryan Yadav"
+      ],
+      "published": "2026-04-10T15:09:28Z",
+      "arxiv_id": "2604.09395v1",
+      "url": "https://arxiv.org/abs/2604.09395v1",
+      "summary": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+    "score": 5,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+      "authors": [
+        "Oleg Solozobov"
+      ],
+      "published": "2026-04-10T13:06:38Z",
+      "arxiv_id": "2604.09296v1",
+      "url": "https://arxiv.org/abs/2604.09296v1",
+      "summary": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Artificial intelligence can persuade people to take political actions",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "authors": [
+        "Kobi Hackenburg",
+        "Luke Hewitt",
+        "Caroline Wagner",
+        "Ben M. Tappin",
+        "Christopher Summerfield"
+      ],
+      "published": "2026-04-10T10:34:49Z",
+      "arxiv_id": "2604.09200v1",
+      "url": "https://arxiv.org/abs/2604.09200v1",
+      "summary": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "authors": [
+        "Tommy Shaffer Shane",
+        "Simon Mylius",
+        "Hamish Hobbs"
+      ],
+      "published": "2026-04-10T08:37:18Z",
+      "arxiv_id": "2604.09104v1",
+      "url": "https://arxiv.org/abs/2604.09104v1",
+      "summary": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Scrapyard AI",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Scrapyard AI",
+      "authors": [
+        "Marc Böhlen",
+        "Sai Krishna"
+      ],
+      "published": "2026-04-09T22:38:57Z",
+      "arxiv_id": "2604.08803v1",
+      "url": "https://arxiv.org/abs/2604.08803v1",
+      "summary": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Towards Generalizable Representations of Mathematical Strategies",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Towards Generalizable Representations of Mathematical Strategies",
+      "authors": [
+        "Siddhartha Pradhan",
+        "Ethan Prihar",
+        "Erin Ottmar"
+      ],
+      "published": "2026-04-09T18:26:13Z",
+      "arxiv_id": "2604.08693v1",
+      "url": "https://arxiv.org/abs/2604.08693v1",
+      "summary": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": true
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "authors": [
+        "Addison J. Wu",
+        "Ryan Liu",
+        "Shuyue Stella Li",
+        "Yulia Tsvetkov",
+        "Thomas L. Griffiths"
+      ],
+      "published": "2026-04-09T17:57:50Z",
+      "arxiv_id": "2604.08525v1",
+      "url": "https://arxiv.org/abs/2604.08525v1",
+      "summary": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "authors": [
+        "Juergen Dietrich"
+      ],
+      "published": "2026-04-09T17:00:26Z",
+      "arxiv_id": "2604.08465v1",
+      "url": "https://arxiv.org/abs/2604.08465v1",
+      "summary": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "authors": [
+        "Jyh-An Lee",
+        "Jingwen Liu"
+      ],
+      "published": "2026-04-09T15:19:40Z",
+      "arxiv_id": "2604.08353v1",
+      "url": "https://arxiv.org/abs/2604.08353v1",
+      "summary": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "authors": [
+        "David Shoresh",
+        "Sarit Kraus",
+        "Yonatan Loewenstein"
+      ],
+      "published": "2026-04-09T19:40:15Z",
+      "arxiv_id": "2604.08727v1",
+      "url": "https://arxiv.org/abs/2604.08727v1",
+      "summary": "As large language model (LLM) agents become more prevalent in real world social settings, social intelligence will play an increasingly critical role. But social intelligence is still a poorly defined construct, for humans and artificial agents. We introduce a multiplayer arena of mixed cooperative and competitive social games to study LLM social intelligence. The controllability of LLM based agents enables systematic evaluation, which also supports broader inferences about social intelligence per se. We evaluated eight diverse LLMs (24B to 1T parameters) using a Communicate Predict Act (COMPACT) interaction protocol and fine grained probing of social dynamics. Elo style ratings reveal consistent performance differences across models, but this scalar measure provides only a partial characterization of social intelligence. To address this limitation, we analyze gameplay traces to extract sociocognitive metrics capturing action prediction, communicative influence, strategic reasoning, and tradeoffs under conflicting interests. These sociocognitive metrics exhibit strong intramodel consistency and they reliably predict pairwise agent advantage in game outcomes (AUC ROC = 0.82). Feature importance analysis indicates that surprisingly, influence, transparency, and adaptability are more predictive of success than Theory of Mind inference or deep planning. Together, our results advance a testable, multidimensional conception of social intelligence and provide empirical insights into the capacities that underpin it.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "As large language model (LLM) agents become more prevalent in real world social settings, social intelligence will play an increasingly critical role. But social intelligence is still a poorly defined construct, for humans and artificial agents. We introduce a multiplayer arena of mixed cooperative and competitive social games to study LLM social intelligence. The controllability of LLM based agents enables systematic evaluation, which also supports broader inferences about social intelligence per se. We evaluated eight diverse LLMs (24B to 1T parameters) using a Communicate Predict Act (COMPACT) interaction protocol and fine grained probing of social dynamics. Elo style ratings reveal consistent performance differences across models, but this scalar measure provides only a partial characterization of social intelligence. To address this limitation, we analyze gameplay traces to extract sociocognitive metrics capturing action prediction, communicative influence, strategic reasoning, and tradeoffs under conflicting interests. These sociocognitive metrics exhibit strong intramodel consistency and they reliably predict pairwise agent advantage in game outcomes (AUC ROC = 0.82). Feature importance analysis indicates that surprisingly, influence, transparency, and adaptability are more predictive of success than Theory of Mind inference or deep planning. Together, our results advance a testable, multidimensional conception of social intelligence and provide empirical insights into the capacities that underpin it.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "authors": [
+        "Ramakrishnan Krishnamurthy",
+        "Arpit Agarwal",
+        "Lakshminarayanan Subramanian",
+        "Maximilian Nickel"
+      ],
+      "published": "2026-04-09T17:45:15Z",
+      "arxiv_id": "2604.08643v1",
+      "url": "https://arxiv.org/abs/2604.08643v1",
+      "summary": "User interactions in online recommendation platforms create interdependencies among content creators: feedback on one creator's content influences the system's learning and, in turn, the exposure of other creators' contents. To analyze incentives in such settings, we model collaboration as a multi-agent stochastic linear bandit problem with a transferable utility (TU) cooperative game formulation, where a coalition's value equals the negative sum of its members' cumulative regrets.\n  We show that, for identical (homogenous) agents with fixed action sets, the induced TU game is convex under mild algorithmic conditions, implying a non-empty core that contains the Shapley value and ensures both stability and fairness. For heterogeneous agents, the game still admits a non-empty core, though convexity and Shapley value core-membership are no longer guaranteed. To address this, we propose a simple regret-based payout rule that satisfies three out of the four Shapley axioms and also lies in the core. Experiments on MovieLens-100k dataset illustrate when the empirical payout aligns with -- and diverges from -- the Shapley fairness across different settings and algorithms.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "User interactions in online recommendation platforms create interdependencies among content creators: feedback on one creator's content influences the system's learning and, in turn, the exposure of other creators' contents. To analyze incentives in such settings, we model collaboration as a multi-agent stochastic linear bandit problem with a transferable utility (TU) cooperative game formulation, where a coalition's value equals the negative sum of its members' cumulative regrets.\n  We show that, for identical (homogenous) agents with fixed action sets, the induced TU game is convex under mild algorithmic conditions, implying a non-empty core that contains the Shapley value and ensures both stability and fairness. For heterogeneous agents, the game still admits a non-empty core, though convexity and Shapley value core-membership are no longer guaranteed. To address this, we propose a simple regret-based payout rule that satisfies three out of the four Shapley axioms and also lies in the core. Experiments on MovieLens-100k dataset illustrate when the empirical payout aligns with -- and diverges from -- the Shapley fairness across different settings and algorithms.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "authors": [
+        "Ralf Beuthan",
+        "Megan Coffee",
+        "Heejin Kim",
+        "Na Yeon Kim",
+        "Pedro Kringen"
+      ],
+      "published": "2026-04-09T13:14:34Z",
+      "arxiv_id": "2604.08217v1",
+      "url": "https://arxiv.org/abs/2604.08217v1",
+      "summary": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "We Need Strong Preconditions For Using Simulations In Policy",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "We Need Strong Preconditions For Using Simulations In Policy",
+      "authors": [
+        "Steven Luo",
+        "Saanvi Arora",
+        "Carlos Guirado"
+      ],
+      "published": "2026-04-09T05:39:35Z",
+      "arxiv_id": "2604.07838v1",
+      "url": "https://arxiv.org/abs/2604.07838v1",
+      "summary": "Simulations, and more recently LLM agent simulations, have been adopted as useful tools for policymakers to explore interventions, rehearse potential scenarios, and forecast outcomes. While LLM simulations have enormous potential, two critical challenges remain understudied: the dual-use potential of accurate models of individual or population-level human behavior and the difficulty of validating simulation outputs. In light of these limitations, we must define boundaries for both simulation developers and decision-makers to ensure responsible development and ethical use. We propose and discuss three preconditions for societal-scale LLM agent simulations: 1) do not treat simulations of marginalized populations as neutral technical outputs, 2) do not simulate populations without their participation, and 3) do not simulate without accountability. We believe that these guardrails, combined with our call for simulation development and deployment reports, will help build trust among policymakers while promoting responsible development and use of societal-scale LLM agent simulations for the public benefit.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Simulations, and more recently LLM agent simulations, have been adopted as useful tools for policymakers to explore interventions, rehearse potential scenarios, and forecast outcomes. While LLM simulations have enormous potential, two critical challenges remain understudied: the dual-use potential of accurate models of individual or population-level human behavior and the difficulty of validating simulation outputs. In light of these limitations, we must define boundaries for both simulation developers and decision-makers to ensure responsible development and ethical use. We propose and discuss three preconditions for societal-scale LLM agent simulations: 1) do not treat simulations of marginalized populations as neutral technical outputs, 2) do not simulate populations without their participation, and 3) do not simulate without accountability. We believe that these guardrails, combined with our call for simulation development and deployment reports, will help build trust among policymakers while promoting responsible development and use of societal-scale LLM agent simulations for the public benefit.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "The Need for a Green ICT Reference Framework",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "The Need for a Green ICT Reference Framework",
+      "authors": [
+        "Marco Aiello",
+        "Mina Alipour",
+        "Antonio Brogi",
+        "Rafael Capilla",
+        "Lidia Fuentes"
+      ],
+      "published": "2026-04-10T13:15:43Z",
+      "arxiv_id": "2604.09307v1",
+      "url": "https://arxiv.org/abs/2604.09307v1",
+      "summary": "The sustainability impacts of ICT systems are difficult to assess and govern due to structural complexity, fragmented measurement practices, and unclear responsibilities across system layers. We argue that these challenges cannot be addressed solely by metrics and motivate the need for a shared Green ICT reference framework that integrates sustainability across multiple perspectives and domains, lifecycle phases, and governance contexts. We present an initial framework developed within the Informatics Europe Green ICT Working Group as a first step towards a comprehensive reference framework.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "The sustainability impacts of ICT systems are difficult to assess and govern due to structural complexity, fragmented measurement practices, and unclear responsibilities across system layers. We argue that these challenges cannot be addressed solely by metrics and motivate the need for a shared Green ICT reference framework that integrates sustainability across multiple perspectives and domains, lifecycle phases, and governance contexts. We present an initial framework developed within the Informatics Europe Green ICT Working Group as a first step towards a comprehensive reference framework.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Adoptionand integration ofAIin organizations: a systematic review of challenges and drivers towards future directions of research",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Adoptionand integration ofAIin organizations: a systematic review of challenges and drivers towards future directions of research",
+      "authors": "E Romeo",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/k/article/55/3/1286/1259501",
+      "scholar_link": "https://www.emerald.com/k/article/55/3/1286/1259501",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "The critical determinants impactingartificial intelligence adoptionat theorganizationallevel",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "The critical determinants impactingartificial intelligence adoptionat theorganizationallevel",
+      "authors": "OM Horani",
+      "source": ",",
+      "year": 2026,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/02666669231166889",
+      "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/02666669231166889",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This study aims to investigate the main technological and socio-environmental factors influencing the adoption intentions with regard to AI-based technologies at the organizational level. A conceptual model based on innovation diffusion theory (DOI) and the technology-organization-environment (TOE) framework is proposed and tested empirically using survey-based data collected from 512 senior IT/IS managers in public/private organizations located in Jordan. The results indicate that relative advantage, top management support, cost-effectiveness, competitive pressure, vendor support, compatibility, AI strategic alignment and availability of resources, positively influence the intention to adopt AI-based technologies. The analysis demonstrated that the influence of market uncertainty on adoption intentions is insignificant. It was found that government regulation and complexity negatively influence adoption intentions. The findings of the study would be valuable for AI-based technology providers, IT managers and top management in organizations, and government bodies, in terms of building effective policies to promote the successful adoption of AI-based technologies.",
+      "doi": "10.1177/02666669231166889",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Towardsadoptionof generativeAIinorganizationalsettings",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Towardsadoptionof generativeAIinorganizationalsettings",
+      "authors": "K Prasad Agrawal",
+      "source": "- Journal of Computer Information Systems, 2024 - Taylor & Francis",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2023.2240744",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2023.2240744",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Technology readiness and theorganizationaljourney towardsAI adoption: An empirical study",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": true
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Technology readiness and theorganizationaljourney towardsAI adoption: An empirical study",
+      "authors": "V Uren",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0268401222001220",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0268401222001220",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Strategic integration of generativeAIinorganizationalsettings: Applications, challenges, andadoptionrequirements",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Strategic integration of generativeAIinorganizationalsettings: Applications, challenges, andadoptionrequirements",
+      "authors": "M Al-Kfairy",
+      "source": "- IEEE Engineering Management Review, 2025 - ieeexplore.ieee.org",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/abstract/document/10854655/",
+      "scholar_link": "https://ieeexplore.ieee.org/abstract/document/10854655/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Generative AI is revolutionizing the way organizations operate, offering transformative capabilities that span automated content creation, strategic decision-ma",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "AI adoption: a bridge or a barrier? The moderating role oforganizationalsupport in the path toward employee well-being",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "AI adoption: a bridge or a barrier? The moderating role oforganizationalsupport in the path toward employee well-being",
+      "authors": "S Soomro",
+      "source": ", M Fan,",
+      "year": 2026,
+      "url": "https://www.emerald.com/k/article-pdf/55/2/1059/11202201/k-07-2024-1889en.pdf",
+      "scholar_link": "https://www.emerald.com/k/article-pdf/55/2/1059/11202201/k-07-2024-1889en.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Shifting attitudes and trust inAI: Influences onorganizational AI adoption",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Shifting attitudes and trust inAI: Influences onorganizational AI adoption",
+      "authors": "SJ Daly,",
+      "source": "A Wiewiora",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0040162525001398",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0040162525001398",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "The impact ofAI adoptiononorganizationalperformance: ethical and technological factors in Iran's startup ecosystem",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "The impact ofAI adoptiononorganizationalperformance: ethical and technological factors in Iran's startup ecosystem",
+      "authors": "A Salamzadeh",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/sl/article/doi/10.1108/SL-04-2025-0091/1309961",
+      "scholar_link": "https://www.emerald.com/sl/article/doi/10.1108/SL-04-2025-0091/1309961",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Barriers and enablers ofAI adoptionin human resource management: A critical analysis oforganizationaland technological factors",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Barriers and enablers ofAI adoptionin human resource management: A critical analysis oforganizationaland technological factors",
+      "authors": "M Madanchian",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2078-2489/16/1/51",
+      "scholar_link": "https://www.mdpi.com/2078-2489/16/1/51",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Exploringartificial intelligence adoptionin public organizations: a comparative case study",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Exploringartificial intelligence adoptionin public organizations: a comparative case study",
+      "authors": "O Neumann",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/14719037.2022.2048685",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/14719037.2022.2048685",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "AI adoptionin supply chain management: A systematic literature review",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "AI adoptionin supply chain management: A systematic literature review",
+      "authors": "G Shahzadi",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/jmtm/article-abstract/35/6/1125/1234430",
+      "scholar_link": "https://www.emerald.com/jmtm/article-abstract/35/6/1125/1234430",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "R Khan",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "R Khan",
+      "authors": "M Usman,",
+      "source": "R Khan",
+      "year": 2026,
+      "url": "/citations?user=yCZ2VqcAAAAJ&hl=en&num=15&oi=sra",
+      "scholar_link": "https://scholar.google.com/citations?user=yCZ2VqcAAAAJ&hl=en&num=15&oi=sra",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "The use of nanocarriers as drug delivery systems for chemotherapeutic agents can improve the overall pharmacological properties of commonly used drugs in chemotherapy. The clinical success, as well as the ease with which surface modifi cations can be made to both liposomes and micelles to accommodate targeting ligands have made these nanocarriers in particular attractive candidates for future work involving targeted drug delivery. Although not targeted, there are clinically approved liposomal-based drugs that are currently used to treat various types of cancers. Furthermore, there are several other formulations involving both of these nanocarriers which are now in various stages of clinical trials. This review discusses the use of liposomes and micelles in cancer therapy and attempts to provide some current information regarding the clinical status of several of these nanocarrier-based drugs. In addition, recent work involving the incorporation of targeting ligands to systems such as these in order to improve colocalization between the drug and cancer cells is also addressed. Furthermore, while the use of these nanocarriers in particular is the primary focus here, this review also contains a discussion on other commonly used nanocarriers in cancer therapy to include various polymer-based and polymer-protein conjugates. Finally, the possibility of using combinatorial approaches involving multiple surface modifi cations made to both liposomes and micelles in order to further improve their drug delivery capabilities is also discussed.",
+      "citations": 75,
+      "doi": "https://doi.org/10.4172/1948-5956.1000024",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Environmental,organizational, and individual determinants ofAI adoption: A multilevel knowledge and analysis",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Environmental,organizational, and individual determinants ofAI adoption: A multilevel knowledge and analysis",
+      "authors": "F Tiago",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2444569X25002793",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S2444569X25002793",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Organizationalgovernance of emerging technologies:AI adoptionin healthcare",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Organizationalgovernance of emerging technologies:AI adoptionin healthcare",
+      "authors": "JY Kim",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3593013.3594089",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3593013.3594089",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Artificial intelligence adoptionand system‐wide change",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligence adoptionand system‐wide change",
+      "authors": "A Agrawal",
+      "source": ",",
+      "year": 2026,
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jems.12521",
+      "scholar_link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jems.12521",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "AbstractAnalyses of artificial intelligence (AI) adoption focus on its adoption at the individual task level. What has received significantly less attention is how AI adoption is shaped by the fact that organizations are composed of many interacting tasks. AI adoption may, therefore, require system‐wide change, which is both a constraint and an opportunity. We provide the first formal analysis where multiple tasks may be part of an interdependent system. We find that reliance on AI, a prediction tool, increases decision variation, which, in turn, raises challenges if decisions across the organization interact. Reducing inter‐dependencies between decisions softens that impact and can facilitate AI adoption. However, it does this at the expense of synergies. By contrast, when there are mechanisms for inter‐decision coordination, AI adoption is enhanced when there are more inter‐dependencies. Consequently, we show that there are important cases where AI adoption will be enhanced when it can be adopted beyond tasks but as part of a designed organizational system.",
+      "doi": "10.1111/jems.12521",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "The GenAI is out of the bottle:generative artificial intelligencefrom abusiness modelinnovation perspective",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "The GenAI is out of the bottle:generative artificial intelligencefrom abusiness modelinnovation perspective",
+      "authors": "DK Kanbach",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s11846-023-00696-z",
+      "scholar_link": "https://link.springer.com/article/10.1007/s11846-023-00696-z",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "The introduction of ChatGPT in November 2022 by OpenAI has stimulated substantial discourse on the implementation of artificial intelligence (AI) in various domains such as academia, business, and society at large. Although AI has been utilized in numerous areas for several years, the emergence of generative AI (GAI) applications such as ChatGPT, Jasper, or DALL-E are considered a breakthrough for the acceleration of AI technology due to their ease of use, intuitive interface, and performance. With GAI, it is possible to create a variety of content such as texts, images, audio, code, and even videos. This creates a variety of implications for businesses requiring a deeper examination, including an influence on business model innovation (BMI). Therefore, this study provides a BMI perspective on GAI with two primary contributions: (1) The development of six comprehensive propositions outlining the impact of GAI on businesses, and (2) the discussion of three industry examples, specifically software engineering, healthcare, and financial services. This study employs a qualitative content analysis using a scoping review methodology, drawing from a wide-ranging sample of 513 data points. These include academic publications, company reports, and public information such as press releases, news articles, interviews, and podcasts. The study thus contributes to the growing academic discourse in management research concerning AI's potential impact and offers practical insights into how to utilize this technology to develop new or improve existing business models.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Howgenerative AIwill drive enterprise innovation",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Howgenerative AIwill drive enterprise innovation",
+      "authors": "A Marshall, C Bieck, J Dencik, BC Goehring… - Strategy & …, 2024 - emerald.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.emerald.com/sl/article/52/1/23/1212500",
+      "scholar_link": "https://www.emerald.com/sl/article/52/1/23/1212500",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Leveraginggenerative artificial intelligencefor sustainablebusiness modelinnovation in production systems",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Leveraginggenerative artificial intelligencefor sustainablebusiness modelinnovation in production systems",
+      "authors": "S Wang",
+      "source": ", H Zhang - International Journal of Production Research, 2025 - Taylor & Francis",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00207543.2025.2485318",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/00207543.2025.2485318",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Transformingbusinesswithgenerative AI: Research, innovation, market deployment and future shifts inbusiness models",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Transformingbusinesswithgenerative AI: Research, innovation, market deployment and future shifts inbusiness models",
+      "authors": "N Singh",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2411.14437",
+      "scholar_link": "https://arxiv.org/abs/2411.14437",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This paper explores the transformative impact of Generative AI (GenAI) on the business landscape, examining its role in reshaping traditional business models, intensifying market competition, and fostering innovation. By applying the principles of Neo-Schumpeterian economics, the research analyses how GenAI is driving a new wave of \"creative destruction,\" leading to the emergence of novel business paradigms and value propositions. The findings reveal that GenAI enhances operational efficiency, facilitates product and service innovation, and creates new revenue streams, positioning it as a powerful catalyst for substantial shifts in business structures and strategies. However, the deployment of GenAI also presents significant challenges, including ethical concerns, regulatory demands, and the risk of job displacement. By addressing the multifarious nature of GenAI, this paper provides valuable insights for business leaders, policymakers, and researchers, guiding them towards a balanced and responsible integration of this transformative technology. Ultimately, GenAI is not merely a technological advancement but a driver of profound change, heralding a future where creativity, efficiency, and growth are redefined.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "The Future ofBusinesswithGenerative AI Modelsand Insights",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "The Future ofBusinesswithGenerative AI Modelsand Insights",
+      "authors": "M Sharma",
+      "source": ", V Selvi,",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/abstract/document/10969226/",
+      "scholar_link": "https://ieeexplore.ieee.org/abstract/document/10969226/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "In today's world, fashion is vital because it shapes and reflects consumer behavior and societal trends while also impacting economic activity, cultural express",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Understandinggenerative AI businessapplications",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Understandinggenerative AI businessapplications",
+      "authors": "I Cronin - Apress eBooks, 2024 - Springer",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://link.springer.com/content/pdf/10.1007/979-8-8688-0282-9.pdf",
+      "scholar_link": "https://link.springer.com/content/pdf/10.1007/979-8-8688-0282-9.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This book is your roadmap to leverage Generative AI and harness the power of creative automation for your AI-driven products.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Harnessinggenerative AIforbusinessgrowth and opportunities",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Harnessinggenerative AIforbusinessgrowth and opportunities",
+      "authors": "JVN Ramesh",
+      "source": ", SS Singh, A Vora… - …",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/abstract/document/10882452/",
+      "scholar_link": "https://ieeexplore.ieee.org/abstract/document/10882452/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Using Generative Artificial Intelligence (AI) for Business Development and Opportunities is a ground-breaking concept that is changing how businesses formulate",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "AI-poweredbusiness modelinnovation: Analyzing the implications ofgenerative AIon value creation, operational efficiency and market dynamics",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "AI-poweredbusiness modelinnovation: Analyzing the implications ofgenerative AIon value creation, operational efficiency and market dynamics",
+      "authors": "O Sarioguz",
+      "source": ", E Miser - World Journal of Advanced Engineering …, 2024 - researchgate.net",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/James-Benardo/publication/386078480_AI-powered_business_model_innovation_Analyzing_the_implications_of_generative_AI_on_value_creation_operational_efficiency_and_market_dynamics/links/67422aa56dedd318c896f023/AI-powered-business-model-innovation-Analyzing-the-implications-of-generative-AI-on-value-creation-operational-efficiency-and-market-dynamics.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/James-Benardo/publication/386078480_AI-powered_business_model_innovation_Analyzing_the_implications_of_generative_AI_on_value_creation_operational_efficiency_and_market_dynamics/links/67422aa56dedd318c896f023/AI-powered-business-model-innovation-Analyzing-the-implications-of-generative-AI-on-value-creation-operational-efficiency-and-market-dynamics.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Advancements and applications ofgenerative artificial intelligenceand large languagemodelsonbusinessmanagement: A comprehensive review",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": true
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Advancements and applications ofgenerative artificial intelligenceand large languagemodelsonbusinessmanagement: A comprehensive review",
+      "authors": "AA Linkon",
+      "source": ",",
+      "year": 2026,
+      "url": "https://al-kindipublishers.org/index.php/jcsts/article/view/6947",
+      "scholar_link": "https://al-kindipublishers.org/index.php/jcsts/article/view/6947",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This comprehensive review delves into the landscape and recent advancements of Generative Artificial Intelligence (AI) and Large Language Models (LLMs), shedding light on their transformative potential and applications across various sectors. Generative AI, exemplified by models like ChatGPT, DALL-E, and Midjourney, has rapidly evolved and is driven by breakthroughs in deep learning architectures and the availability of vast datasets. Concurrently, LLMs have revolutionized natural language processing tasks, utilizing vast text corpora to generate human-like text. The study explores recent developments, including the introduction of advanced models like GPT-4 and PaLM2 and the emergence of specialized LLMs like small LLMs (sLLMs), aimed at overcoming hardware limitations and cost constraints. Additionally, the expanding applications of generative AI, from healthcare to finance, underscore its transformative potential in addressing real-world challenges. Through a comprehensive analysis, this research contributes to the ongoing discourse on AI ethics, governance, and regulation, emphasizing the importance of responsible innovation for the benefit of humanity.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Generative artificial intelligenceand evaluating strategic decisions",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Generative artificial intelligenceand evaluating strategic decisions",
+      "authors": "AR Doshi",
+      "source": ",",
+      "year": 2026,
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/smj.3677",
+      "scholar_link": "https://onlinelibrary.wiley.com/doi/full/10.1002/smj.3677",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Abstract\n                  \n                    Research Summary\n                    Strategic decisions are uncertain and often irreversible. Hence, predicting the value of alternatives is important for strategic decision making. We investigate the use of generative artificial intelligence (AI) in evaluating strategic alternatives using business models generated by AI (study 1) or submitted to a competition (study 2). Each study uses a sample of 60 business models and examines agreement in business model rankings made by large language models (LLMs) and those by human experts. We consider multiple LLMs, assumed LLM roles, and prompts. We find that generative AI often produces evaluations that are inconsistent and biased. However, when aggregating evaluations, AI rankings tend to resemble those of human experts. This study highlights the value of generative AI in strategic decision making by providing predictions.\n                  \n                  \n                    Managerial Summary\n                    Managers are seeking to create value by integrating generative AI into their organizations. We show how managers can use generative AI to help evaluate strategic decisions. Generative AI's single evaluations are often inconsistent or biased. However, if managers aggregate many evaluations across LLMs, prompts, or roles, the results show that the resulting evaluations tend to resemble those of human experts. This approach allows managers to obtain insight on strategic decisions across a variety of domains with relatively low investments in time or resources, which can be combined with human inputs.",
+      "doi": "10.1002/smj.3677",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "How organizations can innovate withgenerative AI",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "How organizations can innovate withgenerative AI",
+      "authors": "J Holmström",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0007681324000247",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0007681324000247",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Generative AI: S. Feuerriegel et al.",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Generative AI: S. Feuerriegel et al.",
+      "authors": "S Feuerriegel",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s12599-023-00834-7",
+      "scholar_link": "https://link.springer.com/article/10.1007/s12599-023-00834-7",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Tom Freston is credited with saying “Innovation is taking two things that exist and putting them together in a new way”. For a long time in history, it has been the prevailing assumption that artistic, creative tasks such as writing poems, creating software, designing fashion, and composing songs could only be performed by humans. This assumption has changed drastically with recent advances in artificial intelligence (AI) that can generate new content in ways that cannot be distinguished anymore from human craftsmanship.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Generative artificial intelligenceand the challenges to adding value ethically",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Generative artificial intelligenceand the challenges to adding value ethically",
+      "authors": "SF Wamba",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0166497225000677",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0166497225000677",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Role and challenges of ChatGPT and similargenerative artificial intelligenceinbusinessmanagement",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Role and challenges of ChatGPT and similargenerative artificial intelligenceinbusinessmanagement",
+      "authors": "N Rane",
+      "source": "- Available at SSRN 4603227, 2023 - papers.ssrn.com",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4603227",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4603227",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Large processmodels: a vision forbusinessprocess management in the age ofgenerative AI",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": true
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Large processmodels: a vision forbusinessprocess management in the age ofgenerative AI",
+      "authors": "T Kampik",
+      "source": ", C Warmuth,",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s13218-024-00863-8",
+      "scholar_link": "https://link.springer.com/article/10.1007/s13218-024-00863-8",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "The continued success of Large Language Models (LLMs) and other generative artificial intelligence approaches highlights the advantages that large information corpora can have over rigidly defined symbolic models, but also serves as a proof-point of the challenges that purely statistics-based approaches have in terms of safety and trustworthiness. As a framework for contextualizing the potential, as well as the limitations of LLMs and other foundation model-based technologies, we propose the concept of a Large Process Model (LPM) that combines the correlation power of LLMs with the analytical precision and reliability of knowledge-based systems and automated reasoning approaches. LPMs are envisioned to directly utilize the wealth of process management experience that experts have accumulated, as well as process performance data of organizations with diverse characteristics, e.g., regarding size, region, or industry. In this vision, the proposed LPM would enable organizations to receive context-specific (tailored) process and other business models, analytical deep-dives, and improvement recommendations. As such, it would allow to substantially decrease the time and effort required for business transformation, while also allowing for deeper, more impactful, and more actionable insights than previously possible. We argue that implementing an LPM is feasible, but also highlight limitations and research challenges that need to be solved to implement particular aspects of the LPM vision.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Technology trends instrategic managementin theAIera: Systematic literature review",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Technology trends instrategic managementin theAIera: Systematic literature review",
+      "authors": "W Alhyasat",
+      "source": ",",
+      "year": 2026,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/01672533251322396",
+      "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/01672533251322396",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Background\n                    This study explores the intersection of strategic management and artificial intelligence (AI) from 2014 to 2024. As AI technologies advance, their integration into strategic management becomes essential for sustaining competitive advantage. The research aims to understand how AI influences and reshapes strategic decision-making and competitive strategies.\n                  \n                  \n                    Objective\n                    The study aims to systematically examine how AI and strategic management converge. It seeks to identify key research trends, influential scholars, and major publications to clarify how AI is transforming strategic management and competitive dynamics.\n                  \n                  \n                    Methods\n                    We used a three-stage methodology: we used RStudio to analyze 326 scholarly articles, VOSviewer to perform citation and network analysis to identify key authors and research clusters, and Excel for data management and visualization to highlight emerging trends and findings.\n                  \n                  \n                    Results\n                    The study identifies three main research clusters: leveraging AI for competitive advantage, the impact of emerging technologies on strategic management, and the role of dynamic capabilities. It underscores AI’s growing importance in strategic foresight and the need for dynamic capabilities to adapt to technological changes.\n                  \n                  \n                    Implications\n                    The research offers a roadmap for academics and practitioners, highlighting crucial areas for future exploration and emphasizing the need to integrate AI into strategic management practices to navigate emerging trends and maintain competitive advantage.",
+      "doi": "10.1177/01672533251322396",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "The analysis ofstrategic managementdecisions and corporate competitiveness based onartificial intelligence",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": true
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "The analysis ofstrategic managementdecisions and corporate competitiveness based onartificial intelligence",
+      "authors": "Y Pu, H Li, W Hou, X Pan - Scientific Reports, 2025 - nature.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.nature.com/articles/s41598-025-02842-x",
+      "scholar_link": "https://www.nature.com/articles/s41598-025-02842-x",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This work aims to enhance the accuracy and efficiency of corporate strategic decision-making, particularly in rapidly changing and highly competitive market environments. Traditional strategic decision-making methods rely on managers’ experiential judgment and exhibit limitations when handling complex data and high-frequency market fluctuations. To address this issue, this work proposes a hybrid optimization model combining transformer models and reinforcement learning algorithms, designed to optimize corporate strategic decision-making processes and improve competitiveness. First, relevant studies on strategic decision-making and corporate competitiveness are reviewed, clarifying the potential and advantages of artificial intelligence (AI) in decision support. Second, the hybrid model is developed and trained through steps including data collection and preprocessing, algorithm selection and model construction, as well as model training and validation. Finally, real-world data are applied to evaluate model performance across indicators such as training time, convergence speed, and prediction effectiveness. The results demonstrate that the hybrid model successfully converges within 150 iterations and exhibits substantial advantages over traditional algorithms, particularly in prediction accuracy for market share (92%), profit growth rate (91%), and customer satisfaction (89%). Implementing the model leads to notable improvements in corporate market position, brand influence, and technological innovation capabilities. The work shows that the hybrid model enhances the scientific rigor and accuracy of decision-making. Meanwhile, it strengthens corporate competitiveness and market responsiveness, highlighting the substantial potential of AI technologies in strategic management. This work provides enterprises with an efficient and reliable decision-support tool, facilitating the maintenance of competitive advantages in complex and dynamic market environments.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Artificial intelligenceinstrategic management: Examining novelAIapplications in organizationalstrategicdecision-making",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligenceinstrategic management: Examining novelAIapplications in organizationalstrategicdecision-making",
+      "authors": "MG Asiabar, MG Asiabar, AG Asiabar - 2024 - preprints.org",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.preprints.org/frontend/manuscript/f35f4c26e817caee4d39e55bf9289bc0/download_pub",
+      "scholar_link": "https://www.preprints.org/frontend/manuscript/f35f4c26e817caee4d39e55bf9289bc0/download_pub",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Designing anAI-drivenmanagementsystem forstrategyimplementation",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": true
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Designing anAI-drivenmanagementsystem forstrategyimplementation",
+      "authors": "O Latvakoski - 2025 - aaltodoc.aalto.fi",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://aaltodoc.aalto.fi/items/361130b5-67c9-4f42-b4fb-48ed55187793",
+      "scholar_link": "https://aaltodoc.aalto.fi/items/361130b5-67c9-4f42-b4fb-48ed55187793",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Most strategies seem viable on paper but fail in implementation. At the same time, organizations are investing heavily in artificial intelligence, yet its practical contribution to corporate strategy remains unclear while implementation challenges persist. This thesis identifies challenges, explores corresponding AI-enabled opportunities, and contributes to the Case Company’s ambition to develop an AI-driven management system that supports its clients in strategy implementation. In a broader context, the thesis also provides a building block for the company’s transition toward an asset-based business model. To design, iterate, and validate the technological component of such a management system, the thesis applies a design science research approach, informed by lean startup principles and the theory-based view to guide experimentation under uncertainty. The design process begins with a review of academic literature across strategy and AI domains, drawing on adaptive strategy implementation as a guiding perspective. Building on this foundation, the empirical work consists of 30 qualitative interviews with strategy leaders and CEOs from large Nordic enterprises as well as relevant academic experts, to identify implementation challenges and AI-related opportunities in the strategy process. These insights informed an iterative design cycle in which the problem domain and solution concepts were refined across interview rounds. The work culminated in a minimum viable product (MVP), validated through later interviews and dedicated sessions with both internal and external stakeholders of the Case Company. The findings highlight implementation challenges across domains of business, people, process, and data & systems. Opportunities for applying AI were identified along the continuum of strategy creation and implementation, organized into three categories adapted from prior research: expanded attentional capacity, democratized strategy work, and accelerated responsiveness. Within the solution domain, the developed MVP centers on actions that typically occur during implementation and addresses a pressing challenge: strategy adaptation. The system supports a higher-clock-speed strategy process, where continuous monitoring of the external environment can trigger more frequent reconceptualizations of strategy. To achieve this, it leverages external, alternative data sources, conceptually designed to be combined with internal organizational data in future iterations, to generate implications for a company’s strategy. The broader solution space was validated with clients, while the MVP underwent more in-depth testing and demonstrated how AI can create practical value by making strategy implementation more adaptive and dynamic.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "AI-driven decision support systems inmanagement: enhancingstrategicplanning and execution",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "AI-driven decision support systems inmanagement: enhancingstrategicplanning and execution",
+      "authors": "S Narne",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/Suresh-Dodda/publication/383950090_AI-Driven_Decision_Support_Systems_in_Management_Enhancing_Strategic_Planning_and_Execution/links/66e25265bd20173667cacb87/AI-Driven-Decision-Support-Systems-in-Management-Enhancing-Strategic-Planning-and-Execution.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/Suresh-Dodda/publication/383950090_AI-Driven_Decision_Support_Systems_in_Management_Enhancing_Strategic_Planning_and_Execution/links/66e25265bd20173667cacb87/AI-Driven-Decision-Support-Systems-in-Management-Enhancing-Strategic-Planning-and-Execution.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "AIin decision making: transforming businessstrategies",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "AIin decision making: transforming businessstrategies",
+      "authors": "S Kaggwa",
+      "source": ", TF Eleogu, F Okonkwo… - … Journal of Research …, 2024 - researchgate.net",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/Oluwatoyin-Farayola/publication/377345979_AI_in_Decision_Making_Transforming_Business_Strategies/links/6601fe2fa4857c796282c14e/AI-in-Decision-Making-Transforming-Business-Strategies.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/Oluwatoyin-Farayola/publication/377345979_AI_in_Decision_Making_Transforming_Business_Strategies/links/6601fe2fa4857c796282c14e/AI-in-Decision-Making-Transforming-Business-Strategies.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Generativeartificial intelligenceand evaluatingstrategicdecisions",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Generativeartificial intelligenceand evaluatingstrategicdecisions",
+      "authors": "AR Doshi",
+      "source": ",",
+      "year": 2026,
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/smj.3677",
+      "scholar_link": "https://onlinelibrary.wiley.com/doi/full/10.1002/smj.3677",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Abstract\n                  \n                    Research Summary\n                    Strategic decisions are uncertain and often irreversible. Hence, predicting the value of alternatives is important for strategic decision making. We investigate the use of generative artificial intelligence (AI) in evaluating strategic alternatives using business models generated by AI (study 1) or submitted to a competition (study 2). Each study uses a sample of 60 business models and examines agreement in business model rankings made by large language models (LLMs) and those by human experts. We consider multiple LLMs, assumed LLM roles, and prompts. We find that generative AI often produces evaluations that are inconsistent and biased. However, when aggregating evaluations, AI rankings tend to resemble those of human experts. This study highlights the value of generative AI in strategic decision making by providing predictions.\n                  \n                  \n                    Managerial Summary\n                    Managers are seeking to create value by integrating generative AI into their organizations. We show how managers can use generative AI to help evaluate strategic decisions. Generative AI's single evaluations are often inconsistent or biased. However, if managers aggregate many evaluations across LLMs, prompts, or roles, the results show that the resulting evaluations tend to resemble those of human experts. This approach allows managers to obtain insight on strategic decisions across a variety of domains with relatively low investments in time or resources, which can be combined with human inputs.",
+      "doi": "10.1002/smj.3677",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Integratingartificial intelligenceinstrategicbusiness decision-making: A systematic review of predictive models",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": true
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Integratingartificial intelligenceinstrategicbusiness decision-making: A systematic review of predictive models",
+      "authors": "S Vudugula",
+      "source": ",",
+      "year": 2026,
+      "url": "http://ijsir.org/index.php/IJSIR/article/view/2",
+      "scholar_link": "http://ijsir.org/index.php/IJSIR/article/view/2",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Artificial Intelligence (AI) integration into strategic business decision-making has emerged as a transformative force, reshaping how organizations navigate complexity, uncertainty, and long-term planning. This systematic review critically examines the role of AI-driven predictive models in enhancing strategic decision-making accuracy, risk mitigation, responsiveness, and organizational alignment. By analyzing 105 peer-reviewed journal articles published between 2018 and 2023, the study provides a comprehensive synthesis of methodologies, applications, and emerging challenges surrounding the deployment of machine learning (ML) and deep learning (DL) techniques in strategic business analytics. The evidence demonstrates that predictive models—including Random Forest, Support Vector Machines (SVM), Gradient Boosting Machines (GBM), Convolutional Neural Networks (CNN), and Long Short-Term Memory (LSTM) networks—offer significant improvements in strategic forecasting across various domains such as customer behavior analysis, financial planning, supply chain optimization, market segmentation, and product innovation. The review reveals that AI tools empower organizations to transition from reactive to proactive decision-making by leveraging real-time and historical data to identify patterns, predict outcomes, and simulate strategic scenarios. These capabilities facilitate more informed, agile, and evidence-based decisions, ultimately enhancing organizational performance and competitive positioning. However, the review also identifies persistent barriers to AI adoption in strategic contexts, particularly the black box dilemma—where the opacity of complex models undermines trust, interpretability, and accountability. The findings underscore the importance of leadership engagement, ethical AI governance, explainability frameworks (e.g., SHAP, LIME), and integrated operating models to ensure that AI systems align with strategic objectives and generate actionable value. Overall, this review contributes to the growing body of literature on AI’s strategic impact by mapping the current landscape of AI-enhanced decision-making, identifying key opportunities and obstacles, and offering insights for researchers, executives, and policymakers. It advocates for a holistic approach to AI integration that combines technical innovation with strategic foresight, organizational readiness, and responsible deployment practices, ultimately promoting more resilient and future-oriented enterprises.",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Strategicintegration ofartificial intelligencefor sustainable businesses: Implications for datamanagementand human user engagement in the digital era",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Strategicintegration ofartificial intelligencefor sustainable businesses: Implications for datamanagementand human user engagement in the digital era",
+      "authors": "SD Jankovic, DM Curovic - Sustainability, 2023 - mdpi.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2071-1050/15/21/15208",
+      "scholar_link": "https://www.mdpi.com/2071-1050/15/21/15208",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Artificial intelligenceandstrategicdecision-making: Evidence from entrepreneurs and investors",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": true
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligenceandstrategicdecision-making: Evidence from entrepreneurs and investors",
+      "authors": "FA Csaszar",
+      "source": ",",
+      "year": 2026,
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/stsc.2024.0190",
+      "scholar_link": "https://pubsonline.informs.org/doi/abs/10.1287/stsc.2024.0190",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This paper explores how artificial intelligence (AI) may impact the strategic decision-making (SDM) process in firms. We illustrate how AI could augment existing SDM tools and provide empirical evidence from a leading accelerator program and a start-up competition that current large language models can generate and evaluate strategies at a level comparable to entrepreneurs and investors. We then examine implications for the key cognitive processes underlying SDM—search, representation, and aggregation. Our analysis suggests that AI has the potential to enhance the speed, quality, and scale of strategic analysis, while also enabling new approaches, like virtual strategy simulations. However, the ultimate impact on firm performance will depend on competitive dynamics as AI capabilities progress. We propose a framework connecting AI use in SDM to firm outcomes and discuss how AI may reshape sources of competitive advantage. We conclude by considering how AI could both support and challenge core tenets of the theory-based view of strategy. Overall, our work maps out an emerging research frontier at the intersection of AI and strategy.  History: This paper has been accepted for the Strategy Science Special Issue on Theory-Based View.  Funding: The authors are grateful to their collaborating organizations and to the University of Michigan, Bocconi University Junior Researchers’ Grant, and the INSEAD eLab Research Fund for financial support.",
+      "doi": "10.1287/stsc.2024.0190",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Investigating the influence ofartificial intelligenceon business value in the digital era ofstrategy: A literature review",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Investigating the influence ofartificial intelligenceon business value in the digital era ofstrategy: A literature review",
+      "authors": "NA Perifanis",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2078-2489/14/2/85",
+      "scholar_link": "https://www.mdpi.com/2078-2489/14/2/85",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Artificial intelligenceand the changing sources of competitive advantage",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": true
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligenceand the changing sources of competitive advantage",
+      "authors": "S Krakowski",
+      "source": ",",
+      "year": 2026,
+      "url": "https://sms.onlinelibrary.wiley.com/doi/abs/10.1002/smj.3387",
+      "scholar_link": "https://sms.onlinelibrary.wiley.com/doi/abs/10.1002/smj.3387",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Abstract\n                  \n                    Research Summary\n                    We apply a resource‐based view to investigate how the adoption of Artificial Intelligence (AI) affects competitive capabilities and performance. Following prior work on using chess as a controlled setting for studying competitive interactions, we compare the same players’ capabilities and performance across conventional, centaur, and engine chess tournaments. Our analysis shows that AI adoption triggers interrelated substitution and complementation dynamics, which make humans’ traditional competitive capabilities obsolete, while creating new sources of persistent heterogeneity when humans interact with chess engines. These novel human‐machine capabilities are unrelated, or even negatively related, to traditional capabilities. We contribute an integrated view of substitution and complementation, which identifies AI as the driver of these dynamics and explains how they jointly shift the sources of competitive advantage.\n                  \n                  \n                    Managerial Summary\n                    AI‐based technologies increasingly substitute and complement humans in managerial tasks such as decision making. We investigate how such change affects the sources of competitive advantage. AI‐based engines’ adoption in chess allows us to investigate competitive capabilities and performance in human, AI, and hybrid settings. We find that neither humans nor AI in isolation explain performance differences in the AI and hybrid settings. Instead, a new decision‐making resource emerges at the human‐AI intersection, which drives performance but is unrelated or even negatively related to humans’ original capability. Our results document how AI adoption changes the sources of competitive advantage and, in turn, requires managers to develop new capabilities to stay relevant in an AI‐based competitive landscape.",
+      "doi": "10.1002/smj.3387",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Competitive advantage throughartificial intelligence: Toward a theory of situatedAI",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": false
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Competitive advantage throughartificial intelligence: Toward a theory of situatedAI",
+      "authors": "A Kemp",
+      "source": "- Academy of",
+      "year": 2026,
+      "url": "https://journals.aom.org/doi/abs/10.5465/amr.2020.0205",
+      "scholar_link": "https://journals.aom.org/doi/abs/10.5465/amr.2020.0205",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Generativeartificial intelligencein business: towards astrategichuman resourcemanagementframework",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": true
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Generativeartificial intelligencein business: towards astrategichuman resourcemanagementframework",
+      "authors": "S Chowdhury",
+      "source": ",",
+      "year": 2026,
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-8551.12824",
+      "scholar_link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-8551.12824",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "AbstractAs businesses and society navigate the potentials of generative artificial intelligence (GAI), the integration of these technologies introduces unique challenges and opportunities for human resources, requiring a re‐evaluation of human resource management (HRM) frameworks. The existing frameworks may often fall short of capturing the novel attributes, complexities and impacts of GAI on workforce dynamics and organizational operations. This paper proposes a strategic HRM framework, underpinned by the theory of institutional entrepreneurship for sustainable organizations, for integrating GAI within HRM practices to boost operational efficiency, foster innovation and secure a competitive advantage through responsible practices and workforce development. Central to this framework is the alignment with existing business objectives, seizing opportunities, strategic resource assessment and orchestration, re‐institutionalization, realignment and embracing a culture of continuous learning and adaptation. This approach provides a detailed roadmap for organizations to navigate successfully the complexities of a GAI‐enhanced business environment. Additionally, this paper significantly contributes to the theoretical discourse by bridging the gap between HRM and GAI adoption, the proposed framework accounting for GAI–human capital symbiosis, setting the stage for future research to empirically test its applicability, explore its implications on HRM practices and understand its broader economic and societal consequences through diverse multi‐disciplinary and multi‐level research methodologies.",
+      "doi": "10.1111/1467-8551.12824",
+      "pocket": "management"
+    }
+  },
+  {
+    "title": "Artificial intelligence, machine learning, and deep learning for advanced businessstrategies: a review",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/digital/automatización",
+        "met": true
+      },
+      {
+        "key": "organizational",
+        "desc": "Estudia factores organizacionales o de gestión",
+        "met": true
+      },
+      {
+        "key": "adoption_impl",
+        "desc": "Estudia adopción, implementación o escalamiento",
+        "met": false
+      },
+      {
+        "key": "capabilities",
+        "desc": "Analiza capacidades, complementariedades o cambio organizacional",
+        "met": false
+      },
+      {
+        "key": "performance",
+        "desc": "Conecta con desempeño o captura de valor",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligence, machine learning, and deep learning for advanced businessstrategies: a review",
+      "authors": "NL Rane",
+      "source": ",",
+      "year": 2026,
+      "url": "https://puiij.com/index.php/research/article/view/143",
+      "scholar_link": "https://puiij.com/index.php/research/article/view/143",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This study thoroughly analyses how artificial intelligence (AI), machine learning (ML), and deep learning (DL) impact the development and improvement of business strategies. It examines how AI changes business models, highlighting its ability to stimulate innovation, improve procedural effectiveness, and enhance decision-making abilities. The discussion explores the numerous uses of ML algorithms, including predicting market trends, customizing consumer engagements, and enhancing logistic systems. Moreover, it explores the use of DL techniques to analyse extensive amounts of unstructured data, revealing previously hidden insights. Besides that, the article explains how combining AI, ML, and DL into operational methods can provide significant competitive benefits. Special focus is given to the crucial role of AI in the field of big data analysis, highlighting its ability to effectively analyse and extract useful insights from large sets of data, thus strengthening the foundations of strategic decisionmaking structures. Potential paths and emerging technologies are analysed, providing a future perspective on the direction of AI, ML, and DL in relation to corporate environments. This includes predictions about how AI-enabled automation will advance, the improvement of ML systems, and the hidden capabilities of DL in detecting complex patterns. The article ends with a discussion of the simultaneous obstacles and advantages that come with these technologies, offering suggestions on how businesses can effectively use AI, ML, and DL to maintain a competitive advantage in the ever-changing market.",
+      "pocket": "management"
+    }
+  }
+]

@@ -1,0 +1,3208 @@
+[
+  {
+    "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "authors": [
+        "Wiebke Hutiri",
+        "Morgan Scheuerman",
+        "Shruti Nagpal",
+        "Austin Hoag",
+        "Alice Xiang"
+      ],
+      "published": "2026-04-10T15:26:57Z",
+      "arxiv_id": "2604.09413v1",
+      "url": "https://arxiv.org/abs/2604.09413v1",
+      "summary": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+      "authors": [
+        "Arnab Paul Choudhury",
+        "Rahul Rathod",
+        "Aryan Yadav"
+      ],
+      "published": "2026-04-10T15:09:28Z",
+      "arxiv_id": "2604.09395v1",
+      "url": "https://arxiv.org/abs/2604.09395v1",
+      "summary": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+      "authors": [
+        "Oleg Solozobov"
+      ],
+      "published": "2026-04-10T13:06:38Z",
+      "arxiv_id": "2604.09296v1",
+      "url": "https://arxiv.org/abs/2604.09296v1",
+      "summary": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Artificial intelligence can persuade people to take political actions",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "authors": [
+        "Kobi Hackenburg",
+        "Luke Hewitt",
+        "Caroline Wagner",
+        "Ben M. Tappin",
+        "Christopher Summerfield"
+      ],
+      "published": "2026-04-10T10:34:49Z",
+      "arxiv_id": "2604.09200v1",
+      "url": "https://arxiv.org/abs/2604.09200v1",
+      "summary": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "authors": [
+        "Tommy Shaffer Shane",
+        "Simon Mylius",
+        "Hamish Hobbs"
+      ],
+      "published": "2026-04-10T08:37:18Z",
+      "arxiv_id": "2604.09104v1",
+      "url": "https://arxiv.org/abs/2604.09104v1",
+      "summary": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Scrapyard AI",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Scrapyard AI",
+      "authors": [
+        "Marc Böhlen",
+        "Sai Krishna"
+      ],
+      "published": "2026-04-09T22:38:57Z",
+      "arxiv_id": "2604.08803v1",
+      "url": "https://arxiv.org/abs/2604.08803v1",
+      "summary": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "authors": [
+        "Addison J. Wu",
+        "Ryan Liu",
+        "Shuyue Stella Li",
+        "Yulia Tsvetkov",
+        "Thomas L. Griffiths"
+      ],
+      "published": "2026-04-09T17:57:50Z",
+      "arxiv_id": "2604.08525v1",
+      "url": "https://arxiv.org/abs/2604.08525v1",
+      "summary": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "authors": [
+        "Juergen Dietrich"
+      ],
+      "published": "2026-04-09T17:00:26Z",
+      "arxiv_id": "2604.08465v1",
+      "url": "https://arxiv.org/abs/2604.08465v1",
+      "summary": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "authors": [
+        "Jyh-An Lee",
+        "Jingwen Liu"
+      ],
+      "published": "2026-04-09T15:19:40Z",
+      "arxiv_id": "2604.08353v1",
+      "url": "https://arxiv.org/abs/2604.08353v1",
+      "summary": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "authors": [
+        "Ralf Beuthan",
+        "Megan Coffee",
+        "Heejin Kim",
+        "Na Yeon Kim",
+        "Pedro Kringen"
+      ],
+      "published": "2026-04-09T13:14:34Z",
+      "arxiv_id": "2604.08217v1",
+      "url": "https://arxiv.org/abs/2604.08217v1",
+      "summary": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "The Weaponization of Computer Vision: Tracing Military-Surveillance Ties through Conference Sponsorship",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The Weaponization of Computer Vision: Tracing Military-Surveillance Ties through Conference Sponsorship",
+      "authors": [
+        "Noa Garcia",
+        "Amelia Katirai"
+      ],
+      "published": "2026-04-09T04:54:44Z",
+      "arxiv_id": "2604.07803v1",
+      "url": "https://arxiv.org/abs/2604.07803v1",
+      "summary": "Computer vision, a core domain of artificial intelligence (AI), is the field that enables the computational analysis, understanding, and generation of visual data. Despite being historically rooted in military funding and increasingly deployed in warfare, the field tends to position itself as a neutral, purely technical endeavor, failing to engage in discussions about its dual-use applications. Yet it has been reported that computer vision systems are being systematically weaponized to assist in technologies that inflict harm, such as surveillance or warfare. Expanding on these concerns, we study the extent to which computer vision research is being used in the military and surveillance domains. We do so by collecting a dataset of tech companies with financial ties to the field's central research exchange platform: conferences. Conference sponsorship, we argue, not only serves as strong evidence of a company's investment in the field but also provides a privileged position for shaping its trajectory. By investigating sponsors' activities, we reveal that 44% of them have a direct connection with military or surveillance applications. We extend our analysis through two case studies in which we discuss the opportunities and limitations of sponsorship as a means for uncovering technological weaponization.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Computer vision, a core domain of artificial intelligence (AI), is the field that enables the computational analysis, understanding, and generation of visual data. Despite being historically rooted in military funding and increasingly deployed in warfare, the field tends to position itself as a neutral, purely technical endeavor, failing to engage in discussions about its dual-use applications. Yet it has been reported that computer vision systems are being systematically weaponized to assist in technologies that inflict harm, such as surveillance or warfare. Expanding on these concerns, we study the extent to which computer vision research is being used in the military and surveillance domains. We do so by collecting a dataset of tech companies with financial ties to the field's central research exchange platform: conferences. Conference sponsorship, we argue, not only serves as strong evidence of a company's investment in the field but also provides a privileged position for shaping its trajectory. By investigating sponsors' activities, we reveal that 44% of them have a direct connection with military or surveillance applications. We extend our analysis through two case studies in which we discuss the opportunities and limitations of sponsorship as a means for uncovering technological weaponization.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "The Sustainability Gap in Robotics: A Large-Scale Survey of Sustainability Awareness in 50,000 Research Articles",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The Sustainability Gap in Robotics: A Large-Scale Survey of Sustainability Awareness in 50,000 Research Articles",
+      "authors": [
+        "Antun Skuric",
+        "Leandro Von Werra",
+        "Thomas Wolf"
+      ],
+      "published": "2026-04-09T07:41:49Z",
+      "arxiv_id": "2604.07921v1",
+      "url": "https://arxiv.org/abs/2604.07921v1",
+      "summary": "We present a large-scale survey of sustainability communication and motivation in robotics research. Our analysis covers nearly 50,000 open-access papers from arXiv's cs.RO category published between 2015 and early 2026. In this study, we quantify how often papers mention social, ecological, and sustainability impacts, and we analyse their alignment with the UN Sustainable Development Goals (SDGs).\n  The results reveal a persistent gap between the field's potential and its stated intent. While a large fraction of robotics papers can be mapped to SDG-relevant domains, explicit sustainability motivation remains remarkably low. Specifically, mentions of sustainability-related impacts are typically below 2%, explicit SDG references stay below 0.1%, and the proportion of sustainability-motivated papers remains below 5%. These trends suggest that while the field of robotics is advancing rapidly, sustainability is not yet a standard part of research framing.\n  We conclude by proposing concrete actions for researchers, conferences, and institutions to close these awareness and motivation gaps, supporting a shift toward more intentional and responsible innovation.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "We present a large-scale survey of sustainability communication and motivation in robotics research. Our analysis covers nearly 50,000 open-access papers from arXiv's cs.RO category published between 2015 and early 2026. In this study, we quantify how often papers mention social, ecological, and sustainability impacts, and we analyse their alignment with the UN Sustainable Development Goals (SDGs).\n  The results reveal a persistent gap between the field's potential and its stated intent. While a large fraction of robotics papers can be mapped to SDG-relevant domains, explicit sustainability motivation remains remarkably low. Specifically, mentions of sustainability-related impacts are typically below 2%, explicit SDG references stay below 0.1%, and the proportion of sustainability-motivated papers remains below 5%. These trends suggest that while the field of robotics is advancing rapidly, sustainability is not yet a standard part of research framing.\n  We conclude by proposing concrete actions for researchers, conferences, and institutions to close these awareness and motivation gaps, supporting a shift toward more intentional and responsible innovation.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Doctoral Theses in France (1985-2025): A Linked Dataset of PhDs, Academic Networks, and Institutions",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": false
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": true
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Doctoral Theses in France (1985-2025): A Linked Dataset of PhDs, Academic Networks, and Institutions",
+      "authors": [
+        "William Aboucaya",
+        "Dastan Jasim"
+      ],
+      "published": "2026-04-09T08:09:43Z",
+      "arxiv_id": "2604.08619v1",
+      "url": "https://arxiv.org/abs/2604.08619v1",
+      "summary": "This paper presents a comprehensive dataset of doctoral theses defended in France between 1985 and 2025, constructed from multiple national academic metadata sources. The dataset is primarily based on data from the French national thesis platform and is enriched using additional authority and bibliographic databases to improve data quality, completeness, and interoperability. The data production pipeline includes the aggregation of heterogeneous sources, the correction of inconsistent identifiers, the enrichment of person and institution records, and the construction of derived variables describing academic careers, jury participation, institutional affiliations, and thesis characteristics. Additional identifiers from major academic repositories and library catalogues are integrated to facilitate linkage with external data sources and future dataset extensions. The resulting dataset provides structured information at the thesis, individual, and institutional levels, enabling both descriptive and relational analyses. This resource is particularly suited for research on doctoral education, academic networks, supervision practices, jury composition, institutional collaboration, and the evolution of research communities over time. The paper documents the data sources, processing pipeline, feature construction, data quality issues, and limitations, with the objective of facilitating reuse of the dataset by other researchers and supporting future extensions and longitudinal analyses of the academic system.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This paper presents a comprehensive dataset of doctoral theses defended in France between 1985 and 2025, constructed from multiple national academic metadata sources. The dataset is primarily based on data from the French national thesis platform and is enriched using additional authority and bibliographic databases to improve data quality, completeness, and interoperability. The data production pipeline includes the aggregation of heterogeneous sources, the correction of inconsistent identifiers, the enrichment of person and institution records, and the construction of derived variables describing academic careers, jury participation, institutional affiliations, and thesis characteristics. Additional identifiers from major academic repositories and library catalogues are integrated to facilitate linkage with external data sources and future dataset extensions. The resulting dataset provides structured information at the thesis, individual, and institutional levels, enabling both descriptive and relational analyses. This resource is particularly suited for research on doctoral education, academic networks, supervision practices, jury composition, institutional collaboration, and the evolution of research communities over time. The paper documents the data sources, processing pipeline, feature construction, data quality issues, and limitations, with the objective of facilitating reuse of the dataset by other researchers and supporting future extensions and longitudinal analyses of the academic system.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Towards Generalizable Representations of Mathematical Strategies",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Towards Generalizable Representations of Mathematical Strategies",
+      "authors": [
+        "Siddhartha Pradhan",
+        "Ethan Prihar",
+        "Erin Ottmar"
+      ],
+      "published": "2026-04-09T18:26:13Z",
+      "arxiv_id": "2604.08693v1",
+      "url": "https://arxiv.org/abs/2604.08693v1",
+      "summary": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Socialinequalityin the age ofAI: Implications for labor,wagedistribution, and worker power",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": true
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Socialinequalityin the age ofAI: Implications for labor,wagedistribution, and worker power",
+      "authors": "X Jia",
+      "source": "- Communications in Humanities Research, 2024 - chr.ewapub.com",
+      "year": 2026,
+      "url": "https://chr.ewapub.com/article/view/15343",
+      "scholar_link": "https://chr.ewapub.com/article/view/15343",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This article critically examines the multifaceted impact of artificial intelligence (AI) on social stratification, situated within the broader historical context of automation-driven productivity advances. Drawing on empirical evidence and evolving theoretical frameworks, we elucidate the intricate dynamics of labor market transformation, skill obsolescence, and wage distribution in the nascent AI epoch. We employ a nuanced task-based approach to move beyond simplistic dichotomies of skill-biased technological change, offering a granular understanding of AI-induced labor market polarization. Our analysis reveals that AI is reshaping the contours of inequality through complex interactions of skill restructuring, wage decoupling from productivity, and shifts in worker bargaining power. We argue that the current trajectory of AI development may accelerate capital-biased technological change, potentially exacerbating existing inequalities. This article not only contributes to the scholarly discourse on technological unemployment and income inequality but also serves as a foundation for evidence-based policymaking in navigating the uncharted territories of human-AI interaction.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "AIAND THE FUTURE OF WORK:WAGE INEQUALITY, INDUSTRY TRANSFORMATION, AND RESKILLING BENEFITS",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "AIAND THE FUTURE OF WORK:WAGE INEQUALITY, INDUSTRY TRANSFORMATION, AND RESKILLING BENEFITS",
+      "authors": "KL Čerkuć,",
+      "source": "J Samardzija",
+      "year": 2025,
+      "url": "https://search.proquest.com/openview/389862bfc9d9a1458e930fa792b38ec0/1?pq-origsite=gscholar&cbl=4910610",
+      "scholar_link": "https://search.proquest.com/openview/389862bfc9d9a1458e930fa792b38ec0/1?pq-origsite=gscholar&cbl=4910610",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "The Impact ofArtificial Intelligenceon Labor Market IncomeInequality",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The Impact ofArtificial Intelligenceon Labor Market IncomeInequality",
+      "authors": "Y Gu",
+      "source": ",",
+      "year": 2026,
+      "url": "https://jandoopress.com/journal/ijas/article/view/169",
+      "scholar_link": "https://jandoopress.com/journal/ijas/article/view/169",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Robots &AIexposure andwage inequality: a within occupation approach",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": true
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Robots &AIexposure andwage inequality: a within occupation approach",
+      "authors": "F Jaccoud",
+      "source": "- Eurasian Business Review, 2025 - Springer",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s40821-025-00306-w",
+      "scholar_link": "https://link.springer.com/article/10.1007/s40821-025-00306-w",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This paper examines the linkages between occupational exposure to recent automation technologies and inequality across 19 European countries. Using data from the European Union Structure of Earnings Survey (EU-SES), a fixed-effects model is employed to assess the association between occupational exposure to artificial intelligence (AI) and to industrial robots–two distinct forms of automation–and within-occupation wage inequality. The analysis reveals that occupations with higher exposure to robots tend to have lower wage inequality, particularly among workers in the lower half of the wage distribution. In contrast, occupations more exposed to AI exhibit greater wage dispersion, especially at the top of the wage distribution. We argue that this disparity arises from differences in how each technology complements individual worker abilities: robot-related tasks often complement routine physical activities, while AI-related tasks tend to amplify the productivity of high-skilled, cognitively intensive work.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Artificial intelligence,wagedynamics, andinequality: Empirical evidence from Chinese listed firms",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligence,wagedynamics, andinequality: Empirical evidence from Chinese listed firms",
+      "authors": "Y Wu, Z Lin, Q Zhang,",
+      "source": "W Wang",
+      "year": 2024,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1059056024007317",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S1059056024007317",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "AIand incomeinequality: The danger of exacerbating existing trends toward polarization in the US workforce",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "AIand incomeinequality: The danger of exacerbating existing trends toward polarization in the US workforce",
+      "authors": "D Sholler",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.elgaronline.com/edcollchap/book/9781800889972/book-part-9781800889972-26.xml",
+      "scholar_link": "https://www.elgaronline.com/edcollchap/book/9781800889972/book-part-9781800889972-26.xml",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Certain populations have experienced a decline in job prospects and income, as polarization has been a consistent trend for more than two decades. This followed job losses related to IT-enabled outsourcing and automation in manufacturing in the 1980s. The development of AI will likely exacerbate these trends so an important question will be how to produce policies and technologies that reduce income inequality. We begin to develop ideas for how to do so via an examination of the causes of current polarization, which are rooted in economic and political systems that have de-facto governed technology development. We argue that the increasing capabilities of AI demand a more active approach. This can include union activity and policies related to universal basic income, wage subsidies, unemployment, reskilling initiatives, rewards for workers that are improving AI, and addressing remote work. A key goal would be to increase the bargaining power of workers.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "TheAIrevolution with 21st century skills: Implications for thewage inequalityand technical change",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": true
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "TheAIrevolution with 21st century skills: Implications for thewage inequalityand technical change",
+      "authors": "R Grant,",
+      "source": "M Üngör",
+      "year": 2024,
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/sjpe.12395",
+      "scholar_link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/sjpe.12395",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "AbstractWe construct a three‐level constant elasticity of substitution production model. Labour is split into three components: (i) low‐skilled labour, (ii) high‐skilled labour with a traditional education background, and (iii) high‐skilled labour with an AI‐based education background. Rising use of automation in production will cause a rise in the skill premium (wages of both types of high‐skilled workers relative to low‐skilled workers) and AI skill premium (wages of high‐skilled labour with an AI‐based education relative to those with a traditional education background). Dependent on the value of the elasticity, automation may favour high‐skilled workers with an AI‐based education background.",
+      "doi": "10.1111/sjpe.12395",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Artificial intelligenceandinequality: Challenges and opportunities",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligenceandinequality: Challenges and opportunities",
+      "authors": "M Farahani, G Ghasemi - Int. J. Innov. Educ, 2024 - radensa.ru",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://radensa.ru/wp-content/uploads/2024/05/Artificial_Intelligence_and_Inequality_Challenges_.pdf",
+      "scholar_link": "https://radensa.ru/wp-content/uploads/2024/05/Artificial_Intelligence_and_Inequality_Challenges_.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Doesartificial intelligenceaffect firms' innerwage gap?",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Doesartificial intelligenceaffect firms' innerwage gap?",
+      "authors": "Y Yuan,",
+      "source": "Y Sun",
+      "year": 2025,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00036846.2024.2324090",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/00036846.2024.2324090",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "GenerativeAIand the Future ofInequality",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "GenerativeAIand the Future ofInequality",
+      "authors": "N Wilmers",
+      "source": "- 2024 - mit-genai.pubpub.org",
+      "year": 2026,
+      "url": "https://mit-genai.pubpub.org/pub/24gsgdjx",
+      "scholar_link": "https://mit-genai.pubpub.org/pub/24gsgdjx",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "AIoccupational exposure andwagedistribution: The case of Italy",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": true
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "AIoccupational exposure andwagedistribution: The case of Italy",
+      "authors": "I Brunetti,",
+      "source": "C Mussida",
+      "year": 2025,
+      "url": "https://www.researchgate.net/profile/Irene-Brunetti/publication/393369307_AI_occupational_exposure_and_wage_distribution_the_case_of_Italy/links/686d12a539c358351207eff0/AI-occupational-exposure-and-wage-distribution-the-case-of-Italy.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/Irene-Brunetti/publication/393369307_AI_occupational_exposure_and_wage_distribution_the_case_of_Italy/links/686d12a539c358351207eff0/AI-occupational-exposure-and-wage-distribution-the-case-of-Italy.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Inequalityin the digital economy: The impact ofartificial intelligenceon incomegap—an empirical analysis based on county-level data from China",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Inequalityin the digital economy: The impact ofartificial intelligenceon incomegap—an empirical analysis based on county-level data from China",
+      "authors": "W Zhang, J Han,",
+      "source": "C Işık",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0264275125005815",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0264275125005815",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Study on the Impact ofArtificial Intelligenceon Employment and IncomeInequality, Based",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Study on the Impact ofArtificial Intelligenceon Employment and IncomeInequality, Based",
+      "authors": "Q Yue - Proceedings of the 8th International conference on …, 2023 - books.google.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://books.google.com/books?hl=en&lr=&id=Gb2-EAAAQBAJ&oi=fnd&pg=PA329&dq=AI+inequality+wage+gap&ots=nMrmgfzMv2&sig=x5jIo6lCSha4NeK0t8y_5SbJQhY",
+      "scholar_link": "https://books.google.com/books?hl=en&lr=&id=Gb2-EAAAQBAJ&oi=fnd&pg=PA329&dq=AI+inequality+wage+gap&ots=nMrmgfzMv2&sig=x5jIo6lCSha4NeK0t8y_5SbJQhY",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "AIand technology's influence on economicinequality: A study of wealth distribution in the US",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": true
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "AIand technology's influence on economicinequality: A study of wealth distribution in the US",
+      "authors": "M Avevor",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/Maud-Avevor-2/publication/390271643_AI_and_Technology's_Influence_on_Economic_Inequality_A_Study_of_Wealth_Distribution_in_the_US/links/67e6ae2376d4923a1adcf6b5/AI-and-Technologys-Influence-on-Economic-Inequality-A-Study-of-Wealth-Distribution-in-the-US.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/Maud-Avevor-2/publication/390271643_AI_and_Technology's_Influence_on_Economic_Inequality_A_Study_of_Wealth_Distribution_in_the_US/links/67e6ae2376d4923a1adcf6b5/AI-and-Technologys-Influence-on-Economic-Inequality-A-Study-of-Wealth-Distribution-in-the-US.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Artificial intelligenceat work: An integrative perspective on the impact ofAIon workplaceinequality",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligenceat work: An integrative perspective on the impact ofAIon workplaceinequality",
+      "authors": "A Karunakaran",
+      "source": ",",
+      "year": 2026,
+      "url": "https://journals.aom.org/doi/abs/10.5465/annals.2023.0230",
+      "scholar_link": "https://journals.aom.org/doi/abs/10.5465/annals.2023.0230",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "TheSkill PremiumAcross Countries in the Era of Industrial Robots andGenerative AI",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": true
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "TheSkill PremiumAcross Countries in the Era of Industrial Robots andGenerative AI",
+      "authors": "MJ Ribeiro",
+      "source": ",",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5233467",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5233467",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "AI'simpact on wage inequality andskill premium",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": true
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "AI'simpact on wage inequality andskill premium",
+      "authors": "I Shogin - 2024 - aaltodoc.aalto.fi",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://aaltodoc.aalto.fi/items/548e6906-60e3-475e-819b-edaa122a3d9b",
+      "scholar_link": "https://aaltodoc.aalto.fi/items/548e6906-60e3-475e-819b-edaa122a3d9b",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "In the past decade, AI technology has spread rapidly across companies in different sectors, and generative AI models such as ChatGPT have gained enormous popularity among the masses. However, the impact of AI on the labor market is non-trivial, as it differs from previous technological changes. In this paper, I will investigate how AI impacts wage inequality and skill premium, and how this affects different occupations. Based on recent literature, I conclude that the exposure to automation is distributed more equally across workers in comparison to pre-AI technologies. Research on the topic is only emerging and predictions of the outcomes still vary significantly. Nevertheless, AI can provide opportunities for lowskill workers, and this is the path institutions, policy makers and researchers should focus on.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Areartificial intelligence skillsa reward or a gamble? Deconstructing theAIwagepremiumin Europe",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": true
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Areartificial intelligence skillsa reward or a gamble? Deconstructing theAIwagepremiumin Europe",
+      "authors": "K Pouliakas,",
+      "source": "G Santangelo",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s40821-025-00302-0",
+      "scholar_link": "https://link.springer.com/article/10.1007/s40821-025-00302-0",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Understanding the labour market impact of new, autonomous digital technologies, particularly generative or other forms of artificial intelligence (AI), is currently at the top of the research and policy agenda. Many initial studies, though not all, have shown that there is a wage premium to mostly technical AI skills in labour markets. Such evidence tends to draw on data from web-based sources and typically fails to provide insight into the mechanisms underlying the AI wage gap. This paper utilises representative adult workforce data from 29 European countries, the second European skills and jobs survey, to examine wage differentials of the AI programmer workforce. The latter is uniquely identified as part of the workforce that writes computer programs using AI algorithms. The analysis shows that, on average, AI programmers enjoy a significant wage premium relative to a comparably educated or skilled workforce, such as programmers who do not yet write code using AI at work. Wage decomposition analysis further illustrates that there is a large unexplained component of such wage differential. Part of AI programmers’ larger wage variability can however be attributed to higher job-skill requirements, a propensity for remote work and a greater performance-based component in wage schedules. This indicates differences in the job design and performance management of the AI workforce.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Generative AI.",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Generative AI.",
+      "authors": "Y Liu",
+      "source": "- 2024 - documents1.worldbank.org",
+      "year": 2026,
+      "url": "https://documents1.worldbank.org/curated/en/099520009172451039/pdf/IDU-aa745fd0-bcf0-4ac5-b11d-e9f762ce51e5.pdf",
+      "scholar_link": "https://documents1.worldbank.org/curated/en/099520009172451039/pdf/IDU-aa745fd0-bcf0-4ac5-b11d-e9f762ce51e5.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Generative AI, Artificial intelligence, Decision support, Content creation, Information systems",
+      "citations": 1072,
+      "doi": "https://doi.org/10.1007/s12599-023-00834-7",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "The Turing transformation:Artificial intelligence, intelligence augmentation, andskill premiums",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": true
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The Turing transformation:Artificial intelligence, intelligence augmentation, andskill premiums",
+      "authors": "AK Agrawal",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.nber.org/papers/w31767",
+      "scholar_link": "https://www.nber.org/papers/w31767",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "We ask whether a technical objective of using human performance of tasks as a benchmark for AI performance will result in the negative outcomes highlighted in prior work in terms of jobs and inequality. Instead, we argue that task automation, especially when driven by AI advances, can enhance job prospects and potentially widen the scope for employment of many workers. The neglected mechanism we highlight is the potential for changes in the skill premium where AI automation of tasks exogenously improves the value of the skills of many workers, expands the pool of available workers to perform other tasks, and, in the process, increases labor income and potentially reduces inequality. We label this possibility the “Turing Transformation.” As such, we argue that AI researchers and policymakers should not focus on the technical aspects of AI applications and whether they are directed at automating human-performed tasks or not and, instead, focus on the outcomes of AI research. In so doing, our goal is not to diminish human-centric AI research as a laudable goal. Instead, we want to note that AI research that uses a human-task template with a goal to automate that task can often augment human performance of other tasks and whole jobs. The distributional effects of technology depend more on which workers have tasks that get automated than on the fact of automation per se.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "The rise ofgenerative AI: Modelling exposure, substitution, and inequality effects on the US labour market",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The rise ofgenerative AI: Modelling exposure, substitution, and inequality effects on the US labour market",
+      "authors": "R Auer",
+      "source": ", D Köpfer,",
+      "year": 2026,
+      "url": "https://www.econstor.eu/handle/10419/307340",
+      "scholar_link": "https://www.econstor.eu/handle/10419/307340",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Winners and losers ofgenerative AI: Early Evidence of Shifts in Freelancer Demand",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Winners and losers ofgenerative AI: Early Evidence of Shifts in Freelancer Demand",
+      "authors": "O Teutloff",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167268124004591",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0167268124004591",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Competence Dynamics in the Age ofAI-A qualitative study examining howgenerative AIalters the relevance and need of competences among high-skilled workers",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Competence Dynamics in the Age ofAI-A qualitative study examining howgenerative AIalters the relevance and need of competences among high-skilled workers",
+      "authors": "O Höög, P Ljungqvist - 2024 - gupea.ub.gu.se",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://gupea.ub.gu.se/items/dafecd4b-b286-41be-862e-40b2707fdd10",
+      "scholar_link": "https://gupea.ub.gu.se/items/dafecd4b-b286-41be-862e-40b2707fdd10",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "The rise ofgenerative AIand possible effects on the economy",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The rise ofgenerative AIand possible effects on the economy",
+      "authors": "T Orchard, L Tasiemski - Economics and business review, 2023 - ceeol.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.ceeol.com/search/article-detail?id=1158923",
+      "scholar_link": "https://www.ceeol.com/search/article-detail?id=1158923",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Central and Eastern European Online Library - CEE journals, documents, articles, periodicals, books available online for download, Zeitschrfitendatenbank, Online Zeitschriften, Online Zeitschriftendatenbank",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "WhyPremium AISubscriptions Don't Transform Mediocrity Into Genius: Empirical Evidence on the Creativity Gap in Human-AICollaboration",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "WhyPremium AISubscriptions Don't Transform Mediocrity Into Genius: Empirical Evidence on the Creativity Gap in Human-AICollaboration",
+      "authors": "W Marinho",
+      "source": "- 2025 - papers.ssrn.com",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5816703",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5816703",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "The labor market effect ofgenerative artificial intelligenceon artists",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": true
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The labor market effect ofgenerative artificial intelligenceon artists",
+      "authors": "CA Makridis",
+      "source": "- Journal of Cultural Economics, 2026 - Springer",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s10824-026-09575-3",
+      "scholar_link": "https://link.springer.com/article/10.1007/s10824-026-09575-3",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Technological change has repeatedly disrupted creative labor markets, raising concerns about whether new tools substitute for artists or shift the organization of creative work. This paper studies how occupational exposure to generative AI (genAI) maps into employment and earnings outcomes for U.S. artists following the unanticipated release of ChatGPT. I combine an occupation-level LLM task exposure index with establishment-based occupational outcomes from the occupational employment and wage statistics and individual microdata from the American Community Survey, estimating event-study specifications that compare more versus less exposed artistic occupations from 2017 to 2024. Across datasets, I find little evidence of short-run earnings declines associated with LLM exposure through 2023, with point estimates near zero and in some specifications modestly positive. Evidence on employment is more mixed, with weaker employment growth in 2023 for more exposed artistic occupations in some specifications. To investigate mechanisms, I use the Gallup Workplace Panel from 2023 to 2025 to measure AI use directly and relate changes in AI use to job satisfaction and burnout. Within-person estimates show limited average well-being effects of adoption, but suggest heterogeneous responses for artists and a use pattern concentrated in ideation and creative-support tasks. The results are consistent with early task reallocation rather than immediate labor-market harm, while leaving open the possibility of medium-run adjustment as adoption deepens and complementary investments accumulate.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Generative AIand the Future of Inequality",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Generative AIand the Future of Inequality",
+      "authors": "N Wilmers",
+      "source": "- 2024 - mit-genai.pubpub.org",
+      "year": 2026,
+      "url": "https://mit-genai.pubpub.org/pub/24gsgdjx",
+      "scholar_link": "https://mit-genai.pubpub.org/pub/24gsgdjx",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Save",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": false
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Save",
+      "authors": "M Hellsten - 2024 - Ratio, Näringslivets …",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "javascript:void(0)",
+      "scholar_link": "javascript:void(0)",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Default options can lead to striking differences in preferences, with significant economic impact. The\n authors\n of this Policy Forum use natural and experimental data to examine the impact of simple policy defaults on the decision to become an organ donor, finding large effects that significantly increase donation rates.",
+      "citations": 1986,
+      "doi": "https://doi.org/10.1126/science.1091721",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "The'Super-Employee'Paradox: HowGenerative AIDrivesSkillInflation and Semantic Drift in Vietnam's Job Market",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The'Super-Employee'Paradox: HowGenerative AIDrivesSkillInflation and Semantic Drift in Vietnam's Job Market",
+      "authors": "T Nguyen Van, NG Nguyễn - … 'Paradox: How",
+      "source": "Generative AI",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6076391",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6076391",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Demand for Creativity andAI Skillsin the Post-ChatGPT Labour Market: Evidence from UK Job Vacancies",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": false
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Demand for Creativity andAI Skillsin the Post-ChatGPT Labour Market: Evidence from UK Job Vacancies",
+      "authors": "Z Wang",
+      "source": ",",
+      "year": 2026,
+      "url": "https://pec.ac.uk/wp-content/uploads/2025/11/DP-AI-and-Creativity-1.pdf",
+      "scholar_link": "https://pec.ac.uk/wp-content/uploads/2025/11/DP-AI-and-Creativity-1.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Artifical intelligence as the reason and the solution ofdigital divide",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Artifical intelligence as the reason and the solution ofdigital divide",
+      "authors": "V Božić",
+      "source": "- Language Education and Technology Journal, 2023 - langedutech.com",
+      "year": 2026,
+      "url": "https://langedutech.com/letjournal/index.php/let/article/view/53",
+      "scholar_link": "https://langedutech.com/letjournal/index.php/let/article/view/53",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "The potential of Artifical Inteligence (AI) to decrease the digital divide is significant. AI has the ability to improve access to information, enable personalized learning, promote digital inclusion, create job opportunities, address social equity issues, and optimize digital infrastructure. However, it is crucial to ensure that AI is developed and deployed responsibly, ethically, and inclusively, with a focus on promoting equitable access to AI technologies and their benefits for all communities, including those that are currently underserved. The topic of the paper is the digital divide (DD) and the role of artificial intelligence (AI) in reducing the digital gap. The introduction discusses what the DD is and the role of AI in it. After that, the role of AI in reducing the DD is discussed and the prerequisites for the successful use of AI in reducing the DD. The problem of the elderly population is particularly emphasized in the context of digital literacy and the DD. It talks about ways to motivate the older population to use digital devices. Furthermore, it talks about applying theoretical concepts in practice as well as motivating people to apply AI in everyday life. Studies that have been carried out related to the application of AI in reducing the DD are cited, as well as examples of good practice. Finally, examples of applications for reducing the DD are given as well as future steps for reducing the DD with the help of AI.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Thedigital dividein action: how experiences ofdigitaltechnology shape future relationships withartificial intelligence",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Thedigital dividein action: how experiences ofdigitaltechnology shape future relationships withartificial intelligence",
+      "authors": "SV Bentley",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s43681-024-00452-3",
+      "scholar_link": "https://link.springer.com/article/10.1007/s43681-024-00452-3",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "The digital divide remains an ongoing societal concern, with digital exclusion shown to have a significantly detrimental impact on people’s quality of life. Artificial intelligence (AI), the latest wave of digitalisation, is being integrated into the fabric of society at an accelerated rate, the speed of which has prompted ethical concerns. Without addressing the digital divide, the AI revolution risks exacerbating the existing consequences of digital exclusion and limiting the potential for all people to reap the benefits provided by AI. To understand the factors that might contribute to experiences of AI, and how these might be related to digital exclusion, we surveyed a diverse online community sample ( N = 303). We created a novel measure of digital confidence capturing individual levels of awareness, familiarity, and sense of competence with digital technology. Results indicated that measures of digital confidence were predicted by structural, behavioural, and psychological differences, such that women, older people, those on lower salaries, people with less digital access, and those with lower digital well-being, reported significantly less digital confidence. Furthermore, digital confidence significantly moderated the relationship between people’s experiences with everyday AI technologies and their general attitudes towards AI. This understanding of the spill-over effects of digital exclusion onto experiences of AI is fundamental to the articulation and delivery of inclusive AI.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Exploring the determinants ofartificial intelligence(AI) literacy:Digital divide, computational thinking, cognitive absorption",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Exploring the determinants ofartificial intelligence(AI) literacy:Digital divide, computational thinking, cognitive absorption",
+      "authors": "I Celik",
+      "source": "- Telematics and Informatics, 2023 - Elsevier",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0736585323000904",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0736585323000904",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Bridging thedigital divide: Exploring the role ofartificial intelligenceand automation in enhancing connectivity in developing nations",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Bridging thedigital divide: Exploring the role ofartificial intelligenceand automation in enhancing connectivity in developing nations",
+      "authors": "AD Samuel-Okon",
+      "source": ",",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4839447",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4839447",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Chatgpt needs spade (sustainability, privacy,digital divide, and ethics) evaluation: A review",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Chatgpt needs spade (sustainability, privacy,digital divide, and ethics) evaluation: A review",
+      "authors": "SA Khowaja",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s12559-024-10285-1",
+      "scholar_link": "https://link.springer.com/article/10.1007/s12559-024-10285-1",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "ChatGPT is another large language model (LLM) vastly available for the consumers on their devices but due to its performance and ability to converse effectively, it has gained a huge popularity amongst research as well as industrial community. Recently, many studies have been published to show the effectiveness, efficiency, integration, and sentiments of chatGPT and other LLMs. In contrast, this study focuses on the important aspects that are mostly overlooked, i.e. sustainability, privacy, digital divide, and ethics and suggests that not only chatGPT but every subsequent entry in the category of conversational bots should undergo Sustainability, PrivAcy, Digital divide, and Ethics (SPADE) evaluation. This paper discusses in detail the issues and concerns raised over chatGPT in line with aforementioned characteristics. We also discuss the recent EU AI Act briefly in accordance with the SPADE evaluation. We support our hypothesis by some preliminary data collection and visualizations along with hypothesized facts. We also suggest mitigations and recommendations for each of the concerns. Furthermore, we also suggest some policies and recommendations for EU AI policy act concerning ethics, digital divide, and sustainability.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Theartificial intelligence divide: Who is the most vulnerable?",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Theartificial intelligence divide: Who is the most vulnerable?",
+      "authors": "C Wang,",
+      "source": "SC Boerman",
+      "year": 2026,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448241232345",
+      "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/14614448241232345",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This study investigates users’ artificial intelligence (AI)-related competencies (i.e., AI knowledge, skills, and attitudes) and identifies the vulnerable user groups in the AI-shaped online news and entertainment environment. We surveyed 1088 Dutch citizens over the age of 16 years and identified five user groups through the latent class analysis: the average users, the expert advocates, the expert skeptics, the unskilled skeptics, and the neutral unskilled. The most vulnerable groups with the lowest levels of AI knowledge and AI skills (i.e., unskilled skeptics and neutral unskilled) were mostly older, with lower levels of education and privacy protection skills, than the average users. Overall, the results of this study resonate with the existing findings on the digital divide and provide evidence for an emerging AI divide among users. Finally, the societal implication of this study is discussed, such as the need for education programs and applications of the explainable AI.",
+      "doi": "10.1177/14614448241232345",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Aied unplugged: Leapfrogging thedigital divideto reach the underserved",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Aied unplugged: Leapfrogging thedigital divideto reach the underserved",
+      "authors": "S Isotani",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-36336-8_118",
+      "scholar_link": "https://link.springer.com/chapter/10.1007/978-3-031-36336-8_118",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Artificial Intelligence in Education (AIED) is a driving force to improve education. Nevertheless, policymakers from the Global South fear that AI will increase the digital divide and reduce the opportunities for students in these regions to thrive. To address this problem, we analyzed the past 30 years of data on four aspects of the digital divide. Then, based on these findings and a series of discussions with stakeholders (e.g., policymakers), we proposed the concept of AIED Unplugged . An approach to creating AI-based educational technologies that do not require changes in current school settings (e.g., infrastructure), do not rely on stable internet access, and do not ask for digital skills to use them. We applied this concept to redesign an education policy in Brazil to help students improve their writing skills. Our results show a reduction in time, cost and complexity to running the policy, and a positive impact on more than 500,000 students in 7,000 schools in the country.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Health disparities, clinical trials, and thedigital divide",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Health disparities, clinical trials, and thedigital divide",
+      "authors": "D Adedinsewo",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0025619623001982",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0025619623001982",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "College students' literacy, ChatGPT activities, educational outcomes, and trust from adigital divideperspective",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "College students' literacy, ChatGPT activities, educational outcomes, and trust from adigital divideperspective",
+      "authors": "C Zhang",
+      "source": ",",
+      "year": 2026,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448241301741",
+      "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/14614448241301741",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This study investigates the association of socioeconomic status (SES) and digital and AI literacy with types of Chat GPT use by college students, with subsequent implications for academic self-efficacy and creativity, conditioned by trust. Analyses of a survey of U.S. college students (N = 947) show that SES has a greater association with AI literacy than with general digital literacy. Two dimensions of Chat GPT activities emerge: academic support and displacement. Structural equation modeling reveals that AI literacy is positively associated with both activity dimensions, while digital literacy is unexpectedly a negative contributor. Further, academic support is strongly linked to positive outcomes whereas academic displacement is negatively associated. Attitudinal trust in Chat GPT moderates the overall relationships. Our findings suggest that conventional digital inequality persists and evolves with generative AI, traditional digital literacy becomes insufficient in the age of AI, and trust in this new and opaque digital technology influences these relationships.",
+      "doi": "10.1177/14614448241301741",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Bridging thedigital divide",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Bridging thedigital divide",
+      "authors": "A Bon",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-45304-5_19",
+      "scholar_link": "https://link.springer.com/chapter/10.1007/978-3-031-45304-5_19",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "The rapid evolution of digital technologies has transformed modern society, yet significant disparities in digital engagement persist. This study explores the thirdlevel digital divide in Thailand, focusing on how sociodemographic factors shape digital engagement across economic, social, educational, and institutional domains. Using logistic regression analyses on a nationwide 2022 survey with 43,465 respondents, this research offers novel insights by identifying howgender, age, region, income, education, employment status, urban residency, and Internet confidence specifically affect different types of digital engagement. Key findings reveal that men are less likely to engage in online activities compared to women, while younger adults demonstrate higher digital participation. Notably, older adults rely more on institutional digital services, revealing an age-specific pattern. The study also highlights regional disparities, with the northeastern region showing higher engagement and the southern region lower across all domains. Anovel finding is the contrasting role of income, which boosts economic engagement but reduces participation in institutional activities. Furthermore, this study underscores the strong role of education and Internet confidence in driving digital engagement across all areas. These findings offer crucial evidence for designing targeted interventions to bridge the digital divide, such as gender- equality-focused digital literacy programs, initiatives for older adults, regional infrastructure enhancements, financial subsidies, integrating digital literacy into education, and building digital confidence through practical, hands-on national campaigns",
+      "citations": 1,
+      "doi": "https://doi.org/10.51709/19951272/winter2024/2",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Bridging thedigital divide: exploring the challenges and solutions fordigitalexclusion in rural South Africa",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Bridging thedigital divide: exploring the challenges and solutions fordigitalexclusion in rural South Africa",
+      "authors": "G Mwansa",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s44282-025-00189-2",
+      "scholar_link": "https://link.springer.com/article/10.1007/s44282-025-00189-2",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Digital exclusion remains a pervasive challenge in rural South Africa, reinforcing existing socio-economic disparities, with communities such as Mkatazo village in the Eastern Cape experiencing compounded challenges, including inadequate infrastructure, prohibitive costs, and low digital literacy. This study examines the nature and consequences of digital exclusion through a localized quantitative assessment, framed within Van Dijk’s Model of the Digital Divide and Sen’s Capability Approach. A structured survey of 200 residents yielded 65 valid responses, revealing stark disparities: 52.3% lacked internet access, 38.5% cited affordability as a primary constraint, and 66.2% reported insufficient digital skills. Analytical methods included descriptive statistics, chi-square tests, t-tests, regression modeling, and effect size measurements (Cohen’s d). Results identified cost, connectivity gaps, and geographic isolation as dominant predictors of exclusion, with affordability exerting the strongest influence. Digital exclusion adversely affects access to education, healthcare information, and economic participation, especially for youth and women. The study proposes a multi-tiered intervention framework that includes, broadband infrastructure expansion; targeted affordability measures such as subsidized device acquisition, zero-rating of mobile data and community-centric digital literacy initiatives and; the adoption of AI-enabled offline tools. The study aligns with global calls for digital equity and the United Nations Sustainable Development Goals, particularly Goals 1, 4, 8, 10, and 16. By responding to the lived realities of rural communities, this research contributes to the broader discourse on inclusive digital transformation and highlights the importance of stakeholder collaboration to address structural inequities, ensuring rural populations are not further marginalized in an increasingly connected world.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "From Access to Ability: Educator's Perspectives onAIand NewDigital Dividesin Higher Education",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "From Access to Ability: Educator's Perspectives onAIand NewDigital Dividesin Higher Education",
+      "authors": "HO Hodøl",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s44206-025-00237-z",
+      "scholar_link": "https://link.springer.com/article/10.1007/s44206-025-00237-z",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "In this article, we present how academic staff at Norwegian higher education institutions assess potential digital divides that may emerge when AI-based text production tools are introduced into higher education. In earlier research, the concept of digital divides has been linked to unequal access to technology. This study emphasizes that new digital divides can arise because not all users possess the necessary competencies to benefit equally from these tools, and that success requires AI literacy, critical and analytical thinking, as well as the ability to provide precise instructions. The informants point out that digital divides occur not only between groups of students, but also between different subjects and disciplines. Moreover, the study indicates that the demand for competencies in the humanities increases with the growing presence of AI, even though skepticism toward employing AI-based tools is most pronounced in these very disciplines. The article, thus, highlights how developments in AI may reinforce or create new digital divides, along with the implications this may have for both teaching practices and student learning outcomes. The study is based on data collected through a survey and two focus group interviews of academic staff at Norwegian higher education institutions.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Systematised evidence mapping of generativeartificial intelligence(GenAI) anddigital dividephenomena in higher education",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Systematised evidence mapping of generativeartificial intelligence(GenAI) anddigital dividephenomena in higher education",
+      "authors": "R Jamal Eddine,",
+      "source": "E Gide",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s10791-026-10044-w",
+      "scholar_link": "https://link.springer.com/article/10.1007/s10791-026-10044-w",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This systematic evidence mapping study maps and synthesises a small but growing body of empirical work exploring the crossroads between Generative Artificial Intelligence (GenAI) technologies and digital equity concerns in diverse higher education settings. A comprehensive three-stage search methodology, following systematic identification procedures aligned with Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA-ScR) standards, accessed and evaluated twelve included publications from 1 January 2023 to 30 January 2025 (including online-first articles available by that date). The review extends longstanding digital divide scholarship by focusing specifically on GenAI-related configurations of access, skills, and outcomes in the post-2022 period. Additional contextualisation was provided through selective analysis of the Trust in AI Report 2025 (University of Melbourne & KPMG), which surveyed public attitudes towards AI across 47 countries and examined how employees and students use and experience AI in work and education settings, and is treated here as sector-relevant background survey evidence rather than as an additional empirical strand of the review. Analysis reveals that whilst GenAI technologies demonstrate substantial educational potential, their implementation presents considerable equity implications that warrant systematic examination. Four key barriers to equitable adoption were identified: limited digital infrastructure and connectivity constraints, insufficient artificial intelligence literacy among stakeholders, economic barriers in terms of cost affordability and access costs, and the absence of inclusive, equity-focused institutional policies. Within the limited corpus, regional disparities were emphasised as being particularly severe, with Global South case studies identifying fundamental infrastructural constraints as primary barriers to effective technology integration. Contextual survey data from the Trust in AI Report also suggest gaps between confidence in GenAI uptake and institutional readiness in many jurisdictions, particularly in emerging economies, although these findings are not specific to the higher education sector. Findings indicate that without targeted interventions to incorporate infrastructure development, comprehensive literacy programs, access provisions, and inclusive policy frameworks, GenAI deployment has the potential to exacerbate rather than alleviate existing educational inequities in the contexts studied. This review identifies the main gaps in current research and makes review-derived recommendations to policymakers, higher education institutions, and practitioners to facilitate more equitable GenAI adoption in higher education environments.",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "2025 EDUCAUSEAILandscape Study: Into theDigital AI Divide.",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "2025 EDUCAUSEAILandscape Study: Into theDigital AI Divide.",
+      "authors": "J Robert, M McCormack - EDUCAUSE, 2025 - ERIC",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://eric.ed.gov/?id=ED678854",
+      "scholar_link": "https://eric.ed.gov/?id=ED678854",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  },
+  {
+    "title": "Overcoming 'Digital Divides': Leveraging higher education to develop next generationdigitalagriculture professionals",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/tecnología digital",
+        "met": true
+      },
+      {
+        "key": "inequality",
+        "desc": "Mide desigualdad, brecha o disparidad",
+        "met": true
+      },
+      {
+        "key": "heterogeneous",
+        "desc": "Analiza efectos heterogéneos por característica",
+        "met": false
+      },
+      {
+        "key": "distributional",
+        "desc": "Análisis distributivo (no solo efecto promedio)",
+        "met": false
+      },
+      {
+        "key": "context",
+        "desc": "Contexto MiPyME / LATAM / economía en desarrollo",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Overcoming 'Digital Divides': Leveraging higher education to develop next generationdigitalagriculture professionals",
+      "authors": "M Bampasidou",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0168169924005726",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0168169924005726",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "desigualdad"
+    }
+  }
+]

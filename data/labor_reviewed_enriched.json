@@ -1,0 +1,3266 @@
+[
+  {
+    "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "authors": [
+        "Wiebke Hutiri",
+        "Morgan Scheuerman",
+        "Shruti Nagpal",
+        "Austin Hoag",
+        "Alice Xiang"
+      ],
+      "published": "2026-04-10T15:26:57Z",
+      "arxiv_id": "2604.09413v1",
+      "url": "https://arxiv.org/abs/2604.09413v1",
+      "summary": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "The Need for a Green ICT Reference Framework",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The Need for a Green ICT Reference Framework",
+      "authors": [
+        "Marco Aiello",
+        "Mina Alipour",
+        "Antonio Brogi",
+        "Rafael Capilla",
+        "Lidia Fuentes"
+      ],
+      "published": "2026-04-10T13:15:43Z",
+      "arxiv_id": "2604.09307v1",
+      "url": "https://arxiv.org/abs/2604.09307v1",
+      "summary": "The sustainability impacts of ICT systems are difficult to assess and govern due to structural complexity, fragmented measurement practices, and unclear responsibilities across system layers. We argue that these challenges cannot be addressed solely by metrics and motivate the need for a shared Green ICT reference framework that integrates sustainability across multiple perspectives and domains, lifecycle phases, and governance contexts. We present an initial framework developed within the Informatics Europe Green ICT Working Group as a first step towards a comprehensive reference framework.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "The sustainability impacts of ICT systems are difficult to assess and govern due to structural complexity, fragmented measurement practices, and unclear responsibilities across system layers. We argue that these challenges cannot be addressed solely by metrics and motivate the need for a shared Green ICT reference framework that integrates sustainability across multiple perspectives and domains, lifecycle phases, and governance contexts. We present an initial framework developed within the Informatics Europe Green ICT Working Group as a first step towards a comprehensive reference framework.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Artificial intelligence can persuade people to take political actions",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "authors": [
+        "Kobi Hackenburg",
+        "Luke Hewitt",
+        "Caroline Wagner",
+        "Ben M. Tappin",
+        "Christopher Summerfield"
+      ],
+      "published": "2026-04-10T10:34:49Z",
+      "arxiv_id": "2604.09200v1",
+      "url": "https://arxiv.org/abs/2604.09200v1",
+      "summary": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "authors": [
+        "Tommy Shaffer Shane",
+        "Simon Mylius",
+        "Hamish Hobbs"
+      ],
+      "published": "2026-04-10T08:37:18Z",
+      "arxiv_id": "2604.09104v1",
+      "url": "https://arxiv.org/abs/2604.09104v1",
+      "summary": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Scrapyard AI",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Scrapyard AI",
+      "authors": [
+        "Marc Böhlen",
+        "Sai Krishna"
+      ],
+      "published": "2026-04-09T22:38:57Z",
+      "arxiv_id": "2604.08803v1",
+      "url": "https://arxiv.org/abs/2604.08803v1",
+      "summary": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Towards Generalizable Representations of Mathematical Strategies",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Towards Generalizable Representations of Mathematical Strategies",
+      "authors": [
+        "Siddhartha Pradhan",
+        "Ethan Prihar",
+        "Erin Ottmar"
+      ],
+      "published": "2026-04-09T18:26:13Z",
+      "arxiv_id": "2604.08693v1",
+      "url": "https://arxiv.org/abs/2604.08693v1",
+      "summary": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "authors": [
+        "Addison J. Wu",
+        "Ryan Liu",
+        "Shuyue Stella Li",
+        "Yulia Tsvetkov",
+        "Thomas L. Griffiths"
+      ],
+      "published": "2026-04-09T17:57:50Z",
+      "arxiv_id": "2604.08525v1",
+      "url": "https://arxiv.org/abs/2604.08525v1",
+      "summary": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "authors": [
+        "Juergen Dietrich"
+      ],
+      "published": "2026-04-09T17:00:26Z",
+      "arxiv_id": "2604.08465v1",
+      "url": "https://arxiv.org/abs/2604.08465v1",
+      "summary": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "authors": [
+        "Jyh-An Lee",
+        "Jingwen Liu"
+      ],
+      "published": "2026-04-09T15:19:40Z",
+      "arxiv_id": "2604.08353v1",
+      "url": "https://arxiv.org/abs/2604.08353v1",
+      "summary": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "The Statistical Profitability of Social Media Sports Betting Influencers: Evidence from the Nigerian Market",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The Statistical Profitability of Social Media Sports Betting Influencers: Evidence from the Nigerian Market",
+      "authors": [
+        "Kayode Makinde",
+        "Oluwatimileyin Onasanya",
+        "Frances Adelakun"
+      ],
+      "published": "2026-04-09T13:41:41Z",
+      "arxiv_id": "2604.08251v1",
+      "url": "https://arxiv.org/abs/2604.08251v1",
+      "summary": "This study examines whether following popular Nigerian sports betting influencers on social media is a financially sound strategy. To avoid the survivorship bias that occurs when influencers only share their winning bets, we tracked 5,467 pre-match betting slips from three prominent tipsters on X (formerly Twitter) and Telegram. We verified the outcomes against official Stake.com records, resulting in a final dataset covering approximately $4.8 million in tracked bets. We analyzed raw performance, assessed risk based on odds sizes, and applied four common staking strategies (Flat, Inverse, Square Root, and Fixed Return) to simulate realistic follower outcomes. The results show a sharp contrast between the wealth these influencers display online and the actual financial results. The influencers themselves collectively lost 25.24% on their promoted bets, while a follower who staked the same amount on every tip would lose 38.27% on their investment. Across all tested strategies, following these influencers consistently led to significant financial losses. These findings raise serious consumer protection concerns in Nigeria's expanding gambling market.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This study examines whether following popular Nigerian sports betting influencers on social media is a financially sound strategy. To avoid the survivorship bias that occurs when influencers only share their winning bets, we tracked 5,467 pre-match betting slips from three prominent tipsters on X (formerly Twitter) and Telegram. We verified the outcomes against official Stake.com records, resulting in a final dataset covering approximately $4.8 million in tracked bets. We analyzed raw performance, assessed risk based on odds sizes, and applied four common staking strategies (Flat, Inverse, Square Root, and Fixed Return) to simulate realistic follower outcomes. The results show a sharp contrast between the wealth these influencers display online and the actual financial results. The influencers themselves collectively lost 25.24% on their promoted bets, while a follower who staked the same amount on every tip would lose 38.27% on their investment. Across all tested strategies, following these influencers consistently led to significant financial losses. These findings raise serious consumer protection concerns in Nigeria's expanding gambling market.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+      "authors": [
+        "Arnab Paul Choudhury",
+        "Rahul Rathod",
+        "Aryan Yadav"
+      ],
+      "published": "2026-04-10T15:09:28Z",
+      "arxiv_id": "2604.09395v1",
+      "url": "https://arxiv.org/abs/2604.09395v1",
+      "summary": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+      "authors": [
+        "Oleg Solozobov"
+      ],
+      "published": "2026-04-10T13:06:38Z",
+      "arxiv_id": "2604.09296v1",
+      "url": "https://arxiv.org/abs/2604.09296v1",
+      "summary": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": true
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "authors": [
+        "Ralf Beuthan",
+        "Megan Coffee",
+        "Heejin Kim",
+        "Na Yeon Kim",
+        "Pedro Kringen"
+      ],
+      "published": "2026-04-09T13:14:34Z",
+      "arxiv_id": "2604.08217v1",
+      "url": "https://arxiv.org/abs/2604.08217v1",
+      "summary": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "The Weaponization of Computer Vision: Tracing Military-Surveillance Ties through Conference Sponsorship",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The Weaponization of Computer Vision: Tracing Military-Surveillance Ties through Conference Sponsorship",
+      "authors": [
+        "Noa Garcia",
+        "Amelia Katirai"
+      ],
+      "published": "2026-04-09T04:54:44Z",
+      "arxiv_id": "2604.07803v1",
+      "url": "https://arxiv.org/abs/2604.07803v1",
+      "summary": "Computer vision, a core domain of artificial intelligence (AI), is the field that enables the computational analysis, understanding, and generation of visual data. Despite being historically rooted in military funding and increasingly deployed in warfare, the field tends to position itself as a neutral, purely technical endeavor, failing to engage in discussions about its dual-use applications. Yet it has been reported that computer vision systems are being systematically weaponized to assist in technologies that inflict harm, such as surveillance or warfare. Expanding on these concerns, we study the extent to which computer vision research is being used in the military and surveillance domains. We do so by collecting a dataset of tech companies with financial ties to the field's central research exchange platform: conferences. Conference sponsorship, we argue, not only serves as strong evidence of a company's investment in the field but also provides a privileged position for shaping its trajectory. By investigating sponsors' activities, we reveal that 44% of them have a direct connection with military or surveillance applications. We extend our analysis through two case studies in which we discuss the opportunities and limitations of sponsorship as a means for uncovering technological weaponization.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Computer vision, a core domain of artificial intelligence (AI), is the field that enables the computational analysis, understanding, and generation of visual data. Despite being historically rooted in military funding and increasingly deployed in warfare, the field tends to position itself as a neutral, purely technical endeavor, failing to engage in discussions about its dual-use applications. Yet it has been reported that computer vision systems are being systematically weaponized to assist in technologies that inflict harm, such as surveillance or warfare. Expanding on these concerns, we study the extent to which computer vision research is being used in the military and surveillance domains. We do so by collecting a dataset of tech companies with financial ties to the field's central research exchange platform: conferences. Conference sponsorship, we argue, not only serves as strong evidence of a company's investment in the field but also provides a privileged position for shaping its trajectory. By investigating sponsors' activities, we reveal that 44% of them have a direct connection with military or surveillance applications. We extend our analysis through two case studies in which we discuss the opportunities and limitations of sponsorship as a means for uncovering technological weaponization.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "We Need Strong Preconditions For Using Simulations In Policy",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": true
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "We Need Strong Preconditions For Using Simulations In Policy",
+      "authors": [
+        "Steven Luo",
+        "Saanvi Arora",
+        "Carlos Guirado"
+      ],
+      "published": "2026-04-09T05:39:35Z",
+      "arxiv_id": "2604.07838v1",
+      "url": "https://arxiv.org/abs/2604.07838v1",
+      "summary": "Simulations, and more recently LLM agent simulations, have been adopted as useful tools for policymakers to explore interventions, rehearse potential scenarios, and forecast outcomes. While LLM simulations have enormous potential, two critical challenges remain understudied: the dual-use potential of accurate models of individual or population-level human behavior and the difficulty of validating simulation outputs. In light of these limitations, we must define boundaries for both simulation developers and decision-makers to ensure responsible development and ethical use. We propose and discuss three preconditions for societal-scale LLM agent simulations: 1) do not treat simulations of marginalized populations as neutral technical outputs, 2) do not simulate populations without their participation, and 3) do not simulate without accountability. We believe that these guardrails, combined with our call for simulation development and deployment reports, will help build trust among policymakers while promoting responsible development and use of societal-scale LLM agent simulations for the public benefit.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Simulations, and more recently LLM agent simulations, have been adopted as useful tools for policymakers to explore interventions, rehearse potential scenarios, and forecast outcomes. While LLM simulations have enormous potential, two critical challenges remain understudied: the dual-use potential of accurate models of individual or population-level human behavior and the difficulty of validating simulation outputs. In light of these limitations, we must define boundaries for both simulation developers and decision-makers to ensure responsible development and ethical use. We propose and discuss three preconditions for societal-scale LLM agent simulations: 1) do not treat simulations of marginalized populations as neutral technical outputs, 2) do not simulate populations without their participation, and 3) do not simulate without accountability. We believe that these guardrails, combined with our call for simulation development and deployment reports, will help build trust among policymakers while promoting responsible development and use of societal-scale LLM agent simulations for the public benefit.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Augmenting or automating labor? TheeffectofAIdevelopment on new work,employment, andwages",
+    "score": 9,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Augmenting or automating labor? TheeffectofAIdevelopment on new work,employment, andwages",
+      "authors": "D Marguerit",
+      "source": "- arXiv preprint arXiv:2503.19159, 2025 - arxiv.org",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2503.19159",
+      "scholar_link": "https://arxiv.org/abs/2503.19159",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Artificial intelligence (AI) is reshaping the labor market by changing the task content of occupations. This study investigates the impact of AI development on the emergence of new work, employment, and wages in the United States from 2015 to 2022. I develop innovative methods to measure occupational and industry exposure to AI technologies that substitute labor (automation AI ) or enhance workers' output (augmentation AI), and to identify new work (i.e., new job titles). To address endogeneity, I use instrumental variable estimators, leveraging AI development in countries with limited economic ties to the United States. The findings indicate that automation AI negatively impacts new work, employment, and wages in low-skilled occupations, while augmentation AI fosters the emergence of new work and raises wages for high-skilled occupations. These results suggest that AI may contribute to rising wage inequality.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "TheEffectsofArtificial Intelligenceand Robotics onEmploymentandWagesin Korean Manufacturing Firms",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": true
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "TheEffectsofArtificial Intelligenceand Robotics onEmploymentandWagesin Korean Manufacturing Firms",
+      "authors": "JH Jeong, HJ Jo - Weizenbaum Journal of the Digital …, 2025 - ojs.weizenbaum-institut.de",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/240",
+      "scholar_link": "https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/240",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This article analyzes the effects of two key automation technologies – artificial intelligence (AI) and robotics – on employment and wages in Korean manufacturing since the late 2010s. Drawing on firm-level data from the Survey of Business Activities and individual wage data from the Local Labor Force Survey , the analysis explores both firm- and worker-level impacts. Adoption of these technologies is concentrated in large firms within the electronics and automotive sectors. Robotics has been widely implemented, primarily for cost reduction, safety enhancement, and union avoidance, whereas AI adoption remains limited but is gradually expanding. The results reveal contrasting effects: AI adoption is associated with job creation and wage growth, while robotics tends to reduce both employment and wages – an outcome that diverges from findings in existing firm-level studies. These negative effects appear to stem from Korea’s institutional context, where automation – particularly robotics – is frequently employed to reduce labor costs rather than to enhance productivity, as well as from diminishing marginal returns in industries with long-standing automation. Importantly, these wage effects persist even when U.S.-based automation exposure measures are applied, suggesting broader applicability. However, the findings underscore that the economic impact of automation depends significantly on the motivations and strategies behind its adoption. In the case of Korean manufacturing, capital-biased automation driven by robotics has contributed mainly to labor displacement without generating substantial productivity gains, reflecting Acemoglu and Restrepo’s (2018) notion of ‘so-so automation.’ PDF Read in browser Metrics Metrics Loading ...",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Leveragingartificial intelligenceto study and forecast its impacts onemploymentmanagement andwagesin China's key cities",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Leveragingartificial intelligenceto study and forecast its impacts onemploymentmanagement andwagesin China's key cities",
+      "authors": "A Hassani",
+      "source": ",",
+      "year": 2026,
+      "url": "http://www.sems-journal.org/index.php/sems/article/view/60",
+      "scholar_link": "http://www.sems-journal.org/index.php/sems/article/view/60",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Artificial intelligence,wagedynamics, and inequality: Empirical evidence from Chinese listed firms",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligence,wagedynamics, and inequality: Empirical evidence from Chinese listed firms",
+      "authors": "Y Wu, Z Lin, Q Zhang,",
+      "source": "W Wang",
+      "year": 2024,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1059056024007317",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S1059056024007317",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Pathways ofAIInfluence onWages,Employment, and Inequality in Europe: A Structural Mediation Analysis",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Pathways ofAIInfluence onWages,Employment, and Inequality in Europe: A Structural Mediation Analysis",
+      "authors": "S SenGupta",
+      "source": "-",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5249913",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5249913",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "High-skilled human workers in non-routine jobs are susceptible toAIautomation butwagebenefits differ between occupations",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "High-skilled human workers in non-routine jobs are susceptible toAIautomation butwagebenefits differ between occupations",
+      "authors": "P Ozgul, MC Fregin,",
+      "source": "M Stops",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2404.06472",
+      "scholar_link": "https://arxiv.org/abs/2404.06472",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Artificial Intelligence (AI) will change human work by taking over specific job tasks, but there is a debate which tasks are susceptible to automation, and whether AI will augment or replace workers and affect wages. By combining data on job tasks with a measure of AI susceptibility, we show that more highly skilled workers are more susceptible to AI automation, and that analytical non-routine tasks are at risk to be impacted by AI. Moreover, we observe that wage growth premiums for the lowest and the highest required skill level appear unrelated to AI susceptibility and that workers in occupations with many routine tasks saw higher wage growth if their work was more strongly susceptible to AI. Our findings imply that AI has the potential to affect human workers differently than canonical economic theories about the impact of technology on work these theories predict.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "The impact ofartificial intelligence(AI) onemployees' skills and well-being in global labor markets: A systematic review",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": true
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The impact ofartificial intelligence(AI) onemployees' skills and well-being in global labor markets: A systematic review",
+      "authors": "RE Cramarenco,",
+      "source": "MI Burcă-Voicu",
+      "year": 2026,
+      "url": "https://www.ceeol.com/search/article-detail?id=1192670",
+      "scholar_link": "https://www.ceeol.com/search/article-detail?id=1192670",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Central and Eastern European Online Library - CEE journals, documents, articles, periodicals, books available online for download, Zeitschrfitendatenbank, Online Zeitschriften, Online Zeitschriftendatenbank",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "The Impact ofArtificial Intelligenceon Labor Market Income Inequality",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The Impact ofArtificial Intelligenceon Labor Market Income Inequality",
+      "authors": "Y Gu",
+      "source": ",",
+      "year": 2026,
+      "url": "https://jandoopress.com/journal/ijas/article/view/169",
+      "scholar_link": "https://jandoopress.com/journal/ijas/article/view/169",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "The short-termeffectsof generativeartificial intelligenceonemployment: Evidence from an online labor market",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The short-termeffectsof generativeartificial intelligenceonemployment: Evidence from an online labor market",
+      "authors": "X Hui",
+      "source": ",",
+      "year": 2026,
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/orsc.2023.18441",
+      "scholar_link": "https://pubsonline.informs.org/doi/abs/10.1287/orsc.2023.18441",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Generative artificial intelligence (AI) holds the potential to either complement workers by enhancing their productivity or substitute them. We examine the short-term effects of the recently released generative AI models (ChatGPT, DALL-E 2, and Midjourney) on the employment outcomes of freelancers on a large online platform. We find that freelancers in highly affected occupations suffer from the introduction of generative AI, experiencing reductions in both employment and earnings. We find similar effects studying the release of other image-based generative AI models. Exploring the heterogeneity by freelancers’ employment history, we do not find evidence that high-quality service, measured by their past performance and employment, moderates the adverse effects on employment. In fact, we find suggestive evidence that top freelancers are disproportionately affected by AI. These results suggest that generative AI may transform the role of human capital in the organization and reduce overall demand for workers.  Supplemental Material: The online appendices are available at https://doi.org/10.1287/orsc.2023.18441 .",
+      "doi": "10.1287/orsc.2023.18441",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Canaries in the Coal Mine?: Six Facts about the RecentEmployment EffectsofArtificial Intelligence",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Canaries in the Coal Mine?: Six Facts about the RecentEmployment EffectsofArtificial Intelligence",
+      "authors": "E Brynjolfsson",
+      "source": ",",
+      "year": 2026,
+      "url": "https://digitaleconomy.stanford.edu/app/uploads/2025/12/CanariesintheCoalMine_Nov25.pdf",
+      "scholar_link": "https://digitaleconomy.stanford.edu/app/uploads/2025/12/CanariesintheCoalMine_Nov25.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "The simple macroeconomics ofAI",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The simple macroeconomics ofAI",
+      "authors": "D Acemoglu",
+      "source": "- Economic Policy, 2025 - academic.oup.com",
+      "year": 2026,
+      "url": "https://academic.oup.com/economicpolicy/article-abstract/40/121/13/7728473",
+      "scholar_link": "https://academic.oup.com/economicpolicy/article-abstract/40/121/13/7728473",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "SUMMARY This paper evaluates claims about the large macroeconomic implications of new advances in Artificial intelligence (AI). It starts from a task-based model of AI’s effects, working through automation and task complementarities. So long as AI’s microeconomic effects are driven by cost savings/productivity improvements at the task level, its macroeconomic consequences will be given by a version of Hulten’s theorem: Gross Domestic Product (GDP) and aggregate productivity gains can be estimated by what fraction of tasks are impacted and average task-level cost savings. Using existing estimates on exposure to AI and productivity improvements at the task level, these macroeconomic effects appear non-trivial but modest – no more than a 0.66% increase in total factor productivity (TFP) over 10 years. The paper then argues that even these estimates could be exaggerated, because early evidence is from easy-to-learn tasks, whereas some of the future effects will come from hard-to-learn tasks, where there are many context-dependent factors affecting decision-making and no objective outcome measures from which to learn successful performance. Consequently, predicted TFP gains over the next 10 years are even more modest and are predicted to be less than 0.53%. I also explore AI’s wage and inequality effects. I show theoretically that even when AI improves the productivity of low-skill workers in certain tasks (without creating new tasks for them), this may increase rather than reduce inequality. Empirically, I find that AI advances are unlikely to increase inequality as much as previous automation technologies because their impact is more equally distributed across demographic groups, but there is also no evidence that AI will reduce labour income inequality. Instead, AI is predicted to widen the gap between capital and labour income. Finally, some of the new tasks created by AI may have negative social value (such as the design of algorithms for online manipulation), and I discuss how to incorporate the macroeconomic effects of new tasks that may have negative social value.",
+      "citations": 134,
+      "doi": "https://doi.org/10.1093/epolic/eiae042",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "The labor marketeffectsof generativeAI: A difference-in-differences analysis ofAIexposure",
+    "score": 8,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The labor marketeffectsof generativeAI: A difference-in-differences analysis ofAIexposure",
+      "authors": "AC Johnston",
+      "source": ",",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5375017",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5375017",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Doesartificial intelligenceaffect firms' innerwagegap?",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Doesartificial intelligenceaffect firms' innerwagegap?",
+      "authors": "Y Yuan,",
+      "source": "Y Sun",
+      "year": 2025,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00036846.2024.2324090",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/00036846.2024.2324090",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "The impact of generativeAIonemploymentand labor productivity",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The impact of generativeAIonemploymentand labor productivity",
+      "authors": "J Yu,",
+      "source": "C Qi",
+      "year": 2024,
+      "url": "https://search.proquest.com/openview/ef4a16ccdd3ada374a981a60edf32f2a/1?pq-origsite=gscholar&cbl=36534",
+      "scholar_link": "https://search.proquest.com/openview/ef4a16ccdd3ada374a981a60edf32f2a/1?pq-origsite=gscholar&cbl=36534",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Impact ofartificial intelligenceon the labor income distribution: Labor substitution or production upgrading?",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Impact ofartificial intelligenceon the labor income distribution: Labor substitution or production upgrading?",
+      "authors": "C Wang, D Jiao - Finance Research Letters, 2025 - Elsevier",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1544612324017033",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S1544612324017033",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Howgenerative artificial intelligencetechnologies shape partialjob displacementand labor productivity growth",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Howgenerative artificial intelligencetechnologies shape partialjob displacementand labor productivity growth",
+      "authors": "G Lazaroiu",
+      "source": ", E Rogalska - Oeconomia Copernicana, 2023 - cejsh.icm.edu.pl",
+      "year": 2026,
+      "url": "https://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_24136_oc_2023_020/c/articles-19900462.pdf.pdf",
+      "scholar_link": "https://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_24136_oc_2023_020/c/articles-19900462.pdf.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Generative artificial intelligencealgorithms in talent and performance management,job displacementand creation, and employee productivity and well-being",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": true
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Generative artificial intelligencealgorithms in talent and performance management,job displacementand creation, and employee productivity and well-being",
+      "authors": "DP Ljungholm",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.ceeol.com/search/article-detail?id=1207536",
+      "scholar_link": "https://www.ceeol.com/search/article-detail?id=1207536",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Central and Eastern European Online Library - CEE journals, documents, articles, periodicals, books available online for download, Zeitschrfitendatenbank, Online Zeitschriften, Online Zeitschriftendatenbank",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "DisplacementOr Complementarity?: The Labor Market Impact ofGenerative AI",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "DisplacementOr Complementarity?: The Labor Market Impact ofGenerative AI",
+      "authors": "WX Chen",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.hbs.edu/ris/Publication%20Files/25-039_05fbec84-1f23-459b-8410-e3cd7ab6c88a.pdf",
+      "scholar_link": "https://www.hbs.edu/ris/Publication%20Files/25-039_05fbec84-1f23-459b-8410-e3cd7ab6c88a.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Generative AI is poised to reshape the labor market, affecting cognitive and white-collar occupations in ways distinct from past technological revolutions. This study examines whether generative AI displaces workers or augments their jobs by analyzing labor demand and skill requirements across occupations. Our findings reveal a heterogeneous effect: generative AI-driven automation reduces labor demand and skill requirements in structured cognitive-task jobs, while increasing both demand and skill complexity in positions that involve human-AI collaboration. These results highlight the importance of understanding generative AI's nuanced impact on the labor market and designing targeted policies to mitigate job displacement while supporting skills development for human-AI collaboration.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Introduction toGenerative AI: Its Impact onJobs, Education, Work and Policy Making",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Introduction toGenerative AI: Its Impact onJobs, Education, Work and Policy Making",
+      "authors": "S Joshi - 2025 - preprints.org",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.preprints.org/frontend/manuscript/067481cf12fab5f129296e8dbda83ed1/download_pub",
+      "scholar_link": "https://www.preprints.org/frontend/manuscript/067481cf12fab5f129296e8dbda83ed1/download_pub",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Generative AImay create a socioeconomic tipping point through labourdisplacement",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": true
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Generative AImay create a socioeconomic tipping point through labourdisplacement",
+      "authors": "JA Occhipinti",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.nature.com/articles/s41598-025-08498-x",
+      "scholar_link": "https://www.nature.com/articles/s41598-025-08498-x",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Work is fundamental to societal prosperity and mental health, providing financial security, a sense of identity and purpose, and social integration. Job insecurity, underemployment and unemployment are well-documented risk factors for mental health issues and suicide. The emergence of generative artificial intelligence (AI) has catalysed debate on job displacement and its corollary impacts on individual and social wellbeing. Some argue that many new jobs and industries will emerge to offset the displacement, while others foresee a widespread decoupling of economic productivity from human input threatening jobs on an unprecedented scale. This study explores the conditions under which both may be true and examines the potential for a self-reinforcing cycle of recessionary pressures that would necessitate sustained government intervention to maintain job security and economic stability. A system dynamics model was developed to undertake ex ante analysis of the effect of AI-capital deepening on labour underutilisation and demand in the economy using Australian data as a case study. Results indicate that even a moderate increase in the AI-capital-to-labour ratio could increase labour underutilisation to double its current level, decrease per capita disposable income by 26% (95% interval, 20.6–31.8%), and decrease the consumption index by 21% (95% interval, 13.6–28.3%) by mid-2050. To prevent a reduction in per capita disposable income due to the estimated increase in underutilization, at least a 10.8-fold increase in the new job creation rate would be necessary. Results demonstrate the feasibility of an AI-capital-to-labour ratio threshold beyond which even high rates of new job creation cannot prevent declines in consumption. The precise threshold will vary across economies, emphasizing the urgent need for empirical research tailored to specific contexts. This study underscores the need for cross-sectoral government measures to ensure a smooth transition to an AI-dominated economy to safeguard the Mental Wealth of nations.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Generative AIandJobVulnerability: A Global Review",
+    "score": 9,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Generative AIandJobVulnerability: A Global Review",
+      "authors": "S Pokhrel",
+      "source": ",",
+      "year": 2026,
+      "url": "https://ray.yorksj.ac.uk/id/eprint/13382/",
+      "scholar_link": "https://ray.yorksj.ac.uk/id/eprint/13382/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Generative AI and Job Vulnerability: A Global Review Pokhrel, Sangita ORCID: https://orcid.org/0009-0008-2092-7029 , Poudel, Sanjaya , Banjade, Shiv Raj , Ganesan, Swathi ORCID: https://orcid.org/0000-0002-6278-2090 and Goonawardane, Chathurika (2025) Generative AI and Job Vulnerability: A Global Review. Recent Research Reviews Journal , 4 (2). pp. 281-305. Preview Text Generative_AI_and_Job_Vulnerab-RRRJ-4_2_6.pdf - Published Version Available under License Creative Commons Attribution Non-commercial . Download (570kB) | Preview Official URL: https://irojournals.com/rrrj/article/pdf/4/2/6 Abstract The rapid acceleration in the development of AI-in particular, generative AI-is changing the nature of work globally, with great significant for job creation, transformation, and displacement. Drawing on major studies, employer forecasts, and AI-driven evaluations, this review paper synthesizes evidence to investigate sectoral vulnerabilities to automation across different economic contexts. In doing so, it identifies professions and sectors that have emerged as particularly vulnerable to disruption by AI, with a specific focus on developments relating to generative AI since 2023. Clerical, administrative, financial, and customer service jobs are currently identified as those globally at the highest risk, while knowledge-based and creative jobs that have been considered hitherto safe are increasingly vulnerable. Conversely, occupations that are physically and emotionally demanding and unpredictable, such as health care, skilled trades, and hospitality, remain comparatively resilient. This review also explores regional variation in risks from automation, approaches to the methodological assessment of risk, and the strategic responses from employers across industries. Conclusively, this study emphasizes a set of policy recommendations targeting concerted upskilling, AI governance, and inclusive transition strategies in efforts to prevent labor markets from becoming more unequal. This systematic literature review used information obtained from peer-reviewed journals, policy reports, and organizational datasets published between 2013 and 2025. Altogether, 52 studies were thematically analyzed and comparatively mapped across sectors in line with predetermined inclusion criteria targeted at AI-driven automation and workforce vulnerability across sectors. Item Type: Article Status: Published DOI: 10.36548/rrrj.2025.2.006 Subjects: T Technology > T Technology (General) School/Department: London Campus URI: https://ray.yorksj.ac.uk/id/eprint/13382 University Staff: Request a correction | RaY Editors: Update this record Altmetric Altmetric Altmetric View Altmetric information about this item . CORE (COnnecting REpositories) CORE (COnnecting REpositories) CORE (COnnecting REpositories) Tools Tools Tools OpenURL ContextObject in Span BibTeX Reference Manager Multiline CSV ASCII Citation RDF+XML JSON EP3 XML METS Simple Metadata RDF+N3 MODS Dublin Core Atom HTML Citation OpenURL ContextObject Refer MPEG-21 DIDL RIOXX2 XML RefWorks EndNote RDF+N-Triples Deposit and Record Details Deposit and Record Details Deposit and Record Details ID Code: 13382 Depositing User: Pokhrel, Sangita Deposited On: 27 Nov 2025 11:05 Last Modified: 25 Feb 2026 11:24",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Generative AI: Mitigating workforce and economic disruptions while strategizing policy responses for governments and companies",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Generative AI: Mitigating workforce and economic disruptions while strategizing policy responses for governments and companies",
+      "authors": "S Joshi",
+      "source": "- Available at SSRN 5135229, 2025 - papers.ssrn.com",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5135229",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5135229",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Generative AI, PerceivedJob Displacement, and Policy Preferences: Experimental Evidence from China May, 2025",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Generative AI, PerceivedJob Displacement, and Policy Preferences: Experimental Evidence from China May, 2025",
+      "authors": "M Shen",
+      "source": ", Q Xiao, X Chen,",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5241136",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5241136",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Generative Ai, PerceivedJob Displacement, and Policy Preferences: Experimental Evidence from China",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Generative Ai, PerceivedJob Displacement, and Policy Preferences: Experimental Evidence from China",
+      "authors": "M Shen, Q Xiao, X Chen,",
+      "source": "S Fang",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5254768",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5254768",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "The recessionary pressures ofgenerative AI: A threat to wellbeing",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The recessionary pressures ofgenerative AI: A threat to wellbeing",
+      "authors": "JA Occhipinti",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2403.17405",
+      "scholar_link": "https://arxiv.org/abs/2403.17405",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Generative Artificial Intelligence (AI) stands as a transformative force that presents a paradox; it offers unprecedented opportunities for productivity growth while potentially posing significant threats to economic stability and societal wellbeing. Many consider generative AI as akin to previous technological advancements, using historical precedent to argue that fears of widespread job displacement are unfounded, while others contend that generative AI`s unique capacity to undertake non-routine cognitive tasks sets it apart from other forms of automation capital and presents a threat to the quality and availability of work that underpin stable societies. This paper explores the conditions under which both may be true. We posit the existence of an AI-capital-to-labour ratio threshold beyond which a self-reinforcing cycle of recessionary pressures could be triggered, exacerbating social disparities, reducing social cohesion, heightening tensions, and requiring sustained government intervention to maintain stability. To prevent this, the paper underscores the urgent need for proactive policy responses, making recommendations to reduce these risks through robust regulatory frameworks and a new social contract characterised by progressive social and economic policies. This approach aims to ensure a sustainable, inclusive, and resilient economic future where human contribution to the economy is retained and integrated with generative AI to enhance the Mental Wealth of nations.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Generative AI: A turning point for labor's share",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Generative AI: A turning point for labor's share",
+      "authors": "LA Drozd,",
+      "source": "M Tavares",
+      "year": 2024,
+      "url": "http://www.lukasz-drozd.com/uploads/4/3/1/8/43183209/eiq124-generative-ai.pdf",
+      "scholar_link": "http://www.lukasz-drozd.com/uploads/4/3/1/8/43183209/eiq124-generative-ai.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Generative artificial intelligenceand the emergence of creativedisplacementanxiety",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": true
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Generative artificial intelligenceand the emergence of creativedisplacementanxiety",
+      "authors": "N Caporusso",
+      "source": "- Research in Psychology and Behavior, 2023 - researchdirects.com",
+      "year": 2026,
+      "url": "https://researchdirects.com/index.php/psychology/article/view/95",
+      "scholar_link": "https://researchdirects.com/index.php/psychology/article/view/95",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Generative Artificial Intelligence (AI), a subset of AI that can generate novel content such as images, text, and music, has the unique transformative potential of augmenting human creativity, offering tools that can enhance creative expression and open unprecedented avenues for innovation. However, alongside its remarkable capabilities, the inevitable pervasive integration of this technology in every aspect of human life, including creative fields, involves the risk of giving rise to unforeseen psychological challenges for our society. This article discusses the potential emergence of a novel psychological phenomenon consisting in the multifaceted response to the perceived overshadowing of human creativity by AI-driven tools. Specifically, the article introduces the term “Creative Displacement Anxiety” (CDA), describe its foundation, and discuss its relationships with established psychological and psychosocial models, theories, constructs, and diagnoses such as technostress, impostor syndrome, cognitive dissonance, and economic anxiety. The article conceptualizes and elucidates the potential root causes, symptoms, and implications of CDA. Additionally, it discusses how some of the possible negative mental health outcomes could potentially be mitigated. Our work emphasizes the need for interventions that raise awareness on generative AI, support individuals in accepting and incorporating AI as a creative tool and companion and helps them navigate this new landscape. Finally, by offering a view of the interplay between AI advancements and the human creative psyche, our research aims at fostering the discussion around embracing the positive contribution of generative AI to our society.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "The dark side ofgenerative artificial intelligence: A critical analysis of controversies and risks of ChatGPT",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The dark side ofgenerative artificial intelligence: A critical analysis of controversies and risks of ChatGPT",
+      "authors": "K Wach",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.ceeol.com/search/article-detail?id=1205845",
+      "scholar_link": "https://www.ceeol.com/search/article-detail?id=1205845",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Central and Eastern European Online Library - CEE journals, documents, articles, periodicals, books available online for download, Zeitschrfitendatenbank, Online Zeitschriften, Online Zeitschriftendatenbank",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "What is the Future of Work in theGenerative AIEra? A Marxist and Ricardian Analysis",
+    "score": 9,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "What is the Future of Work in theGenerative AIEra? A Marxist and Ricardian Analysis",
+      "authors": "L Liu",
+      "source": "- tripleC: Communication, Capitalism & Critique. Open …, 2025 - triple-c.at",
+      "year": 2026,
+      "url": "https://triple-c.at/index.php/tripleC/article/view/1536",
+      "scholar_link": "https://triple-c.at/index.php/tripleC/article/view/1536",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "There is an increasing public discourse of automation for white-collar professional jobs due to improvements in artificial intelligence (AI) capacities, raising the question about the contours of the future of work. Marx and Ricardo’s framework of technological labour displacement helps us understand the future of work in the context of AI. Marx’s discussion in Capital and Ricardo’s discussion in Principles of Political Economy reveal the common thesis that technology-induced worker displacement and precariousness of employment relationships are built into the internal logic of the contemporary digital capitalist economy. There are three important differences in their theoretical framework: (1) Marx did not believe that high technological unemployment is possible within capitalism even with very advanced technologies such as AI, while Ricardo saw technological unemployment as a serious threat while he acknowledges countervailing employment-creating tendencies; (2) While Ricardo’s explanation for the falling rate of profit is limited to rising wages, Marx traces the profit decline to the rising organic composition of capital and automation itself; (3) For Marx, a desirable future of work is not found within a capitalist framework but in communism, while Ricardo sees no alternatives to capitalism.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "A review ofgenerative AI'simpact on workforce transformation and future skill requirements",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "A review ofgenerative AI'simpact on workforce transformation and future skill requirements",
+      "authors": "K Oyetade",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/Kayode-Oyetade/publication/397097756_A_Review_of_Generative_AI's_Impact_on_Workforce_Transformation_and_Future_Skill_Requirements/links/690499df9708d52f2da41ed4/A-Review-of-Generative-AIs-Impact-on-Workforce-Transformation-and-Future-Skill-Requirements.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/Kayode-Oyetade/publication/397097756_A_Review_of_Generative_AI's_Impact_on_Workforce_Transformation_and_Future_Skill_Requirements/links/690499df9708d52f2da41ed4/A-Review-of-Generative-AIs-Impact-on-Workforce-Transformation-and-Future-Skill-Requirements.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Economics of ChatGPT: Alabor marketview on the occupationalimpactofartificial intelligence",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Economics of ChatGPT: Alabor marketview on the occupationalimpactofartificial intelligence",
+      "authors": "A Zarifhonarvar",
+      "source": "- Journal of Electronic Business & Digital Economics,",
+      "year": 2024,
+      "url": "https://www.emerald.com/jebde/article/3/2/100/1233608",
+      "scholar_link": "https://www.emerald.com/jebde/article/3/2/100/1233608",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Assessing theimpactofartificial intelligenceon Russianlabor marketdevelopment scenarios: Industry analysis",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Assessing theimpactofartificial intelligenceon Russianlabor marketdevelopment scenarios: Industry analysis",
+      "authors": "RV Faizullin, PL Ototsky, EN Gorlacheva… - Economic and Social …, 2025 - library.volnc.ru",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "http://library.volnc.ru/Files/articles/1743415560.pdf",
+      "scholar_link": "http://library.volnc.ru/Files/articles/1743415560.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Artificial intelligenceand thelabor market",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligenceand thelabor market",
+      "authors": "M Hampole",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.aeaweb.org/conference/2026/program/paper/DfFG2sBZ",
+      "scholar_link": "https://www.aeaweb.org/conference/2026/program/paper/DfFG2sBZ",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Technological disruption in thelabor market",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": true
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Technological disruption in thelabor market",
+      "authors": "DJ Deming",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.nber.org/papers/w33323",
+      "scholar_link": "https://www.nber.org/papers/w33323",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This paper explores past episodes of technological disruption in the US labor market, with the goal of learning lessons about the likely future impact of artificial intelligence (AI). We measure changes in the structure of the US labor market going back over a century. We find, perhaps surprisingly, that the pace of change has slowed over time. The years spanning 1990 to 2017 were less disruptive than any prior period we measure, going back to 1880. This comparative decline is not because the job market is stable today but rather because past changes were so profound. General-purpose technologies (GPTs) like steam power and electricity dramatically disrupted the twentieth-century labor market, but the changes took place over decades. We argue that AI could be a GPT on the scale of prior disruptive innovations, which means it is likely too early to assess its full impacts. Nonetheless, we present four indications that the pace of labor market change has accelerated recently, possibly due to technological change. First, the labor market is no longer polarizing— employment in low- and middle-paid occupations has declined, while highly paid employment has grown. Second, employment growth has stalled in low-paid service jobs. Third, the share of employment in STEM jobs has increased by more than 50 percent since 2010, fueled by growth in software and computer-related occupations. Fourth, retail sales employment has declined by 25 percent in the last decade, likely because of technological improvements in online retail. The post-pandemic labor market is changing very rapidly, and a key question is whether this faster pace of change will persist into the future.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Thelabor market effectsof generativeAI: A difference-in-differences analysis ofAIexposure",
+    "score": 8,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Thelabor market effectsof generativeAI: A difference-in-differences analysis ofAIexposure",
+      "authors": "AC Johnston",
+      "source": ",",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5375017",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5375017",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Theimpactofartificial intelligence(AI) on employees' skills and well-being in globallabor markets: A systematic review",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": true
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Theimpactofartificial intelligence(AI) on employees' skills and well-being in globallabor markets: A systematic review",
+      "authors": "RE Cramarenco,",
+      "source": "MI Burcă-Voicu",
+      "year": 2026,
+      "url": "https://www.ceeol.com/search/article-detail?id=1192670",
+      "scholar_link": "https://www.ceeol.com/search/article-detail?id=1192670",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Central and Eastern European Online Library - CEE journals, documents, articles, periodicals, books available online for download, Zeitschrfitendatenbank, Online Zeitschriften, Online Zeitschriftendatenbank",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Displacement Or Complementarity?: TheLabor Market Impactof GenerativeAI",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Displacement Or Complementarity?: TheLabor Market Impactof GenerativeAI",
+      "authors": "WX Chen",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.hbs.edu/ris/Publication%20Files/25-039_05fbec84-1f23-459b-8410-e3cd7ab6c88a.pdf",
+      "scholar_link": "https://www.hbs.edu/ris/Publication%20Files/25-039_05fbec84-1f23-459b-8410-e3cd7ab6c88a.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "\" Generate\" the Future of Work throughAI: Empirical Evidence from OnlineLabor Markets",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "\" Generate\" the Future of Work throughAI: Empirical Evidence from OnlineLabor Markets",
+      "authors": "J Liu",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2308.05201",
+      "scholar_link": "https://arxiv.org/abs/2308.05201",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Large Language Model (LLM)-based generative AI systems, such as ChatGPT, demonstrate zero-shot learning capabilities across a wide range of downstream tasks. Owing to their general-purpose nature and potential to augment or even automate job functions, these systems are poised to reshape labor market dynamics. However, predicting their precise impact \\textit{a priori} is challenging, given AI's simultaneous effects on both demand and supply, as well as the strategic responses of market participants. Leveraging an extensive dataset from a leading online labor platform, we document a pronounced displacement effect and an overall contraction in submarkets where required skills closely align with core LLM functionalities. Although demand and supply both decline, the reduction in supply is comparatively smaller, thereby intensifying competition among freelancers. Notably, further analysis shows that this heightened competition is especially pronounced in programming-intensive submarkets. This pattern is attributed to skill-transition effects: by lowering the human-capital barrier to programming, ChatGPT enables incumbent freelancers to enter programming tasks. Moreover, these transitions are not homogeneous, with high-skilled freelancers contributing disproportionately to the shift. Our findings illuminate the multifaceted impacts of general-purpose AI on labor markets, highlighting not only the displacement of certain occupations but also the inducement of skill transitions within the labor supply. These insights offer practical implications for policymakers, platform operators, and workers.",
+      "citations": 3,
+      "doi": "https://doi.org/10.48550/arxiv.2308.05201",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Large language models, smalllabor market effects",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Large language models, smalllabor market effects",
+      "authors": "A Humlum",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.nber.org/papers/w33777",
+      "scholar_link": "https://www.nber.org/papers/w33777",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "We study the early labor market impacts of AI chatbots by linking large-scale adoption surveys to administrative labor market records in Denmark. We document rapid currents: most employers in exposed occupations have adopted chatbot initiatives, workers report productivity benefits, and new AI-related tasks are widespread. Yet these currents have not broken the surface: using difference-indifferences, we estimate precise null effects on earnings and recorded hours at both the worker and workplace levels, ruling out effects larger than 2% two years after the launch of ChatGPT. What moves is the structure of work: employers absorb AI through task reorganization—including new tasks in content generation, AI oversight, and AI integration—and adopters transition into higher-paying occupations where AI chatbots are more relevant, though still too few to move average earnings. Technological change reshapes work well before it surfaces in earnings or hours.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "The short-termeffectsof generativeartificial intelligenceonemployment: Evidence from an onlinelabor market",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The short-termeffectsof generativeartificial intelligenceonemployment: Evidence from an onlinelabor market",
+      "authors": "X Hui",
+      "source": ",",
+      "year": 2026,
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/orsc.2023.18441",
+      "scholar_link": "https://pubsonline.informs.org/doi/abs/10.1287/orsc.2023.18441",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Generative artificial intelligence (AI) holds the potential to either complement workers by enhancing their productivity or substitute them. We examine the short-term effects of the recently released generative AI models (ChatGPT, DALL-E 2, and Midjourney) on the employment outcomes of freelancers on a large online platform. We find that freelancers in highly affected occupations suffer from the introduction of generative AI, experiencing reductions in both employment and earnings. We find similar effects studying the release of other image-based generative AI models. Exploring the heterogeneity by freelancers’ employment history, we do not find evidence that high-quality service, measured by their past performance and employment, moderates the adverse effects on employment. In fact, we find suggestive evidence that top freelancers are disproportionately affected by AI. These results suggest that generative AI may transform the role of human capital in the organization and reduce overall demand for workers.  Supplemental Material: The online appendices are available at https://doi.org/10.1287/orsc.2023.18441 .",
+      "doi": "10.1287/orsc.2023.18441",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Artificial intelligence: intensifying or mitigating unemployment?",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligence: intensifying or mitigating unemployment?",
+      "authors": "M Qin",
+      "source": ", Y Wan, J Dou,",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0160791X24003038",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0160791X24003038",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "AI-exposure andlabour market: a systematic literature review on estimations, validations, and perceptions: D. Ghosh et al.",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": true
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "AI-exposure andlabour market: a systematic literature review on estimations, validations, and perceptions: D. Ghosh et al.",
+      "authors": "D Ghosh",
+      "source": ", R Ghosh,",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s11301-023-00393-x",
+      "scholar_link": "https://link.springer.com/article/10.1007/s11301-023-00393-x",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "The artificial intelligence (AI) revolution is still in its infancy, but it is constantly changing across time and space. Any AI-penetration, adoption and diffusion trigger further rounds of supply-induced demand for newer AI-exposures. Understandably, the demand and supply are intertwined, and currently, it is a formidable challenge to comprehensively capture and delineate the extent of AI's influence, as evidenced in existing literature. The paper details out the fundamental inferences drawn by the recent literature on this, thoroughly and systematically. The findings are based on peer-reviewed articles from the domains of economics, HR, business and management literature spanning 2010–2023. Although growing AI exposure is widely acknowledged in the literature, clarity and comprehensiveness are missing on several grounds. This review analyses the adoption of technology based on AI, whether in a broad or narrow sense, as well as the skill sets required and its impact on the labour market as documented in extant literature, encompassing employment, occupations, earnings, and organisation. Three overarching concerns are identified: First , to assess and infer on possible labour market impacts due to the AI-exposure of firms the proxies of AI exposure taken by the literature are quite diverse: robotization, digital evolution index, human–machine collaboration, technological progress etc. Second , the methodologies employed in qualitative and quantitative literature exhibit a wide range of diversity; these techniques often yielded contradictory and divergent conclusions, potentially influenced by the size and structure of the data utilised in the respective methods. Third , research is limited to China or regions of developed countries, making it difficult to draw general conclusions. The literature at present, is dispersed, and is yet to build any consensus on deciphering the skill-types that possibly would see the largest impacts, the sectors that might see plethora of AI-enabled economic repercussions, whether indeed there will be an overall net- job destruction or net-job creation, and does that differ across economic regions? The paper details out the fundamental inferences drawn by the recent literature on this, thoroughly and systematically.",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Theimpactofartificial intelligenceon productivity, distribution and growth",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": false
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Theimpactofartificial intelligenceon productivity, distribution and growth",
+      "authors": "F Filippucci",
+      "source": ",",
+      "year": 2026,
+      "url": "https://iris.luiss.it/handle/11385/240418",
+      "scholar_link": "https://iris.luiss.it/handle/11385/240418",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Dynamics of the digital workforce: Assessing the interplay andimpactofAI, automation, andemploymentpolicies",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 1,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Dynamics of the digital workforce: Assessing the interplay andimpactofAI, automation, andemploymentpolicies",
+      "authors": "OO Olaniyi",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/Oluwaseun-Olaniyi/publication/380068372_Digital_Workforce_Assessing_the_Interplay_and_Impact_of_AI_Automation_and_Employment_Policies/links/6629431435243041534098d1/Digital-Workforce-Assessing-the-Interplay-and-Impact-of-AI-Automation-and-Employment-Policies.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/Oluwaseun-Olaniyi/publication/380068372_Digital_Workforce_Assessing_the_Interplay_and_Impact_of_AI_Automation_and_Employment_Policies/links/6629431435243041534098d1/Digital-Workforce-Assessing-the-Interplay-and-Impact-of-AI-Automation-and-Employment-Policies.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "labor"
+    }
+  },
+  {
+    "title": "Artificial intelligencedevelopment and disseminationimpacton the sports industrylabor market",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/automatización/robots",
+        "met": true
+      },
+      {
+        "key": "wage_employment",
+        "desc": "Mide salarios, empleo o outcomes laborales",
+        "met": true
+      },
+      {
+        "key": "heterogeneity",
+        "desc": "Distingue por habilidad, tarea u ocupación",
+        "met": false
+      },
+      {
+        "key": "within_firm",
+        "desc": "Estudia efectos dentro de firmas o a nivel trabajador",
+        "met": false
+      },
+      {
+        "key": "causal",
+        "desc": "Tiene estrategia causal o cuasi-causal",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligencedevelopment and disseminationimpacton the sports industrylabor market",
+      "authors": "E Glebova",
+      "source": ", DØ Madsen, P Mihaľová,",
+      "year": 2026,
+      "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2024.1363892/full",
+      "scholar_link": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2024.1363892/full",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "The objective of this study is to explore the impact of artificial intelligence (AI) development on the sports industry labor market, and how AI has influenc...",
+      "pocket": "labor"
+    }
+  }
+]

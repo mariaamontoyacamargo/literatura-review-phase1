@@ -1,0 +1,3160 @@
+[
+  {
+    "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+      "authors": [
+        "Wiebke Hutiri",
+        "Morgan Scheuerman",
+        "Shruti Nagpal",
+        "Austin Hoag",
+        "Alice Xiang"
+      ],
+      "published": "2026-04-10T15:26:57Z",
+      "arxiv_id": "2604.09413v1",
+      "url": "https://arxiv.org/abs/2604.09413v1",
+      "summary": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+      "authors": [
+        "Arnab Paul Choudhury",
+        "Rahul Rathod",
+        "Aryan Yadav"
+      ],
+      "published": "2026-04-10T15:09:28Z",
+      "arxiv_id": "2604.09395v1",
+      "url": "https://arxiv.org/abs/2604.09395v1",
+      "summary": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+      "authors": [
+        "Oleg Solozobov"
+      ],
+      "published": "2026-04-10T13:06:38Z",
+      "arxiv_id": "2604.09296v1",
+      "url": "https://arxiv.org/abs/2604.09296v1",
+      "summary": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Artificial intelligence can persuade people to take political actions",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligence can persuade people to take political actions",
+      "authors": [
+        "Kobi Hackenburg",
+        "Luke Hewitt",
+        "Caroline Wagner",
+        "Ben M. Tappin",
+        "Christopher Summerfield"
+      ],
+      "published": "2026-04-10T10:34:49Z",
+      "arxiv_id": "2604.09200v1",
+      "url": "https://arxiv.org/abs/2604.09200v1",
+      "summary": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+      "authors": [
+        "Tommy Shaffer Shane",
+        "Simon Mylius",
+        "Hamish Hobbs"
+      ],
+      "published": "2026-04-10T08:37:18Z",
+      "arxiv_id": "2604.09104v1",
+      "url": "https://arxiv.org/abs/2604.09104v1",
+      "summary": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Scrapyard AI",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Scrapyard AI",
+      "authors": [
+        "Marc Böhlen",
+        "Sai Krishna"
+      ],
+      "published": "2026-04-09T22:38:57Z",
+      "arxiv_id": "2604.08803v1",
+      "url": "https://arxiv.org/abs/2604.08803v1",
+      "summary": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+      "authors": [
+        "David Shoresh",
+        "Sarit Kraus",
+        "Yonatan Loewenstein"
+      ],
+      "published": "2026-04-09T19:40:15Z",
+      "arxiv_id": "2604.08727v1",
+      "url": "https://arxiv.org/abs/2604.08727v1",
+      "summary": "As large language model (LLM) agents become more prevalent in real world social settings, social intelligence will play an increasingly critical role. But social intelligence is still a poorly defined construct, for humans and artificial agents. We introduce a multiplayer arena of mixed cooperative and competitive social games to study LLM social intelligence. The controllability of LLM based agents enables systematic evaluation, which also supports broader inferences about social intelligence per se. We evaluated eight diverse LLMs (24B to 1T parameters) using a Communicate Predict Act (COMPACT) interaction protocol and fine grained probing of social dynamics. Elo style ratings reveal consistent performance differences across models, but this scalar measure provides only a partial characterization of social intelligence. To address this limitation, we analyze gameplay traces to extract sociocognitive metrics capturing action prediction, communicative influence, strategic reasoning, and tradeoffs under conflicting interests. These sociocognitive metrics exhibit strong intramodel consistency and they reliably predict pairwise agent advantage in game outcomes (AUC ROC = 0.82). Feature importance analysis indicates that surprisingly, influence, transparency, and adaptability are more predictive of success than Theory of Mind inference or deep planning. Together, our results advance a testable, multidimensional conception of social intelligence and provide empirical insights into the capacities that underpin it.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "As large language model (LLM) agents become more prevalent in real world social settings, social intelligence will play an increasingly critical role. But social intelligence is still a poorly defined construct, for humans and artificial agents. We introduce a multiplayer arena of mixed cooperative and competitive social games to study LLM social intelligence. The controllability of LLM based agents enables systematic evaluation, which also supports broader inferences about social intelligence per se. We evaluated eight diverse LLMs (24B to 1T parameters) using a Communicate Predict Act (COMPACT) interaction protocol and fine grained probing of social dynamics. Elo style ratings reveal consistent performance differences across models, but this scalar measure provides only a partial characterization of social intelligence. To address this limitation, we analyze gameplay traces to extract sociocognitive metrics capturing action prediction, communicative influence, strategic reasoning, and tradeoffs under conflicting interests. These sociocognitive metrics exhibit strong intramodel consistency and they reliably predict pairwise agent advantage in game outcomes (AUC ROC = 0.82). Feature importance analysis indicates that surprisingly, influence, transparency, and adaptability are more predictive of success than Theory of Mind inference or deep planning. Together, our results advance a testable, multidimensional conception of social intelligence and provide empirical insights into the capacities that underpin it.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Towards Generalizable Representations of Mathematical Strategies",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Towards Generalizable Representations of Mathematical Strategies",
+      "authors": [
+        "Siddhartha Pradhan",
+        "Ethan Prihar",
+        "Erin Ottmar"
+      ],
+      "published": "2026-04-09T18:26:13Z",
+      "arxiv_id": "2604.08693v1",
+      "url": "https://arxiv.org/abs/2604.08693v1",
+      "summary": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+      "authors": [
+        "Addison J. Wu",
+        "Ryan Liu",
+        "Shuyue Stella Li",
+        "Yulia Tsvetkov",
+        "Thomas L. Griffiths"
+      ],
+      "published": "2026-04-09T17:57:50Z",
+      "arxiv_id": "2604.08525v1",
+      "url": "https://arxiv.org/abs/2604.08525v1",
+      "summary": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+      "authors": [
+        "Ramakrishnan Krishnamurthy",
+        "Arpit Agarwal",
+        "Lakshminarayanan Subramanian",
+        "Maximilian Nickel"
+      ],
+      "published": "2026-04-09T17:45:15Z",
+      "arxiv_id": "2604.08643v1",
+      "url": "https://arxiv.org/abs/2604.08643v1",
+      "summary": "User interactions in online recommendation platforms create interdependencies among content creators: feedback on one creator's content influences the system's learning and, in turn, the exposure of other creators' contents. To analyze incentives in such settings, we model collaboration as a multi-agent stochastic linear bandit problem with a transferable utility (TU) cooperative game formulation, where a coalition's value equals the negative sum of its members' cumulative regrets.\n  We show that, for identical (homogenous) agents with fixed action sets, the induced TU game is convex under mild algorithmic conditions, implying a non-empty core that contains the Shapley value and ensures both stability and fairness. For heterogeneous agents, the game still admits a non-empty core, though convexity and Shapley value core-membership are no longer guaranteed. To address this, we propose a simple regret-based payout rule that satisfies three out of the four Shapley axioms and also lies in the core. Experiments on MovieLens-100k dataset illustrate when the empirical payout aligns with -- and diverges from -- the Shapley fairness across different settings and algorithms.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "User interactions in online recommendation platforms create interdependencies among content creators: feedback on one creator's content influences the system's learning and, in turn, the exposure of other creators' contents. To analyze incentives in such settings, we model collaboration as a multi-agent stochastic linear bandit problem with a transferable utility (TU) cooperative game formulation, where a coalition's value equals the negative sum of its members' cumulative regrets.\n  We show that, for identical (homogenous) agents with fixed action sets, the induced TU game is convex under mild algorithmic conditions, implying a non-empty core that contains the Shapley value and ensures both stability and fairness. For heterogeneous agents, the game still admits a non-empty core, though convexity and Shapley value core-membership are no longer guaranteed. To address this, we propose a simple regret-based payout rule that satisfies three out of the four Shapley axioms and also lies in the core. Experiments on MovieLens-100k dataset illustrate when the empirical payout aligns with -- and diverges from -- the Shapley fairness across different settings and algorithms.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": true
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+      "authors": [
+        "Juergen Dietrich"
+      ],
+      "published": "2026-04-09T17:00:26Z",
+      "arxiv_id": "2604.08465v1",
+      "url": "https://arxiv.org/abs/2604.08465v1",
+      "summary": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+      "authors": [
+        "Jyh-An Lee",
+        "Jingwen Liu"
+      ],
+      "published": "2026-04-09T15:19:40Z",
+      "arxiv_id": "2604.08353v1",
+      "url": "https://arxiv.org/abs/2604.08353v1",
+      "summary": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": true
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+      "authors": [
+        "Ralf Beuthan",
+        "Megan Coffee",
+        "Heejin Kim",
+        "Na Yeon Kim",
+        "Pedro Kringen"
+      ],
+      "published": "2026-04-09T13:14:34Z",
+      "arxiv_id": "2604.08217v1",
+      "url": "https://arxiv.org/abs/2604.08217v1",
+      "summary": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+      "source": "arXiv",
+      "year": 2026,
+      "sources": [
+        "arxiv"
+      ],
+      "abstract": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "UnpackingHuman-AI interactions: Frominteractionprimitives to adesignspace",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "UnpackingHuman-AI interactions: Frominteractionprimitives to adesignspace",
+      "authors": "K Tsiakas",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3664522",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3664522",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This article aims to develop a semi-formal representation for Human-AI (HAI) interactions, by building a set of interaction primitives which can specify the information exchanges between users and AI systems during their interaction. We show how these primitives can be combined into a set of interaction patterns which can capture common interactions between humans and AI/ML models. The motivation behind this is twofold: firstly, to provide a compact generalization of existing practices for the design and implementation of HAI interactions; and secondly, to support the creation of new interactions by extending the design space of HAI interactions. Taking into consideration frameworks, guidelines, and taxonomies related to human-centered design and implementation of AI systems, we define a vocabulary for describing information exchanges based on the model’s characteristics and interactional capabilities. Based on this vocabulary, a message passing model for interactions between humans and models is presented, which we demonstrate can account for existing HAI interaction systems and approaches. Finally, we build this into design patterns which can describe common interactions between users and models, and we discuss how this approach can be used toward a design space for HAI interactions that creates new possibilities for designs as well as keeping track of implementation issues and concerns.",
+      "doi": "10.1145/3664522",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Automation ofinteraction—interaction designat the crossroads of user experience (UX) andartificial intelligence(AI)",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Automation ofinteraction—interaction designat the crossroads of user experience (UX) andartificial intelligence(AI)",
+      "authors": "M Wiberg",
+      "source": ", E Stolterman Bergqvist - Personal and Ubiquitous Computing, 2023 - Springer",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s00779-023-01779-0",
+      "scholar_link": "https://link.springer.com/article/10.1007/s00779-023-01779-0",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Interaction design/HCI seems to be at a crossroads. On the one hand, it is still about designing for engaging user experiences (UX). Still, on the other hand, it seems to be increasingly about reducing interaction and automating human–machine interaction through the use of AI and other new technologies. In this paper, we explore this seemingly unavoidable gap. First, we discuss the fundamental design rationality underpinning interaction and automation of interaction from the viewpoints of classic theoretical standpoints. We then illustrate how these two come together in interaction design practice. Here we examine four examples from already published research on automation of interaction, including how different levels of automation of interaction affect or enable new practices, including coffee making, self-tracking, automated driving, and conversations with AI-based chatbots. Through an interaction analysis of these four examples, we show (1) how interaction and automation are combined in the design, (2) how interaction is dependent on a certain level of automation, and vice versa, and (3) how each example illustrates a different balance between, and integration of interaction and automation. Based on this analysis, we propose a two-dimensional design space as a conceptual construct that takes these aspects into account to understand and analyze ways of combining interaction and automation in interaction design. We illustrate the use of the proposed two-dimensional design space, discuss its theoretical implications, and suggest it as a useful tool—when designing for engaging user experiences (UX), with interaction and automation as two design materials.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "DesigningcreativeAIpartners with COFI: A framework for modelinginteractioninhuman-AIco-creative systems",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "DesigningcreativeAIpartners with COFI: A framework for modelinginteractioninhuman-AIco-creative systems",
+      "authors": "J Rezwana",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3519026",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3519026",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Human-AI co-creativity involves both humans and AI collaborating on a shared creative product as partners. In a creative collaboration, interaction dynamics, such as turn-taking, contribution type, and communication, are the driving forces of the co-creative process. Therefore the interaction model is a critical and essential component for effective co-creative systems. There is relatively little research about interaction design in the co-creativity field, which is reflected in a lack of focus on interaction design in many existing co-creative systems. The primary focus of co-creativity research has been on the abilities of the AI. This article focuses on the importance of interaction design in co-creative systems with the development of the Co-Creative Framework for Interaction design (COFI) that describes the broad scope of possibilities for interaction design in co-creative systems. Researchers can use COFI for modeling interaction in co-creative systems by exploring alternatives in this design space of interaction. COFI can also be beneficial while investigating and interpreting the interaction design of existing co-creative systems. We coded a dataset of existing 92 co-creative systems using COFI and analyzed the data to show how COFI provides a basis to categorize the interaction models of existing co-creative systems. We identify opportunities to shift the focus of interaction models in co-creativity to enable more communication between the user and AI leading to human-AI partnerships.",
+      "doi": "10.1145/3519026",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Transitioning tohuman interactionwithAIsystems: New challenges and opportunities for HCI professionals to enablehuman-centeredAI",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Transitioning tohuman interactionwithAIsystems: New challenges and opportunities for HCI professionals to enablehuman-centeredAI",
+      "authors": "W Xu",
+      "source": ", MJ Dainoff, L Ge,",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2022.2041900",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2022.2041900",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Human-AI interactionresearch agenda: A user-centered perspective",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Human-AI interactionresearch agenda: A user-centered perspective",
+      "authors": "T Jiang, Z Sun, S Fu, Y Lv - Data and Information Management, 2024 - Elsevier",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2543925124000147",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S2543925124000147",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Understandingdesigncollaboration betweendesignersandartificial intelligence: a systematic literature review",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": true
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Understandingdesigncollaboration betweendesignersandartificial intelligence: a systematic literature review",
+      "authors": "Y Shi",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3610217",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3610217",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Recent interest in design through the artificial intelligence (AI) lens is rapidly increasing. Designers, as a special user group interacting with AI, have received more attention in the Human-Computer Interaction community. Prior work has discussed emerging challenges that persist in designing for AI. However, few systematic reviews focus on AI for design to understand how designers and AI can augment each other's complementary strengths in design collaboration. In this work, we conducted a landscape analysis of AI for design, via a systematic literature review of 93 papers. The analysis first provides a bird's eye view of overall patterns in this area. The analysis also reveals three themes interpreted from the paper corpus associated with AI for design, including AI assisting designers, designers assisting AI, and characterizing designer-AI collaboration. We discuss the implications of our findings and suggested methodological proposals to guide HCI toward research and practices that center on collaborative creativity.",
+      "doi": "10.1145/3610217",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "A situation awareness perspective onhuman-AI interaction: Tensions and opportunities",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "A situation awareness perspective onhuman-AI interaction: Tensions and opportunities",
+      "authors": "J Jiang",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2022.2093863",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2022.2093863",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "\" help me help theai\": Understanding how explainability can supporthuman-ai interaction",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "\" help me help theai\": Understanding how explainability can supporthuman-ai interaction",
+      "authors": "SSY Kim",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3544548.3581001",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3544548.3581001",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "The evolution of HCI andhumanfactors: Integratinghumanandartificial intelligence",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": true
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": true
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The evolution of HCI andhumanfactors: Integratinghumanandartificial intelligence",
+      "authors": "M Chignell",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3557891",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3557891",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "We review HCI history from both the perspective of its 1980s split with human factors and its nature as a discipline. We then revisit human augmentation as an alternative to user friendliness that seems particularly relevant in the areas of inclusive design and artificial intelligence. Viewing human-AI interaction as a kind of human augmentation raises issues such as how to promote trust and situation awareness. We also pose the question: Can HCI and human factors engineering work together to solve the increasingly urgent challenges of human-AI technology? In an initial look at this question, we contrast the different approaches of HCI and human factors on emerging AI research. This article concludes by considering other potentially promising paths for HCI. We propose more collaboration between HCI and human factors, or related disciplines, in the future to address the massive challenges posed by the rapid growth in data science and artificial intelligence.",
+      "doi": "10.1145/3557891",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Whenhuman-AI interactionsbecome parasocial: Agency and anthropomorphism in affectivedesign",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Whenhuman-AI interactionsbecome parasocial: Agency and anthropomorphism in affectivedesign",
+      "authors": "T Maeda",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3630106.3658956",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3630106.3658956",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Towards a science ofhuman-AIdecision making: An overview ofdesignspace in empiricalhuman-subject studies",
+    "score": 2,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Towards a science ofhuman-AIdecision making: An overview ofdesignspace in empiricalhuman-subject studies",
+      "authors": "V Lai,",
+      "source": "C Chen",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3593013.3594087",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3593013.3594087",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "An HCI-centric survey and taxonomy ofhuman-generative-AI interactions",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "An HCI-centric survey and taxonomy ofhuman-generative-AI interactions",
+      "authors": "J Shi",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2310.07127",
+      "scholar_link": "https://arxiv.org/abs/2310.07127",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Generative AI (GenAI) has shown remarkable capabilities in generating diverse and realistic content across different formats like images, videos, and text. In Generative AI, human involvement is essential, thus HCI literature has investigated how to effectively create collaborations between humans and GenAI systems. However, the current literature lacks a comprehensive framework to better understand Human-GenAI Interactions, as the holistic aspects of human-centered GenAI systems are rarely analyzed systematically. In this paper, we present a survey of 291 papers, providing a novel taxonomy and analysis of Human-GenAI Interactions from both human and Gen-AI perspectives. The dimensions of design space include 1) Purposes of Using Generative AI, 2) Feedback from Models to Users, 3) Control from Users to Models, 4) Levels of Engagement, 5) Application Domains, and 6) Evaluation Strategies. Our work is also timely at the current development stage of GenAI, where the Human-GenAI interaction design is of paramount importance. We also highlight challenges and opportunities to guide the design of Gen-AI systems and interactions towards the future design of human-centered Generative AI applications.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Co-designofhuman-centered, explainableAIfor clinical decision support",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": true
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Co-designofhuman-centered, explainableAIfor clinical decision support",
+      "authors": "C Panigutti",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3587271",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3587271",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "eXplainable AI (XAI) involves two intertwined but separate challenges: the development of techniques to extract explanations from black-box AI models and the way such explanations are presented to users, i.e., the explanation user interface. Despite its importance, the second aspect has received limited attention so far in the literature. Effective AI explanation interfaces are fundamental for allowing human decision-makers to take advantage and oversee high-risk AI systems effectively. Following an iterative design approach, we present the first cycle of prototyping-testing-redesigning of an explainable AI technique and its explanation user interface for clinical Decision Support Systems (DSS). We first present an XAI technique that meets the technical requirements of the healthcare domain: sequential, ontology-linked patient data, and multi-label classification tasks. We demonstrate its applicability to explain a clinical DSS, and we design a first prototype of an explanation user interface. Next, we test such a prototype with healthcare providers and collect their feedback with a two-fold outcome: First, we obtain evidence that explanations increase users’ trust in the XAI system, and second, we obtain useful insights on the perceived deficiencies of their interaction with the system, so we can re-design a better, more human-centered explanation interface.",
+      "doi": "10.1145/3587271",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Artificial intelligence(AI) for user experience (UX)design: a systematic literature review and future research agenda",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligence(AI) for user experience (UX)design: a systematic literature review and future research agenda",
+      "authors": "Å Stige,",
+      "source": "ED Zamani",
+      "year": 2026,
+      "url": "https://www.emerald.com/itp/article-abstract/37/6/2324/1231169",
+      "scholar_link": "https://www.emerald.com/itp/article-abstract/37/6/2324/1231169",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Purpose The aim of this article is to map the use of AI in the user experience (UX) design process. Disrupting the UX process by introducing novel digital tools such as artificial intelligence (AI) has the potential to improve efficiency and accuracy, while creating more innovative and creative solutions. Thus, understanding how AI can be leveraged for UX has important research and practical implications. Design/methodology/approach This article builds on a systematic literature review approach and aims to understand how AI is used in UX design today, as well as uncover some prominent themes for future research. Through a process of selection and filtering, 46 research articles are analysed, with findings synthesized based on a user-centred design and development process. Findings The authors’ analysis shows how AI is leveraged in the UX design process at different key areas. Namely, these include understanding the context of use, uncovering user requirements, aiding solution design, and evaluating design, and for assisting development of solutions. The authors also highlight the ways in which AI is changing the UX design process through illustrative examples. Originality/value While there is increased interest in the use of AI in organizations, there is still limited work on how AI can be introduced into processes that depend heavily on human creativity and input. Thus, the authors show the ways in which AI can enhance such activities and assume tasks that have been typically performed by humans.",
+      "citations": 137,
+      "doi": "https://doi.org/10.1108/itp-07-2022-0519",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Investigating how practitioners usehuman-aiguidelines: A case study on the people+aiguidebook",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Investigating how practitioners usehuman-aiguidelines: A case study on the people+aiguidebook",
+      "authors": "N Yildirim",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3544548.3580900",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3544548.3580900",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Generative AI, why, how, and outcomes: Auser adoptionstudy",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": true
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Generative AI, why, how, and outcomes: Auser adoptionstudy",
+      "authors": "LV Huy",
+      "source": ",",
+      "year": 2026,
+      "url": "https://aisel.aisnet.org/thci/vol16/iss1/1/",
+      "scholar_link": "https://aisel.aisnet.org/thci/vol16/iss1/1/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Drawing on the extended unified theory of acceptance and use of technology (UTAUT2) and task-technology fit (TTF) theory, we developed an integrated research model to explore the factors affecting ChatGPT use and its subsequent effects on whether users continue using ChatGPT and recommend it to others. We also examined the main activities of ChatGPT use as well as the moderating role of curiosity in the relationships between various influencing factors and ChatGPT use. We conducted a quantitative study with data that we collected from 671 users in Vietnam. We found that, first, most UTAUT2 and TTF dimensions affected ChatGPT use. Interestingly, contrary to our expectations, effort expectancy, social influence, and trust had no effect on ChatGPT use. Second, ChatGPT use directly influenced intention to continue using ChatGPT and word of mouth (WOM). Third, intention to continue using ChatGPT had a significant effect on WOM. Finally, we found that curiosity acted as a moderator in only three paths from hedonic motivation, facilitating conditions, and performance expectancy to ChatGPT use. With this study, we contribute a unique research model that combines the UTAUT2 and the TTF (including both trust and curiosity) as well as knowledge about users’ behavioral process in technology adoption by examining a comprehensive process, namely, actual usage– continuance intention to use–recommending. Practical implications for ChatGPT providers, policymakers, and business marketers are also discussed.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Adoptionand impacts ofgenerative artificial intelligence: Theoretical underpinnings and research agenda",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Adoptionand impacts ofgenerative artificial intelligence: Theoretical underpinnings and research agenda",
+      "authors": "R Gupta",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2667096824000211",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S2667096824000211",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "The rapidadoptionofgenerative AI",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "The rapidadoptionofgenerative AI",
+      "authors": "A Bick",
+      "source": ",",
+      "year": 2026,
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.02523",
+      "scholar_link": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.02523",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Generative artificial intelligence (genAI) is a potentially important new technology, but its impact on the economy depends on the speed and intensity of adoption. This paper reports results from a series of nationally representative U.S. surveys of genAI use at work and at home. As of late 2024, 45% of the U.S. population age 18–64 uses genAI. Among employed respondents, 27% used genAI for work at least once in the previous week: 10% used it every workday and 17% on some but not all workdays. Relative to each technology’s first mass-market product launch, work adoption of genAI has been faster than the personal computer (PC), and overall adoption has outpaced both PCs and the internet by an even wider margin. Between 1% and 7% of all work hours are currently assisted by genAI, and respondents report time savings equivalent to 1.4% of total work hours. Potential productivity gains vary widely by industry, and firm climate and policies play an important role in adoption patterns.\n                  This paper was accepted by Alfonso Gambardello, business strategy.\n                  Funding: This work was supported by the Walmart Foundation [Grant 252882].\n                  Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.02523 .",
+      "doi": "10.1287/mnsc.2025.02523",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "An empirical evaluation of agenerative artificial intelligencetechnologyadoptionmodel from entrepreneurs' perspectives",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "An empirical evaluation of agenerative artificial intelligencetechnologyadoptionmodel from entrepreneurs' perspectives",
+      "authors": "V Gupta - Systems, 2024 - mdpi.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2079-8954/12/3/103",
+      "scholar_link": "https://www.mdpi.com/2079-8954/12/3/103",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Breaking barriers: investigatinggenerative AI adoptionand organizationaluse",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Breaking barriers: investigatinggenerative AI adoptionand organizationaluse",
+      "authors": "N Albishri",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/jeim/article/39/1/267/1269903",
+      "scholar_link": "https://www.emerald.com/jeim/article/39/1/267/1269903",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Learning to adoptgenerative AI",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Learning to adoptgenerative AI",
+      "authors": "L Ma",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2410.19806",
+      "scholar_link": "https://arxiv.org/abs/2410.19806",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Recent advancements in generative AI, such as ChatGPT, have dramatically transformed how people access information. Despite its powerful capabilities, the benefits it provides may not be equally distributed among individuals, a phenomenon referred to as the digital divide. Building upon prior literature, we propose two forms of digital divide in the generative AI adoption process: (i) the learning divide, capturing individuals' heterogeneous abilities to update their perceived utility of ChatGPT; and (ii) the utility divide, representing differences in individuals' actual utility derived from per use of ChatGPT. To evaluate these two divides, we develop a Bayesian learning model that incorporates heterogeneities in both the utility and signal functions. Leveraging a large-scale clickstream dataset, we estimate the model and find significant learning and utility divides across various social characteristics. Interestingly, individuals without any college education, non-white individuals, and those with lower English literacy derive larger utility gains from ChatGPT, yet update their beliefs about its utility at a slower rate. Furthermore, males, younger individuals, and those in occupations with greater exposure to generative AI not only obtain higher utility per use from ChatGPT but also learn about its utility more rapidly. Besides, we document a phenomenon termed the belief trap, wherein users underestimate ChatGPT's utility, opt not to use the tool, and thereby lack new experiences to update their perceptions, leading to continued underutilization. Our simulation further demonstrates that the learning divide can significantly affect the probability of falling into the belief trap, another form of the digital divide in adoption outcomes (i.e., outcome divide); however, offering training programs can alleviate the belief trap and mitigate the divide.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Generative artificial intelligence(AI) technologyadoptionmodel for entrepreneurs: case of ChatGPT",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Generative artificial intelligence(AI) technologyadoptionmodel for entrepreneurs: case of ChatGPT",
+      "authors": "V Gupta, H Yang - Internet Reference Services Quarterly, 2024 - Taylor & Francis",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10875301.2023.2300114",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/10875301.2023.2300114",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Towardsadoptionofgenerative AIin organizational settings",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Towardsadoptionofgenerative AIin organizational settings",
+      "authors": "K Prasad Agrawal",
+      "source": "- Journal of Computer Information Systems, 2024 - Taylor & Francis",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2023.2240744",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2023.2240744",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Usinggenerative AIto assist with technologyadoptionassessment",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Usinggenerative AIto assist with technologyadoptionassessment",
+      "authors": "C Nugent",
+      "source": ",",
+      "year": 2026,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-48306-6_20",
+      "scholar_link": "https://link.springer.com/chapter/10.1007/978-3-031-48306-6_20",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Adoption of innovative solutions in healthcare remains a challenge and is a contributing factor to the barriers of their large scale uptake in both private and public healthcare settings. Traditionally, the study of technology adoption has been limited to considering the patient’s perspective, however, there is now an increasing appreciation that this should be expanded to consider adoption implications from a carer’s perspective in addition to healthcare professionals and indeed on a larger scale, from a healthcare service provider’s perspective. In this work we attempt to establish a proof of concept framework whereby technology adoption of innovative healthcare solutions can be built using generative AI. By considering established and validated clinical questionnaires for the purposes of assessing technology adoption for patients we have created a new suite of questionnaires that can be used for care givers. The approach was evaluated with a set of 28 patient focussed questions. All of the questions produced by the generative AI were deemed to be correct with an average Rouge-1 F1 score of 0.71.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Driving factors ofgenerative AI adoptionin new product development teams from a UTAUT perspective",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Driving factors ofgenerative AI adoptionin new product development teams from a UTAUT perspective",
+      "authors": "Y Xia,",
+      "source": "Y Chen",
+      "year": 2025,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2024.2375686",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2024.2375686",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Trust inAIand top management support ingenerative-AI adoption",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": true
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Trust inAIand top management support ingenerative-AI adoption",
+      "authors": "P Korzyński",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2024.2401986",
+      "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2024.2401986",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Save",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": false
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Save",
+      "authors": "DK Seon, JH You - The Journal of Information …, 2024 - Korea Association of Information …",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "javascript:void(0)",
+      "scholar_link": "javascript:void(0)",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Default options can lead to striking differences in preferences, with significant economic impact. The\n authors\n of this Policy Forum use natural and experimental data to examine the impact of simple policy defaults on the decision to become an organ donor, finding large effects that significantly increase donation rates.",
+      "citations": 1986,
+      "doi": "https://doi.org/10.1126/science.1091721",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Determinants ofgenerative AIsystemadoptionand usage behavior in Korean companies: Applying the UTAUT model",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Determinants ofgenerative AIsystemadoptionand usage behavior in Korean companies: Applying the UTAUT model",
+      "authors": "Y Kim, V Blazquez,",
+      "source": "T Oh",
+      "year": 2024,
+      "url": "https://www.mdpi.com/2076-328X/14/11/1035",
+      "scholar_link": "https://www.mdpi.com/2076-328X/14/11/1035",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Navigating the complexity ofgenerative ai adoptionin software engineering",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Navigating the complexity ofgenerative ai adoptionin software engineering",
+      "authors": "D Russo",
+      "source": "- ACM Transactions on Software Engineering and …, 2024 - dl.acm.org",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3652154",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3652154",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This article explores the adoption of Generative Artificial Intelligence (AI) tools within the domain of software engineering, focusing on the influencing factors at the individual, technological, and social levels. We applied a convergent mixed-methods approach to offer a comprehensive understanding of AI adoption dynamics. We initially conducted a questionnaire survey with 100 software engineers, drawing upon the Technology Acceptance Model, the Diffusion of Innovation Theory, and the Social Cognitive Theory as guiding theoretical frameworks. Employing the Gioia methodology, we derived a theoretical model of AI adoption in software engineering: the Human-AI Collaboration and Adaptation Framework. This model was then validated using Partial Least Squares–Structural Equation Modeling based on data from 183 software engineers. Findings indicate that at this early stage of AI integration, the compatibility of AI tools within existing development workflows predominantly drives their adoption, challenging conventional technology acceptance theories. The impact of perceived usefulness, social factors, and personal innovativeness seems less pronounced than expected. The study provides crucial insights for future AI tool design and offers a framework for developing effective organizational implementation strategies.",
+      "doi": "10.1145/3652154",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Is it the end of the technology acceptance model in the era ofgenerative artificial intelligence?",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Is it the end of the technology acceptance model in the era ofgenerative artificial intelligence?",
+      "authors": "E Mogaji",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.emerald.com/insight/content/doi/10.1108/ijchm-08-2023-1271/full/pdf",
+      "scholar_link": "https://www.emerald.com/insight/content/doi/10.1108/ijchm-08-2023-1271/full/pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Predicting theusabilityof mobile applications usingAItools: the rise of large userinterfacemodels, opportunities, and challenges",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Predicting theusabilityof mobile applications usingAItools: the rise of large userinterfacemodels, opportunities, and challenges",
+      "authors": "A Namoun",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1877050924013127",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S1877050924013127",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "U “AI” testing: userinterfaceandusabilitytesting of a chest X-rayAItool in a simulated real-world workflow",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": true
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "U “AI” testing: userinterfaceandusabilitytesting of a chest X-rayAItool in a simulated real-world workflow",
+      "authors": "J Lam Shin Cheung, A Ali… - … of Radiologists Journal, 2023 - journals.sagepub.com",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/08465371221131200",
+      "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/08465371221131200",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Purpose: To observe interactions of practicing radiologists with a chest x-ray AI tool and evaluate its usability and impact on workflow efficiency. Methods: Using a simulated clinical workflow and remote multi-monitor screensharing, we prospectively assessed the interactions of 10 staff radiologists (5–33 years of experience) with a PACS-embedded, regulatory-approved chest x-ray AI tool. Qualitatively, we collected feedback using a think-aloud method and post-testing semi-structured interview; transcript themes were categorized by: (1) AI tool features, (2) deployment considerations, and (3) broad human-AI interactions. Quantitatively, we used time-stamped video recordings to compare reporting and decision-making efficiency with and without AI assistance. Results: For AI tool features, radiologists appreciated the simple binary classification (normal vs abnormal) and found the heatmap essential to understand what the AI considered abnormal; users were uncertain of how to interpret confidence values. Regarding deployment considerations, radiologists thought the tool would be especially helpful for identifying subtle diagnoses; opinions were mixed on whether the tool impacted perceived efficiency, accuracy, and confidence. Considering general human-AI interactions, radiologists shared concerns about automation bias especially when relying on an automated triage function. Regarding decision-making and workflow efficiency, participants began dictating 5 seconds later (42% increase, P = .02) and took 14 seconds longer to complete cases (33% increase, P = .09) with AI assistance. Conclusions: Radiologist usability testing provided insights into effective AI tool features, deployment considerations, and human-AI interactions that can guide successful AI deployment. Early AI adoption may increase radiologists’ decision-making and total reporting time but improves with experience.",
+      "doi": "10.1177/08465371221131200",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Towards anAI-driven userinterfacedesign for web applications",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Towards anAI-driven userinterfacedesign for web applications",
+      "authors": "A Costa",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1877050924011104",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S1877050924011104",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Intelligent UserInterface: UsableArtificial IntelligenceandArtificial IntelligenceforUsability",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Intelligent UserInterface: UsableArtificial IntelligenceandArtificial IntelligenceforUsability",
+      "authors": "P Biswas",
+      "source": "- 2026 - books.google.com",
+      "year": 2026,
+      "url": "https://books.google.com/books?hl=en&lr=&id=RtitEQAAQBAJ&oi=fnd&pg=PT8&dq=AI+interface+usability&ots=v-mIshshuI&sig=4GJZE0FJduIUXY0H2A9G1BCp-rc",
+      "scholar_link": "https://books.google.com/books?hl=en&lr=&id=RtitEQAAQBAJ&oi=fnd&pg=PT8&dq=AI+interface+usability&ots=v-mIshshuI&sig=4GJZE0FJduIUXY0H2A9G1BCp-rc",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "AI-enhanced chatbot for improving healthcareusabilityand accessibility for older adults",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "AI-enhanced chatbot for improving healthcareusabilityand accessibility for older adults",
+      "authors": "A Khamaj",
+      "source": "- Alexandria Engineering Journal, 2025 - Elsevier",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1110016824016880",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S1110016824016880",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Exploring user experience andusabilityin a metaverse learning environment for students: Ausabilitystudy of theartificial intelligence, innovation, and society …",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Exploring user experience andusabilityin a metaverse learning environment for students: Ausabilitystudy of theartificial intelligence, innovation, and society …",
+      "authors": "A Pyae",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2079-9292/12/20/4283",
+      "scholar_link": "https://www.mdpi.com/2079-9292/12/20/4283",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Enhancinginterfacedesign withAI: an exploratory study on a CHATGPT-4-based tool for cognitive walkthrough inspired evaluations",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Enhancinginterfacedesign withAI: an exploratory study on a CHATGPT-4-based tool for cognitive walkthrough inspired evaluations",
+      "authors": "A Bisante",
+      "source": ",",
+      "year": 2026,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3656650.3656676",
+      "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3656650.3656676",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Human-AIcollaboration: Exploringinterfacesfor interactive machine learning",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Human-AIcollaboration: Exploringinterfacesfor interactive machine learning",
+      "authors": "GC Saha",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.researchgate.net/profile/Gonesh-Saha-2/publication/375747449_Human-AI_Collaboration_Exploring_interfaces_for_interactive_Machine_Learning/links/6571fed4ea5f7f02054cddc9/Human-AI-Collaboration-Exploring-interfaces-for-interactive-Machine-Learning.pdf",
+      "scholar_link": "https://www.researchgate.net/profile/Gonesh-Saha-2/publication/375747449_Human-AI_Collaboration_Exploring_interfaces_for_interactive_Machine_Learning/links/6571fed4ea5f7f02054cddc9/Human-AI-Collaboration-Exploring-interfaces-for-interactive-Machine-Learning.pdf",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "AI-driven userinterfacedesign: enhancing digital learning and skill development",
+    "score": 3,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "AI-driven userinterfacedesign: enhancing digital learning and skill development",
+      "authors": "A Razaque",
+      "source": ", S Hariri,",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5114814",
+      "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5114814",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Quality,usability, and effectiveness of mHealth apps and the role ofartificial intelligence: current scenario and challenges",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 0,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Quality,usability, and effectiveness of mHealth apps and the role ofartificial intelligence: current scenario and challenges",
+      "authors": "A Deniz-Garcia,",
+      "source": "H Fabelo",
+      "year": 2023,
+      "url": "https://www.jmir.org/2023/1/e44030/",
+      "scholar_link": "https://www.jmir.org/2023/1/e44030/",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "The use of artificial intelligence (AI) and big data in medicine has increased in recent years. Indeed, the use of AI in mobile health (mHealth) apps could considerably assist both individuals and health care professionals in the prevention and management of chronic diseases, in a person-centered manner. Nonetheless, there are several challenges that must be overcome to provide high-quality, usable, and effective mHealth apps. Here, we review the rationale and guidelines for the implementation of mHealth apps and the challenges regarding quality, usability, and user engagement and behavior change, with a special focus on the prevention and management of noncommunicable diseases. We suggest that a cocreation-based framework is the best method to address these challenges. Finally, we describe the current and future roles of AI in improving personalized medicine and provide recommendations for developing AI-based mHealth apps. We conclude that the implementation of AI and mHealth apps for routine clinical practice and remote health care will not be feasible until we overcome the main challenges regarding data privacy and security, quality assessment, and the reproducibility and uncertainty of AI results. Moreover, there is a lack of both standardized methods to measure the clinical outcomes of mHealth apps and techniques to encourage user engagement and behavior changes in the long term. We expect that in the near future, these obstacles will be overcome and that the ongoing European project, Watching the risk factors (WARIFA), will provide considerable advances in the implementation of AI-based mHealth apps for disease prevention and health promotion.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Generativeaiin multimodal userinterfaces: Trends, challenges, and cross-platform adaptability",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Generativeaiin multimodal userinterfaces: Trends, challenges, and cross-platform adaptability",
+      "authors": "J Bieniek",
+      "source": ",",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2411.10234",
+      "scholar_link": "https://arxiv.org/abs/2411.10234",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "As the boundaries of human computer interaction expand, Generative AI emerges as a key driver in reshaping user interfaces, introducing new possibilities for personalized, multimodal and cross-platform interactions. This integration reflects a growing demand for more adaptive and intuitive user interfaces that can accommodate diverse input types such as text, voice and video, and deliver seamless experiences across devices. This paper explores the integration of generative AI in modern user interfaces, examining historical developments and focusing on multimodal interaction, cross-platform adaptability and dynamic personalization. A central theme is the interface dilemma, which addresses the challenge of designing effective interactions for multimodal large language models, assessing the trade-offs between graphical, voice-based and immersive interfaces. The paper further evaluates lightweight frameworks tailored for mobile platforms, spotlighting the role of mobile hardware in enabling scalable multimodal AI. Technical and ethical challenges, including context retention, privacy concerns and balancing cloud and on-device processing are thoroughly examined. Finally, the paper outlines future directions such as emotionally adaptive interfaces, predictive AI driven user interfaces and real-time collaborative systems, underscoring generative AI's potential to redefine adaptive user-centric interfaces across platforms.",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Need for UAI–anatomy of the paradigm of usableartificial intelligencefor domain-specificAIapplicability",
+    "score": 1,
+    "status": "RECHAZADO",
+    "breakdown": {
+      "methodology": 0,
+      "causalidity": 0,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Need for UAI–anatomy of the paradigm of usableartificial intelligencefor domain-specificAIapplicability",
+      "authors": "H Wiemer,",
+      "source": "D Schneider",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2414-4088/7/3/27",
+      "scholar_link": "https://www.mdpi.com/2414-4088/7/3/27",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Automation of interaction—interaction design at the crossroads of user experience (UX) andartificial intelligence(AI)",
+    "score": 5,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "Automation of interaction—interaction design at the crossroads of user experience (UX) andartificial intelligence(AI)",
+      "authors": "M Wiberg",
+      "source": ", E Stolterman Bergqvist - Personal and Ubiquitous Computing, 2023 - Springer",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s00779-023-01779-0",
+      "scholar_link": "https://link.springer.com/article/10.1007/s00779-023-01779-0",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "Abstract Interaction design/HCI seems to be at a crossroads. On the one hand, it is still about designing for engaging user experiences (UX). Still, on the other hand, it seems to be increasingly about reducing interaction and automating human–machine interaction through the use of AI and other new technologies. In this paper, we explore this seemingly unavoidable gap. First, we discuss the fundamental design rationality underpinning interaction and automation of interaction from the viewpoints of classic theoretical standpoints. We then illustrate how these two come together in interaction design practice. Here we examine four examples from already published research on automation of interaction, including how different levels of automation of interaction affect or enable new practices, including coffee making, self-tracking, automated driving, and conversations with AI-based chatbots. Through an interaction analysis of these four examples, we show (1) how interaction and automation are combined in the design, (2) how interaction is dependent on a certain level of automation, and vice versa, and (3) how each example illustrates a different balance between, and integration of interaction and automation. Based on this analysis, we propose a two-dimensional design space as a conceptual construct that takes these aspects into account to understand and analyze ways of combining interaction and automation in interaction design. We illustrate the use of the proposed two-dimensional design space, discuss its theoretical implications, and suggest it as a useful tool—when designing for engaging user experiences (UX), with interaction and automation as two design materials.",
+      "citations": 11,
+      "doi": "https://doi.org/10.1007/s00779-023-01779-0",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "Artificial intelligence-oriented userinterfacedesign and human behavior recognition based on human–computer nature interaction",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 4,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 0
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": false
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": false
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": true
+      }
+    ],
+    "metadata": {
+      "title": "Artificial intelligence-oriented userinterfacedesign and human behavior recognition based on human–computer nature interaction",
+      "authors": "X Han, D Huang, S Eun-Lee… - International Journal of …, 2023 - World Scientific",
+      "source": "Unknown",
+      "year": 2026,
+      "url": "https://www.worldscientific.com/doi/abs/10.1142/S0219843622500207",
+      "scholar_link": "https://www.worldscientific.com/doi/abs/10.1142/S0219843622500207",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "This work is to explore the application of intelligent algorithms based on deep learning in human–computer interaction systems, hoping to promote the development of human–computer interaction systems in the field of behavior recognition. Firstly, the design scheme of the human–computer interaction system is presented, and the establishment of the robot visual positioning system is emphasized. Then, the fast-region convolutional neural networks (fast-RCNN) algorithm is introduced, and it is combined with deep convolutional residual network (ResNet101). A candidate region extraction algorithm based on ResNet and long short-term memory network is proposed, and a residual network (ResNet) for spatial context memory is proposed. Both algorithms are employed in human–computer interaction systems. Finally, the performance of the algorithm and the human–computer interaction system are analyzed and characterized. The results show that the proposed candidate region extraction algorithm can significantly reduce the loss value of training set and test set after training. In addition, the corresponding accuracy, recall, and F-value of the model are all above 0.98, which proves that the model has a good detection accuracy. Spatial context memory ResNet shows good accuracy in speech expression detection. The detection accuracy of single attribute, double attribute, and multi-attribute speech expression is above 89%, and the detection accuracy is good. In summary, the human–computer interaction system shows good performance in capturing target objects, even for unlabeled objects, the corresponding grasping success rate is 95%. Therefore, this work provides a theoretical basis and reference for the application of intelligent optimization algorithm in human–computer interaction system.",
+      "doi": "10.1142/S0219843622500207",
+      "pocket": "human_machine_interaction"
+    }
+  },
+  {
+    "title": "TheAI interface: Designing for the ideal machine-human experience",
+    "score": 7,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 2,
+      "causalidity": 2,
+      "top_tier": 0,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "criteria": [
+      {
+        "key": "ai_focus",
+        "desc": "Estudia IA/algoritmo/sistema ML",
+        "met": true
+      },
+      {
+        "key": "human_ai",
+        "desc": "Estudia interacción humano-IA (no solo IA sola)",
+        "met": true
+      },
+      {
+        "key": "trust_reliance",
+        "desc": "Analiza confianza, calibración u over-reliance",
+        "met": true
+      },
+      {
+        "key": "complementarity",
+        "desc": "Mide complementariedad o cuando humano+IA > ambos solos",
+        "met": false
+      },
+      {
+        "key": "outcome",
+        "desc": "Tiene outcome medible (calidad, error, decisión)",
+        "met": false
+      }
+    ],
+    "metadata": {
+      "title": "TheAI interface: Designing for the ideal machine-human experience",
+      "authors": "A Sundar",
+      "source": ",",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0747563224004072",
+      "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0747563224004072",
+      "source_name": "Google Scholar",
+      "sources": [
+        "google_scholar"
+      ],
+      "abstract": "As artificial intelligence (AI) becomes increasingly embedded in daily life, designing intuitive, trustworthy, and emotionally resonant AI-human interfaces has emerged as a critical challenge. This editorial introduces a Special Issue that explores the psychology of AI experience design, focusing on how interfaces can foster seamless collaboration between humans and machines. Drawing on insights from diverse fields (healthcare, consumer technology, workplace dynamics, and cultural sector), the papers in this collection highlight the complexities of trust, transparency, and emotional sensitivity in human-AI interaction. Key themes include designing AI systems that align with user perceptions and expectations, overcoming resistance through transparency and trust, and framing AI capabilities to reduce user anxiety. By synthesizing findings from eight diverse studies, this editorial underscores the need for AI interfaces to balance efficiency with empathy, addressing both functional and emotional dimensions of user experience. Ultimately, it calls for actionable frameworks to bridge research and practice, ensuring that AI systems enhance human lives through thoughtful, human-centered design.",
+      "doi": "https://doi.org/10.48550/arxiv.2412.09000",
+      "pocket": "human_machine_interaction"
+    }
+  }
+]

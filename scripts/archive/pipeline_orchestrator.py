@@ -63,7 +63,7 @@ class PipelineOrchestrator:
         # Step 1: Review
         logger.info(f"  🔍 Reviewing papers...")
         reviewer = Reviewer()
-        reviewed_papers = reviewer.review(papers)
+        reviewed_papers = reviewer.review(papers, pocket=pocket_name)
         logger.info(f"     ✓ Reviewed {len(reviewed_papers)} papers")
 
         # Log review breakdown
