@@ -92,12 +92,6 @@
 {
 \setbeamercolor{background canvas}{bg=bidblue}
 \begin{frame}[plain]
-\begin{tikzpicture}[remember picture,overlay]
-  \draw[bidaccent,line width=3pt]
-    ([xshift=8mm]current page.north west) -- ([xshift=8mm]current page.south west);
-  \fill[bidaccent!15]
-    ([xshift=-42mm]current page.north east) rectangle (current page.south east);
-\end{tikzpicture}
 \vspace{10mm}\hspace{7mm}%
 \begin{minipage}{0.76\textwidth}
   {\tiny\color{bidaccent}\bfseries FEDESARROLLO \& BANCO INTERAMERICANO DE DESARROLLO}
@@ -124,7 +118,7 @@
 \begin{columns}[T]
 \column{0.48\textwidth}
 \begin{enumerate}\setlength\itemsep{6pt}
-  \item[\textcolor{bidaccent}{1.}] \textbf{El problema} --- por que un agente?
+  \item[\textcolor{bidaccent}{1.}] \textbf{El problema} --- ¿por que un agente?
   \item[\textcolor{bidaccent}{2.}] \textbf{Arquitectura} --- como esta construido
   \item[\textcolor{bidaccent}{3.}] \textbf{El loop agentico} --- como decide
   \item[\textcolor{bidaccent}{4.}] \textbf{Fuentes de busqueda}
@@ -151,7 +145,7 @@
 \begin{frame}[plain]\vspace{20mm}
 \begin{center}
 {\Large\bfseries\color{bidaccent}1 · El problema}\\[5pt]
-{\color{bidgray}\normalsize Por que necesitamos un agente para la revision de literatura?}
+{\color{bidgray}\normalsize ¿Por que necesitamos un agente para la revision de literatura?}
 \end{center}
 \end{frame}
 }
@@ -181,7 +175,7 @@
   \item Busca en \hl{9 fuentes academicas} simultaneamente
   \item Aplica rubrica de 5 dimensiones de forma consistente
   \item Sintetiza findings, metodologia y relevancia para LATAM
-  \item Cachea resultados --- segunda corrida cuesta $\approx$\$0
+  \item Guarda resultados localmente --- segunda corrida cuesta $\approx$\$0
   \item El investigador solo decide los casos \textbf{REVISAR}
 \end{itemize}
 \vspace{2pt}
@@ -204,69 +198,133 @@
 \begin{frame}[plain]\vspace{20mm}
 \begin{center}
 {\Large\bfseries\color{bidaccent}2 · Arquitectura}\\[5pt]
-{\color{bidgray}\normalsize Como esta construido el agente}
+{\color{bidgray}\normalsize ¿Como esta construido el agente?}
 \end{center}
 \end{frame}
 }
 
-\begin{frame}{Arquitectura del sistema}{Dos modelos con roles distintos}
+\begin{frame}{Arquitectura del sistema}{Tres capas con responsabilidades claras}
 
+\begin{columns}[T]
+\column{0.52\textwidth}
 \begin{center}
 \begin{tikzpicture}[
   every node/.style={font=\scriptsize},
-  box/.style={rectangle,rounded corners=3pt,text=white,align=center,
-    inner xsep=4pt,inner ysep=3pt},
+  layer/.style={rectangle,rounded corners=4pt,text=white,align=center,
+    minimum width=58mm,minimum height=10mm,inner xsep=5pt,inner ysep=4pt},
+  sub/.style={rectangle,rounded corners=2pt,text=white,align=center,
+    minimum width=27mm,minimum height=8mm,font=\tiny,inner xsep=3pt,inner ysep=2pt},
   arr/.style={-{Stealth[length=4pt]},bidaccent,line width=0.9pt},
+  lbl/.style={font=\tiny,text=bidgray},
 ]
-% Row 1: CLI -> Sonnet -> Loop
-\node[box,fill=bidlight,minimum width=22mm,minimum height=9mm]
-  (cli) at (0,0) {\texttt{agent.py}\\{\tiny\color{bidgray}--pocket labor}};
-\node[box,fill=bidblue,minimum width=30mm,minimum height=11mm]
-  (son) at (3.0,0) {\textbf{Sonnet 4.6}\\{\tiny\color{bidaccent}Orquestador}};
-\node[box,draw=bidaccent,fill=cardbg,minimum width=26mm,minimum height=9mm]
-  (loop) at (6.0,0) {Loop agentico\\{\tiny\color{bidgray}max 30 iter.}};
+% Capa 1
+\node[layer,fill=bidlight] (cli) at (0,0)
+  {\textbf{Capa 1 · Entrada}\\[-1pt]{\tiny\color{bidgray}\texttt{agent.py --pocket X --mode full}}};
 
-% Row 2: Output | Sources | Tools
-\node[box,fill=colamber!20!cardbg,minimum width=22mm,minimum height=9mm]
-  (out) at (0,-1.8) {Corpus JSON\\{\tiny\color{bidgray}pocket\_reviewed}};
+% Capa 2
+\node[layer,fill=bidblue,minimum height=18mm] (brain) at (0,-1.6)
+  {};
+\node[font=\tiny\bfseries,text=white] at (0,-1.1) {Capa 2 · Inteligencia};
+\node[sub,fill=bidmid] (son) at (-1.5,-1.8) {\textbf{Sonnet 4.6}\\Orquestador};
+\node[sub,fill=cardbg,draw=bidaccent!50,line width=0.4pt] (haiku) at (1.5,-1.8) {\textbf{Haiku 4.5}\\Review + sintesis};
 
-\node[box,fill=colgreen!15!darkbg,minimum width=28mm,minimum height=14mm,align=center]
-  (src) at (3.0,-1.8) {};
-\node[font=\tiny\bfseries,text=colgreen!70] at (3.0,-1.35) {9 fuentes};
-\node[font=\tiny,text=bidgray,align=center] at (3.0,-2.05)
-  {SS · NBER · OpenAlex · ArXiv\\CORE · WB · SSRN · IMF};
+% Capa 3
+\node[layer,fill=darkbg,draw=bidaccent!30,line width=0.4pt,minimum height=18mm] (data) at (0,-3.3)
+  {};
+\node[font=\tiny\bfseries,text=bidgray!80] at (0,-2.85) {Capa 3 · Datos y APIs};
+\node[sub,fill=colgreen!20!darkbg] (apis) at (-1.5,-3.5) {9 APIs academicas\\SS · NBER · ArXiv · ...};
+\node[sub,fill=colamber!15!darkbg] (out) at (1.5,-3.5) {Corpus resultante\\pocket\_reviewed.json};
 
-\node[box,fill=colgreen!20!cardbg,minimum width=28mm,minimum height=14mm,align=center]
-  (tools) at (6.0,-1.8) {};
-\node[font=\tiny\bfseries,text=colgreen!80] at (6.0,-1.35) {Tools Python};
-\node[font=\tiny,text=bidgray,align=center] at (6.0,-2.05)
-  {search · enrich · deduplicate\\review(Haiku) · synthesize};
-
-\draw[arr] (cli)--(son); \draw[arr] (son)--(loop);
-\draw[arr] (loop)--(tools); \draw[arr] (tools)--(src);
-\draw[arr] (tools)--(out);
-\draw[arr,dashed,bend right=18] (loop.north) to
-  node[above,font=\tiny,text=bidgray]{historial} (son.north east);
+% Arrows
+\draw[arr] (cli)--(brain);
+\draw[arr] (son.south)--++(0,-0.45);
+\draw[arr] (haiku.south)--++(0,-0.45);
+\draw[arr] (apis.north)--++(0,0.45);
+\draw[arr] (out.north)--++(0,0.45);
+\draw[arr,dashed,bend left=25] (son.north east) to
+  node[right,lbl]{historial} (son.north east |- cli.south);
 \end{tikzpicture}
 \end{center}
 
+\column{0.44\textwidth}
 \vspace{2mm}
+\begin{card}
+\scriptsize\color{bidgray}
+\textbf{\color{bidaccent}Capa 1 — Entrada}\\[3pt]
+El investigador define el pocket y el modo (\texttt{search}, \texttt{review}, \texttt{full}). Desde ahi, el agente opera de forma autonoma.
+\end{card}\vspace{4pt}
+
+\begin{card}
+\scriptsize\color{bidgray}
+\textbf{\color{bidaccent}Capa 2 — Inteligencia (dos modelos)}\\[3pt]
+\textbf{Sonnet} ve el historial completo: planifica, decide que buscar, interpreta resultados y escribe el reporte de gaps.\\[3pt]
+\textbf{Haiku} recibe solo el paper a evaluar: aplica la rubrica y sintetiza. 10x mas barato por tarea puntual.
+\end{card}\vspace{4pt}
+
+\begin{card}
+\scriptsize\color{bidgray}
+\textbf{\color{bidaccent}Capa 3 — Datos}\\[3pt]
+Las tools Python son deterministas: llaman APIs, enriquecen con Crossref, deduplicaN y guardan. Sonnet nunca toca archivos directamente.
+\end{card}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Arquitectura del sistema}{Que ve y que hace cada componente}
 \begin{columns}[T]
-\column{0.32\textwidth}
+
+\column{0.48\textwidth}
 \begin{card}
-\scriptsize\color{bidgray}
-\textbf{\color{bidaccent}Sonnet} ve el historial completo y decide la estrategia. Nunca toca datos directamente.
+\scriptsize\textbf{\color{bidaccent}Sonnet 4.6 — Orquestador}\\[3pt]
+\tiny\color{bidgray}
+\textbf{Recibe en cada turno:}
+\begin{itemize}\setlength\itemsep{1pt}
+  \item Definicion del pocket (queries, anchor papers, criterios)
+  \item Estado actual del corpus (cuantos papers, scores, gaps)
+  \item Resultado de la ultima tool ejecutada
+  \item Historial de decisiones del loop (max 30 iter.)
+\end{itemize}
+\vspace{3pt}
+\textbf{Decide:} que tool llamar, con que parametros, cuando parar.\\
+\textbf{Nunca:} escribe archivos, llama APIs ni evalua papers directamente.
 \end{card}
-\column{0.32\textwidth}
+
+\vspace{3pt}
 \begin{card}
-\scriptsize\color{bidgray}
-\textbf{\color{bidaccent}Haiku} recibe solo el prompt puntual sin el historial de Sonnet. Reduce costo de tokens 10x.
+\scriptsize\textbf{\color{bidaccent}Haiku 4.5 — Evaluador y Sintetizador}\\[3pt]
+\tiny\color{bidgray}
+\textbf{Recibe por paper:}
+\begin{itemize}\setlength\itemsep{1pt}
+  \item Titulo, abstract, metadata enriquecida (DOI, citas, venue)
+  \item Definicion del pocket en el \emph{system prompt}
+  \item Rubrica de 5 dimensiones (D1--D5)
+\end{itemize}
+\vspace{3pt}
+\textbf{Devuelve:} scores D1--D5, clasificacion (ACEPTADO/REVISAR/RECHAZADO), justificacion por dimension.\\
+\textbf{Costo:} $\approx$\$0.0003 USD por paper.
 \end{card}
-\column{0.32\textwidth}
+
+\column{0.48\textwidth}
 \begin{card}
-\scriptsize\color{bidgray}
-\textbf{\color{bidaccent}Tools Python} ejecutan logica determinista: APIs, Crossref, deduplicacion, guardado.
+\scriptsize\textbf{\color{bidaccent}Tools Python — Las 6 acciones disponibles}\\[3pt]
+\tiny\color{bidgray}
+\setlength\tabcolsep{3pt}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{@{}p{23mm}p{34mm}@{}}
+\texttt{search\_papers}     & Llama las 9 APIs con las queries del pocket \\
+\texttt{enrich\_metadata}   & Crossref: agrega DOI, ISSN, citas formales, ORCID \\
+\texttt{deduplicate}        & Merge por DOI + similitud de titulo ($>$0.85) \\
+\texttt{evaluate\_coverage} & Score 0--1: papers aceptados vs.\ objetivo \\
+\texttt{review\_papers}     & Llama Haiku por cada paper pendiente \\
+\texttt{save\_results}      & Merge al JSON del pocket; genera reporte de gaps \\
+\end{tabular}
 \end{card}
+
+\vspace{3pt}
+\begin{card}
+\tiny\color{bidgray}
+\textbf{\color{bidaccent}Principio de diseno:} Sonnet razona, las tools actuan. Cada decision de Sonnet queda en el historial y cada accion de una tool es reproducible de forma independiente.
+\end{card}
+
 \end{columns}
 \end{frame}
 
@@ -278,7 +336,7 @@
 \begin{frame}[plain]\vspace{20mm}
 \begin{center}
 {\Large\bfseries\color{bidaccent}3 · El loop agentico}\\[5pt]
-{\color{bidgray}\normalsize Como decide el agente en cada iteracion}
+{\color{bidgray}\normalsize ¿Como decide el agente en cada iteracion?}
 \end{center}
 \end{frame}
 }
@@ -378,7 +436,7 @@ IMF              & propia  & WPs macroeconomia                             & \st
 \column{0.48\textwidth}
 \begin{card}
 \scriptsize\color{bidgray}
-\textbf{\color{bidaccent}Cache SHA256 24h:} segunda corrida del mismo pocket = 0 llamadas a APIs de busqueda.
+\textbf{\color{bidaccent}Resultados guardados 24h:} segunda corrida del mismo pocket = 0 llamadas a APIs de busqueda.
 \end{card}
 \end{columns}
 \end{frame}
@@ -443,40 +501,43 @@ D5 Recencia ajustada      & $-1$/0/$+1$ &
 \end{columns}
 \end{frame}
 
-\begin{frame}{Sistema de scoring v2}{Frameworks de referencia}
+\begin{frame}{Sistema de scoring v2}{Frameworks de referencia: de donde viene cada dimension}
 \begin{columns}[T]
 \column{0.32\textwidth}
 \begin{card}
-\small\textbf{\color{bidaccent}GRADE}\\[5pt]
+\small\textbf{\color{bidaccent}GRADE}\\
+{\tiny\color{bidaccent!60}¿Lo usamos? Si, adaptado}\\[4pt]
 \scriptsize\color{bidgray}
-Gold standard en medicina y economia del desarrollo.\\[5pt]
-Principio clave: separa la \emph{calidad interna} del estudio de su \emph{aplicabilidad} al contexto de politica.\\[5pt]
-Informa D1 (jerarquia de evidencia causal) y D3 (transferibilidad).
+Estandar en medicina y economia del desarrollo. Separa \emph{calidad interna} del estudio de su \emph{aplicabilidad} a politica.\\[4pt]
+\textbf{Como lo adaptamos:} la jerarquia RCT $>$ DiD/IV $>$ Panel $>$ OLS $>$ descriptivo viene directamente de GRADE. D1 es esencialmente su escala de evidencia causal.\\[4pt]
+\textbf{Que no tomamos:} GRADE tiene 8 criterios de downgrade (riesgo de sesgo, imprecision, etc.) que no implementamos por costo computacional.
 \end{card}
 
 \column{0.32\textwidth}
 \begin{card}
-\small\textbf{\color{bidaccent}EPPI-Centre}\\[5pt]
+\small\textbf{\color{bidaccent}EPPI-Centre WoE}\\
+{\tiny\color{bidaccent!60}¿Lo usamos? Si, como estructura}\\[4pt]
 \scriptsize\color{bidgray}
-Weight of Evidence, usado en revisiones sistematicas de educacion y ciencias sociales.\\[5pt]
-Distingue \emph{soundness of study} (D1--D2) de \emph{relevance of evidence focus} (D4).\\[5pt]
-Permite aceptar un buen paper de contexto diferente si la pregunta es la misma.
+Weight of Evidence para revisiones sistematicas en ciencias sociales. Distingue \emph{solidez del estudio} de \emph{pertinencia de la pregunta}.\\[4pt]
+\textbf{Como lo adaptamos:} esa distincion es exactamente D1--D2 (solidez) vs.\ D4 (pertinencia). Un buen estudio en EEUU con D1=4 puede tener D4=1 si la pregunta no aplica al pocket.\\[4pt]
+\textbf{Que no tomamos:} WoE usa sintesis narrativa manual; nosotros la automatizamos con Haiku.
 \end{card}
 
 \column{0.32\textwidth}
 \begin{card}
-\small\textbf{\color{bidaccent}3ie Evidence Gap Maps}\\[5pt]
+\small\textbf{\color{bidaccent}3ie Evidence Gap Maps}\\
+{\tiny\color{bidaccent!60}¿Lo usamos? Para los gaps}\\[4pt]
 \scriptsize\color{bidgray}
-Metodologia usada por el BID en evaluaciones de desarrollo.\\[5pt]
-Ejes: diseno de identificacion (D1) × relevancia tematica (D4) con celdas vacias = gaps de evidencia.\\[5pt]
-Informa la deteccion automatica de gaps en el reporte de Sonnet.
+Metodologia del BID para mapear evidencia disponible vs.\ ausente. Matriz: diseno de identificacion × relevancia tematica. Celdas vacias = gaps.\\[4pt]
+\textbf{Como lo adaptamos:} el reporte de gaps que genera Sonnet sigue esta logica: cruza D1 (metodologia) × D3 (contexto LATAM) y reporta donde no hay papers.\\[4pt]
+\textbf{Que no tomamos:} 3ie requiere busquedas exhaustivas de literatura gris; nosotros limitamos a fuentes academicas top-tier.
 \end{card}
 \end{columns}
 
-\vspace{5mm}
+\vspace{3mm}
 \begin{card}
 \scriptsize\color{bidgray}
-\textbf{\color{bidaccent}Por que 5 dimensiones independientes:} cada dimension mide un aspecto que los demas no pueden sustituir. Un RCT en Silicon Valley puede tener D1=4 y D3=1 (no transferible a LATAM). Un paper de LATAM puede tener D3=3 y D1=1 (solo correlacional). El score final refleja ambas tensiones.
+\textbf{\color{bidaccent}En sintesis:} no implementamos ninguno al pie de la letra. GRADE y EPPI informan la \emph{estructura} de D1--D4; 3ie informa el \emph{reporte de gaps}. Las tres son reconocidas por el BID, lo que facilita la validacion con contrapartes institucionales.
 \end{card}
 \end{frame}
 
@@ -637,16 +698,103 @@ Costo API                & $\approx$\$0.12 USD \\
 \end{center}
 \end{frame}
 
+% ── Anexo ────────────────────────────────────────────────────
+{
+\setbeamercolor{background canvas}{bg=bidmid}
+\begin{frame}[plain]\vspace{20mm}
+\begin{center}
+{\Large\bfseries\color{bidaccent}Anexo}\\[5pt]
+{\color{bidgray}\normalsize Ejemplo comparativo de frameworks de clasificacion}
+\end{center}
+\end{frame}
+}
+
+\begin{frame}{Anexo · Frameworks originales}{Estructura real de cada uno}
+\begin{columns}[T]
+
+\column{0.32\textwidth}
+\begin{card}
+\scriptsize\textbf{\color{bidaccent}GRADE}\\
+{\tiny\color{bidaccent!60}Grading of Recommendations Assessment}\\[3pt]
+\tiny\color{bidgray}
+Tabla de certeza por outcome; columnas evaluan downgrade/upgrade.
+\vspace{2pt}
+\setlength\tabcolsep{2pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}p{11mm}ccc@{}}
+\toprule
+\tiny\textbf{Outcome} & \tiny\textbf{Diseno} & \tiny\textbf{Sesgo} & \tiny\textbf{Cert.} \\
+\midrule
+Velocidad & RCT & Bajo & \statuspill{Alta} \\
+Calidad & RCT & Bajo & \statuspill{Alta} \\
+LATAM & — & — & \statuspill[colred]{Baja} \\
+\bottomrule
+\end{tabular}
+\end{card}
+
+\column{0.32\textwidth}
+\begin{card}
+\scriptsize\textbf{\color{bidaccent}EPPI-Centre WoE}\\
+{\tiny\color{bidaccent!60}Weight of Evidence · 4 componentes}\\[3pt]
+\tiny\color{bidgray}
+Tres pesos independientes combinados en veredicto WoE D.
+\vspace{2pt}
+\setlength\tabcolsep{2pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}p{9mm}p{16mm}c@{}}
+\toprule
+\tiny\textbf{Comp.} & \tiny\textbf{Pregunta} & \tiny\textbf{Peso} \\
+\midrule
+WoE A & \tiny Calidad metodologica & \statuspill{Alto} \\
+WoE B & \tiny Relevancia diseno & \statuspill{Alto} \\
+WoE C & \tiny Relevancia foco & \statuspill[colamber]{Medio} \\
+\midrule
+\textbf{WoE D} & \textbf{Veredicto} & \statuspill{Alto} \\
+\bottomrule
+\end{tabular}
+\end{card}
+
+\column{0.32\textwidth}
+\begin{card}
+\scriptsize\textbf{\color{bidaccent}3ie Evidence Gap Map}\\
+{\tiny\color{bidaccent!60}Matriz intervencion × outcome}\\[3pt]
+\tiny\color{bidgray}
+Cada celda = evidencia disponible. Celda vacia = gap.
+\vspace{2pt}
+\setlength\tabcolsep{2pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}p{11mm}ccc@{}}
+\toprule
+ & \tiny Productiv. & \tiny Empleo & \tiny Bienestar \\
+\midrule
+IA · EEUU/Eur & \statuspill{Alto} & \statuspill[colamber]{Med} & \statuspill[colamber]{Bajo} \\
+IA · LATAM    & \statuspill[colamber]{Bajo} & \statuspill[colred]{Gap} & \statuspill[colred]{Gap} \\
+IA · MiPyMEs  & \statuspill[colred]{Gap} & \statuspill[colred]{Gap} & \statuspill[colred]{Gap} \\
+\bottomrule
+\end{tabular}
+\end{card}
+
+\end{columns}
+
+\vspace{3mm}
+\begin{card}
+\tiny\color{bidgray}
+\renewcommand{\arraystretch}{1.2}
+\setlength\tabcolsep{4pt}
+\begin{tabular}{@{}p{18mm}p{55mm}p{55mm}@{}}
+ & \textbf{\color{bidaccent}Que tomamos} & \textbf{\color{bidaccent}Que dejamos} \\
+\midrule
+\textbf{GRADE}  & Jerarquia causal RCT$>$DiD$>$Panel$>$OLS (D1) & 8 criterios de downgrade por riesgo de sesgo interno \\
+\textbf{EPPI}   & Separacion calidad del estudio (D1--D2) vs.\ pertinencia (D4) & Sintesis narrativa manual por panel de expertos \\
+\textbf{3ie}    & Matriz gaps intervencion × contexto → reporte de Sonnet & Busqueda exhaustiva de literatura gris y no publicada \\
+\end{tabular}
+\end{card}
+\end{frame}
+
 % ── Cierre ────────────────────────────────────────────────────
 {
 \setbeamercolor{background canvas}{bg=bidblue}
 \begin{frame}[plain]
-\begin{tikzpicture}[remember picture,overlay]
-  \draw[bidaccent,line width=3pt]
-    ([xshift=8mm]current page.north west) -- ([xshift=8mm]current page.south west);
-  \fill[bidaccent!15]
-    ([xshift=-42mm]current page.north east) rectangle (current page.south east);
-\end{tikzpicture}
 \vspace{14mm}\hspace{7mm}%
 \begin{minipage}{0.76\textwidth}
 {\Large\bfseries\color{white}Gracias}
