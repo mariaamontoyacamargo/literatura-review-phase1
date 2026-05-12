@@ -1,6 +1,8 @@
 # Environment & secrets
 .env
 .env.save
+config.json
+search_cache.json
 venv/
 
 # Python

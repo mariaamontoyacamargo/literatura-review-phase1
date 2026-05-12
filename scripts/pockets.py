@@ -381,24 +381,51 @@ POCKETS = {
 }
 
 RUBRIC = """
-RÚBRICA DE EVALUACIÓN (escala 0-11):
+RÚBRICA DE EVALUACIÓN (escala 0-14) — inspirada en GRADE + EPPI-Centre Weight of Evidence:
 
-| Criterio       | Escala | Descripción                                                                 |
-|----------------|--------|-----------------------------------------------------------------------------|
-| Metodología    | 0-4    | 4=RCT/cuasi-exp, 3=panel/FE, 2=framework/mixed, 1=descriptivo, 0=teoría    |
-| Causalidad     | 0-2    | 2=IV/RCT/DiD explícito, 1=correlación fuerte con controles, 0=sin evidencia |
-| Top-tier       | 0-2    | 2=venue top o autores referentes, 1=arXiv/WP sólido, 0=desconocido         |
-| Novedad        | -1/0/1 | 1=2022-2026, 0=2020-2021, -1=pre-2020 (pre-GenAI era)                      |
-| Relevancia     | 0-2    | 2=responde pregunta central del pocket, 1=contexto útil, 0=no relevante     |
+DIMENSIÓN 1 — Identificación causal (0-4)
+  Fusiona diseño y causalidad en una sola escala jerárquica:
+  4 = RCT con pre-registro, análisis ITT y/o LATE; o RD sharp con test de manipulación
+  3 = DiD con test de tendencias paralelas; RD fuzzy; IV con F-stat > 10 y relevante
+  2 = Panel con efectos fijos de unidad + tiempo; event study con pre-tendencias
+  1 = OLS/regresión con controles razonables; cross-section con matching
+  0 = Descriptivo puro, framework teórico, revisión narrativa sin evidencia propia
+
+DIMENSIÓN 2 — Señales de calidad (0-3)
+  Sumar un punto por cada señal presente (máximo 3):
+  +1 = Publicado en venue top (top-5 econ: AER/QJE/JPE/REStud/ECMA; Nature/Science;
+       o top CS: NeurIPS/ICML/ACM CHI) — o NBER/CEPR final revisado
+  +1 = Paper con >100 citas en Google Scholar o autor con h-index > 30
+  +1 = Pre-registrado, replicado en contexto independiente, o datos de acceso público
+
+DIMENSIÓN 3 — Validez externa para LATAM/MiPyMEs (0-3)
+  ¿Qué tan transferibles son los resultados al contexto del RCT de Guatiguará?
+  3 = Evidencia directa de LATAM, Colombia, o economía de ingreso medio similar
+  2 = Evidencia de MiPyMEs en EEUU/Europa; o sector/industria directamente comparable
+  1 = Firmas grandes o economía de alto ingreso; mecanismo causal probablemente transferible
+  0 = Contexto con muy baja transferibilidad (hospitales en Japón, mercados ultra-regulados)
+
+DIMENSIÓN 4 — Relevancia al pocket (0-3)
+  ¿Qué tan directamente responde la pregunta central del pocket?
+  3 = Responde la pregunta central con estimados empíricos directos
+  2 = Responde una pregunta adyacente o provee el mecanismo causal subyacente
+  1 = Provee contexto útil, background teórico, o lección metodológica aplicable
+  0 = No relevante al pocket → RECHAZADO automático sin importar score total
+
+DIMENSIÓN 5 — Recencia ajustada (-1/0/+1)
+  +1 = Publicado 2023-2026 Y estudia IA generativa/LLMs específicamente
+   0 = Publicado 2020-2022; o pre-2020 con >50 citas (paper fundacional exento de penalidad)
+  -1 = Pre-2020 Y <50 citas Y no es paper fundacional del área
+
+SCORE TOTAL = D1 + D2 + D3 + D4 + D5   (máximo = 14)
 
 UMBRALES DE DECISIÓN:
-- ACEPTADO : score ≥ 7
-            OR (score ≥ 5 AND relevancia=2 AND ≥3 criterios del pocket cumplidos)
-- REVISAR  : score 3-6 (o score ≥ 5 sin cumplir condición anterior)
-- RECHAZADO: score < 3 OR relevancia = 0 (sin importar metodología)
+- ACEPTADO : score ≥ 9
+            OR (score ≥ 7 AND relevancia=3 AND identificacion_causal ≥ 2)
+- REVISAR  : score 5-8 (revisión manual recomendada)
+- RECHAZADO: score < 5 OR relevancia = 0 (sin importar metodología)
 
-REGLA CRÍTICA: un paper con metodología=4 pero relevancia=0 es RECHAZADO.
-La relevancia al pocket no es opcional.
+REGLA CRÍTICA: relevancia = 0 es RECHAZADO inmediato. No negociar con metodología.
 """
 
 PROJECT_CONTEXT = """

@@ -1,0 +1,674 @@
+% ============================================================
+%  BID-IA — Agente de Revisión de Literatura
+%  Presentación para revisión interna — Fedesarrollo & BID
+%  Mayo 2026
+% ============================================================
+\documentclass[aspectratio=169,10pt]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{lmodern}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{tcolorbox}
+\usepackage{array}
+\tcbuselibrary{most}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,fit,backgrounds,calc}
+
+% ── Colores ───────────────────────────────────────────────────
+\definecolor{bidblue}{HTML}{00296B}
+\definecolor{bidmid}{HTML}{003F88}
+\definecolor{bidlight}{HTML}{00509D}
+\definecolor{bidaccent}{HTML}{4AABE8}
+\definecolor{bidgray}{HTML}{CBD5E1}
+\definecolor{colgreen}{HTML}{16A34A}
+\definecolor{colamber}{HTML}{D97706}
+\definecolor{colred}{HTML}{DC2626}
+\definecolor{darkbg}{HTML}{0A1628}
+\definecolor{cardbg}{HTML}{0F1F3D}
+
+% ── Tema ──────────────────────────────────────────────────────
+\usetheme{default}
+\usecolortheme{default}
+\setbeamercolor{normal text}{fg=white,bg=bidblue}
+\setbeamercolor{structure}{fg=bidaccent}
+\setbeamercolor{frametitle}{fg=white,bg=bidmid}
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{block title}{fg=white,bg=bidlight}
+\setbeamercolor{block body}{fg=white,bg=cardbg}
+\setbeamerfont{frametitle}{size=\large,series=\bfseries}
+\setbeamerfont{title}{size=\LARGE,series=\bfseries}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{%
+  \leavevmode
+  \hbox{%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,leftskip=4mm]{author in head/foot}%
+      \color{bidaccent!60}\tiny BID-IA \textperiodcentered\ Fedesarrollo%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,rightskip=4mm,right]{date in head/foot}%
+      \color{bidaccent!60}\tiny\insertframenumber\,/\,\inserttotalframenumber%
+    \end{beamercolorbox}}%
+  \vskip0pt}
+\setbeamertemplate{frametitle}{%
+  \nointerlineskip
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2.8ex,dp=1.2ex,leftskip=8mm]{frametitle}%
+    \usebeamerfont{frametitle}\insertframetitle
+    \ifx\insertframesubtitle\empty\else
+      \hspace{6pt}\textcolor{bidaccent!70}{\normalfont\small\insertframesubtitle}%
+    \fi
+  \end{beamercolorbox}}
+
+% ── Helpers ───────────────────────────────────────────────────
+\newcommand{\hl}[1]{\textcolor{bidaccent}{\textbf{#1}}}
+
+\newcommand{\statuspill}[2][colgreen]{%
+  \tikz[baseline=(n.base)]\node[fill=#1!80!black,rounded corners=2pt,
+    inner xsep=4pt,inner ysep=1pt,font=\tiny\bfseries,text=white](n){#2};\relax}
+
+\newenvironment{card}[1][cardbg]{%
+  \begin{tcolorbox}[colback=#1,colframe=bidlight!40,arc=4pt,
+    boxrule=0.4pt,left=5pt,right=5pt,top=4pt,bottom=4pt]}%
+  {\end{tcolorbox}}
+
+\newenvironment{qbox}[1]{%
+  \begin{tcolorbox}[colback=bidlight!25,colframe=bidaccent,arc=4pt,boxrule=0.6pt,
+    title={\small\bfseries #1},fonttitle=\color{white},coltitle=white,
+    attach boxed title to top left={yshift=-2mm,xshift=3mm},
+    boxed title style={colback=bidaccent,arc=3pt},
+    left=5pt,right=5pt,top=6pt,bottom=4pt]}%
+  {\end{tcolorbox}}
+
+% ============================================================
+\begin{document}
+% ============================================================
+
+% ── Portada ──────────────────────────────────────────────────
+{
+\setbeamercolor{background canvas}{bg=bidblue}
+\begin{frame}[plain]
+\begin{tikzpicture}[remember picture,overlay]
+  \draw[bidaccent,line width=3pt]
+    ([xshift=8mm]current page.north west) -- ([xshift=8mm]current page.south west);
+  \fill[bidaccent!15]
+    ([xshift=-42mm]current page.north east) rectangle (current page.south east);
+\end{tikzpicture}
+\vspace{10mm}\hspace{7mm}%
+\begin{minipage}{0.76\textwidth}
+  {\tiny\color{bidaccent}\bfseries FEDESARROLLO \& BANCO INTERAMERICANO DE DESARROLLO}
+  \vspace{4mm}
+
+  {\huge\bfseries\color{white}Agente de Revision\\[3pt]de Literatura con IA}
+  \vspace{5mm}
+
+  {\large\color{bidaccent}BID-IA · Adopcion de IA en Firmas — Colombia y LATAM}
+  \vspace{6mm}
+
+  \textcolor{bidgray!80}{\small
+    Arquitectura, metodologia de evaluacion\\
+    y resultados de la primera iteracion.}
+  \vspace{8mm}
+
+  \textcolor{bidgray!50}{\footnotesize Mayo 2026 \quad·\quad Maria Alejandra Montoya}
+\end{minipage}
+\end{frame}
+}
+
+% ── Índice ────────────────────────────────────────────────────
+\begin{frame}{Contenido}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\begin{enumerate}\setlength\itemsep{6pt}
+  \item[\textcolor{bidaccent}{1.}] \textbf{El problema} --- por que un agente?
+  \item[\textcolor{bidaccent}{2.}] \textbf{Arquitectura} --- como esta construido
+  \item[\textcolor{bidaccent}{3.}] \textbf{El loop agentico} --- como decide
+  \item[\textcolor{bidaccent}{4.}] \textbf{Fuentes de busqueda}
+\end{enumerate}
+\column{0.48\textwidth}
+\begin{enumerate}\setlength\itemsep{6pt}
+  \item[\textcolor{bidaccent}{5.}] \textbf{Sistema de scoring v2}
+  \item[\textcolor{bidaccent}{6.}] \textbf{Resultados} --- primera iteracion
+  \item[\textcolor{bidaccent}{7.}] \textbf{Proximos pasos}
+\end{enumerate}
+\end{columns}
+\vspace{7mm}
+\begin{card}
+\small\color{bidgray}
+\textbf{\color{bidaccent}Objetivo de esta revision:} validar la arquitectura y criterios antes de correr los 6 pockets restantes. Se busca feedback sobre (1)~pertinencia del scoring, (2)~cobertura de fuentes, y (3)~prioridades para revision manual.
+\end{card}
+\end{frame}
+
+% ══════════════════════════════════════════════════════════════
+% 1. EL PROBLEMA
+% ══════════════════════════════════════════════════════════════
+{
+\setbeamercolor{background canvas}{bg=bidmid}
+\begin{frame}[plain]\vspace{20mm}
+\begin{center}
+{\Large\bfseries\color{bidaccent}1 · El problema}\\[5pt]
+{\color{bidgray}\normalsize Por que necesitamos un agente para la revision de literatura?}
+\end{center}
+\end{frame}
+}
+
+\begin{frame}{El problema}{Escala + criterios simultaneos}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\begin{card}
+\textbf{\color{bidaccent}La tarea sin agente}\\[3pt]
+\scriptsize\color{bidgray}
+\begin{itemize}\setlength\itemsep{2pt}
+  \item 7 temas (pockets) $\times$ 60 papers = \hl{420 papers}
+  \item Leer abstract, calificar metodologia, verificar relevancia
+  \item Decidir: Aceptado / Revisar / Rechazado
+  \item Extraer sintesis estructurada de los aceptados
+  \item Construir red de conexiones entre papers
+\end{itemize}
+\vspace{2pt}
+\textcolor{bidaccent!60}{\footnotesize $\approx$3--4 semanas por investigador}
+\end{card}
+
+\column{0.48\textwidth}
+\begin{card}
+\textbf{\color{bidaccent}Lo que hace el agente}\\[3pt]
+\scriptsize\color{bidgray}
+\begin{itemize}\setlength\itemsep{2pt}
+  \item Busca en \hl{9 fuentes academicas} simultaneamente
+  \item Aplica rubrica de 5 dimensiones de forma consistente
+  \item Sintetiza findings, metodologia y relevancia para LATAM
+  \item Cachea resultados --- segunda corrida cuesta $\approx$\$0
+  \item El investigador solo decide los casos \textbf{REVISAR}
+\end{itemize}
+\vspace{2pt}
+\textcolor{bidaccent!60}{\footnotesize Costo total: \textbf{\$5--7 USD} por corrida completa}
+\end{card}
+\end{columns}
+
+\vspace{3mm}
+\begin{card}
+\scriptsize\color{bidgray}
+\textbf{\color{bidaccent}Contexto:} esta revision informa el diseno del \textbf{primer RCT de adopcion de IA en MiPyMEs de LATAM} (Guatiguara). La literatura debe responder preguntas concretas: que medir, como identificar efectos causales, que heterogeneidades anticipar.
+\end{card}
+\end{frame}
+
+% ══════════════════════════════════════════════════════════════
+% 2. ARQUITECTURA
+% ══════════════════════════════════════════════════════════════
+{
+\setbeamercolor{background canvas}{bg=bidmid}
+\begin{frame}[plain]\vspace{20mm}
+\begin{center}
+{\Large\bfseries\color{bidaccent}2 · Arquitectura}\\[5pt]
+{\color{bidgray}\normalsize Como esta construido el agente}
+\end{center}
+\end{frame}
+}
+
+\begin{frame}{Arquitectura del sistema}{Dos modelos con roles distintos}
+
+\begin{center}
+\begin{tikzpicture}[
+  every node/.style={font=\scriptsize},
+  box/.style={rectangle,rounded corners=3pt,text=white,align=center,
+    inner xsep=4pt,inner ysep=3pt},
+  arr/.style={-{Stealth[length=4pt]},bidaccent,line width=0.9pt},
+]
+% Row 1: CLI -> Sonnet -> Loop
+\node[box,fill=bidlight,minimum width=22mm,minimum height=9mm]
+  (cli) at (0,0) {\texttt{agent.py}\\{\tiny\color{bidgray}--pocket labor}};
+\node[box,fill=bidblue,minimum width=30mm,minimum height=11mm]
+  (son) at (3.0,0) {\textbf{Sonnet 4.6}\\{\tiny\color{bidaccent}Orquestador}};
+\node[box,draw=bidaccent,fill=cardbg,minimum width=26mm,minimum height=9mm]
+  (loop) at (6.0,0) {Loop agentico\\{\tiny\color{bidgray}max 30 iter.}};
+
+% Row 2: Output | Sources | Tools
+\node[box,fill=colamber!20!cardbg,minimum width=22mm,minimum height=9mm]
+  (out) at (0,-1.8) {Corpus JSON\\{\tiny\color{bidgray}pocket\_reviewed}};
+
+\node[box,fill=colgreen!15!darkbg,minimum width=28mm,minimum height=14mm,align=center]
+  (src) at (3.0,-1.8) {};
+\node[font=\tiny\bfseries,text=colgreen!70] at (3.0,-1.35) {9 fuentes};
+\node[font=\tiny,text=bidgray,align=center] at (3.0,-2.05)
+  {SS · NBER · OpenAlex · ArXiv\\CORE · WB · SSRN · IMF};
+
+\node[box,fill=colgreen!20!cardbg,minimum width=28mm,minimum height=14mm,align=center]
+  (tools) at (6.0,-1.8) {};
+\node[font=\tiny\bfseries,text=colgreen!80] at (6.0,-1.35) {Tools Python};
+\node[font=\tiny,text=bidgray,align=center] at (6.0,-2.05)
+  {search · enrich · deduplicate\\review(Haiku) · synthesize};
+
+\draw[arr] (cli)--(son); \draw[arr] (son)--(loop);
+\draw[arr] (loop)--(tools); \draw[arr] (tools)--(src);
+\draw[arr] (tools)--(out);
+\draw[arr,dashed,bend right=18] (loop.north) to
+  node[above,font=\tiny,text=bidgray]{historial} (son.north east);
+\end{tikzpicture}
+\end{center}
+
+\vspace{2mm}
+\begin{columns}[T]
+\column{0.32\textwidth}
+\begin{card}
+\scriptsize\color{bidgray}
+\textbf{\color{bidaccent}Sonnet} ve el historial completo y decide la estrategia. Nunca toca datos directamente.
+\end{card}
+\column{0.32\textwidth}
+\begin{card}
+\scriptsize\color{bidgray}
+\textbf{\color{bidaccent}Haiku} recibe solo el prompt puntual sin el historial de Sonnet. Reduce costo de tokens 10x.
+\end{card}
+\column{0.32\textwidth}
+\begin{card}
+\scriptsize\color{bidgray}
+\textbf{\color{bidaccent}Tools Python} ejecutan logica determinista: APIs, Crossref, deduplicacion, guardado.
+\end{card}
+\end{columns}
+\end{frame}
+
+% ══════════════════════════════════════════════════════════════
+% 3. EL LOOP
+% ══════════════════════════════════════════════════════════════
+{
+\setbeamercolor{background canvas}{bg=bidmid}
+\begin{frame}[plain]\vspace{20mm}
+\begin{center}
+{\Large\bfseries\color{bidaccent}3 · El loop agentico}\\[5pt]
+{\color{bidgray}\normalsize Como decide el agente en cada iteracion}
+\end{center}
+\end{frame}
+}
+
+\begin{frame}{El loop agentico}{Secuencia de una corrida --mode full}
+\begin{columns}[T]
+
+\column{0.44\textwidth}
+\begin{tikzpicture}[
+  stepbox/.style={rectangle,rounded corners=3pt,minimum width=46mm,minimum height=8mm,
+    text=white,align=center,font=\scriptsize\bfseries,inner sep=3pt},
+  arr/.style={-{Stealth[length=3pt]},bidaccent,line width=0.8pt},
+  lbl/.style={font=\tiny,text=bidgray},
+]
+\node[stepbox,fill=bidlight]            (s1) at (0, 0.00) {1 · get\_status + definicion};
+\node[stepbox,fill=bidmid]              (s2) at (0,-1.00) {2 · search\_papers x fuentes};
+\node[stepbox,fill=bidmid]              (s3) at (0,-2.00) {3 · enrich + deduplicate};
+\node[stepbox,fill=cardbg,draw=bidaccent!60] (s4) at (0,-3.00) {4 · evaluate\_coverage};
+\node[stepbox,fill=bidblue!80]          (s5) at (0,-4.00) {5 · review with Haiku};
+\node[stepbox,fill=bidblue!80]          (s6) at (0,-5.00) {6 · synthesize with Haiku};
+\node[stepbox,fill=colgreen!50!bidblue] (s7) at (0,-6.00) {7 · save + reporte};
+
+\draw[arr] (s1)--(s2);
+\draw[arr] (s2)--(s3);
+\draw[arr] (s3)--(s4);
+\draw[arr] (s4)--node[right,lbl]{$\geq$0.6}(s5);
+\draw[arr] (s5)--(s6);
+\draw[arr] (s6)--(s7);
+\draw[arr] (s4.east)--++(3mm,0)--++(0,1.00cm)--++(-3mm,0)
+  node[above right,lbl,xshift=-3mm]{$<$0.6};
+\end{tikzpicture}
+
+\column{0.52\textwidth}
+\begin{card}
+\small\textbf{\color{bidaccent}Paso 1 — Estado}\\
+\scriptsize\color{bidgray}
+Sonnet lee corpus actual y definicion del pocket (queries, anchor papers). Sabe que existe y que falta.
+\end{card}\vspace{2pt}
+\begin{card}
+\small\textbf{\color{bidaccent}Pasos 2--4 — Busqueda}\\
+\scriptsize\color{bidgray}
+Busca en multiples fuentes, enriquece con Crossref, elimina duplicados. Score de cobertura decide si buscar mas.
+\end{card}\vspace{2pt}
+\begin{card}
+\small\textbf{\color{bidaccent}Pasos 5--6 — IA (Haiku)}\\
+\scriptsize\color{bidgray}
+Haiku recibe la definicion del pocket en el \emph{system prompt}. Solo sintetiza papers ACEPTADOS.
+\end{card}\vspace{2pt}
+\begin{card}
+\small\textbf{\color{bidaccent}Paso 7 — Guardado}\\
+\scriptsize\color{bidgray}
+Merge inteligente: agrega papers nuevos sin pisar revisados. Reporte con gaps detectados.
+\end{card}
+\end{columns}
+\end{frame}
+
+% ══════════════════════════════════════════════════════════════
+% 4. FUENTES
+% ══════════════════════════════════════════════════════════════
+{
+\setbeamercolor{background canvas}{bg=bidmid}
+\begin{frame}[plain]\vspace{20mm}
+\begin{center}
+{\Large\bfseries\color{bidaccent}4 · Fuentes de busqueda}\\[5pt]
+{\color{bidgray}\normalsize 9 fuentes · 5 libres · 2 con key · 2 pendientes}
+\end{center}
+\end{frame}
+}
+
+\begin{frame}{9 fuentes de busqueda academica}{}
+\renewcommand{\arraystretch}{1.2}
+\setlength\tabcolsep{4pt}
+\footnotesize
+\begin{tabular}{@{}ll>{\raggedright\arraybackslash}p{58mm}l@{}}
+\toprule
+\textbf{Fuente} & \textbf{Auth} & \textbf{Mejor para} & \textbf{Estado} \\
+\midrule
+Semantic Scholar & libre   & CS, interdisciplinar, ArXiv+journals          & \statuspill{activa} \\
+NBER             & libre   & WPs economia: Brynjolfsson, Autor, Acemoglu   & \statuspill{activa} \\
+OpenAlex         & libre   & 240M works, citation counts verificados       & \statuspill{activa} \\
+ArXiv            & libre   & Preprints CS/AI 2024--2026                    & \statuspill{activa} \\
+World Bank       & libre   & WPs desarrollo, labor, LATAM                  & \statuspill{activa} \\
+CORE             & Bearer  & Texto completo open access                    & \statuspill{activa} \\
+SSRN             & Elsevier& Preprints econ/finanzas                       & \statuspill[colamber]{pendiente} \\
+PubMed           & NCBI    & Biomed (solo si pocket = salud)               & \statuspill[bidmid]{auto-skip} \\
+IMF              & propia  & WPs macroeconomia                             & \statuspill[bidmid]{sin key} \\
+\bottomrule
+\end{tabular}
+
+\vspace{3mm}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\begin{card}
+\scriptsize\color{bidgray}
+\textbf{\color{bidaccent}Crossref:} \texttt{enrich\_metadata} agrega journal, ISSN, citas formales y ORCID por DOI. Sin key, sin costo.
+\end{card}
+\column{0.48\textwidth}
+\begin{card}
+\scriptsize\color{bidgray}
+\textbf{\color{bidaccent}Cache SHA256 24h:} segunda corrida del mismo pocket = 0 llamadas a APIs de busqueda.
+\end{card}
+\end{columns}
+\end{frame}
+
+% ══════════════════════════════════════════════════════════════
+% 5. SCORING
+% ══════════════════════════════════════════════════════════════
+{
+\setbeamercolor{background canvas}{bg=bidmid}
+\begin{frame}[plain]\vspace{20mm}
+\begin{center}
+{\Large\bfseries\color{bidaccent}5 · Sistema de scoring v2}\\[5pt]
+{\color{bidgray}\normalsize Inspirado en GRADE + EPPI-Centre Weight of Evidence · escala 0--14}
+\end{center}
+\end{frame}
+}
+
+\begin{frame}{Sistema de scoring v2}{5 dimensiones independientes · escala 0--14}
+\renewcommand{\arraystretch}{1.4}
+\setlength\tabcolsep{4pt}
+\small
+\begin{tabular}{@{}p{34mm}cp{84mm}@{}}
+\toprule
+\textbf{Dimension} & \textbf{Pts} & \textbf{Descripcion} \\
+\midrule
+D1 Identificacion causal  & 0--4 &
+  4=RCT preregistrado \enspace 3=DiD/IV/RD con tests \enspace 2=Panel FE \enspace 1=OLS \enspace 0=descriptivo \\[2pt]
+D2 Seniales de calidad    & 0--3 &
+  +1 venue top-5 econ o top CS \enspace +1 citas $>$100 o h-index $>$30 \enspace +1 replicado \\[2pt]
+D3 Validez externa LATAM  & 0--3 &
+  3=evidencia directa LATAM \enspace 2=MiPyMEs USA/Eur. \enspace 1=firmas grandes \enspace 0=no transferible \\[2pt]
+\textbf{D4 Relevancia}    & 0--3 &
+  \textbf{Gate absoluto: D4=0 implica RECHAZADO sin importar D1--D3} \\[2pt]
+D5 Recencia ajustada      & $-1$/0/$+1$ &
+  $+1$=2023--26 GenAI \enspace 0=2020--22 o fundacional ($>$50 citas) \enspace $-1$=pre-2020 y $<$50 citas \\
+\bottomrule
+\end{tabular}
+
+\vspace{4mm}
+\begin{columns}[T]
+\column{0.32\textwidth}
+\begin{tcolorbox}[colback=colgreen!20!cardbg,colframe=colgreen!60,arc=3pt,
+  boxrule=0.5pt,left=4pt,right=4pt,top=3pt,bottom=3pt]
+\scriptsize\centering
+\textbf{\color{colgreen!90}ACEPTADO}\\[3pt]
+\color{bidgray}score $\geq$ 9 \\ o bien score $\geq$7 con D4=3 y D1$\geq$2
+\end{tcolorbox}
+\column{0.32\textwidth}
+\begin{tcolorbox}[colback=colamber!20!cardbg,colframe=colamber!60,arc=3pt,
+  boxrule=0.5pt,left=4pt,right=4pt,top=3pt,bottom=3pt]
+\scriptsize\centering
+\textbf{\color{colamber!90}REVISAR}\\[3pt]
+\color{bidgray}score 5--8\\revision manual
+\end{tcolorbox}
+\column{0.32\textwidth}
+\begin{tcolorbox}[colback=colred!20!cardbg,colframe=colred!60,arc=3pt,
+  boxrule=0.5pt,left=4pt,right=4pt,top=3pt,bottom=3pt]
+\scriptsize\centering
+\textbf{\color{colred!80}RECHAZADO}\\[3pt]
+\color{bidgray}score $<$ 5 \\ o D4 = 0
+\end{tcolorbox}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Sistema de scoring v2}{Frameworks de referencia}
+\begin{columns}[T]
+\column{0.32\textwidth}
+\begin{card}
+\small\textbf{\color{bidaccent}GRADE}\\[5pt]
+\scriptsize\color{bidgray}
+Gold standard en medicina y economia del desarrollo.\\[5pt]
+Principio clave: separa la \emph{calidad interna} del estudio de su \emph{aplicabilidad} al contexto de politica.\\[5pt]
+Informa D1 (jerarquia de evidencia causal) y D3 (transferibilidad).
+\end{card}
+
+\column{0.32\textwidth}
+\begin{card}
+\small\textbf{\color{bidaccent}EPPI-Centre}\\[5pt]
+\scriptsize\color{bidgray}
+Weight of Evidence, usado en revisiones sistematicas de educacion y ciencias sociales.\\[5pt]
+Distingue \emph{soundness of study} (D1--D2) de \emph{relevance of evidence focus} (D4).\\[5pt]
+Permite aceptar un buen paper de contexto diferente si la pregunta es la misma.
+\end{card}
+
+\column{0.32\textwidth}
+\begin{card}
+\small\textbf{\color{bidaccent}3ie Evidence Gap Maps}\\[5pt]
+\scriptsize\color{bidgray}
+Metodologia usada por el BID en evaluaciones de desarrollo.\\[5pt]
+Ejes: diseno de identificacion (D1) × relevancia tematica (D4) con celdas vacias = gaps de evidencia.\\[5pt]
+Informa la deteccion automatica de gaps en el reporte de Sonnet.
+\end{card}
+\end{columns}
+
+\vspace{5mm}
+\begin{card}
+\scriptsize\color{bidgray}
+\textbf{\color{bidaccent}Por que 5 dimensiones independientes:} cada dimension mide un aspecto que los demas no pueden sustituir. Un RCT en Silicon Valley puede tener D1=4 y D3=1 (no transferible a LATAM). Un paper de LATAM puede tener D3=3 y D1=1 (solo correlacional). El score final refleja ambas tensiones.
+\end{card}
+\end{frame}
+
+% ══════════════════════════════════════════════════════════════
+% 6. RESULTADOS
+% ══════════════════════════════════════════════════════════════
+{
+\setbeamercolor{background canvas}{bg=bidmid}
+\begin{frame}[plain]\vspace{20mm}
+\begin{center}
+{\Large\bfseries\color{bidaccent}6 · Resultados}\\[5pt]
+{\color{bidgray}\normalsize Primera iteracion --- Pocket de Impacto Causal}
+\end{center}
+\end{frame}
+}
+
+\begin{frame}{Resultados: Pocket de Impacto Causal}{72 papers procesados · primera corrida completa}
+
+% KPI row
+\begin{columns}[T]
+\column{0.24\textwidth}
+\begin{tcolorbox}[colback=cardbg,colframe=bidaccent!50,arc=4pt,boxrule=0.5pt,
+  left=4pt,right=4pt,top=4pt,bottom=4pt,halign=center]
+\scriptsize\color{bidgray}Total procesados\\[3pt]
+{\Large\bfseries\color{white}72}
+\end{tcolorbox}
+\column{0.24\textwidth}
+\begin{tcolorbox}[colback=colgreen!15!cardbg,colframe=colgreen!60,arc=4pt,boxrule=0.5pt,
+  left=4pt,right=4pt,top=4pt,bottom=4pt,halign=center]
+\scriptsize\color{bidgray}Aceptados\\[3pt]
+{\Large\bfseries\color{colgreen!90}26}\\
+\tiny\color{bidgray}36\% del total
+\end{tcolorbox}
+\column{0.24\textwidth}
+\begin{tcolorbox}[colback=colamber!15!cardbg,colframe=colamber!60,arc=4pt,boxrule=0.5pt,
+  left=4pt,right=4pt,top=4pt,bottom=4pt,halign=center]
+\scriptsize\color{bidgray}Por revisar\\[3pt]
+{\Large\bfseries\color{colamber}40}\\
+\tiny\color{bidgray}56\% del total
+\end{tcolorbox}
+\column{0.24\textwidth}
+\begin{tcolorbox}[colback=colred!10!cardbg,colframe=colred!50,arc=4pt,boxrule=0.5pt,
+  left=4pt,right=4pt,top=4pt,bottom=4pt,halign=center]
+\scriptsize\color{bidgray}Rechazados\\[3pt]
+{\Large\bfseries\color{colred!80}6}\\
+\tiny\color{bidgray}8\% del total
+\end{tcolorbox}
+\end{columns}
+
+\vspace{4mm}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\begin{card}
+\small\textbf{\color{bidaccent}Metricas clave}\\[3pt]
+\scriptsize\color{bidgray}
+\renewcommand{\arraystretch}{1.2}
+\setlength\tabcolsep{4pt}
+\begin{tabular}{@{}lr@{}}
+Coverage score           & \textbf{0.66} $>$ 0.6 \\
+Score promedio aceptados & $\approx$10.2 / 14 \\
+D1 $\geq$ 3 en aceptados & 88\% \\
+D4 = 3 en aceptados      & 100\% \\
+Corrida total            & $\approx$22 min \\
+Costo API                & $\approx$\$0.12 USD \\
+\end{tabular}
+\end{card}
+
+\column{0.48\textwidth}
+\begin{card}
+\small\textbf{\color{bidaccent}Composicion de los 40 REVISAR}\\[3pt]
+\scriptsize\color{bidgray}
+\begin{itemize}\setlength\itemsep{3pt}
+  \item Mayoria: D1$\geq$2 y D4=3 pero D3 bajo (EEUU/Europa)
+  \item Son candidatos directos a aceptar tras revision manual
+  \item Potencial: corpus puede subir a $\approx$55--60 aceptados
+\end{itemize}
+\vspace{3pt}
+\textbf{\color{bidaccent}Fuentes con mayor yield:} NBER (Brynjolfsson, Humlum), Semantic Scholar (Dell'Acqua, Noy \& Zhang), ArXiv preprints 2024--25
+\end{card}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Gaps identificados por el agente}{Pocket de Impacto Causal · output del reporte de Sonnet}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\begin{card}
+\small\textbf{\color{bidaccent}Gaps de cobertura detectados}\\[5pt]
+\scriptsize\color{bidgray}
+\begin{itemize}\setlength\itemsep{5pt}
+  \item \textbf{LATAM / Sur Global:} $<$5\% del corpus tiene evidencia directa de LATAM. Mayoria son papers de EEUU/Europa.
+  \item \textbf{MiPyMEs:} los RCTs disponibles son con trabajadores de grandes firmas (call centers, consultoras, tech). Evidencia en pequenias firmas es escasa.
+  \item \textbf{2024--2026:} cobertura mejora con ArXiv pero muchos papers de vanguardia son preprints sin revision formal.
+  \item \textbf{Sectores:} concentracion en knowledge workers y CS. Manufactura y servicios basicos poco representados.
+\end{itemize}
+\end{card}
+
+\column{0.48\textwidth}
+\begin{card}
+\small\textbf{\color{bidaccent}Implicaciones para el RCT Guatiguara}\\[5pt]
+\scriptsize\color{bidgray}
+\begin{itemize}\setlength\itemsep{5pt}
+  \item El gap LATAM/MiPyME \textbf{es la razon de ser del experimento}: la literatura global no responde las preguntas locales.
+  \item Heterogeneidad \textbf{novato vs.\ experto} bien documentada en EEUU --- hipotesis directamente transferible al diseno.
+  \item Outcomes mas replicables: productividad por hora y calidad de output. Son los mas medidos globalmente.
+  \item Falta evidencia sobre \textbf{efectos de mediano plazo} ($>$6 meses): oportunidad de contribucion original del RCT.
+\end{itemize}
+\end{card}
+\end{columns}
+\end{frame}
+
+% ══════════════════════════════════════════════════════════════
+% 7. PRÓXIMOS PASOS
+% ══════════════════════════════════════════════════════════════
+{
+\setbeamercolor{background canvas}{bg=bidmid}
+\begin{frame}[plain]\vspace{20mm}
+\begin{center}
+{\Large\bfseries\color{bidaccent}7 · Proximos pasos}\\[5pt]
+{\color{bidgray}\normalsize Agenda para la siguiente iteracion}
+\end{center}
+\end{frame}
+}
+
+\begin{frame}{Proximos pasos}{Dos rutas en paralelo}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\begin{card}
+\small\textbf{\color{bidaccent}Pipeline (automatico)}\\[5pt]
+\scriptsize\color{bidgray}
+\begin{enumerate}\setlength\itemsep{5pt}
+  \item Correr \texttt{--mode search} en los 6 pockets restantes \\ estimado \$3--4 USD
+  \item Correr \texttt{build\_network.py} para grafo de citaciones \\ $\approx$\$0.05 USD
+  \item Actualizar \texttt{main\_dashboard.html} con corpus completo
+  \item Resolver SSRN API key con Elsevier
+\end{enumerate}
+\end{card}
+
+\column{0.48\textwidth}
+\begin{card}
+\small\textbf{\color{bidaccent}Revision manual (investigador)}\\[5pt]
+\scriptsize\color{bidgray}
+\begin{enumerate}\setlength\itemsep{5pt}
+  \item Revisar los \textbf{40 papers en REVISAR} del Pocket de Impacto Causal via \texttt{review\_interface.html}
+  \item Validar los 26 aceptados contra el juicio del equipo
+  \item Ajustar umbrales de scoring si hay discrepancias sistematicas
+  \item Agregar manualmente anchor papers no encontrados por las APIs
+\end{enumerate}
+\end{card}
+\end{columns}
+
+\vspace{5mm}
+\begin{center}
+\begin{tikzpicture}
+\node[rectangle,rounded corners=3pt,fill=bidlight,text=white,
+  font=\small\bfseries,minimum width=110mm,minimum height=9mm,inner sep=4pt]
+  {Meta DoD: $>$50 aceptados por pocket · Impacto Causal: 26 confirmados + 40 por revisar};
+\end{tikzpicture}
+\end{center}
+\end{frame}
+
+% ── Cierre ────────────────────────────────────────────────────
+{
+\setbeamercolor{background canvas}{bg=bidblue}
+\begin{frame}[plain]
+\begin{tikzpicture}[remember picture,overlay]
+  \draw[bidaccent,line width=3pt]
+    ([xshift=8mm]current page.north west) -- ([xshift=8mm]current page.south west);
+  \fill[bidaccent!15]
+    ([xshift=-42mm]current page.north east) rectangle (current page.south east);
+\end{tikzpicture}
+\vspace{14mm}\hspace{7mm}%
+\begin{minipage}{0.76\textwidth}
+{\Large\bfseries\color{white}Gracias}
+\vspace{6mm}
+
+\textcolor{bidgray}{\small
+El codigo, los datos y los dashboards interactivos estan\\disponibles en el repositorio del proyecto.}
+
+\vspace{8mm}
+\begin{card}
+\scriptsize\color{bidgray}
+\texttt{\$ python scripts/agent.py --pocket evaluacion\_experimental --mode full}\\[3pt]
+\textcolor{bidaccent!70}{Pipeline completo: busqueda · enriquecimiento · deduplicacion · review · sintesis · guardado}\\
+\textcolor{bidaccent!70}{Costo: $\approx$\$0.12 USD · Tiempo: $\approx$20 min}
+\end{card}
+
+\vspace{6mm}
+\textcolor{bidgray!50}{\footnotesize
+  Maria Alejandra Montoya · m.montoyac@uniandes.edu.co\\
+  Fedesarrollo \& BID · Mayo 2026}
+\end{minipage}
+\end{frame}
+}
+
+\end{document}

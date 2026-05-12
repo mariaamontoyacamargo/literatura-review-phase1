@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>BID-IA Diagramas</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0 }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+         background: #0a1628; color: #e2e8f0; min-height: 100vh }
+  .topbar { background: #00296B; border-bottom: 2px solid #00509D;
+            padding: 14px 32px; display: flex; align-items: center; gap: 12px }
+  .badge { background: #00509D; color: white; font-size: 10px; font-weight: 700;
+           padding: 3px 8px; border-radius: 4px }
+  .topbar h1 { font-size: 16px; font-weight: 700 }
+  .topbar-sub { font-size: 12px; color: #a0c4e8 }
+  .nav { background: #003F88; padding: 0 32px; display: flex; gap: 4px;
+         border-bottom: 1px solid #1e3a5f; overflow-x: auto }
+  .nav-btn { padding: 10px 16px; font-size: 13px; color: #7a9bc4; cursor: pointer;
+             border-bottom: 2px solid transparent; white-space: nowrap; background: none;
+             border-top: none; border-left: none; border-right: none; font-family: inherit }
+  .nav-btn:hover { color: white }
+  .nav-btn.active { color: white; border-bottom-color: #4AABE8 }
+  .content { padding: 32px; max-width: 1100px; margin: 0 auto }
+  .diagram-section { display: none }
+  .diagram-section.active { display: block }
+  .diagram-header { margin-bottom: 20px }
+  .diagram-header h2 { font-size: 18px; font-weight: 700; color: white; margin-bottom: 6px }
+  .diagram-header p { font-size: 13px; color: #7a9bc4; line-height: 1.6 }
+  .mermaid-wrap { background: #0f1f3d; border: 1px solid #1e3a5f;
+                  border-radius: 12px; padding: 32px; overflow-x: auto; text-align: center }
+  .notes { background: #0f1f3d; border: 1px solid #1e3a5f; border-radius: 8px;
+           padding: 14px 18px; margin-top: 14px; font-size: 12px; color: #7a9bc4 }
+  .notes strong { color: white; display: block; margin-bottom: 6px }
+  .notes li { margin-left: 16px; margin-bottom: 4px }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <span class="badge">BID-IA</span>
+  <div>
+    <h1>Diagramas del codebase</h1>
+    <div class="topbar-sub">Fedesarrollo &amp; BID &middot; Literatura Review Agent</div>
+  </div>
+</div>
+
+<div class="nav">
+  <button class="nav-btn active" onclick="show(0,this)">1 &middot; Pipeline general</button>
+  <button class="nav-btn" onclick="show(1,this)">2 &middot; Agent loop</button>
+  <button class="nav-btn" onclick="show(2,this)">3 &middot; Flujo de datos</button>
+  <button class="nav-btn" onclick="show(3,this)">4 &middot; Scoring</button>
+  <button class="nav-btn" onclick="show(4,this)">5 &middot; Archivos</button>
+  <button class="nav-btn" onclick="show(5,this)">6 &middot; Tokens</button>
+</div>
+
+<div class="content">
+
+<!-- DIAGRAMA 1 — Pipeline general (actualizado: 9 fuentes, 3 tools nuevas, safe_execute) -->
+<div class="diagram-section active" id="s0">
+  <div class="diagram-header">
+    <h2>1 &middot; Pipeline general</h2>
+    <p>Vista completa del pipeline actualizado: 9 fuentes de busqueda, enriquecimiento Crossref,
+       deduplicacion, evaluacion de cobertura, y retry automatico. Sonnet decide; Haiku ejecuta.</p>
+  </div>
+  <div class="mermaid-wrap">
+    <div class="mermaid" id="d0">
+flowchart TD
+    CLI["CLI python agent.py --pocket labor --mode full"]
+
+    SONNET["Claude Sonnet 4.6\nOrquestador\nmax 30 iteraciones"]
+    LOOP["Loop agentico\nejec tools y vuelve a Sonnet"]
+    SONNET --> LOOP --> SONNET
+
+    subgraph TOOLS_FREE["Tools sin costo de tokens"]
+        T1["get_corpus_status"]
+        T2["get_pocket_definition\ndevuelve pocket_definition"]
+        T3["search_papers\n9 fuentes con cache 24h"]
+        T6["load_papers"]
+        T7["save_papers"]
+        T8["enrich_metadata\nCrossref DOI enrichment"]
+        T9["deduplicate_papers\nDOI title author-year"]
+        T10["evaluate_corpus_coverage\nscore 0-1"]
+    end
+
+    subgraph TOOLS_AI["Tools con tokens Haiku"]
+        T4["review_papers_with_ai\nrecibe pocket_definition\nen system prompt"]
+        T5["synthesize_papers\nrecibe pocket_definition\nen system prompt"]
+    end
+
+    subgraph SOURCES["9 fuentes de busqueda"]
+        S1["Semantic Scholar"]
+        S2["NBER"]
+        S3["OpenAlex"]
+        S4["ArXiv"]
+        S5["SSRN\nrequiere key"]
+        S6["PubMed\nsolo pockets salud"]
+        S7["CORE\nrequiere key"]
+        S8["World Bank"]
+        S9["IMF\nrequiere key"]
+    end
+
+    SAFE["safe_execute_tool\nretry x3 backoff exp\ndevuelve error obj si falla"]
+
+    HAIKU["Claude Haiku 4.5\nrecibe system prompt\ncon pocket context"]
+    DATA["pocket_reviewed_enriched.json"]
+    NET["bid_network.json"]
+    DASH["main_dashboard.html"]
+    RI["review_interface.html"]
+
+    CLI --> SONNET
+    LOOP --> T1
+    LOOP --> T2
+    LOOP --> T3
+    LOOP --> T6
+    LOOP --> T7
+    LOOP --> T8
+    LOOP --> T9
+    LOOP --> T10
+    LOOP --> T4
+    LOOP --> T5
+    T3 --> SAFE --> S1
+    SAFE --> S2
+    SAFE --> S3
+    SAFE --> S4
+    SAFE --> S5
+    SAFE --> S6
+    SAFE --> S7
+    SAFE --> S8
+    SAFE --> S9
+    T4 --> HAIKU
+    T5 --> HAIKU
+    T7 --> DATA
+    DATA --> DASH
+    DATA --> RI
+    NET --> DASH
+    </div>
+  </div>
+  <div class="notes">
+    <strong>Como leer este diagrama</strong>
+    <ul>
+      <li>Sonnet nunca toca datos directamente — solo decide que tool llamar y con que argumentos</li>
+      <li>Las tools son funciones Python puras: reciben JSON, devuelven JSON, no tienen estado</li>
+      <li>Haiku solo aparece cuando Sonnet llama review o synthesize — el resto es Python sin IA</li>
+      <li>Si una fuente de busqueda falla (sin key, timeout), safe_execute_tool devuelve un objeto de error y el pipeline sigue con las otras fuentes</li>
+      <li>El cache evita re-hacer las mismas busquedas: segunda corrida del mismo pocket es casi gratis</li>
+    </ul>
+  </div>
+</div>
+
+<!-- DIAGRAMA 2 — Agent loop actualizado -->
+<div class="diagram-section" id="s1">
+  <div class="diagram-header">
+    <h2>2 &middot; Agent loop &mdash; secuencia de mensajes</h2>
+    <p>Flujo completo de una sesion --mode full. Incluye las nuevas etapas: enrich, dedup,
+       coverage check, y el pocket_definition que Sonnet pasa directamente a Haiku.</p>
+  </div>
+  <div class="mermaid-wrap">
+    <div class="mermaid" id="d1">
+sequenceDiagram
+    participant U as CLI
+    participant S as Sonnet 4.6
+    participant P as execute_tool
+    participant H as Haiku 4.5
+    participant FS as data/ y cache
+
+    U->>S: Run full pipeline for labor
+
+    Note over S: Vuelta 1 - estado y definicion
+    S->>P: get_corpus_status()
+    P->>FS: lee 7 JSONs locales
+    P-->>S: labor total=60 accepted=13
+
+    S->>P: get_pocket_definition labor
+    P-->>S: pocket_definition con queries criteria rubric
+
+    Note over S: Vuelta 2 - busqueda multi-fuente
+    S->>P: search_papers query=AI wage labor source=nber
+    P->>FS: cache miss - HTTP GET nber.org
+    FS-->>P: papers raw
+    P-->>S: 18 papers normalizados
+
+    S->>P: search_papers query=AI wage labor source=ssrn
+    P->>FS: safe_execute_tool con retry
+    FS-->>P: 12 papers o error obj si falla key
+    P-->>S: 12 papers o error anotado
+
+    Note over S: Vuelta 3 - enriquecer y deduplicar
+    S->>P: enrich_metadata papers con DOI
+    P->>FS: Crossref API x paper con DOI
+    P-->>S: papers con journal ISSN citations ORCID
+
+    S->>P: deduplicate_papers 30 papers combinados
+    P-->>S: 24 unicos - 6 dups removidos por DOI y titulo
+
+    Note over S: Vuelta 4 - evaluar cobertura
+    S->>P: evaluate_corpus_coverage papers=24 pocket=labor
+    P-->>S: score=0.72 needs_more=false
+
+    Note over S: Vuelta 5 - review con Haiku
+    S->>P: review_papers_with_ai papers pocket_definition incluido
+    P->>H: system=pocket context user=rubric+abstracts
+    H-->>P: JSON array de reviews
+    P-->>S: 24 papers con score status criteria
+
+    Note over S: Vuelta 6 - synthesize y guardar
+    S->>P: synthesize_papers ACEPTADO papers pocket_definition incluido
+    P->>H: system=pocket context user=synthesis prompt
+    H-->>P: JSON array de syntheses
+    P-->>S: papers enriquecidos
+
+    S->>P: save_papers pocket=labor mode=merge
+    P->>FS: merge por title 60 chars
+    P-->>S: saved=8 total=68
+
+    Note over S: stop_reason = end_turn
+    S-->>U: 8 ACEPTADO 9 REVISAR. SSRN skip sin key. Gap LATAM.
+    </div>
+  </div>
+  <div class="notes">
+    <strong>Como leer este diagrama</strong>
+    <ul>
+      <li>Cada bloque de "Note over S" es una vuelta del loop — Sonnet decide, ejecuta tools, vuelve a pensar</li>
+      <li>El historial crece en cada vuelta: Sonnet recuerda todo lo que paso antes dentro de la sesion</li>
+      <li>Haiku NO ve ese historial — recibe solo el prompt puntual construido en Python para esa tarea</li>
+      <li>Si el coverage score es menor a 0.6, Sonnet vuelve a buscar antes de pasar a review — no avanza hasta tener suficientes papers</li>
+      <li>El ultimo mensaje de Sonnet es siempre un resumen legible: cuantos aceptados, cuantos a revisar, que gaps quedan</li>
+    </ul>
+  </div>
+</div>
+
+<!-- DIAGRAMA 3 — Flujo de datos actualizado -->
+<div class="diagram-section" id="s2">
+  <div class="diagram-header">
+    <h2>3 &middot; Flujo de datos</h2>
+    <p>Como se transforma el objeto paper en cada capa. Cada etapa agrega campos sin pisar los anteriores.
+       Ahora incluye campos de Crossref y el contrato canonico de 10 campos.</p>
+  </div>
+  <div class="mermaid-wrap">
+    <div class="mermaid" id="d2">
+flowchart LR
+    subgraph SRC["9 fuentes"]
+        A1["Sem. Scholar"]
+        A2["NBER"]
+        A3["OpenAlex"]
+        A4["ArXiv"]
+        A5["SSRN"]
+        A6["World Bank"]
+        A7["CORE IMF PubMed"]
+    end
+
+    RAW["Contrato canonico\ntitle authors year\nabstract url doi\nfull_text_url venue\ncitations source"]
+
+    CACHE["search_cache.json\nSHA256 key TTL 24h"]
+
+    ENRICH["Plus Crossref\njournal issn\ncitations formal\nformal_year\nauthors_normalized ORCID"]
+
+    DEDUP["Deduplicado\nDOI exacto\ntitulo similitud 0.15\nprimer autor y anio"]
+
+    COV["Coverage score 0-1\ncantidad temporal\nfuentes full-text\nsi menor 0.6 buscar mas"]
+
+    RV["Plus Review\nscore 0-11\nstatus ACEPTADO REVISAR RECHAZADO\nbreakdown x5\ncriteria x5 met/unmet\nreview_note reviewed_at"]
+
+    SY["Plus Synthesis\nmain_finding methodology\noutcome_measured sample_context\neffect_size limitations\nlatam_relevance design_lesson\nconnects_to"]
+
+    PE["pocket_reviewed_enriched.json\nx7 pockets\nmerge por title 60ch"]
+    BN["bid_network.json\nnodos y edges"]
+
+    KW["Keyword edges\n9 grupos semanticos\nweight threshold 4"]
+    CI["Citation edges\nHaiku extrae menciones\nweight 5"]
+
+    DASH["main_dashboard.html"]
+    RI["review_interface.html"]
+
+    SRC --> RAW
+    RAW --> CACHE
+    RAW --> ENRICH
+    ENRICH --> DEDUP
+    DEDUP --> COV
+    COV --> RV
+    RV --> SY
+    SY --> PE
+    RV --> PE
+    PE --> KW
+    PE --> CI
+    KW --> BN
+    CI --> BN
+    PE --> DASH
+    PE --> RI
+    BN --> DASH
+
+    style CACHE fill:#1a2a0a,color:#aaffaa
+    style DEDUP fill:#2a1a00,color:#ffcc88
+    style COV fill:#1a1a2a,color:#aaaaff
+    </div>
+  </div>
+  <div class="notes">
+    <strong>Como leer este diagrama</strong>
+    <ul>
+      <li>Cada capa agrega campos al objeto paper sin borrar los anteriores — al final tienes todo el historial de transformaciones</li>
+      <li>Crossref es la unica llamada externa en la capa de enriquecimiento — solo actua si el paper tiene DOI</li>
+      <li>La deduplicacion ocurre despues del enriquecimiento porque Crossref normaliza los DOIs, lo que mejora la precision del match</li>
+      <li>Un paper puede entrar por NBER y salir con journal, ISSN y citas formales gracias a Crossref — sin buscar de nuevo</li>
+      <li>bid_network.json se construye aparte: lee los JSONs del corpus y construye el grafo de conexiones</li>
+    </ul>
+  </div>
+</div>
+
+<!-- DIAGRAMA 4 — Scoring v2 (GRADE + EPPI-Centre, escala 0-14) -->
+<div class="diagram-section" id="s3">
+  <div class="diagram-header">
+    <h2>4 &middot; Sistema de scoring v2 &mdash; escala 0-14</h2>
+    <p>Nuevo sistema inspirado en GRADE y EPPI-Centre Weight of Evidence.
+       5 dimensiones independientes. Relevancia = 0 sigue siendo RECHAZADO automatico.</p>
+  </div>
+  <div class="mermaid-wrap">
+    <div class="mermaid" id="d3">
+flowchart TD
+    PDEF["pocket_definition\npasado a Haiku como system prompt\ncontiene pregunta central y criterios"]
+
+    P["Paper con abstract"]
+
+    D1["D1 Identificacion causal 0-4\n4=RCT pre-registro ITT LATE\n3=DiD paralelas IV F10 RD\n2=Panel FE event study\n1=OLS matching cross-section\n0=descriptivo teorico review"]
+
+    D2["D2 Senales de calidad 0-3\n+1 venue top-5 econ o top CS\n+1 citas mayor 100 o h-index mayor 30\n+1 pre-registro o replicado"]
+
+    D3["D3 Validez externa LATAM 0-3\n3=evidencia directa LATAM\n2=MiPyMEs EEUU Europa\n1=firmas grandes mecanismo transferible\n0=contexto no transferible"]
+
+    D4["D4 Relevancia al pocket 0-3\n3=responde pregunta central\n2=pregunta adyacente o mecanismo\n1=contexto o leccion metodologica\n0=no relevante - RECHAZADO auto"]
+
+    D5["D5 Recencia ajustada -1 0 1\n+1=2023-2026 y GenAI especifico\n 0=2020-2022 o pre-2020 con 50 citas\n-1=pre-2020 y menos de 50 citas"]
+
+    CR["Criterios del pocket\nChecklist x5\nejemplo labor:\n1. IA en empleo\n2. Nivel micro\n3. Skill heterogeneity\n4. Mecanismo causal\n5. Post-2020"]
+
+    SCORE["score = D1+D2+D3+D4+D5\nmax = 14"]
+
+    G1{"relevancia = 0"}
+    G2{"score mayor igual 9"}
+    G3{"score mayor igual 7\nY relevancia=3\nY D1 mayor igual 2"}
+
+    ACC["ACEPTADO\nEntra al corpus\nSe sintetiza\nAparece en red"]
+    REV["REVISAR\nscore 5-8\nRevision manual"]
+    REJ["RECHAZADO\nscore menor 5\no relevancia=0"]
+
+    PDEF --> D4
+    PDEF --> CR
+    P --> D1
+    P --> D2
+    P --> D3
+    P --> D4
+    P --> D5
+    D1 --> SCORE
+    D2 --> SCORE
+    D3 --> SCORE
+    D4 --> SCORE
+    D5 --> SCORE
+    CR --> SCORE
+    SCORE --> G1
+    G1 -->|Si| REJ
+    G1 -->|No| G2
+    G2 -->|Si| ACC
+    G2 -->|No| G3
+    G3 -->|Si| ACC
+    G3 -->|No| REV
+
+    style ACC fill:#16a34a,color:#fff
+    style REV fill:#d97706,color:#fff
+    style REJ fill:#dc2626,color:#fff
+    style PDEF fill:#003F88,color:#fff
+    style D4 fill:#7a0000,color:#ffaaaa
+    </div>
+  </div>
+  <div class="notes">
+    <strong>Como leer este diagrama</strong>
+    <ul>
+      <li>D4 relevancia es el unico gate duro: si un paper no responde la pregunta del pocket, no importa que tan bueno sea metodologicamente</li>
+      <li>D1 captura la jerarquia de evidencia: un RCT no es solo "mejor metodologia" — es la unica forma de establecer causalidad limpia</li>
+      <li>D3 es la dimension mas especifica de este proyecto: un paper excelente sobre firmas japonesas puede valer menos que uno modesto sobre MiPyMEs colombianas</li>
+      <li>D2 es aditivo: un paper puede tener venue top Y muchas citas Y estar pre-registrado — cada señal suma independientemente</li>
+      <li>El umbral secundario (score 7 + relevancia=3 + D1 mayor igual 2) existe para no perder papers muy relevantes con evidencia solida aunque no lleguen a 9</li>
+    </ul>
+  </div>
+</div>
+
+<!-- DIAGRAMA 5 — Estructura de archivos actualizada -->
+<div class="diagram-section" id="s4">
+  <div class="diagram-header">
+    <h2>5 &middot; Estructura de archivos y dependencias</h2>
+    <p>pockets.py sigue siendo el unico source of truth para el codigo.
+       Nuevos archivos: config.json, search_cache.json, CONNECTORS.md, tests/.</p>
+  </div>
+  <div class="mermaid-wrap">
+    <div class="mermaid" id="d4">
+graph TD
+    README["README.md\nInicio rapido"]
+    CONNMD["CONNECTORS.md\nDocumentacion de las 9 fuentes\nendpoints auth rate limits"]
+    POCKETS_MD["POCKETS_DELIMITACION.md\nSource of truth para humanos"]
+    CFG["config.json\nAPI keys y TTL cache\nCOPY y rellenar keys"]
+    SCACHE["search_cache.json\nCache SHA256 de busquedas\nTTL 24h por defecto"]
+
+    AGENT["agent.py\nLoop agentico\n10 tools definidos\n9 conectores\nsafe_execute_tool"]
+    POCKETS_PY["pockets.py\nSource of truth para codigo\n7 pockets x queries\ncriteria rubric anchor_papers"]
+    BN_PY["build_network.py\nKeyword y citation edges\nGenera bid_network.json"]
+    GMD["generate_main_dashboard.py\nGenera main_dashboard.html"]
+    GRI["generate_review_interface.py\nGenera review_interface.html"]
+    TESTS["tests/test_connectors.py\n25 tests unitarios\nmocks de todas las APIs"]
+
+    RE["pocket_reviewed_enriched.json\nx7 pockets\nPapers con score y synthesis"]
+    BNET["bid_network.json\nnodos y edges"]
+
+    MAIN["main_dashboard.html\nResumen y Papers y Red"]
+    REVIEW["review_interface.html\nDecision manual por paper"]
+
+    CFG -->|lee keys| AGENT
+    POCKETS_PY -->|import| AGENT
+    POCKETS_PY -->|import| BN_PY
+    POCKETS_PY -->|import| GMD
+    POCKETS_PY -->|import| GRI
+
+    AGENT -->|lee y escribe| RE
+    AGENT -->|lee y escribe| SCACHE
+    BN_PY -->|lee| RE
+    BN_PY -->|escribe| BNET
+    GMD -->|lee| RE
+    GMD -->|lee| BNET
+    GMD -->|escribe| MAIN
+    GRI -->|lee| RE
+    GRI -->|escribe| REVIEW
+
+    POCKETS_MD -.->|inspira manualmente| POCKETS_PY
+    TESTS -.->|prueba funciones de| AGENT
+
+    style POCKETS_PY fill:#003F88,color:#fff
+    style AGENT fill:#00509D,color:#fff
+    style CFG fill:#1a2a0a,color:#aaffaa
+    style TESTS fill:#2a1500,color:#ffcc88
+    </div>
+  </div>
+  <div class="notes">
+    <strong>Como leer este diagrama</strong>
+    <ul>
+      <li>pockets.py es el centro del grafo: si quieres cambiar queries o criterios de un pocket, ese es el unico archivo que tocar</li>
+      <li>agent.py es el unico que habla con Claude — los demas scripts son generadores de HTML que leen JSONs locales</li>
+      <li>La linea punteada entre POCKETS_DELIMITACION.md y pockets.py es intencional: el .md es para humanos, el .py es para el codigo — se sincronizan manualmente</li>
+      <li>config.json controla que fuentes de busqueda estan activas segun las keys disponibles</li>
+      <li>search_cache.json se genera solo al correr busquedas — se puede borrar para forzar re-busqueda</li>
+    </ul>
+  </div>
+</div>
+
+<!-- DIAGRAMA 6 — Tokens actualizado -->
+<div class="diagram-section" id="s5">
+  <div class="diagram-header">
+    <h2>6 &middot; Mapa de tokens</h2>
+    <p>Que operaciones consumen tokens de Anthropic y cuanto cuestan. Las 3 tools nuevas
+       (enrich, dedup, coverage) son 100% gratuitas. Solo Haiku y Sonnet consumen tokens.</p>
+  </div>
+  <div class="mermaid-wrap">
+    <div class="mermaid" id="d5">
+flowchart TD
+    FREE1["agent.py --status\nlee JSONs locales"]
+    FREE2["search_papers\nHTTP a 9 APIs externas\ncache hit = 0 requests"]
+    FREE3["load_papers y save_papers\noperaciones de archivo"]
+    FREE4["build_network.py --keywords-only\nalgoritmo Python puro"]
+    FREE5["generate_main_dashboard.py\ny generate_review_interface.py"]
+    FREE6["enrich_metadata\nCrossref API sin auth"]
+    FREE7["deduplicate_papers\ndifflib Python stdlib"]
+    FREE8["evaluate_corpus_coverage\ncalculo Python puro"]
+
+    SON["Sonnet 4.6 - Orquestador\nCada vuelta del loop\n0.01-0.03 USD por vuelta\n5-8 vueltas por tarea full"]
+    HAI1["Haiku 4.5 - Review\nreview_papers_with_ai\n0.003 USD por 30 papers"]
+    HAI2["Haiku 4.5 - Synthesis\nsynthesize_papers\n0.002 USD por 20 papers"]
+    HAI3["Haiku 4.5 - Citations\nbuild_network.py\n0.05 USD corpus completo"]
+
+    C1["--mode search\n0.03-0.07 USD"]
+    C2["--pocket X completo\n0.10-0.18 USD"]
+    C3["7 pockets completos\n0.70-1.25 USD total"]
+    C4["build_network con citas\n0.05 USD"]
+
+    GRATIS["Sin costo - GRATIS"]
+
+    FREE1 --> GRATIS
+    FREE2 --> GRATIS
+    FREE3 --> GRATIS
+    FREE4 --> GRATIS
+    FREE5 --> GRATIS
+    FREE6 --> GRATIS
+    FREE7 --> GRATIS
+    FREE8 --> GRATIS
+    SON --> C1
+    SON --> C2
+    HAI1 --> C2
+    HAI2 --> C2
+    C2 --> C3
+    HAI3 --> C4
+
+    style GRATIS fill:#16a34a,color:#fff
+    style SON fill:#003F88,color:#fff
+    style HAI1 fill:#00509D,color:#fff
+    style HAI2 fill:#00509D,color:#fff
+    style HAI3 fill:#00509D,color:#fff
+    </div>
+  </div>
+  <div class="notes">
+    <strong>Como leer este diagrama</strong>
+    <ul>
+      <li>Todo lo verde nunca toca la API de Anthropic — son llamadas HTTP a APIs externas o computo Python local</li>
+      <li>El unico costo real es Sonnet (quien decide) y Haiku (quien revisa y sintetiza) — las 3 tools nuevas de enrich, dedup y coverage son completamente gratis</li>
+      <li>Sonnet es mas caro por token pero hace pocas llamadas; Haiku es barato y hace el trabajo pesado de leer abstracts</li>
+      <li>El cache hace que la segunda corrida del mismo pocket cueste casi solo lo de review y synthesis — la busqueda ya esta guardada</li>
+      <li>Con 5 USD alcanza para correr los 7 pockets completos 3-4 veces — suficiente para iterar el diseño del experimento</li>
+    </ul>
+  </div>
+</div>
+
+</div><!-- end .content -->
+
+<script>
+mermaid.initialize({
+  startOnLoad: false,
+  theme: 'dark',
+  securityLevel: 'loose',
+  themeVariables: {
+    primaryColor: '#003F88',
+    primaryTextColor: '#e2e8f0',
+    primaryBorderColor: '#4AABE8',
+    lineColor: '#4AABE8',
+    secondaryColor: '#0f1f3d',
+    background: '#0a1628',
+    mainBkg: '#0f1f3d',
+    nodeBorder: '#1e3a5f',
+    clusterBkg: '#0d1a30',
+    titleColor: '#e2e8f0',
+    edgeLabelBackground: '#0f1f3d',
+  }
+});
+
+const rendered = new Set();
+
+function renderSection(idx) {
+  if (rendered.has(idx)) return;
+  rendered.add(idx);
+  const el = document.getElementById('d' + idx);
+  if (el) mermaid.run({ nodes: [el] });
+}
+
+function show(idx, btn) {
+  document.querySelectorAll('.diagram-section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('s' + idx).classList.add('active');
+  btn.classList.add('active');
+  renderSection(idx);
+}
+
+window.addEventListener('load', () => renderSection(0));
+</script>
+</body>
+</html>

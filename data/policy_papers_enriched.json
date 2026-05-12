@@ -1,0 +1,833 @@
+[
+  {
+    "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+    "authors": [
+      "Wiebke Hutiri",
+      "Morgan Scheuerman",
+      "Shruti Nagpal",
+      "Austin Hoag",
+      "Alice Xiang"
+    ],
+    "published": "2026-04-10T15:26:57Z",
+    "arxiv_id": "2604.09413v1",
+    "url": "https://arxiv.org/abs/2604.09413v1",
+    "summary": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers."
+  },
+  {
+    "title": "The Need for a Green ICT Reference Framework",
+    "authors": [
+      "Marco Aiello",
+      "Mina Alipour",
+      "Antonio Brogi",
+      "Rafael Capilla",
+      "Lidia Fuentes"
+    ],
+    "published": "2026-04-10T13:15:43Z",
+    "arxiv_id": "2604.09307v1",
+    "url": "https://arxiv.org/abs/2604.09307v1",
+    "summary": "The sustainability impacts of ICT systems are difficult to assess and govern due to structural complexity, fragmented measurement practices, and unclear responsibilities across system layers. We argue that these challenges cannot be addressed solely by metrics and motivate the need for a shared Green ICT reference framework that integrates sustainability across multiple perspectives and domains, lifecycle phases, and governance contexts. We present an initial framework developed within the Informatics Europe Green ICT Working Group as a first step towards a comprehensive reference framework.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "The sustainability impacts of ICT systems are difficult to assess and govern due to structural complexity, fragmented measurement practices, and unclear responsibilities across system layers. We argue that these challenges cannot be addressed solely by metrics and motivate the need for a shared Green ICT reference framework that integrates sustainability across multiple perspectives and domains, lifecycle phases, and governance contexts. We present an initial framework developed within the Informatics Europe Green ICT Working Group as a first step towards a comprehensive reference framework."
+  },
+  {
+    "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+    "authors": [
+      "Oleg Solozobov"
+    ],
+    "published": "2026-04-10T13:06:38Z",
+    "arxiv_id": "2604.09296v1",
+    "url": "https://arxiv.org/abs/2604.09296v1",
+    "summary": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers."
+  },
+  {
+    "title": "Artificial intelligence can persuade people to take political actions",
+    "authors": [
+      "Kobi Hackenburg",
+      "Luke Hewitt",
+      "Caroline Wagner",
+      "Ben M. Tappin",
+      "Christopher Summerfield"
+    ],
+    "published": "2026-04-10T10:34:49Z",
+    "arxiv_id": "2604.09200v1",
+    "url": "https://arxiv.org/abs/2604.09200v1",
+    "summary": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion."
+  },
+  {
+    "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+    "authors": [
+      "Tommy Shaffer Shane",
+      "Simon Mylius",
+      "Hamish Hobbs"
+    ],
+    "published": "2026-04-10T08:37:18Z",
+    "arxiv_id": "2604.09104v1",
+    "url": "https://arxiv.org/abs/2604.09104v1",
+    "summary": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control."
+  },
+  {
+    "title": "Scrapyard AI",
+    "authors": [
+      "Marc Böhlen",
+      "Sai Krishna"
+    ],
+    "published": "2026-04-09T22:38:57Z",
+    "arxiv_id": "2604.08803v1",
+    "url": "https://arxiv.org/abs/2604.08803v1",
+    "summary": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people."
+  },
+  {
+    "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+    "authors": [
+      "Addison J. Wu",
+      "Ryan Liu",
+      "Shuyue Stella Li",
+      "Yulia Tsvetkov",
+      "Thomas L. Griffiths"
+    ],
+    "published": "2026-04-09T17:57:50Z",
+    "arxiv_id": "2604.08525v1",
+    "url": "https://arxiv.org/abs/2604.08525v1",
+    "summary": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots."
+  },
+  {
+    "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+    "authors": [
+      "Juergen Dietrich"
+    ],
+    "published": "2026-04-09T17:00:26Z",
+    "arxiv_id": "2604.08465v1",
+    "url": "https://arxiv.org/abs/2604.08465v1",
+    "summary": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations."
+  },
+  {
+    "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+    "authors": [
+      "Jyh-An Lee",
+      "Jingwen Liu"
+    ],
+    "published": "2026-04-09T15:19:40Z",
+    "arxiv_id": "2604.08353v1",
+    "url": "https://arxiv.org/abs/2604.08353v1",
+    "summary": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale."
+  },
+  {
+    "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+    "authors": [
+      "Ralf Beuthan",
+      "Megan Coffee",
+      "Heejin Kim",
+      "Na Yeon Kim",
+      "Pedro Kringen"
+    ],
+    "published": "2026-04-09T13:14:34Z",
+    "arxiv_id": "2604.08217v1",
+    "url": "https://arxiv.org/abs/2604.08217v1",
+    "summary": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts."
+  },
+  {
+    "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+    "authors": [
+      "Arnab Paul Choudhury",
+      "Rahul Rathod",
+      "Aryan Yadav"
+    ],
+    "published": "2026-04-10T15:09:28Z",
+    "arxiv_id": "2604.09395v1",
+    "url": "https://arxiv.org/abs/2604.09395v1",
+    "summary": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing."
+  },
+  {
+    "title": "Towards Generalizable Representations of Mathematical Strategies",
+    "authors": [
+      "Siddhartha Pradhan",
+      "Ethan Prihar",
+      "Erin Ottmar"
+    ],
+    "published": "2026-04-09T18:26:13Z",
+    "arxiv_id": "2604.08693v1",
+    "url": "https://arxiv.org/abs/2604.08693v1",
+    "summary": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment."
+  },
+  {
+    "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+    "authors": [
+      "David Shoresh",
+      "Sarit Kraus",
+      "Yonatan Loewenstein"
+    ],
+    "published": "2026-04-09T19:40:15Z",
+    "arxiv_id": "2604.08727v1",
+    "url": "https://arxiv.org/abs/2604.08727v1",
+    "summary": "As large language model (LLM) agents become more prevalent in real world social settings, social intelligence will play an increasingly critical role. But social intelligence is still a poorly defined construct, for humans and artificial agents. We introduce a multiplayer arena of mixed cooperative and competitive social games to study LLM social intelligence. The controllability of LLM based agents enables systematic evaluation, which also supports broader inferences about social intelligence per se. We evaluated eight diverse LLMs (24B to 1T parameters) using a Communicate Predict Act (COMPACT) interaction protocol and fine grained probing of social dynamics. Elo style ratings reveal consistent performance differences across models, but this scalar measure provides only a partial characterization of social intelligence. To address this limitation, we analyze gameplay traces to extract sociocognitive metrics capturing action prediction, communicative influence, strategic reasoning, and tradeoffs under conflicting interests. These sociocognitive metrics exhibit strong intramodel consistency and they reliably predict pairwise agent advantage in game outcomes (AUC ROC = 0.82). Feature importance analysis indicates that surprisingly, influence, transparency, and adaptability are more predictive of success than Theory of Mind inference or deep planning. Together, our results advance a testable, multidimensional conception of social intelligence and provide empirical insights into the capacities that underpin it.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "As large language model (LLM) agents become more prevalent in real world social settings, social intelligence will play an increasingly critical role. But social intelligence is still a poorly defined construct, for humans and artificial agents. We introduce a multiplayer arena of mixed cooperative and competitive social games to study LLM social intelligence. The controllability of LLM based agents enables systematic evaluation, which also supports broader inferences about social intelligence per se. We evaluated eight diverse LLMs (24B to 1T parameters) using a Communicate Predict Act (COMPACT) interaction protocol and fine grained probing of social dynamics. Elo style ratings reveal consistent performance differences across models, but this scalar measure provides only a partial characterization of social intelligence. To address this limitation, we analyze gameplay traces to extract sociocognitive metrics capturing action prediction, communicative influence, strategic reasoning, and tradeoffs under conflicting interests. These sociocognitive metrics exhibit strong intramodel consistency and they reliably predict pairwise agent advantage in game outcomes (AUC ROC = 0.82). Feature importance analysis indicates that surprisingly, influence, transparency, and adaptability are more predictive of success than Theory of Mind inference or deep planning. Together, our results advance a testable, multidimensional conception of social intelligence and provide empirical insights into the capacities that underpin it."
+  },
+  {
+    "title": "Impact andRegulationsofAIonLaborMarket and Employment in USA",
+    "authors": "P Adhikari",
+    "source": ", P Hamal - 2024 - preprints.org",
+    "year": 2026,
+    "url": "https://www.preprints.org/frontend/manuscript/08d40f43c600d4e43cfc86de5e706f16/download_pub",
+    "scholar_link": "https://www.preprints.org/frontend/manuscript/08d40f43c600d4e43cfc86de5e706f16/download_pub",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "RegulatingAIinLaborRelations: A Governance Framework for the Future Workforce",
+    "authors": "AA Murshed, A Alrahamneh,",
+    "source": "AH Alhalalmeh",
+    "year": 2026,
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-95310-1_117",
+    "scholar_link": "https://link.springer.com/chapter/10.1007/978-3-031-95310-1_117",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "The paper attempts to consider the process of integration of Artificial Intelligence (AI) into labor relations and the development of a governance framework to cope with the future workforce. While AI continues transforming different sectors—healthcare, education, retail, etc.—its process of integration into human resource management and labor relations is no small task. Promises to get rid of tedious tasks at work and improve productivity are weighed against fears of job displacement and too fast an automation pace. The current research employs a mixed-methods methodology by conducting qualitative research on labor laws, policies, and ethical frameworks in AI, along with quantitative data that will be generated through surveys and interviews of stakeholders in the labor market in Jordan. After tracing the existing governance model and understanding how AI impacts labor relations, the study will develop a proportionate framework addressing ethics, regulation, and social impacts related to AI adoption. It also underscores that more studies and multi-stakeholder dialogues are required to ensure the AI technologies go the extra mile in protecting workers’ rights along with innovation and economic growth."
+  },
+  {
+    "title": "AI, mental and physicallabor, and a justpolicyframework",
+    "authors": "Y Harel",
+    "source": "-",
+    "year": 2026,
+    "url": "https://link.springer.com/article/10.1007/s00146-025-02490-9",
+    "scholar_link": "https://link.springer.com/article/10.1007/s00146-025-02490-9",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "This paper outlines an artificial intelligence (AI)-mediated future by examining the influence of AI on the labor market and, consequently, on society at large, and then advocates a just policy framework for policies meant to accommodate this influence of AI. First, the paper introduces a conceptual framework distinguishing between mental labor and physical labor, a distinction that proves useful when analyzing this influence of AI. Afterward, the influence of AI on the labor market is explained. It is argued that considering the so-called generality and the negligible marginal cost of AI, in conjunction with some other assumptions, AI is likely to cause mass technological unemployment of those who were formerly employed as mental laborers and will not switch to physical labor. This, so this paper concludes, is likely to bring about a structural transformation of society, when these individuals are said to form a new class of those who possess ineffective labor power (contra those who possess effective labor power, who form the other class). Finally, this paper puts forward a policy framework designed to deal with this new state of society. It is argued that to meet a minimal normative requirement for the adoption of AI, society should compensate the class of those who possess ineffective labor power so as to accommodate all the hardships common to them."
+  },
+  {
+    "title": "Introduction to theTransferspecial issue. RegulatingAIat work: labour relations, automation, and algorithmic management",
+    "authors": "V De Stefano",
+    "source": ",",
+    "year": 2026,
+    "url": "https://journals.sagepub.com/doi/abs/10.1177/10242589231157656",
+    "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/10242589231157656",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "The economic impacts and theregulationofAI: A review of the academic literature andpolicyactions",
+    "authors": "M Comunale",
+    "source": ",",
+    "year": 2026,
+    "url": "https://books.google.com/books?hl=en&lr=&id=BggBEQAAQBAJ&oi=fnd&pg=PP1&dq=AI+policy+regulation+labor&ots=YbRowzQDGj&sig=RJSs5uXH2tfooN9ir3lrfyk7YFk",
+    "scholar_link": "https://books.google.com/books?hl=en&lr=&id=BggBEQAAQBAJ&oi=fnd&pg=PP1&dq=AI+policy+regulation+labor&ots=YbRowzQDGj&sig=RJSs5uXH2tfooN9ir3lrfyk7YFk",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Between risk mitigation and labour rights enforcement: Assessing the transatlantic race to governAI-driven decision-making through a comparative lens",
+    "authors": "A Aloisi",
+    "source": ",",
+    "year": 2026,
+    "url": "https://journals.sagepub.com/doi/abs/10.1177/20319525231167982",
+    "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/20319525231167982",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "In this article, we provide an overview of efforts to regulate the various phases of the artificial intelligence (AI) life cycle. In doing so, we examine whether—and, if so, to what extent—highly fragmented legal frameworks are able to provide safeguards capable of preventing the dangers that stem from AI- and algorithm-driven organisational practices. We critically analyse related developments at the European Union (EU) level, namely the General Data Protection Regulation, the draft AI Regulation, and the proposal for a Directive on improving working conditions in platform work. We also consider bills and regulations proposed or adopted in the United States and Canada via a transatlantic comparative approach, underlining analogies and variations between EU and North American attitudes towards the risk assessment and management of AI systems. We aim to answer the following questions: Is the widely adopted risk-based approach fit for purpose? Is it consistent with the actual enforcement of fundamental rights at work, such as privacy, human dignity, equality and collective rights? To answer these questions, in section 2 we unpack the various, often ambiguous, facets of the notion(s) of ‘risk’—that is, the common denominator with the EU and North American legal instruments. Here, we determine that a scalable, decentralised framework is not appropriate for ensuring the enforcement of constitutional labour-related rights. In addition to presenting the key provisions of existing schemes in the EU and North America, in section 3 we disentangle the consistencies and tensions between the frameworks that regulate AI and constrain how it must be handled in specific contexts, such as work environments and platform-orchestrated arrangements. Paradoxically, the frenzied race to regulate AI-driven decision-making could exacerbate the current legal uncertainty and pave the way for regulatory arbitrage. Such a scenario would slow technological innovation and egregiously undermine labour rights. Thus, in section 4 we advocate for the adoption of a dedicated legal instrument at the supranational level to govern technologies that manage people in workplaces. Given the high stakes involved, we conclude by stressing the salience of a multi-stakeholder AI governance framework.",
+    "citations": 14,
+    "doi": "https://doi.org/10.1177/20319525231167982"
+  },
+  {
+    "title": "Economicpolicychallenges for the age ofAI",
+    "authors": "A Korinek",
+    "source": "- 2024 - nber.org",
+    "year": 2026,
+    "url": "https://www.nber.org/papers/w32980",
+    "scholar_link": "https://www.nber.org/papers/w32980",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "This paper examines the profound challenges that transformative advances in AI towards Artificial General Intelligence (AGI) will pose for economists and economic policymakers. I examine how the Age of AI will revolutionize the basic structure of our economies by diminishing the role of labor, leading to unprecedented productivity gains but raising concerns about job disruption, income distribution, and the value of education and human capital. I explore what roles may remain for labor post-AGI, and which production factors will grow in importance. The paper then identifies eight key challenges for economic policy in the Age of AI: (1) inequality and income distribution, (2) education and skill development, (3) social and political stability, (4) macroeconomic policy, (5) antitrust and market regulation, (6) intellectual property, (7) environmental implications, and (8) global AI governance. It concludes by emphasizing how economists can contribute to a better understanding of these challenges."
+  },
+  {
+    "title": "The governance ofartificial intelligence: Harnessing opportunities and mitigating challenges",
+    "authors": "M Goos",
+    "source": ",",
+    "year": 2026,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0048733323002123",
+    "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0048733323002123",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Artificial intelligenceand thelabormarket",
+    "authors": "M Hampole",
+    "source": ",",
+    "year": 2026,
+    "url": "https://www.aeaweb.org/conference/2026/program/paper/DfFG2sBZ",
+    "scholar_link": "https://www.aeaweb.org/conference/2026/program/paper/DfFG2sBZ",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "The Impact ofArtificial IntelligenceonLaborMarket Income Inequality",
+    "authors": "Y Gu",
+    "source": ",",
+    "year": 2026,
+    "url": "https://jandoopress.com/journal/ijas/article/view/169",
+    "scholar_link": "https://jandoopress.com/journal/ijas/article/view/169",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Managing the race to the moon: Globalpolicyand governance inArtificial Intelligence regulation—A contemporary overview and an analysis of socioeconomic …",
+    "authors": "Y Walter - Discover",
+    "source": "Artificial Intelligence",
+    "year": 2024,
+    "url": "https://link.springer.com/article/10.1007/s44163-024-00109-4",
+    "scholar_link": "https://link.springer.com/article/10.1007/s44163-024-00109-4",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "This paper delves into the complexities of global AI regulation and governance, emphasizing the socio-economic repercussions of rapid AI development. It scrutinizes the challenges in creating effective governance structures amidst the AI race, considering diverse global perspectives and policies. The discourse moves beyond specific corporate examples, addressing broader implications and sector-wide impacts of AI on employment, truth discernment, and democratic stability. The analysis focuses on contrasting regulatory approaches across key regions—the United States, European Union, Asia, Africa, and the Americas and thus highlighting the variations and commonalities in strategies and implementations. This comparative study reveals the intricacies and hurdles in formulating a cohesive global policy for AI regulation. Central to the paper is the examination of the dynamic between rapid AI innovation and the slower pace of regulatory and ethical standard-setting. It critically evaluates the advantages and drawbacks of shifting regulatory responsibilities between government bodies and the private sector. In response to these challenges, the discussion proposes an innovative and integrated regulatory model. The model advocates for a collaborative network that blends governmental authority with industry expertise, aiming to establish adaptive, responsive regulations (called “dynamic laws”) that can evolve with technological advancements. The novel approach aims to bridge the gap between rapid AI advancements in the industry and the essential democratic processes of law-making."
+  },
+  {
+    "title": "TrustworthyAIin the public sector: An empirical analysis of a Swedishlabormarket decision-support system",
+    "authors": "A Berman",
+    "source": ",",
+    "year": 2026,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0160791X24000198",
+    "scholar_link": "https://www.sciencedirect.com/science/article/pii/S0160791X24000198",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Regulating the Risks ofAI",
+    "authors": "ME Kaminski - BUL Rev., 2023 - HeinOnline",
+    "source": "Unknown",
+    "year": 2026,
+    "url": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/bulr103&section=41",
+    "scholar_link": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/bulr103&section=41",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Abstract Many firms, including those that do not regard of themselves as traditional ‘tech’ firms, consider the prospect of artificial intelligence (AI) both an intriguing possibility and a potential new area of risk for their businesses. The application of existing AI technologies raises significant new issues in some of the most fundamental areas of law, including: ownership and property rights; the creation, allocation and sharing of value; misuse, errors, and responsibility for resulting harm; individual liberty and personal privacy; and economic collusion and monopolies. This chapter first examines how businesses are already managing some of these risks through contract. It then examines some of the considerations involved in public regulation of AI-related risks. It concludes by proposing a four-layer model for thinking about AI regulation in the broad sense.",
+    "citations": 5,
+    "doi": "https://doi.org/10.1093/oso/9780198838494.003.0010"
+  },
+  {
+    "title": "Apolicyprimer and roadmap onAIworker surveillance and productivity scoring tools",
+    "authors": "M Hickok",
+    "source": ",",
+    "year": 2026,
+    "url": "https://link.springer.com/article/10.1007/s43681-023-00275-8",
+    "scholar_link": "https://link.springer.com/article/10.1007/s43681-023-00275-8",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Algorithmic worker surveillance and productivity scoring tools powered by artificial intelligence (AI) are becoming prevalent and ubiquitous technologies in the workplace. These tools are applied across white and blue-collar jobs, and gig economy roles. In the absence of legal protections, and strong collective action capabilities, workers are in an imbalanced power position to challenge the practices of employers using these tools. Use of such tools undermines human dignity and human rights. These tools are also built on fundamentally erroneous assumptions. The primer section of this paper provides stakeholders (policymakers, advocates, workers, and unions) with insights into assumptions embedded in workplace surveillance and scoring technologies, how employers use these systems which impact human rights. The roadmap section lays out actionable recommendations for policy and regulatory changes which can be enacted by federal agencies and labor unions. The paper uses major policy frameworks developed or supported by the United States as the foundation for policy recommendations. These are Universal Declaration of Human Rights, the Organisation for Economic Co-operation and Development (OECD) Principles for the Responsible Stewardship of Trustworthy AI (OECD AI Principles), Fair Information Practices (FIPs) and the White House Blueprint for an AI Bill of Rights."
+  },
+  {
+    "title": "Economics of ChatGPT: Alabormarket view on the occupational impact ofartificial intelligence",
+    "authors": "A Zarifhonarvar",
+    "source": "- Journal of Electronic Business & Digital Economics, 2024 - emerald.com",
+    "year": 2026,
+    "url": "https://www.emerald.com/jebde/article/3/2/100/1233608",
+    "scholar_link": "https://www.emerald.com/jebde/article/3/2/100/1233608",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Governanceofgenerative AI",
+    "authors": "A Taeihagh",
+    "source": "- Policy and society, 2025 - academic.oup.com",
+    "year": 2026,
+    "url": "https://academic.oup.com/policyandsociety/article-abstract/44/1/1/7997395",
+    "scholar_link": "https://academic.oup.com/policyandsociety/article-abstract/44/1/1/7997395",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Navigatinggovernanceparadigms: A cross-regional comparative study ofgenerative AI governanceprocesses & principles",
+    "authors": "J Luna",
+    "source": ",",
+    "year": 2026,
+    "url": "https://ojs.aaai.org/index.php/AIES/article/view/31692",
+    "scholar_link": "https://ojs.aaai.org/index.php/AIES/article/view/31692",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "As Generative Artificial Intelligence (GenAI) technologies evolve at an unprecedented rate, global governance approaches struggle to keep pace with the technology, highlighting a critical issue in the governance adaptation of significant challenges. Depicting the nuances of nascent and diverse governance approaches based on risks, rules, outcomes, principles, or a mix, across different regions around the globe, is fundamental to discern discrepancies and convergences, and to shed light on specific limitations that need to be addressed, thereby facilitating the safe and trustworthy adoption of GenAI. In response to the need and the evolving nature of GenAI, this paper seeks to provide a collective view of different governance approaches around the world. Our research introduces a Harmonized GenAI Framework, “H-GenAIGF”, based on the current governance approaches of six regions: (European Union (EU), United States (US), China (CN), Canada (CA), United Kingdom (UK), and Singapore (SG)). We have identified four constituents, fifteen processes, twenty-five sub-processes, and nine principles that aid the governance of GenAI, thus providing a comprehensive perspective on the current state of GenAI governance. In addition, we present a comparative analysis to facilitate identification of common ground and distinctions based on coverage of the processes by each region. The results show that risk-based approaches allow for better coverage of the processes, followed by mixed approaches. Other approaches lag behind, covering less than 50% of the processes. Most prominently, the analysis demonstrates that amongst the regions, only one process aligns across all approaches, highlighting the lack of consistent and executable provisions. Moreover, our case study on ChatGPT reveals process coverage deficiency, showing that harmonization of approaches is necessary to find alignment for GenAI governance."
+  },
+  {
+    "title": "Governanceofgenerative artificial intelligencefor companies",
+    "authors": "J Schneider, P Kuss, R Abraham,",
+    "source": "C Meske",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2403.08802",
+    "scholar_link": "https://arxiv.org/abs/2403.08802",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Generative Artificial Intelligence (GenAI), specifically large language models (LLMs) like ChatGPT, has swiftly entered organizations without adequate governance, posing both opportunities and risks. Despite extensive debate on GenAI's transformative potential and emerging regulatory measures, limited research addresses organizational governance from both technical and business perspectives. While frameworks for AI governance exist, it remains unclear to what extent they apply to GenAI. This review paper fills this gap by surveying recent literature to better understand the fundamental characteristics of GenAI and to adapt existing governance frameworks specifically to GenAI within organizations. To this end, it extends Nickerson's framework development process by incorporating prior conceptualizations. The resulting framework delineates scope, objectives, and governance mechanisms designed to both harness business opportunities and mitigate risks associated with GenAI integration. Overall, this research advances a focused approach to GenAI governance, offering practical guidance for companies navigating the challenges of GenAI adoption and highlighting research gaps."
+  },
+  {
+    "title": "Observe, inspect, modify: Three conditions forgenerative AI governance",
+    "authors": "F Ferrari",
+    "source": ", J Van Dijck… - New Media & …, 2025 - journals.sagepub.com",
+    "year": 2026,
+    "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448231214811",
+    "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/14614448231214811",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "In a world increasingly shaped by generative AI systems like ChatGPT, the absence of benchmarks to examine the efficacy of oversight mechanisms is a problem for research and policy. What are the structural conditions for governing generative AI systems? To answer this question, it is crucial to situate generative AI systems as regulatory objects: material items that can be governed. On this conceptual basis, we introduce three high-level conditions to structure research and policy agendas on generative AI governance: industrial observability, public inspectability, and technical modifiability. Empirically, we explicate those conditions with a focus on the EU’s AI Act, grounding the analysis of oversight mechanisms for generative AI systems in their granular material properties as observable, inspectable, and modifiable objects. Those three conditions represent an action plan to help us perceive generative AI systems as negotiable objects, rather than seeing them as mysterious forces that pose existential risks for humanity.",
+    "doi": "10.1177/14614448231214811"
+  },
+  {
+    "title": "Governancefix? Power and politics in controversies aboutgoverning generative AI",
+    "authors": "I Ulnicane",
+    "source": "- Policy and Society, 2025 - academic.oup.com",
+    "year": 2026,
+    "url": "https://academic.oup.com/policyandsociety/article-abstract/44/1/70/7702536",
+    "scholar_link": "https://academic.oup.com/policyandsociety/article-abstract/44/1/70/7702536",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Generative AIneeds adaptivegovernance",
+    "authors": "A Reuel",
+    "source": ",",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2406.04554",
+    "scholar_link": "https://arxiv.org/abs/2406.04554",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Because of the speed of its development, broad scope of application, and its ability to augment human performance, generative AI challenges the very notions of governance, trust, and human agency. The technology's capacity to mimic human knowledge work, feedback loops including significant uptick in users, research, investor, policy, and media attention, data and compute resources, all lead to rapidly increasing capabilities. For those reasons, adaptive governance, where AI governance and AI co-evolve, is essential for governing generative AI. In sharp contrast to traditional governance's regulatory regimes that are based on a mix of rigid one-and-done provisions for disclosure, registration and risk management, which in the case of AI carry the potential for regulatory misalignment, this paper argues that generative AI calls for adaptive governance. We define adaptive governance in the context of AI and outline an adaptive AI governance framework. We outline actors, roles, as well as both shared and actors-specific policy activities. We further provide examples of how the framework could be operationalized in practice. We then explain that the adaptive AI governance stance is not without its risks and limitations, such as insufficient oversight, insufficient depth, regulatory uncertainty, and regulatory capture, and provide potential approaches to fix these shortcomings."
+  },
+  {
+    "title": "Responsiblegovernanceofgenerative AI: conceptualizing GenAI as complex adaptive systems",
+    "authors": "M Janssen",
+    "source": "- Policy and Society, 2025 - academic.oup.com",
+    "year": 2026,
+    "url": "https://academic.oup.com/policyandsociety/article-abstract/44/1/38/7965776",
+    "scholar_link": "https://academic.oup.com/policyandsociety/article-abstract/44/1/38/7965776",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "A framework for developing university policies ongenerative AI governance: A cross-national comparative study",
+    "authors": "M Li",
+    "source": ",",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2504.02636",
+    "scholar_link": "https://arxiv.org/abs/2504.02636",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "As generative AI (GAI) becomes more integrated into higher education, universities are actively exploring its governance and issuing guidelines to promote responsible use, reflecting varied stages of adoption and orientations. This study undertakes a comparative analysis of current GAI guidelines issued by leading universities in the United States, Japan, and China. Based on these findings, the study proposes a University Policy Development Framework for GAI (UPDF-GAI) to provide both theoretical insights and practical guidance for universities in developing and refining their GAI policies. This study adopts five domains from the extended Technology Acceptance Model. A qualitative content analysis of 124 policy documents from 110 universities was conducted, employing thematic coding to synthesize 20 key themes. These domains and themes form the foundation of the UPDF-GAI framework. The analysis reveals varying priorities and focus of GAI policy of universities in different countries. U.S. universities emphasize faculty autonomy, practical application, and policy adaptability, shaped by cutting-edge research and peer collaboration. Japanese universities take a government-regulated approach, prioritizing ethics and risk management, but provide limited support for AI implementation and flexibility. Chinese universities follow a centralized, government-led model, focusing on technology application over early policy development, while actively exploring GAI integration in education and research. The framework facilitates universities in formulating GAI policies by balancing its values and risks, providing multi-level support, proactively responding to societal impacts, and strengthening self-efficacy. In doing so, it enables the development of sustainable and context-sensitive policies that enhance digital competitiveness and advance preparedness for AI-driven education."
+  },
+  {
+    "title": "Generative AI Governance& Secure Content Automation in Higher Education",
+    "authors": "Y Jayaram",
+    "source": ",",
+    "year": 2026,
+    "url": "https://ijaidsml.org/index.php/ijaidsml/article/view/354",
+    "scholar_link": "https://ijaidsml.org/index.php/ijaidsml/article/view/354",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "The accelerated adoption of Generative Artificial Intelligence (GenAI) in higher education is reshaping academic content creation, assessment, research support, and institutional operations. While GenAI offers significant gains in scalability, personalization, and operational efficiency, its integration raises critical concerns related to data privacy, academic integrity, intellectual property protection, bias, transparency, and regulatory compliance. This paper presents a governance-driven approach to secure content automation that enables higher education institutions to harness GenAI responsibly and at scale. The proposed framework integrates policy-based governance, lifecycle-aware controls, and security-by-design principles across data ingestion, content generation, review, storage, and distribution. Core elements include governance-aware prompting, risk scoring, human-in-the-loop oversight, access control, and auditability, ensuring accountability and trust in AI-generated outputs. Drawing on recent empirical evidence from 2024 studies, the paper demonstrates measurable improvements in policy compliance, risk reduction, automation efficiency, and ethical trustworthiness when structured governance frameworks are applied. By aligning institutional governance, technical controls, and academic oversight, the study provides a practical reference architecture and implementation guidance for universities. The findings highlight that secure content automation, when coupled with robust AI governance, enables sustainable digital transformation while preserving educational values, regulatory alignment, and stakeholder trust.",
+    "doi": "https://doi.org/10.63282/3050-9262.ijaidsml-v5i4p116"
+  },
+  {
+    "title": "Future Shock:Generative AIand the internationalAIpolicy andgovernancecrisis",
+    "authors": "D Leslie,",
+    "source": "AM Perini",
+    "year": 2024,
+    "url": "https://hdsr.mitpress.mit.edu/pub/yixt9mqu",
+    "scholar_link": "https://hdsr.mitpress.mit.edu/pub/yixt9mqu",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Shapinggenerative AI governancein higher education: Insights from student perception",
+    "authors": "OP Barus",
+    "source": ",",
+    "year": 2026,
+    "url": "https://www.sciencedirect.com/science/article/pii/S2666374025000184",
+    "scholar_link": "https://www.sciencedirect.com/science/article/pii/S2666374025000184",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Generative artificial intelligencepolicies: informationgovernance",
+    "authors": "X Wang",
+    "source": ", B Liu, L Bao - Management Decision, 2025 - emerald.com",
+    "year": 2026,
+    "url": "https://www.emerald.com/md/article/doi/10.1108/MD-06-2024-1422/1269049",
+    "scholar_link": "https://www.emerald.com/md/article/doi/10.1108/MD-06-2024-1422/1269049",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "The consequences ofgenerative AIfor democracy,governanceand war",
+    "authors": "S Feldstein",
+    "source": "- Survival: October–November 2023, 2023 - taylorfrancis.com",
+    "year": 2026,
+    "url": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003429388-13/consequences-generative-ai-democracy-governance-war-steven-feldstein",
+    "scholar_link": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003429388-13/consequences-generative-ai-democracy-governance-war-steven-feldstein",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Generative artificial intelligence (AI) models have exploded onto the public scene, with profound implications for governance, politics and war. The potential"
+  },
+  {
+    "title": "Generative AIin healthcare: an implementation science informed translational path on application, integration andgovernance",
+    "authors": "S Reddy",
+    "source": "- Implementation Science, 2024 - Springer",
+    "year": 2026,
+    "url": "https://link.springer.com/article/10.1186/s13012-024-01357-9",
+    "scholar_link": "https://link.springer.com/article/10.1186/s13012-024-01357-9",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Artificial intelligence (AI), particularly generative AI, has emerged as a transformative tool in healthcare, with the potential to revolutionize clinical decision-making and improve health outcomes. Generative AI, capable of generating new data such as text and images, holds promise in enhancing patient care, revolutionizing disease diagnosis and expanding treatment options. However, the utility and impact of generative AI in healthcare remain poorly understood, with concerns around ethical and medico-legal implications, integration into healthcare service delivery and workforce utilisation. Also, there is not a clear pathway to implement and integrate generative AI in healthcare delivery."
+  },
+  {
+    "title": "AI-driven solutions for robust datagovernance: A focus ongenerative aiapplications",
+    "authors": "AR Sugureddy",
+    "source": "- Journal ID, 2023 - academia.edu",
+    "year": 2026,
+    "url": "https://www.academia.edu/download/121413580/IJDA_03_01_007.pdf",
+    "scholar_link": "https://www.academia.edu/download/121413580/IJDA_03_01_007.pdf",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "The privacy of emotions: From theGDPRto theAIAct, an overview of emotionalAI regulationand the protection of privacy and personal data",
+    "authors": "M Durovic, T Corno - Privacy, data protection and data-driven …, 2024 - taylorfrancis.com",
+    "source": "Unknown",
+    "year": 2026,
+    "url": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003502791-18/privacy-emotions-mateja-durovic-tommaso-corno",
+    "scholar_link": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003502791-18/privacy-emotions-mateja-durovic-tommaso-corno",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "The exponential growth of technologies driven by artificial intelligence (AI) and their increasing employment in all areas of public and private life has"
+  },
+  {
+    "title": "SustainableAI regulation",
+    "authors": "P Hacker",
+    "source": "- Common Market Law Review, 2024 - testcdn.kluwerlawonline.com",
+    "year": 2026,
+    "url": "https://testcdn.kluwerlawonline.com/journalarticle/Common+Market+Law+Review/61.2/COLA2024025",
+    "scholar_link": "https://testcdn.kluwerlawonline.com/journalarticle/Common+Market+Law+Review/61.2/COLA2024025",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Current proposals for AI regulation, in the EU and beyond, aim to spur AI that is trustworthy (e.g., AI Act) and accountable (e.g., AI Liability) What is missing, however, is a robust regulatory discourse and roadmap to make AI, and technology more broadly, environmentally sustainable. This paper aims to take first steps to fill this gap. The ICT sector contributes up to 3.9 percent of global greenhouse gas (GHG) emissions-more than global air travel at 2.5 percent. The carbon footprint and water consumption of AI, especially large-scale generative models like GPT-4, raise significant sustainability concerns. The paper is the first to assess how current and proposed technology regulations, including EU environmental law, the General Data Protection Regulation (GDPR), and the AI Act, could be adjusted to better account for environmental sustainability. The GDPR, for instance, could be interpreted to limit certain individual rights like the right to erasure if these rights significantly conflict with broader sustainability goals. In a second step, the paper suggests a multi-faceted approach to achieve sustainable AI regulation. It advocates for transparency mechanisms, such as disclosing the GHG footprint of AI systems, as laid out in the proposed EU AI Act. However, sustainable AI regulation must go beyond mere transparency. The paper proposes a regulatory toolkit comprising co-regulation, sustainability-by-design principles, restrictions on training data, and consumption caps, including integration into the EU Emissions Trading Scheme. Finally, the paper argues that this regulatory toolkit could serve as a blueprint for regulating other high-emission technologies and infrastructures like blockchain, Metaverse applications, and data centers. The framework aims to cohesively address the crucial dual challenges of our era: digital transformation and climate change mitigation.",
+    "citations": 1,
+    "doi": "https://doi.org/10.48550/arxiv.2306.00292"
+  },
+  {
+    "title": "AnAIframework to support decisions onGDPRcompliance",
+    "authors": "F Lorè,",
+    "source": "P Basile",
+    "year": 2026,
+    "url": "https://link.springer.com/article/10.1007/s10844-023-00782-4",
+    "scholar_link": "https://link.springer.com/article/10.1007/s10844-023-00782-4",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "The Italian Public Administration (PA) relies on costly manual analyses to ensure the GDPR compliance of public documents and secure personal data. Despite recent advances in Artificial Intelligence (AI) have benefited many legal fields, the automation of workflows for data protection of public documents is still only marginally affected. The main aim of this work is to design a framework that can be effectively adopted to check whether PA documents written in Italian meet the GDPR requirements. The main outcome of our interdisciplinary research is INTREPID (art I ficial i NT elligence for gdp R complianc E of P ublic adm I nistration D ocuments), an AI-based framework that can help the Italian PA to ensure GDPR compliance of public documents. INTREPID is realized by tuning some linguistic resources for Italian language processing (i.e. SpaCy and Tint) to the GDPR intelligence. In addition, we set the foundations for a text classification methodology to recognise the public documents published by the Italian PA, which perform data breaches. We show the effectiveness of the framework over a text corpus of public documents that were published online by the Italian PA. We also perform an inter-annotator study and analyse the agreement of the annotation predictions of the proposed methodology with the annotations by domain experts. Finally, we evaluate the accuracy of the proposed text classification model in detecting breaches of security."
+  },
+  {
+    "title": "Lessons fromGDPRforAIPolicymaking",
+    "authors": "J Wolff",
+    "source": ",",
+    "year": 2026,
+    "url": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/vjolt27&section=9",
+    "scholar_link": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/vjolt27&section=9",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "ExplainableAI: Can theAIAct and theGDPRgo out for a date?",
+    "authors": "M Nisevic",
+    "source": ", A Cuypers… - 2024 International Joint …, 2024 - ieeexplore.ieee.org",
+    "year": 2026,
+    "url": "https://ieeexplore.ieee.org/abstract/document/10649994/",
+    "scholar_link": "https://ieeexplore.ieee.org/abstract/document/10649994/",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "This paper explores the potential complementarity and overlap between the Artificial Intelligence Act (AI Act) and the General Data Protection Regulation (GDPR)"
+  },
+  {
+    "title": "Artificial intelligenceethics and challenges in healthcare applications: a comprehensive review in the context of the EuropeanGDPRmandate",
+    "authors": "M Mohammad Amini",
+    "source": ", M Jesus… - Machine Learning and …, 2023 - mdpi.com",
+    "year": 2026,
+    "url": "https://www.mdpi.com/2504-4990/5/3/53",
+    "scholar_link": "https://www.mdpi.com/2504-4990/5/3/53",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Advances in data protection andartificial intelligence: Trends and challenges",
+    "authors": "AKY Yanamala",
+    "source": ", S Suryadevara - International Journal of Advanced …, 2023 - academia.edu",
+    "year": 2026,
+    "url": "https://www.academia.edu/download/119087519/294_319_ijaeti_2023.pdf",
+    "scholar_link": "https://www.academia.edu/download/119087519/294_319_ijaeti_2023.pdf",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Theregulationofartificial intelligence",
+    "authors": "G Finocchiaro",
+    "source": "-",
+    "year": 2026,
+    "url": "https://link.springer.com/article/10.1007/s00146-023-01650-z",
+    "scholar_link": "https://link.springer.com/article/10.1007/s00146-023-01650-z",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Before embarking on a discussion of the regulation of artificial intelligence (AI), it is first necessary to define the subject matter regulated. Defining artificial intelligence is a difficult endeavour, and many definitions have been proposed over the years. Although more than 70 years have passed since it was adopted, the most convincing definition is still nonetheless that proposed by Turing; in any case, it is important to be mindful of the risk of anthropomorphising artificial intelligence, which may arise in particular from its very definition. Once we have established the subject matter regulated, we must ask ourselves whether lawmakers should pursue an approach that seeks to regulate artificial intelligence as a whole, or whether by contrast they should regulate applications of artificial intelligence in specific sectors or individual areas. The proposal for a regulation on artificial intelligence published on 21 April 2021 implements the former approach whilst also pursuing geopolitical goals. After providing an initial overview of the notion of artificial intelligence, this article investigates the geopolitical context to the proposal for a regulation, and then goes on to illustrate the regulatory model embraced by the proposal as well as related critical aspects."
+  },
+  {
+    "title": "Evaluating the impact of data protectionregulationsonAIdevelopment and deployment",
+    "authors": "AKY Yanamala",
+    "source": ", S Suryadevara, VDR Kalli - International Journal of …, 2023 - neliti.com",
+    "year": 2026,
+    "url": "https://www.neliti.com/publications/603784/evaluating-the-impact-of-data-protection-regulations-on-ai-development-and-deplo",
+    "scholar_link": "https://www.neliti.com/publications/603784/evaluating-the-impact-of-data-protection-regulations-on-ai-development-and-deplo",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Bridging compliance and innovation: A comparative analysis of the EUAIAct andGDPRfor enhanced organisational strategy",
+    "authors": "S Musch, MC Borrelli, C Kerrigan - Journal of Data Protection & …, 2024 - ingentaconnect.com",
+    "source": "Unknown",
+    "year": 2026,
+    "url": "https://www.ingentaconnect.com/content/hsp/jdpp/2024/00000007/00000001/art00003",
+    "scholar_link": "https://www.ingentaconnect.com/content/hsp/jdpp/2024/00000007/00000001/art00003",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "The Right to an Explanation Under theGDPRand theAIAct",
+    "authors": "BA Juliussen - International Conference on Multimedia Modeling, 2025 - Springer",
+    "source": "Unknown",
+    "year": 2026,
+    "url": "https://link.springer.com/chapter/10.1007/978-981-96-2071-5_14",
+    "scholar_link": "https://link.springer.com/chapter/10.1007/978-981-96-2071-5_14",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "The article provides a comprehensive overview of European regulations, the GDPR and the AI Act, focusing on the right to explanation for individual decisions inferred from high-risk AI systems and automated decision-making. It analyses the concept of the right to explanation in automated decision-making processes, emphasizing the legal obligations surrounding the provision of meaningful information pre- and post-decision. The paper examines explainable AI (XAI) methods in this context, categorizing them as intrinsic and post-hoc, with examples like decision trees, Shapley values and Local Interpretable Model-Agnostic Explanations (LIME). By analysing the legal and technical dimensions together, insights into the complex interplay between data protection, AI regulation, and the quest for transparency in the EU acquis are made."
+  },
+  {
+    "title": "“Please understand we cannot provide further information”: evaluating content and transparency ofGDPR-mandatedAIdisclosures",
+    "authors": "AJ Wulf,",
+    "source": "O Seizov",
+    "year": 2026,
+    "url": "https://link.springer.com/article/10.1007/s00146-022-01424-z",
+    "scholar_link": "https://link.springer.com/article/10.1007/s00146-022-01424-z",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "The General Data Protection Regulation (GDPR) of the EU confirms the protection of personal data as a fundamental human right and affords data subjects more control over the way their personal information is processed, shared, and analyzed. However, where data are processed by artificial intelligence (AI) algorithms, asserting control and providing adequate explanations is a challenge. Due to massive increases in computing power and big data processing, modern AI algorithms are too complex and opaque to be understood by most data subjects. Articles 15 and 22 of the GDPR provide a modest regulatory framework for automated data processing by, among other things, mandating that data controllers inform data subjects about when it is being used, and its logic and ramifications. Nevertheless, due to the phrasing of the articles and the numerous exceptions they allow, doubts have arisen about their effectiveness. In this paper, we empirically evaluate the quality and effectiveness of AI disclosures as mandated by the GDPR. By means of an online survey ( N = 835), we investigated how data subjects expect to be informed about the automated processing of their data. We then conducted a content analysis of the AI disclosures of N = 100 companies and organizations. The combined findings reveal that current GDPR-mandated disclosures do not meet the expectations and needs of data subjects. Explanations drawn up following the guidelines of the generic formulations of the GDPR differ widely and are often vague, incomplete and lack transparency. In our conclusions we identify a path towards standardizing and optimizing AI information notices."
+  },
+  {
+    "title": "Artificial Intelligencein Decision-Making: A Test of Consistency between the\" EUAIAct\" and the\"General Data Protection Regulation\"",
+    "authors": "C Sarra - Athens JL, 2025 - HeinOnline",
+    "source": "Unknown",
+    "year": 2026,
+    "url": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/atnsj11&section=8",
+    "scholar_link": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/atnsj11&section=8",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Balancing security and privacy: Web bot detection, privacy challenges, andregulatorycompliance under theGDPRandAIact",
+    "authors": "JM Llamas",
+    "source": ", K Vranckaert,",
+    "year": 2026,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11962364/",
+    "scholar_link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11962364/",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "The Right to an Explanation in Practice: Insights from Case Law for theGDPRand theAIAct",
+    "authors": "L Metikoš",
+    "source": ",",
+    "year": 2026,
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/17579961.2025.2469349",
+    "scholar_link": "https://www.tandfonline.com/doi/abs/10.1080/17579961.2025.2469349",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  }
+]

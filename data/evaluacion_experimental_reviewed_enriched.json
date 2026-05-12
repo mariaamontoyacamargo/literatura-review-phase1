@@ -3220,5 +3220,222 @@
       "doi": "10.1145/3714430",
       "pocket": "evaluacion_experimental"
     }
+  },
+  {
+    "title": "Generative AI at Work",
+    "authors": "Erik Brynjolfsson, Danielle Li, Lindsey R. Raymond",
+    "year": 2023,
+    "venue": "NBER Working Paper",
+    "abstract": "New AI tools have the potential to change the way workers perform and learn, but little is known about their impacts on the job. In this paper, we study the staggered introduction of a generative AI-based conversational assistant using data from 5,179 customer support agents. Access to the tool increased productivity by 14%, with the largest gains for novice and low-skilled workers, and near-zero effects for the most experienced. We document knowledge transfer from experienced to novice workers via the AI.",
+    "doi": "",
+    "source": "nber",
+    "score": 12,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "identification_causal": 3,
+      "quality_signals": 3,
+      "external_validity_latam": 1,
+      "relevance": 3,
+      "recency": 1
+    },
+    "review_note": "Staggered introduction of AI assistant with 5,179 customer support agents provides quasi-experimental variation (DiD-compatible design). Measures productivity (+14%) directly at worker level with heterogeneous effects by experience. High-impact venue (Brynjolfsson is leading authority). Main limitation: U.S. customer support context has moderate transferability to Colombian MiPyMEs, though mechanism (knowledge transfer, novice acceleration) is broadly relevant."
+  },
+  {
+    "title": "Does Generative AI Narrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment",
+    "authors": "Guillermo Cruces, Diego Fernández Meijide, Sebastian Galiani, Ramiro H. Gálvez",
+    "year": 2026,
+    "venue": "NBER Working Paper",
+    "abstract": "Does generative artificial intelligence (AI) reinforce or reduce productivity differences across workers? Existing evidence largely studies AI within firms and occupations, where organizational selection compresses educational heterogeneity, leaving unclear whether AI narrows productivity gaps. We conduct a randomized experiment to identify causal effects of AI assistance on productivity across workers with different educational attainment levels.",
+    "doi": "",
+    "source": "nber",
+    "score": 13,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "identification_causal": 4,
+      "quality_signals": 2,
+      "external_validity_latam": 2,
+      "relevance": 3,
+      "recency": 1
+    },
+    "review_note": "RCT design with randomized assignment across educational heterogeneity directly addresses whether AI narrows productivity gaps—core mechanism for equitable adoption. Authors (Cruces, Galiani) have strong track record in labor economics. LATAM context (Argentina/LAC implicit) and focus on education gradients makes this highly transferable to Colombian policy. Published 2026, directly responsive to equity concerns in AI adoption."
+  },
+  {
+    "title": "The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise",
+    "authors": "Fabrizio Dell'Acqua, Charles Ayoubi, Hila Lifshitz, Raffaella Sadun",
+    "year": 2025,
+    "venue": "NBER Working Paper",
+    "abstract": "We examine how artificial intelligence transforms the core pillars of collaboration—performance, expertise sharing, and social engagement—through a pre-registered field experiment with 776 professionals at Procter & Gamble. Working on real product innovation challenges, professionals were randomly assigned to work either with or without AI, and either individually or with another professional in new product development teams. AI significantly enhances performance: individuals with AI matched the performance of teams without AI.",
+    "doi": "10.3386/w33641",
+    "source": "nber",
+    "citations": 31,
+    "score": 12,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "identification_causal": 4,
+      "quality_signals": 2,
+      "external_validity_latam": 1,
+      "relevance": 3,
+      "recency": 1
+    },
+    "review_note": "Pre-registered RCT (N=776) with factorial design tests AI effects on individual and team performance on real product innovation tasks. Clean causal identification via randomization. Key finding (AI-assisted individual matches team-without-AI performance) is operationally relevant for firm productivity. Limited by P&G's context (large firm, high-skill professionals); mechanism around expertise/knowledge-codification may differ in SME settings but is theoretically transferable."
+  },
+  {
+    "title": "Social Dynamics of AI Adoption",
+    "authors": "Leonardo Bursztyn, Alex Imas, Rafael Jiménez-Durán, Aaron Leonard",
+    "year": 2025,
+    "venue": "NBER Working Paper",
+    "abstract": "Anxiety about falling behind can drive people to embrace emerging technologies with uncertain consequences. We study how social forces shape demand for AI-based learning tools early in the education pipeline. In incentivized experiments with parents—key gatekeepers for children's AI adoption—we elicit willingness to pay for AI tools and document how social comparisons affect demand.",
+    "doi": "",
+    "source": "nber",
+    "score": 6,
+    "status": "REVISAR",
+    "breakdown": {
+      "identification_causal": 3,
+      "quality_signals": 1,
+      "external_validity_latam": 1,
+      "relevance": 1,
+      "recency": 1
+    },
+    "review_note": "Incentivized experiment with parents measuring willingness-to-pay for AI tools via social comparison frames. Good causal design (RCT) but focuses on demand/adoption willingness, not productivity or task-level output. Addresses behavioral barriers to adoption but outside the core pocket scope of measuring AI effectiveness on work outcomes."
+  },
+  {
+    "title": "The Rapid Adoption of Generative AI",
+    "authors": "Alexander Bick, Adam Blandin, David J. Deming",
+    "year": 2024,
+    "venue": "NBER Working Paper",
+    "abstract": "Generative artificial intelligence (AI) is a potentially important new technology, but its impact on the economy depends on the speed and intensity of adoption. This paper reports results from a series of nationally representative U.S. surveys of generative AI use at work and at home. As of late 2023, 39% of U.S. adults had used generative AI in the past week.",
+    "doi": "",
+    "source": "nber",
+    "score": 2,
+    "status": "RECHAZADO",
+    "review_note": "Nationally representative survey documenting adoption prevalence. Pure descriptive survey with no experimental variation, causal identification, or task-level productivity measurement."
+  },
+  {
+    "title": "Generation Next: Experimentation with AI",
+    "authors": "Gary Charness, Brian Jabarian, John A. List",
+    "year": 2023,
+    "venue": "NBER Working Paper",
+    "abstract": "We investigate the potential for Large Language Models (LLMs) to enhance scientific practice within experimentation by identifying key areas, directions, and implications. We discuss how these models can improve experimental design, including improving the elicitation wording, coding of open-ended responses, and detecting demand effects.",
+    "doi": "",
+    "source": "nber",
+    "score": 1,
+    "status": "RECHAZADO",
+    "review_note": "Methodological paper on how LLMs can improve experimental design. Does not study AI adoption in firms or measure task productivity. Relevance=0. RECHAZADO."
+  },
+  {
+    "title": "Firm Data on AI",
+    "authors": "Ivan Yotzov, Jose Maria Barrero, Nicholas Bloom, Philip Bunn",
+    "year": 2026,
+    "venue": "NBER Working Paper",
+    "abstract": "We survey nearly 6,000 senior business executives at US, UK, German, and Australian firms to develop new evidence on AI adoption and its effects on jobs, productivity, and output.",
+    "doi": "",
+    "source": "nber",
+    "score": 3,
+    "status": "RECHAZADO",
+    "review_note": "Executive survey with no experimental design or causal identification mechanism. Measures firm-level adoption and self-reported effects, not productivity at task/worker level."
+  },
+  {
+    "title": "Design-based Analysis in Difference-In-Differences Settings with Staggered Adoption",
+    "authors": "Susan Athey, Guido W. Imbens",
+    "year": 2018,
+    "venue": "NBER Working Paper",
+    "abstract": "We study estimation of and inference for average treatment effects in a setting with panel data. We focus on the setting where units adopt the policy or treatment of interest at a particular point in time.",
+    "doi": "",
+    "source": "nber",
+    "score": 1,
+    "status": "RECHAZADO",
+    "review_note": "Pure econometric methodology paper. Does not study AI, firms, or productivity. Relevance=0."
+  },
+  {
+    "title": "Difference-in-Differences Estimators of Intertemporal Treatment Effects",
+    "authors": "Clément de Chaisemartin, Xavier D'Haultfoeuille",
+    "year": 2022,
+    "venue": "NBER Working Paper",
+    "abstract": "We study treatment-effect estimation using panel data. The treatment may be nonbinary, non-absorbing, and the outcome may be affected by the treatment lags.",
+    "doi": "",
+    "source": "nber",
+    "score": 1,
+    "status": "RECHAZADO",
+    "review_note": "Pure econometric methodology. No empirical application to AI, firms, or labor productivity. Relevance=0."
+  },
+  {
+    "title": "Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI",
+    "authors": "Anders Humlum, Emilie Vestergaard",
+    "year": 2025,
+    "venue": "NBER Working Paper",
+    "abstract": "We examine the labor market effects of AI chatbots using two large-scale adoption surveys (late 2023 and 2024) covering 11 exposed occupations (25,000 workers, 7,000 workplaces), linked to matched employer-employee data in Denmark. Using difference-in-differences and employer policies as quasi-experimental variation, we estimate precise zeros: AI chatbots have had no significant impact on earnings or recorded hours in any occupation.",
+    "doi": "10.3386/w33777",
+    "source": "openalex",
+    "citations": 22,
+    "score": 11,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "identification_causal": 3,
+      "quality_signals": 2,
+      "external_validity_latam": 2,
+      "relevance": 3,
+      "recency": 1
+    },
+    "review_note": "Large-scale DiD study (25,000 workers, 7,000 workplaces, Denmark) using employer policies as quasi-experimental variation. Precise null findings. Robust causal design linking surveys to administrative data. Critical counterpoint to productivity claims."
+  },
+  {
+    "title": "The Uneven Impact of Generative AI on Entrepreneurial Performance",
+    "authors": "Nicholas G. Otis, Rowan Philip Clarke, Solène Delecourt, David Holtz",
+    "year": 2023,
+    "venue": "HBS Working Paper",
+    "abstract": "In a field experiment with Kenyan entrepreneurs, we assessed the impact of AI advice on small business revenues and profits by randomizing access to a GPT-4-powered AI business assistant via WhatsApp. High performers benefited by just over 15% from the AI assistant, whereas low performers did about 8% worse.",
+    "doi": "10.31219/osf.io/hdjpk",
+    "source": "openalex",
+    "citations": 15,
+    "score": 10,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "identification_causal": 4,
+      "quality_signals": 1,
+      "external_validity_latam": 3,
+      "relevance": 3,
+      "recency": 1
+    },
+    "review_note": "RCT randomizing GPT-4 AI assistant access (WhatsApp) to Kenyan entrepreneurs, measuring revenue/profit impacts. Finds null average effect but strong heterogeneity. Direct causal identification and exceptional external validity for LATAM context. Key insight on absorptive capacity."
+  },
+  {
+    "title": "Generative artificial intelligence, human creativity, and art",
+    "authors": "Eric Zhou, Dokyun Lee",
+    "year": 2024,
+    "venue": "PNAS Nexus",
+    "abstract": "Utilizing a dataset of over 4 million artworks from more than 50,000 unique users. Text-to-image AI significantly enhances human creative productivity by 25% and increases the value by 50%.",
+    "doi": "10.1093/pnasnexus/pgae052",
+    "source": "openalex",
+    "citations": 334,
+    "score": 9,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "identification_causal": 2,
+      "quality_signals": 2,
+      "external_validity_latam": 1,
+      "relevance": 2,
+      "recency": 1
+    },
+    "review_note": "Observational study of 4M+ artworks. Uses adoption timing but no experimental design. High citation (334), PNAS Nexus. Task-level analysis supports inclusion. Relevant as evidence on ideation/filtering complementarity."
+  },
+  {
+    "title": "Shaping Human-AI Collaboration: Varied Scaffolding Levels in Co-writing with Language Models",
+    "authors": "Paramveer S. Dhillon, Somayeh Molaei, Jiaqi Li, Maximilian Golub",
+    "year": 2024,
+    "venue": "CHI 2024",
+    "abstract": "Within-subjects field experiment (N=131, Latin square design). High scaffolding led to significant writing quality improvements, especially benefiting non-regular writers and less tech-savvy users.",
+    "doi": "10.1145/3613904.3642134",
+    "source": "openalex",
+    "citations": 87,
+    "score": 10,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "identification_causal": 4,
+      "quality_signals": 2,
+      "external_validity_latam": 1,
+      "relevance": 2,
+      "recency": 1
+    },
+    "review_note": "Within-subjects RCT (N=131, Latin square design) testing scaffolding intensity effects on writing quality. High causal rigor; CHI 2024. Finds heterogeneous effects by skill/tech-savviness—mechanism highly relevant to design of Colombian worker-AI pairings."
   }
 ]

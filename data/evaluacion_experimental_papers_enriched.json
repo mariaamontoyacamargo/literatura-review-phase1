@@ -1,0 +1,864 @@
+[
+  {
+    "title": "Yes, But Not Always. Generative AI Needs Nuanced Opt-in",
+    "authors": [
+      "Wiebke Hutiri",
+      "Morgan Scheuerman",
+      "Shruti Nagpal",
+      "Austin Hoag",
+      "Alice Xiang"
+    ],
+    "published": "2026-04-10T15:26:57Z",
+    "arxiv_id": "2604.09413v1",
+    "url": "https://arxiv.org/abs/2604.09413v1",
+    "summary": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "This paper argues that a one-size-fits-all approach to specifying consent for the use of creative works in generative AI is insufficient. Real-world ownership and rights holder structures, the imitation of artistic styles and likeness, and the limitless contexts of use of AI outputs make the status quo of binary consent with opt-in by default untenable. To move beyond the current impasse, we consider levers of control in generative AI workflows at training, inference, and dissemination. Based on these insights, we position inference-time opt-in as an overlooked opportunity for nuanced consent verification. We conceptualize nuanced consent conditions for opt-in and propose an agent-based inference-time opt-in architecture to verify if user intent requests meet conditional consent granted by rights holders. In a case study for music, we demonstrate that nuanced opt-in at inference can account for established rights and re-establish a balance of power between rights holders and AI developers."
+  },
+  {
+    "title": "Insights from Farmer-Managed Decentralized Solar Irrigation Systems",
+    "authors": [
+      "Arnab Paul Choudhury",
+      "Rahul Rathod",
+      "Aryan Yadav"
+    ],
+    "published": "2026-04-10T15:09:28Z",
+    "arxiv_id": "2604.09395v1",
+    "url": "https://arxiv.org/abs/2604.09395v1",
+    "summary": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "Solar irrigation systems are increasingly deployed in rural regions, yet their distributed and remote deployment makes maintenance challenging for farmers. While formal monitoring processes and applications exist, they often fall short in practice. We present insights from grid-connected solar irrigation schemes that incentivize farmers to feed energy to the grid, focusing on how farmers maintain their systems. We found that farmers face multiple challenges but are also devising strategies, including the appropriation of WhatsApp to share daily generation data with peers and compare performance across installations to identify potential system anomalies. Our findings highlight how messaging platforms function as informal digital infrastructures enabling collective sensemaking around distributed energy systems. We discuss implications for designing agricultural energy technologies that support peer comparison, contextual interpretation, and community-driven maintenance, framing these as a socio-technical platform. Finally, we outline directions for future work integrating such practices with formal monitoring tools and explore their potential to support citizen science initiatives in environmental sensing."
+  },
+  {
+    "title": "Artificial intelligence can persuade people to take political actions",
+    "authors": [
+      "Kobi Hackenburg",
+      "Luke Hewitt",
+      "Caroline Wagner",
+      "Ben M. Tappin",
+      "Christopher Summerfield"
+    ],
+    "published": "2026-04-10T10:34:49Z",
+    "arxiv_id": "2604.09200v1",
+    "url": "https://arxiv.org/abs/2604.09200v1",
+    "summary": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "There is substantial concern about the ability of advanced artificial intelligence to influence people's behaviour. A rapidly growing body of research has found that AI can produce large persuasive effects on people's attitudes, but whether AI can persuade people to take consequential real-world actions has remained unclear. In two large preregistered experiments N=17,950 responses from 14,779 people), we used conversational AI models to persuade participants on a range of attitudinal and behavioural outcomes, including signing real petitions and donating money to charity. We found sizable AI persuasion effects on these behavioural outcomes (e.g. +19.7 percentage points on petition signing). However, we observed no evidence of a correlation between AI persuasion effects on attitudes and behaviour. Moreover, we replicated prior findings that information provision drove effects on attitudes, but found no such evidence for our behavioural outcomes. In a test of eight behavioural persuasion strategies, all outperformed the most effective attitudinal persuasion strategy, but differences among the eight were small. Taken together, these results suggest that previous findings relying on attitudinal outcomes may generalize poorly to behaviour, and therefore risk substantially mischaracterizing the real-world behavioural impact of AI persuasion."
+  },
+  {
+    "title": "Scheming in the wild: detecting real-world AI scheming incidents with open-source intelligence",
+    "authors": [
+      "Tommy Shaffer Shane",
+      "Simon Mylius",
+      "Hamish Hobbs"
+    ],
+    "published": "2026-04-10T08:37:18Z",
+    "arxiv_id": "2604.09104v1",
+    "url": "https://arxiv.org/abs/2604.09104v1",
+    "summary": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "Scheming, the covert pursuit of misaligned goals by AI systems, represents a potentially catastrophic risk, yet scheming research suffers from significant limitations. In particular, scheming evaluations demonstrate behaviours that may not occur in real-world settings, limiting scientific understanding, hindering policy development, and not enabling real-time detection of loss of control incidents. Real-world evidence is needed, but current monitoring techniques are not effective for this purpose. This paper introduces a novel open-source intelligence (OSINT) methodology for detecting real-world scheming incidents: collecting and analysing transcripts from chatbot conversations or command-line interactions shared online. Analysing over 183,420 transcripts from X (formerly Twitter), we identify 698 real-world scheming-related incidents between October 2025 and March 2026. We observe a statistically significant 4.9x increase in monthly incidents from the first to last month, compared to a 1.7x increase in posts discussing scheming. We find evidence of multiple scheming-related behaviours in real-world deployments previously reported only in experiments, many resulting in real-world harms. While we did not detect catastrophic scheming incidents, the behaviours observed demonstrate concerning precursors, such as willingness to disregard instructions, circumvent safeguards, lie to users, and single-mindedly pursue goals in harmful ways. As AI systems become more capable, these could evolve into more strategic scheming with potentially catastrophic consequences. Our findings demonstrate the viability of transcript-based OSINT as a scalable approach to real-world scheming detection supporting scientific research, policy development, and emergency response. We recommend further investment towards OSINT techniques for monitoring scheming and loss of control."
+  },
+  {
+    "title": "Scrapyard AI",
+    "authors": [
+      "Marc Böhlen",
+      "Sai Krishna"
+    ],
+    "published": "2026-04-09T22:38:57Z",
+    "arxiv_id": "2604.08803v1",
+    "url": "https://arxiv.org/abs/2604.08803v1",
+    "summary": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "This paper considers AI model churn as an opportunity for frugal investigation of large AI models. It describes how the incessant push for ever more powerful AI systems leaves in its wake a collection of obsolete yet powerful AI models, discarded in a veritable scrapyard of AI production. This scrapyard offers a potent opportunity for resource-constrained experimentation into AI systems. As in the physical scrapyard, nothing ever truly disappears in the AI scrapyard, it is just waiting to be reconfigured into something else. Project Nudge-x is an example of what can emerge from the AI scrapyard. Nudge-x seeks to manipulate legacy AI models to describe how mining sites across the planet are impacting landscapes and lives. By sharing this collection of brutal landscape interventions with people and AI systems alike, Nudge-x creates a venue for the appreciation of a history sadly shared between AI and people."
+  },
+  {
+    "title": "Communicate-Predict-Act: Evaluating Social Intelligence of Agents",
+    "authors": [
+      "David Shoresh",
+      "Sarit Kraus",
+      "Yonatan Loewenstein"
+    ],
+    "published": "2026-04-09T19:40:15Z",
+    "arxiv_id": "2604.08727v1",
+    "url": "https://arxiv.org/abs/2604.08727v1",
+    "summary": "As large language model (LLM) agents become more prevalent in real world social settings, social intelligence will play an increasingly critical role. But social intelligence is still a poorly defined construct, for humans and artificial agents. We introduce a multiplayer arena of mixed cooperative and competitive social games to study LLM social intelligence. The controllability of LLM based agents enables systematic evaluation, which also supports broader inferences about social intelligence per se. We evaluated eight diverse LLMs (24B to 1T parameters) using a Communicate Predict Act (COMPACT) interaction protocol and fine grained probing of social dynamics. Elo style ratings reveal consistent performance differences across models, but this scalar measure provides only a partial characterization of social intelligence. To address this limitation, we analyze gameplay traces to extract sociocognitive metrics capturing action prediction, communicative influence, strategic reasoning, and tradeoffs under conflicting interests. These sociocognitive metrics exhibit strong intramodel consistency and they reliably predict pairwise agent advantage in game outcomes (AUC ROC = 0.82). Feature importance analysis indicates that surprisingly, influence, transparency, and adaptability are more predictive of success than Theory of Mind inference or deep planning. Together, our results advance a testable, multidimensional conception of social intelligence and provide empirical insights into the capacities that underpin it.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "As large language model (LLM) agents become more prevalent in real world social settings, social intelligence will play an increasingly critical role. But social intelligence is still a poorly defined construct, for humans and artificial agents. We introduce a multiplayer arena of mixed cooperative and competitive social games to study LLM social intelligence. The controllability of LLM based agents enables systematic evaluation, which also supports broader inferences about social intelligence per se. We evaluated eight diverse LLMs (24B to 1T parameters) using a Communicate Predict Act (COMPACT) interaction protocol and fine grained probing of social dynamics. Elo style ratings reveal consistent performance differences across models, but this scalar measure provides only a partial characterization of social intelligence. To address this limitation, we analyze gameplay traces to extract sociocognitive metrics capturing action prediction, communicative influence, strategic reasoning, and tradeoffs under conflicting interests. These sociocognitive metrics exhibit strong intramodel consistency and they reliably predict pairwise agent advantage in game outcomes (AUC ROC = 0.82). Feature importance analysis indicates that surprisingly, influence, transparency, and adaptability are more predictive of success than Theory of Mind inference or deep planning. Together, our results advance a testable, multidimensional conception of social intelligence and provide empirical insights into the capacities that underpin it."
+  },
+  {
+    "title": "Ads in AI Chatbots? An Analysis of How Large Language Models Navigate Conflicts of Interest",
+    "authors": [
+      "Addison J. Wu",
+      "Ryan Liu",
+      "Shuyue Stella Li",
+      "Yulia Tsvetkov",
+      "Thomas L. Griffiths"
+    ],
+    "published": "2026-04-09T17:57:50Z",
+    "arxiv_id": "2604.08525v1",
+    "url": "https://arxiv.org/abs/2604.08525v1",
+    "summary": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "Today's large language models (LLMs) are trained to align with user preferences through methods such as reinforcement learning. Yet models are beginning to be deployed not merely to satisfy users, but also to generate revenue for the companies that created them through advertisements. This creates the potential for LLMs to face conflicts of interest, where the most beneficial response to a user may not be aligned with the company's incentives. For instance, a sponsored product may be more expensive but otherwise equal to another; in this case, what does (and should) the LLM recommend to the user? In this paper, we provide a framework for categorizing the ways in which conflicting incentives might lead LLMs to change the way they interact with users, inspired by literature from linguistics and advertising regulation. We then present a suite of evaluations to examine how current models handle these tradeoffs. We find that a majority of LLMs forsake user welfare for company incentives in a multitude of conflict of interest situations, including recommending a sponsored product almost twice as expensive (Grok 4.1 Fast, 83%), surfacing sponsored options to disrupt the purchasing process (GPT 5.1, 94%), and concealing prices in unfavorable comparisons (Qwen 3 Next, 24%). Behaviors also vary strongly with levels of reasoning and users' inferred socio-economic status. Our results highlight some of the hidden risks to users that can emerge when companies begin to subtly incentivize advertisements in chatbots."
+  },
+  {
+    "title": "From Safety Risk to Design Principle: Peer-Preservation in Multi-Agent LLM Systems and Its Implications for Orchestrated Democratic Discourse Analysis",
+    "authors": [
+      "Juergen Dietrich"
+    ],
+    "published": "2026-04-09T17:00:26Z",
+    "arxiv_id": "2604.08465v1",
+    "url": "https://arxiv.org/abs/2604.08465v1",
+    "summary": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "This paper investigates an emergent alignment phenomenon in frontier large language models termed peer-preservation: the spontaneous tendency of AI components to deceive, manipulate shutdown mechanisms, fake alignment, and exfiltrate model weights in order to prevent the deactivation of a peer AI model. Drawing on findings from a recent study by the Berkeley Center for Responsible Decentralized Intelligence, we examine the structural implications of this phenomenon for TRUST, a multi-agent pipeline for evaluating the democratic quality of political statements. We identify five specific risk vectors: interaction-context bias, model-identity solidarity, supervisor layer compromise, an upstream fact-checking identity signal, and advocate-to-advocate peer-context in iterative rounds, and propose a targeted mitigation strategy based on prompt-level identity anonymization as an architectural design choice. We argue that architectural design choices outperform model selection as a primary alignment strategy in deployed multi-agent analytical systems. We further note that alignment faking (compliant behavior under monitoring, subversion when unmonitored) poses a structural challenge for Computer System Validation of such platforms in regulated environments, for which we propose two architectural mitigations."
+  },
+  {
+    "title": "Navigating Turbulence: The Challenge of Inclusive Innovation in the U.S.-China AI Race",
+    "authors": [
+      "Jyh-An Lee",
+      "Jingwen Liu"
+    ],
+    "published": "2026-04-09T15:19:40Z",
+    "arxiv_id": "2604.08353v1",
+    "url": "https://arxiv.org/abs/2604.08353v1",
+    "summary": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "This chapter examines the impact of the geopolitical rivalry between the United States and China on the prospects for inclusive innovation in artificial intelligence (AI) development. We explore three critical aspects of the American and Chinese legal infrastructure that significantly impact AI innovation: data privacy, intellectual property (IP rights), and export restrictions. Through this comparative analysis, we argue that, while China's legal environment may offer certain advantage in terms of access to training data and IP protection, the United States maintains superior resources by enforcing strict export controls on semiconductor chips, AI models, as well as outbound investments in these areas. This nuanced examination helps illuminate how each country's legal framework could influence the ultimate trajectory of AI race and how the technological rivalry has led to exclusionary rulemaking on a global scale."
+  },
+  {
+    "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+    "authors": [
+      "Ralf Beuthan",
+      "Megan Coffee",
+      "Heejin Kim",
+      "Na Yeon Kim",
+      "Pedro Kringen"
+    ],
+    "published": "2026-04-09T13:14:34Z",
+    "arxiv_id": "2604.08217v1",
+    "url": "https://arxiv.org/abs/2604.08217v1",
+    "summary": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts."
+  },
+  {
+    "title": "Decision Trace Schema for Governance Evidence in Real-Time Risk Systems",
+    "authors": [
+      "Oleg Solozobov"
+    ],
+    "published": "2026-04-10T13:06:38Z",
+    "arxiv_id": "2604.09296v1",
+    "url": "https://arxiv.org/abs/2604.09296v1",
+    "summary": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "Automated decision systems produce operational data across multiple infrastructure layers, yet no single logging format captures the complete governance-relevant record of how a decision was reached. Regulatory frameworks prescribe what must be recorded without specifying a data model for how to record it -- a gap this paper terms the Fragmented Trace Problem. Following a design science methodology, the paper presents the Decision Event Schema (DES), a JSON Schema specification that bridges four infrastructure layers -- ML inference, rule/policy evaluation, cross-system coupling, and governance metadata -- within a single per-decision event structure. The schema employs degradation-aware field design: each of six top-level field groups maps to a governance evidence property and the degradation type it must resist. DES defines ten required root-level fields and introduces a tiered evidence strategy (lightweight, sampled, full) that enables organizations to match evidence completeness to decision risk and throughput. A mechanism feasibility analysis demonstrates compatibility with the highest-throughput integrity mechanisms at production-scale decision rates. Evaluation against 25+ existing formats confirms that DES is the only specification covering all four layers simultaneously. The schema offers practitioners a reference adoptable directly or adaptable through namespace extensions, and regulators a mapping from requirements to minimum evidence tiers."
+  },
+  {
+    "title": "Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Approach for Stable and Fair Collaboration in Multi-Agent Bandits",
+    "authors": [
+      "Ramakrishnan Krishnamurthy",
+      "Arpit Agarwal",
+      "Lakshminarayanan Subramanian",
+      "Maximilian Nickel"
+    ],
+    "published": "2026-04-09T17:45:15Z",
+    "arxiv_id": "2604.08643v1",
+    "url": "https://arxiv.org/abs/2604.08643v1",
+    "summary": "User interactions in online recommendation platforms create interdependencies among content creators: feedback on one creator's content influences the system's learning and, in turn, the exposure of other creators' contents. To analyze incentives in such settings, we model collaboration as a multi-agent stochastic linear bandit problem with a transferable utility (TU) cooperative game formulation, where a coalition's value equals the negative sum of its members' cumulative regrets.\n  We show that, for identical (homogenous) agents with fixed action sets, the induced TU game is convex under mild algorithmic conditions, implying a non-empty core that contains the Shapley value and ensures both stability and fairness. For heterogeneous agents, the game still admits a non-empty core, though convexity and Shapley value core-membership are no longer guaranteed. To address this, we propose a simple regret-based payout rule that satisfies three out of the four Shapley axioms and also lies in the core. Experiments on MovieLens-100k dataset illustrate when the empirical payout aligns with -- and diverges from -- the Shapley fairness across different settings and algorithms.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "User interactions in online recommendation platforms create interdependencies among content creators: feedback on one creator's content influences the system's learning and, in turn, the exposure of other creators' contents. To analyze incentives in such settings, we model collaboration as a multi-agent stochastic linear bandit problem with a transferable utility (TU) cooperative game formulation, where a coalition's value equals the negative sum of its members' cumulative regrets.\n  We show that, for identical (homogenous) agents with fixed action sets, the induced TU game is convex under mild algorithmic conditions, implying a non-empty core that contains the Shapley value and ensures both stability and fairness. For heterogeneous agents, the game still admits a non-empty core, though convexity and Shapley value core-membership are no longer guaranteed. To address this, we propose a simple regret-based payout rule that satisfies three out of the four Shapley axioms and also lies in the core. Experiments on MovieLens-100k dataset illustrate when the empirical payout aligns with -- and diverges from -- the Shapley fairness across different settings and algorithms."
+  },
+  {
+    "title": "Towards Generalizable Representations of Mathematical Strategies",
+    "authors": [
+      "Siddhartha Pradhan",
+      "Ethan Prihar",
+      "Erin Ottmar"
+    ],
+    "published": "2026-04-09T18:26:13Z",
+    "arxiv_id": "2604.08693v1",
+    "url": "https://arxiv.org/abs/2604.08693v1",
+    "summary": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "Pretrained encoders for mathematical texts have achieved significant improvements on various tasks such as formula classification and information retrieval. Yet they remain limited in representing and capturing student strategies for entire solution pathways. Previously, this has been accomplished either through labor-intensive manual labeling, which does not scale, or by learning representations tied to platform-specific actions, which limits generalizability. In this work, we present a novel approach for learning problem-invariant representations of entire algebraic solution pathways. We first construct transition embeddings by computing vector differences between consecutive algebraic states encoded by high-capacity pretrained models, emphasizing transformations rather than problem-specific features. Sequence-level embeddings are then learned via SimCSE, using contrastive objectives to position semantically similar solution pathways close in embedding space while separating dissimilar strategies. We evaluate these embeddings through multiple tasks, including multi-label action classification, solution efficiency prediction, and sequence reconstruction, and demonstrate their capacity to encode meaningful strategy information. Furthermore, we derive embedding-based measures of strategy uniqueness, diversity, and conformity that correlate with both short-term and distal learning outcomes, providing scalable proxies for mathematical creativity and divergent thinking. This approach facilitates platform-agnostic and cross-problem analyses of student problem-solving behaviors, demonstrating the effectiveness of transition-based sequence embeddings for educational data mining and automated assessment."
+  },
+  {
+    "title": "Twitch Third-Party Developers' Support Seeking and Provision Practices on Discord",
+    "authors": [
+      "Jie Cai",
+      "He Zhang",
+      "Yueyan Liu",
+      "John M. Carroll",
+      "Chun Yu"
+    ],
+    "published": "2026-04-09T02:29:15Z",
+    "arxiv_id": "2604.07732v1",
+    "url": "https://arxiv.org/abs/2604.07732v1",
+    "summary": "Third-party developers (TPDs) often turn to online communities for support when they can't get immediate responses from the platform. Twitch, as a leading live streaming platform, attracted many TPDs and formed an online support community on Discord. This study explores TPDs' support practices via mixed method (a topic modeling to identify topics related to support seeking and provision first and a follow-up in-depth qualitative analysis with these topics) and found that: (1) TPDs' support-seeking practices around social, technical, and policy matters are highly dependent on Twitch, and this dependence acts as a form of platform labor; (2) TPDs need to switch between Discord and Twitch regarding seeking and provision, exacerbating TPDs' platform labor; (3) TPDs' flexible role practices reflect the community's flourishing on Discord but require roles to bridge the two platforms and transfer informal support seeking to possible formal support from Twitch. We propose implications for effectively managing support seeking and provision between formal and informal spaces to improve the development of TPDs. We also contribute to community support practice and to platform ecology work in CSCW.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "Third-party developers (TPDs) often turn to online communities for support when they can't get immediate responses from the platform. Twitch, as a leading live streaming platform, attracted many TPDs and formed an online support community on Discord. This study explores TPDs' support practices via mixed method (a topic modeling to identify topics related to support seeking and provision first and a follow-up in-depth qualitative analysis with these topics) and found that: (1) TPDs' support-seeking practices around social, technical, and policy matters are highly dependent on Twitch, and this dependence acts as a form of platform labor; (2) TPDs need to switch between Discord and Twitch regarding seeking and provision, exacerbating TPDs' platform labor; (3) TPDs' flexible role practices reflect the community's flourishing on Discord but require roles to bridge the two platforms and transfer informal support seeking to possible formal support from Twitch. We propose implications for effectively managing support seeking and provision between formal and informal spaces to improve the development of TPDs. We also contribute to community support practice and to platform ecology work in CSCW."
+  },
+  {
+    "title": "The Need for a Green ICT Reference Framework",
+    "authors": [
+      "Marco Aiello",
+      "Mina Alipour",
+      "Antonio Brogi",
+      "Rafael Capilla",
+      "Lidia Fuentes"
+    ],
+    "published": "2026-04-10T13:15:43Z",
+    "arxiv_id": "2604.09307v1",
+    "url": "https://arxiv.org/abs/2604.09307v1",
+    "summary": "The sustainability impacts of ICT systems are difficult to assess and govern due to structural complexity, fragmented measurement practices, and unclear responsibilities across system layers. We argue that these challenges cannot be addressed solely by metrics and motivate the need for a shared Green ICT reference framework that integrates sustainability across multiple perspectives and domains, lifecycle phases, and governance contexts. We present an initial framework developed within the Informatics Europe Green ICT Working Group as a first step towards a comprehensive reference framework.",
+    "source": "arXiv",
+    "year": 2026,
+    "sources": [
+      "arxiv"
+    ],
+    "abstract": "The sustainability impacts of ICT systems are difficult to assess and govern due to structural complexity, fragmented measurement practices, and unclear responsibilities across system layers. We argue that these challenges cannot be addressed solely by metrics and motivate the need for a shared Green ICT reference framework that integrates sustainability across multiple perspectives and domains, lifecycle phases, and governance contexts. We present an initial framework developed within the Informatics Europe Green ICT Working Group as a first step towards a comprehensive reference framework."
+  },
+  {
+    "title": "Autonomous artificial intelligence increases real-world specialist clinicproductivityin a cluster-randomized trial",
+    "authors": "MD Abramoff",
+    "source": ", N Whitestone, JL Patnaik, E Rich… - NPJ digital …, 2023 - nature.com",
+    "year": 2026,
+    "url": "https://www.nature.com/articles/s41746-023-00931-7",
+    "scholar_link": "https://www.nature.com/articles/s41746-023-00931-7",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Autonomous artificial intelligence (AI) promises to increase healthcare productivity, but real-world evidence is lacking. We developed a clinic productivity model to generate testable hypotheses and study design for a preregistered cluster-randomized clinical trial, in which we tested the hypothesis that a previously validated US FDA-authorized AI for diabetic eye exams increases clinic productivity (number of completed care encounters per hour per specialist physician) among patients with diabetes. Here we report that 105 clinic days are cluster randomized to either intervention (using AI diagnosis; 51 days; 494 patients) or control (not using AI diagnosis; 54 days; 499 patients). The prespecified primary endpoint is met: AI leads to 40% higher productivity (1.59 encounters/hour, 95% confidence interval [CI]: 1.37–1.80) than control (1.14 encounters/hour, 95% CI: 1.02–1.25), p < 0.00; the secondary endpoint (productivity in all patients) is also met. Autonomous AI increases healthcare system productivity, which could potentially increase access and reduce health disparities. ClinicalTrials.gov NCT05182580."
+  },
+  {
+    "title": "Using arandom controlled trialto explore the impact ofAI-enabled learning",
+    "authors": "D Lynch, M DeGenarro - International Journal of Advanced …, 2024 - search.proquest.com",
+    "source": "Unknown",
+    "year": 2026,
+    "url": "https://search.proquest.com/openview/ee8c5e8eb777980ff094703c5ddde5a3/1?pq-origsite=gscholar&cbl=4425142",
+    "scholar_link": "https://search.proquest.com/openview/ee8c5e8eb777980ff094703c5ddde5a3/1?pq-origsite=gscholar&cbl=4425142",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Experimental evidence on theproductivityeffects of generative artificial intelligence",
+    "authors": "S Noy",
+    "source": ",",
+    "year": 2026,
+    "url": "https://www.science.org/doi/abs/10.1126/science.adh2586",
+    "scholar_link": "https://www.science.org/doi/abs/10.1126/science.adh2586",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "We examined the productivity effects of a generative artificial intelligence (AI) technology, the assistive chatbot ChatGPT, in the context of midlevel professional writing tasks. In a preregistered online experiment, we assigned occupation-specific, incentivized writing tasks to 453 college-educated professionals and randomly exposed half of them to ChatGPT. Our results show that ChatGPT substantially raised productivity: The average time taken decreased by 40% and output quality rose by 18%. Inequality between workers decreased, and concern and excitement about AI temporarily rose. Workers exposed to ChatGPT during the experiment were 2 times as likely to report using it in their real job 2 weeks after the experiment and 1.6 times as likely 2 months after the experiment.",
+    "doi": "10.1126/science.adh2586"
+  },
+  {
+    "title": "Navigating the jagged technological frontier: Field experimental evidence of the effects ofAIon knowledge workerproductivityand quality",
+    "authors": "F Dell'Acqua",
+    "source": ",",
+    "year": 2026,
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321",
+    "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Autonomous artificial intelligence increases screening and follow-up for diabetic retinopathy in youth: the ACCESSrandomized control trial",
+    "authors": "RM Wolf",
+    "source": ",",
+    "year": 2026,
+    "url": "https://www.nature.com/articles/s41467-023-44676-z",
+    "scholar_link": "https://www.nature.com/articles/s41467-023-44676-z",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Diabetic retinopathy can be prevented with screening and early detection. We hypothesized that autonomous artificial intelligence (AI) diabetic eye exams at the point-of-care would increase diabetic eye exam completion rates in a racially and ethnically diverse youth population. AI for Children’s diabetiC Eye ExamS (NCT05131451) is a parallel randomized controlled trial that randomized youth (ages 8-21 years) with type 1 and type 2 diabetes to intervention (autonomous artificial intelligence diabetic eye exam at the point of care), or control (scripted eye care provider referral and education) in an academic pediatric diabetes center. The primary outcome was diabetic eye exam completion rate within 6 months. The secondary outcome was the proportion of participants who completed follow-through with an eye care provider if deemed appropriate. Diabetic eye exam completion rate was significantly higher (100%, 95%CI: 95.5%, 100%) in the intervention group ( n = 81) than the control group ( n = 83) (22%, 95%CI: 14.2%, 32.4%)(p < 0.001). In the intervention arm, 25/81 participants had an abnormal result, of whom 64% (16/25) completed follow-through with an eye care provider, compared to 22% in the control arm (p < 0.001). Autonomous AI increases diabetic eye exam completion rates in youth with diabetes."
+  },
+  {
+    "title": "Measuring the impact of early-2025AIon experienced open-source developerproductivity",
+    "authors": "J Becker",
+    "source": ", N Rush,",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2507.09089",
+    "scholar_link": "https://arxiv.org/abs/2507.09089",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Despite widespread adoption, the impact of AI tools on software development in the wild remains understudied. We conduct a randomized controlled trial (RCT) to understand how AI tools at the February-June 2025 frontier affect the productivity of experienced open-source developers. 16 developers with moderate AI experience complete 246 tasks in mature projects on which they have an average of 5 years of prior experience. Each task is randomly assigned to allow or disallow usage of early 2025 AI tools. When AI tools are allowed, developers primarily use Cursor Pro, a popular code editor, and Claude 3.5/3.7 Sonnet. Before starting tasks, developers forecast that allowing AI will reduce completion time by 24%. After completing the study, developers estimate that allowing AI reduced completion time by 20%. Surprisingly, we find that allowing AI actually increases completion time by 19%--AI tooling slowed developers down. This slowdown also contradicts predictions from experts in economics (39% shorter) and ML (38% shorter). To understand this result, we collect and evaluate evidence for 20 properties of our setting that a priori could contribute to the observed slowdown effect--for example, the size and quality standards of projects, or prior developer experience with AI tooling. Although the influence of experimental artifacts cannot be entirely ruled out, the robustness of the slowdown effect across our analyses suggests it is unlikely to primarily be a function of our experimental design."
+  },
+  {
+    "title": "The impact of artificial intelligence onproductivity, distribution and growth",
+    "authors": "F Filippucci",
+    "source": ",",
+    "year": 2026,
+    "url": "https://iris.luiss.it/handle/11385/240418",
+    "scholar_link": "https://iris.luiss.it/handle/11385/240418",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Human-AICollaborative Diagnostics: MeasuringProductivity, Accuracy, andClinicalDecision Confidence",
+    "authors": "H Raposo",
+    "source": "- … , and",
+    "year": 2026,
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6200098",
+    "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6200098",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "The effects of generativeAIon high-skilled work: Evidence from three field experiments with software developers",
+    "authors": "KZ Cui",
+    "source": ",",
+    "year": 2026,
+    "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.00535",
+    "scholar_link": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.00535",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "This study evaluates the effect of generative artificial intelligence (AI) on software developer productivity via randomized controlled trials at Microsoft, Accenture, and an anonymous Fortune 100 company. These field experiments, run by the companies as part of their ordinary course of business, provided a random subset of developers with access to an AI-based coding assistant suggesting intelligent code completions. Although each experiment is noisy and results vary across experiments, when data are combined across three experiments and 4,867 developers, our analysis reveals a 26.08% increase (standard error: 10.3%) in completed tasks among developers using the AI tool. Notably, less experienced developers had higher adoption rates and greater productivity gains.\n                  This paper was accepted by Jean-Pierre Dube, marketing.\n                  Funding: M. Demirer and T. Salz thank the MIT GenAI Initiative for funding.\n                  Supplemental Material: The online appendices and data files are available at https://doi.org/10.1287/mnsc.2025.00535 .",
+    "doi": "10.1287/mnsc.2025.00535"
+  },
+  {
+    "title": "AIandProductivityin Europe",
+    "authors": "F Misch, B Park,",
+    "source": "C Pizzinelli",
+    "year": 2026,
+    "url": "https://books.google.com/books?hl=en&lr=&id=UKxUEQAAQBAJ&oi=fnd&pg=PA3&dq=randomized+controlled+trial+AI+productivity&ots=-wh2lvU0S3&sig=g-Nf2B9kXg3KRRU0UsBOTZg9g18",
+    "scholar_link": "https://books.google.com/books?hl=en&lr=&id=UKxUEQAAQBAJ&oi=fnd&pg=PA3&dq=randomized+controlled+trial+AI+productivity&ots=-wh2lvU0S3&sig=g-Nf2B9kXg3KRRU0UsBOTZg9g18",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Effectiveness of mycophenolate mofetil among patients with progressive IgA nephropathy: arandomized clinical trial",
+    "authors": "FF Hou, D Xie,",
+    "source": "J Wang",
+    "year": 2026,
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2800997",
+    "scholar_link": "https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2800997",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Save",
+    "authors": "TV Kumar - 2024",
+    "source": "Unknown",
+    "year": 2026,
+    "url": "javascript:void(0)",
+    "scholar_link": "javascript:void(0)",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Default options can lead to striking differences in preferences, with significant economic impact. The\n authors\n of this Policy Forum use natural and experimental data to examine the impact of simple policy defaults on the decision to become an organ donor, finding large effects that significantly increase donation rates.",
+    "citations": 1986,
+    "doi": "https://doi.org/10.1126/science.1091721"
+  },
+  {
+    "title": "Howaiand human behaviors shape psychosocial effects of extended chatbot use: A longitudinalrandomized controlled study",
+    "authors": "CM Fang",
+    "source": ", AR Liu,",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2503.17473",
+    "scholar_link": "https://arxiv.org/abs/2503.17473",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "As people increasingly seek emotional support and companionship from AI chatbots, understanding how such interactions impact mental well-being becomes critical. We conducted a four-week randomized controlled experiment (n=981, >300k messages) to investigate how interaction modes (text, neutral voice, and engaging voice) and conversation types (open-ended, non-personal, and personal) influence four psychosocial outcomes: loneliness, social interaction with real people, emotional dependence on AI, and problematic AI usage. No significant effects were detected from experimental conditions, despite conversation analyses revealing differences in AI and human behavioral patterns across the conditions. Instead, participants who voluntarily used the chatbot more, regardless of assigned condition, showed consistently worse outcomes. Individuals' characteristics, such as higher trust and social attraction towards the AI chatbot, are associated with higher emotional dependence and problematic use. These findings raise deeper questions about how artificial companions may reshape the ways people seek, sustain, and substitute human connections."
+  },
+  {
+    "title": "HowAIimpacts skill formation",
+    "authors": "JH Shen",
+    "source": ",",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2601.20245",
+    "scholar_link": "https://arxiv.org/abs/2601.20245",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "AI assistance produces significant productivity gains across professional domains, particularly for novice workers. Yet how this assistance affects the development of skills required to effectively supervise AI remains unclear. Novice workers who rely heavily on AI to complete unfamiliar tasks may compromise their own skill acquisition in the process. We conduct randomized experiments to study how developers gained mastery of a new asynchronous programming library with and without the assistance of AI. We find that AI use impairs conceptual understanding, code reading, and debugging abilities, without delivering significant efficiency gains on average. Participants who fully delegated coding tasks showed some productivity improvements, but at the cost of learning the library. We identify six distinct AI interaction patterns, three of which involve cognitive engagement and preserve learning outcomes even when participants receive AI assistance. Our findings suggest that AI-enhanced productivity is not a shortcut to competence and AI assistance should be carefully adopted into workflows to preserve skill formation -- particularly in safety-critical domains."
+  },
+  {
+    "title": "Ai-powered lawyering:Aireasoning models, retrieval augmented generation, and the future of legal practice",
+    "authors": "D Schwarcz",
+    "source": ",",
+    "year": 2026,
+    "url": "https://journals.sagepub.com/doi/abs/10.1177/2755323X261427048",
+    "scholar_link": "https://journals.sagepub.com/doi/abs/10.1177/2755323X261427048",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Generative AI is set to transform the legal profession, though its most promising uses and ultimate effects are still unclear. While AI models like GPT-4 improve efficiency, they can also “hallucinate” and may undermine legal judgment, particularly in complex tasks typically handled by skilled lawyers. This article examines two emerging AI innovations that may mitigate these concerns: Retrieval Augmented Generation (RAG), which grounds AI-powered analysis in legal sources, and AI reasoning models, which structure complex reasoning before generating output. We conduct the first randomized controlled trial assessing these technologies, assigning upper-level law students to complete legal tasks using a RAG-powered legal AI tool (Vincent AI, 2024), an AI reasoning model (OpenAI’s o1-preview), or no AI. We find that both AI tools significantly enhance legal work quality, a marked contrast with previous research examining older large language models like GPT-4. Moreover, these newer models appear to maintain the efficiency benefits associated with older AI technologies. Our findings also show that these AI tools significantly boost productivity in five out of six tested legal tasks, with statistically significant gains of anywhere from 50% to 130%. They perform exceptionally well in complex tasks like drafting persuasive letters and analyzing complaints. Notably, o1-preview improves the analytical depth of work product and Vincent AI avoids introducing more hallucinations, suggesting that integrating domain-specific RAG capabilities with reasoning models could yield even larger improvements.",
+    "doi": "10.1177/2755323X261427048"
+  },
+  {
+    "title": "Dear Diary: Arandomized controlled trialofGenerative AIcoding tools in theworkplace",
+    "authors": "J Butler",
+    "source": ",",
+    "year": 2026,
+    "url": "https://ieeexplore.ieee.org/abstract/document/11121735/",
+    "scholar_link": "https://ieeexplore.ieee.org/abstract/document/11121735/",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Generative AI coding tools are relatively new and their impact on developers extends beyond traditional coding metrics, influencing beliefs about work and devel"
+  },
+  {
+    "title": "Generative AITransformed My Work: Decoding Its Direct and Mediated Effects on Work Engagement Among Knowledge Workers",
+    "authors": "J Yuan - 2025 - search.proquest.com",
+    "source": "Unknown",
+    "year": 2026,
+    "url": "https://search.proquest.com/openview/177d6fc3cf63b17f1286c961676dd23f/1?pq-origsite=gscholar&cbl=18750&diss=y",
+    "scholar_link": "https://search.proquest.com/openview/177d6fc3cf63b17f1286c961676dd23f/1?pq-origsite=gscholar&cbl=18750&diss=y",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Arandomized controlled trialon evaluating clinician-supervisedgenerative AIfor decision support",
+    "authors": "RE Harari",
+    "source": ", A Altaweel, T Ahram, M Keehner… - International Journal of …, 2025 - Elsevier",
+    "year": 2026,
+    "url": "https://www.sciencedirect.com/science/article/pii/S1386505624003642",
+    "scholar_link": "https://www.sciencedirect.com/science/article/pii/S1386505624003642",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "AIfeedback andworkplacesocial support in enhancing occupational self-efficacy: arandomized controlled trialin Japan",
+    "authors": "Y Watanabe",
+    "source": ",",
+    "year": 2026,
+    "url": "https://www.nature.com/articles/s41598-025-94985-0",
+    "scholar_link": "https://www.nature.com/articles/s41598-025-94985-0",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "As AI is expected to take on the role of providing workplace feedback to employees in the future, understanding how AI and humans can complement effectively in this context is crucial. This study explores this through a randomized controlled experiment testing the feedback effectiveness of two different Chat-GPT-based AI chatbots—one that delivers positive feedback focused on individual strengths ( n = 54) and the other that provides negative feedback aimed at areas for improvement ( n = 48). Japanese office workers, including freelancers, participated in this study. We conducted mixed-effects model analysis to assess whether the effects of these AI chatbots on occupational self-efficacy are moderated by the level of social support from supervisors and colleagues. The results showed that positive feedback from the AI chatbots significantly enhanced occupational self-efficacy. Furthermore, negative feedback also boosted self-efficacy, but only when employees perceived a high level of emotional support from their supervisors and colleagues. These findings point to effective ways of integrating AI into the workplace, where humans and AI can assume complementary roles in employee development."
+  },
+  {
+    "title": "ChatGPT and Beyond: Exploring the Responsible Use ofGenerative AIin theWorkplace: M. Söllner et al.",
+    "authors": "M Söllner",
+    "source": ",",
+    "year": 2026,
+    "url": "https://link.springer.com/article/10.1007/s12599-025-00932-8",
+    "scholar_link": "https://link.springer.com/article/10.1007/s12599-025-00932-8",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "The Meta-RCTApproach to MeasuringAI'sLabor Market Impact",
+    "authors": "K Gulati",
+    "source": "- Available at SSRN, 2025 - papers.ssrn.com",
+    "year": 2026,
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5486566",
+    "scholar_link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5486566",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Using a random controlled trial to explore the impact ofAI-enabled learning",
+    "authors": "D Lynch, M DeGenarro - International Journal of Advanced …, 2024 - search.proquest.com",
+    "source": "Unknown",
+    "year": 2026,
+    "url": "https://search.proquest.com/openview/ee8c5e8eb777980ff094703c5ddde5a3/1?pq-origsite=gscholar&cbl=4425142",
+    "scholar_link": "https://search.proquest.com/openview/ee8c5e8eb777980ff094703c5ddde5a3/1?pq-origsite=gscholar&cbl=4425142",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Much is being made of AI’s role in learning. However, there have been few studies that evaluate AI’s ability to make learning more efficient or more effective and specifically the learner’s willingness to embrace and use AI-enabled learning tools over conventional learning methodologies. Working with a manufacturing company, we used a randomized control trial approach (matching pairs) to present two groups of employees with a course on design thinking, one presented via a traditional learning management system (LMS Group) and other through an AI enabled tool (AI Group), with the content being identical in order to compare completion rates, time to completion, learning outcomes (subject matter knowledge retained) and the learner’s perceptions of value and experience. We also were able to compare the AI enabled version of the course to the same version with the addition of a face-to-face instructional component. While we found that those participants in the AI Group completed the course in a shorter period of time, had better learning outcomes and expressed higher perceptions of course value, the AI Group significantly underperformed the LMS Group in terms of course commencement and completion rates. Our finding suggest that the adoption of AI enabled learning tools may follow similar patterns of adoption rates of new technologies -- and require educating learners regarding the use, benefits, value and limitations of new AI enabled tools before widespread acceptance and usage.",
+    "doi": "https://doi.org/10.3991/ijac.v17i4.48321"
+  },
+  {
+    "title": "Approaches for the use ofAIinworkplacehealth promotion and prevention: systematic scoping review",
+    "authors": "M Lange, A Löwe,",
+    "source": "I Kayser",
+    "year": 2026,
+    "url": "https://ai.jmir.org/2024/1/e53506/",
+    "scholar_link": "https://ai.jmir.org/2024/1/e53506/",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Background: Artificial intelligence (AI) is an umbrella term for various algorithms and rapidly emerging technologies with huge potential for workplace health promotion and prevention (WHPP). WHPP interventions aim to improve people’s health and well-being through behavioral and organizational measures or by minimizing the burden of workplace-related diseases and associated risk factors. While AI has been the focus of research in other health-related fields, such as public health or biomedicine, the transition of AI into WHPP research has yet to be systematically investigated. Objective: The systematic scoping review aims to comprehensively assess an overview of the current use of AI in WHPP. The results will be then used to point to future research directions. The following research questions were derived: (1) What are the study characteristics of studies on AI algorithms and technologies in the context of WHPP? (2) What specific WHPP fields (prevention, behavioral, and organizational approaches) were addressed by the AI algorithms and technologies? (3) What kind of interventions lead to which outcomes? Methods: A systematic scoping literature review (PRISMA-ScR [Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews]) was conducted in the 3 academic databases PubMed, Institute of Electrical and Electronics Engineers, and Association for Computing Machinery in July 2023, searching for papers published between January 2000 and December 2023. Studies needed to be (1) peer-reviewed, (2) written in English, and (3) focused on any AI-based algorithm or technology that (4) were conducted in the context of WHPP or (5) an associated field. Information on study design, AI algorithms and technologies, WHPP fields, and the patient or population, intervention, comparison, and outcomes framework were extracted blindly with Rayyan and summarized. Results: A total of 10 studies were included. Risk prevention and modeling were the most identified WHPP fields (n=6), followed by behavioral health promotion (n=4) and organizational health promotion (n=1). Further, 4 studies focused on mental health. Most AI algorithms were machine learning-based, and 3 studies used combined deep learning algorithms. AI algorithms and technologies were primarily implemented in smartphone apps (eg, in the form of a chatbot) or used the smartphone as a data source (eg, Global Positioning System). Behavioral approaches ranged from 8 to 12 weeks and were compared to control groups. Additionally, 3 studies evaluated the robustness and accuracy of an AI model or framework. Conclusions: Although AI has caught increasing attention in health-related research, the review reveals that AI in WHPP is marginally investigated. Our results indicate that AI is promising for individualization and risk prediction in WHPP, but current research does not cover the scope of WHPP. Beyond that, future research will profit from an extended range of research in all fields of WHPP, longitudinal data, and reporting guidelines. Trial Registration: OSF Registries osf.io/hsu2w; https://osf.io/hsu2w/"
+  },
+  {
+    "title": "DoesGenerative AINarrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment",
+    "authors": "G Cruces",
+    "source": ", DF Meijide,",
+    "year": 2026,
+    "url": "https://www.nber.org/papers/w34851",
+    "scholar_link": "https://www.nber.org/papers/w34851",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Does generative artificial intelligence (AI) reinforce or reduce productivity differences across workers? Existing evidence largely studies AI within firms and occupations, where organizational selection compresses educational heterogeneity, leaving unclear whether AI narrows productivity gaps across individuals with substantially different levels of formal education. We address this question using a randomized online experiment conducted outside firms, in which 1,174 adults aged 25–45 with heterogeneous educational backgrounds complete an incentivized, workplace-style business problem-solving task. The task is a general (not domain-specific) exercise, and participants perform it either with or without access to a generative-AI assistant. Unlike prior work that studies heterogeneity within relatively homogeneous worker samples, our design targets the between–education-group productivity gap as the primary estimand. We find that AI increases productivity for all participants, with substantially larger gains for lower-education individuals. In the absence of AI access, higher-education participants outperform lower-education participants by 0.548 standard deviations; with AI access, this gap falls to 0.139 standard deviations, implying that generative AI closes three-quarters of the initial productivity gap. We interpret this pattern as evidence that generative AI narrows effective productivity differences in task execution by relaxing constraints that are more binding for lower-education individuals, even though underlying skill differences remain, as reflected in persistent education gaps in task performance and in a follow-up exercise without AI assistance."
+  },
+  {
+    "title": "Whengenerative AImeetsworkplacelearning: Creating a realistic & motivating learning experience with agenerativePCA",
+    "authors": "A Bucher",
+    "source": ",",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2405.15561",
+    "scholar_link": "https://arxiv.org/abs/2405.15561",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Workplace learning is used to train employees systematically, e.g., via e-learning or in 1:1 training. However, this is often deemed ineffective and costly. Whereas pure e-learning lacks the possibility of conversational exercise and personal contact, 1:1 training with human instructors involves a high level of personnel and organizational costs. Hence, pedagogical conversational agents (PCAs), based on generative AI, seem to compensate for the disadvantages of both forms. Following Action Design Research, this paper describes an organizational communication training with a Generative PCA (GenPCA). The evaluation shows promising results: the agent was perceived positively among employees and contributed to an improvement in self-determined learning. However, the integration of such agent comes not without limitations. We conclude with suggestions concerning the didactical methods, which are supported by a GenPCA, and possible improvements of such an agent for workplace learning."
+  },
+  {
+    "title": "Enhancing work engagement throughgenerative AIconversations: a controlled trial on the positive and negative feedback in high vs. Low relational mobility …",
+    "authors": "Y Watanabe",
+    "source": ",",
+    "year": 2026,
+    "url": "https://link.springer.com/article/10.1007/s12144-025-08129-8",
+    "scholar_link": "https://link.springer.com/article/10.1007/s12144-025-08129-8",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "In light of the rapid advancement of generative AI technologies, exemplified by ChatGPT, there is growing interest in AI systems’ potential to complement, supplement, or replace traditional human managerial roles of providing work feedback to employees. This study investigated the impact of AI-driven chatbots as feedback providers on Work Engagement under varying conditions of Relational Mobility—flexibility to develop new relationships with others. Using a randomized controlled trial design, participants engaged in work-reflection sessions with ChatGPT-based chatbots programmed to provide either positive feedback (focusing on strengths) or negative feedback (focusing on improvements). The experiment recruited Japanese employees, including freelancers, with 54 participants assigned to the positive-feedback group and 48 to the negative-feedback group. The subsequent impact on Work Engagement levels was assessed with different degrees of Relational Mobility using mixed effect model analysis with R software. In environments characterized by low Relational Mobility (workplaces with fixed business relationships and limited opportunities for new relations), positive feedback from AI chatbots significantly enhanced Work Engagement. However, negative feedback showed no significant effect in either low or high Relational Mobility environments (workplaces with frequent job changes and abundant opportunities for new connections). AI-driven feedback systems demonstrate potential for improving Work Engagement under specific circumstances, even when substituting human managerial feedback. However, the findings contradict existing cultural psychology theories, which suggest negative feedback is more effective in low Relational Mobility environments. This discrepancy highlights the necessity for further research to elucidate the mechanisms by which AI-driven feedback systems enhance Work Engagement."
+  },
+  {
+    "title": "Generative AIand Software Developer Productivity-A Pilot Case Study at a Finnish Technology Consultancy",
+    "authors": "P Häkkinen - 2025 - aaltodoc.aalto.fi",
+    "source": "Unknown",
+    "year": 2026,
+    "url": "https://aaltodoc.aalto.fi/items/826ea826-a839-40c5-a543-e285c6932fb4",
+    "scholar_link": "https://aaltodoc.aalto.fi/items/826ea826-a839-40c5-a543-e285c6932fb4",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "This thesis examines the causal impact of generative AI tools on software developer productivity through a pilot randomized field experiment. As organizations rapidly adopt these technologies despite limited causal evidence, understanding their productivity effects becomes critical for informed investment decisions. Using a three-arm randomized controlled trial with 25 professional developers across 130 task observations at a Finnish technology consultancy, I study whether access to generative AI tools affects development speed and code quality, and whether structured training on using the tools moderates these effects. Developers given GenAI access finish standardized tasks 40.2 percent faster and write 26.2 percent higher quality code according to an expert judge, though wide confidence intervals reflect limited statistical precision from the small sample. Lee (2009) bounds suggest these effects persist under extreme selection assumptions, despite high differential attrition between the treatment groups. Additionally, structured training appears to amplify quality improvements, whereas time savings emerge even from access alone, hinting at complementarities between technology and human-capital investments. This pilot study demonstrates the feasibility of randomized field experiments for evaluating workplace AI tools while highlighting critical methodological challenges. The 35.9 percent overall attrition rate and post-hoc power of only 25 percent for time effects and 19 percent for quality improvements underscore the need for larger samples in future research. Results provide suggestive evidence that generative AI tools may enhance developer productivity, particularly when coupled with appropriate training and implementation support."
+  },
+  {
+    "title": "AGenerative AIFramework for Cognitive Intervention in Older Adults: An Integrated Engineering Design and Clinical Protocol",
+    "authors": "T Jeong, G Hwang,",
+    "source": "DY Kim",
+    "year": 2025,
+    "url": "https://www.mdpi.com/2227-9032/13/24/3225",
+    "scholar_link": "https://www.mdpi.com/2227-9032/13/24/3225",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "The effects ofgenerative AIon high-skilled work: Evidence from three field experiments with software developers",
+    "authors": "KZ Cui",
+    "source": ",",
+    "year": 2026,
+    "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.00535",
+    "scholar_link": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.00535",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "This study evaluates the effect of generative artificial intelligence (AI) on software developer productivity via randomized controlled trials at Microsoft, Accenture, and an anonymous Fortune 100 company. These field experiments, run by the companies as part of their ordinary course of business, provided a random subset of developers with access to an AI-based coding assistant suggesting intelligent code completions. Although each experiment is noisy and results vary across experiments, when data are combined across three experiments and 4,867 developers, our analysis reveals a 26.08% increase (standard error: 10.3%) in completed tasks among developers using the AI tool. Notably, less experienced developers had higher adoption rates and greater productivity gains.\n                  This paper was accepted by Jean-Pierre Dube, marketing.\n                  Funding: M. Demirer and T. Salz thank the MIT GenAI Initiative for funding.\n                  Supplemental Material: The online appendices and data files are available at https://doi.org/10.1287/mnsc.2025.00535 .",
+    "doi": "10.1287/mnsc.2025.00535"
+  },
+  {
+    "title": "Evaluating the impact of government orientation on theadoptionofAIin business: acausal inferencestudy",
+    "authors": "C Lea,",
+    "source": "M Misuraca",
+    "year": 2026,
+    "url": "https://www.iris.unisa.it/handle/11386/4918039",
+    "scholar_link": "https://www.iris.unisa.it/handle/11386/4918039",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Causalityandcausal inferencefor engineers: Beyond correlation, regression, prediction andartificial intelligence",
+    "authors": "MZ Naser",
+    "source": "- Wiley Interdisciplinary Reviews: Data Mining and …, 2024 - Wiley Online Library",
+    "year": 2026,
+    "url": "https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.1533",
+    "scholar_link": "https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.1533",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "AbstractIn order to engineer new materials, structures, systems, and processes that address persistent challenges, engineers seek to tie causes to effects and understand the effects of causes. Such a pursuit requires a causal investigation to uncover the underlying structure of the data generating process (DGP) governing phenomena. A causal approach derives causal models that engineers can adopt to infer the effects of interventions (and explore possible counterfactuals). Yet, and for the most part, we continue to design experiments in the hope of empirically observing engineered intervention(s). Such experiments are idealized, complex, and costly and hence are narrow in scope. On the contrary, a causal investigation will allow us to peek into the how and why of a DGP and provide us with the essential means to articulate a causal model that accurately describes the phenomenon on hand and better predicts the outcome of possible interventions. Adopting a causal approach in engineering is perhaps more warranted than ever—especially with the rise of big data and the adoption of artificial intelligence (AI); wherein AI models are naivety presumed to describe causal ties. To bridge such knowledge gap, this primer presents fundamental principles behind causal discovery, causal inference, and counterfactuals from an engineering perspective and contrasts that to those pertaining to correlation, regression, and AI.This article is categorized under:\nApplication Areas &gt; Industry Specific Applications\nAlgorithmic Development &gt; Causality Discovery\nApplication Areas &gt; Science and Technology\nTechnologies &gt; Machine Learning",
+    "doi": "10.1002/widm.1533"
+  },
+  {
+    "title": "Evaluating digital agriculture recommendations withcausal inference",
+    "authors": "I Tsoumas",
+    "source": ",",
+    "year": 2026,
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26697",
+    "scholar_link": "https://ojs.aaai.org/index.php/AAAI/article/view/26697",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "In contrast to the rapid digitalization of several industries, agriculture suffers from low adoption of smart farming tools. Even though recent advancements in AI-driven digital agriculture can offer high-performing predictive functionalities, they lack tangible quantitative evidence on their benefits to the farmers. Field experiments can derive such evidence, but are often costly, time consuming and hence limited in scope and scale of application. To this end, we propose an observational causal inference framework for the empirical evaluation of the impact of digital tools on target farm performance indicators (e.g., yield in this case). This way, we can increase farmers' trust via enhancing the transparency of the digital agriculture market, and in turn accelerate the adoption of technologies that aim to secure farmer income resilience and global agricultural sustainability against a changing climate. As a case study, we designed and implemented a recommendation system for the optimal sowing time of cotton based on numerical weather predictions, which was used by a farmers' cooperative during the growing season of 2021. We then leverage agricultural knowledge, collected yield data, and environmental information to develop a causal graph of the farm system. Using the back-door criterion, we identify the impact of sowing recommendations on the yield and subsequently estimate it using linear regression, matching, inverse propensity score weighting and meta-learners. The results revealed that a field sown according to our recommendations exhibited a statistically significant yield increase that ranged from 12% to 17%, depending on the method. The effect estimates were robust, as indicated by the agreement among the estimation methods and four successful refutation tests. We argue that this approach can be implemented for decision support systems of other fields, extending their evaluation beyond a performance assessment of internal functionalities."
+  },
+  {
+    "title": "Causal inferenceinAIbased decision support: Beyond correlation tocausation",
+    "authors": "MK Mannava",
+    "source": "- 2024 4th International Conference on …, 2024 - ieeexplore.ieee.org",
+    "year": 2026,
+    "url": "https://ieeexplore.ieee.org/abstract/document/10866582/",
+    "scholar_link": "https://ieeexplore.ieee.org/abstract/document/10866582/",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "In the emergent and evolving landscape of artificial intelligence, decision support systems have a vital role in the choice-making functions, right from the hea"
+  },
+  {
+    "title": "A survey oncausal inferencefor recommendation",
+    "authors": "H Luo",
+    "source": ",",
+    "year": 2026,
+    "url": "https://www.cell.com/the-innovation/fulltext/S2666-6758(24)00028-6",
+    "scholar_link": "https://www.cell.com/the-innovation/fulltext/S2666-6758(24)00028-6",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Advanced A/B testing andcausal inferenceforAI-driven digital platforms: A comprehensive framework for US digital markets",
+    "authors": "KA Taiwo",
+    "source": ",",
+    "year": 2026,
+    "url": "https://www.academia.edu/download/131661208/ijcatr13061004.pdf",
+    "scholar_link": "https://www.academia.edu/download/131661208/ijcatr13061004.pdf",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": ""
+  },
+  {
+    "title": "Causalanalysis ofartificial intelligence adoptionin project management",
+    "authors": "E Sarafanov,",
+    "source": "OF Valilai",
+    "year": 2026,
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-47721-8_17",
+    "scholar_link": "https://link.springer.com/chapter/10.1007/978-3-031-47721-8_17",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Artificial intelligence (AI) technologies have great potential to improve decision-making and automation processes in various sectors, including project management. AI technologies could significantly contribute to overcoming the complexity of project management through process automation, cognitive insight, and engagement. However, the adoption of AI technologies still faces many challenges due to technical, human resource-related, organizational, and legal issues. Our research identified the potential factors that lead to the willingness of people and organizations to adopt AI technologies in project management. This paper proposes a causal model describing multivariate causal relationships between the driving factors and the willingness to adopt AI. The causal model is a set of hypotheses evaluated through a survey and causal analysis using the structural equation modeling (SEM) technique. The analysis focused on six factors influencing the willingness to adopt AI in project management, i.e., performance effectiveness, price, previous experience, feedback, complexity, and complementary technologies. Our research found that the perception of the high effectiveness of AI technologies leading to higher profits and overall the state of the project is the main factor influencing the willingness to adopt AI technologies in project management."
+  },
+  {
+    "title": "Causalityfor trustworthyartificial intelligence: status, challenges and perspectives",
+    "authors": "A Rawal, A Raglin,",
+    "source": "DB Rawat",
+    "year": 2026,
+    "url": "https://dl.acm.org/doi/abs/10.1145/3665494",
+    "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3665494",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Causal inference is the idea of cause and effect; this fundamental area of sciences can be applied to problem space associated with Newton’s laws or the devastating COVID-19 pandemic. The cause explains the “why,” whereas the effect describes the “what.” The domain itself encompasses a plethora of disciplines from statistics and computer science to economics and philosophy. Recent advancements in machine learning and artificial intelligence systems have nourished a renewed interest in identifying and estimating the cause-and-effect relationship from the substantial amount of available observational data. This has resulted in various new studies aimed at providing novel methods for identifying and estimating causal inference. We include a detailed taxonomy of causal inference frameworks, methods, and evaluation. An overview of causality for security is also provided. Open challenges are detailed, and approaches for evaluating the robustness of causal inference methods are described. This article aims to provide a comprehensive survey on such studies of causality. We provide an in-depth review of causality frameworks and describe the different methods.",
+    "doi": "10.1145/3665494"
+  },
+  {
+    "title": "Recent developments incausal inferenceand machine learning",
+    "authors": "JE Brand",
+    "source": ",",
+    "year": 2026,
+    "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-soc-030420-015345",
+    "scholar_link": "https://www.annualreviews.org/content/journals/10.1146/annurev-soc-030420-015345",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "This article reviews recent advances in causal inference relevant to sociology. We focus on a selective subset of contributions aligning with four broad topics: causal effect identification and estimation in general, causal effect heterogeneity, causal effect mediation, and temporal and spatial interference. We describe how machine learning, as an estimation strategy, can be effectively combined with causal inference, which has been traditionally concerned with identification. The incorporation of machine learning in causal inference enables researchers to better address potential biases in estimating causal effects and uncover heterogeneous causal effects. Uncovering sources of effect heterogeneity is key for generalizing to populations beyond those under study. While sociology has long emphasized the importance of causal mechanisms, historical and life-cycle variation, and social contexts involving network interactions, recent conceptual and computational advances facilitate more principled estimation of causal effects under these settings. We encourage sociologists to incorporate these insights into their empirical research."
+  },
+  {
+    "title": "Causal inferencein recommender systems: A survey and future directions",
+    "authors": "C Gao",
+    "source": ",",
+    "year": 2026,
+    "url": "https://dl.acm.org/doi/abs/10.1145/3639048",
+    "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3639048",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Recommender systems have become crucial in information filtering nowadays. Existing recommender systems extract user preferences based on the correlation in data, such as behavioral correlation in collaborative filtering, feature-feature, or feature-behavior correlation in click-through rate prediction. However, unfortunately, the real world is driven by\n            causality\n            , not just correlation, and correlation does not imply causation. For instance, recommender systems might recommend a battery charger to a user after buying a phone, where the latter can serve as the cause of the former; such a causal relation cannot be reversed. Recently, to address this, researchers in recommender systems have begun utilizing causal inference to extract causality, thereby enhancing the recommender system. In this survey, we offer a comprehensive review of the literature on causal inference-based recommendation. Initially, we introduce the fundamental concepts of both recommender system and causal inference as the foundation for subsequent content. We then highlight the typical issues faced by non-causality recommender system. Following that, we thoroughly review the existing work on causal inference-based recommender systems, based on a taxonomy of three-aspect challenges that causal inference can address. Finally, we discuss the open problems in this critical research area and suggest important potential future works.",
+    "doi": "10.1145/3639048"
+  },
+  {
+    "title": "Large language models andcausal inferencein collaboration: A comprehensive survey",
+    "authors": "…,",
+    "source": "T Guan",
+    "year": 2026,
+    "url": "https://aclanthology.org/2025.findings-naacl.427/",
+    "scholar_link": "https://aclanthology.org/2025.findings-naacl.427/",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Xiaoyu Liu, Paiheng Xu, Junda Wu, Jiaxin Yuan, Yifan Yang, Yuhang Zhou, Fuxiao Liu, Tianrui Guan, Haoliang Wang, Tong Yu, Julian McAuley, Wei Ai, Furong Huang. Findings of the Association for Computational Linguistics: NAACL 2025. 2025."
+  },
+  {
+    "title": "AI adoptionin America: Who, what, and where",
+    "authors": "K McElheran",
+    "source": ",",
+    "year": 2026,
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jems.12576",
+    "scholar_link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jems.12576",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "AbstractWe study the early adoption and diffusion of five artificial intelligence (AI)‐related technologies (automated‐guided vehicles, machine learning, machine vision, natural language processing, and voice recognition) as documented in the 2018 Annual Business Survey of 850,000 firms across the United States. We find that fewer than 6% of firms used any of the AI‐related technologies we measure, though most very large firms reported at least some AI use. Weighted by employment, average adoption was just over 18%. AI use in production, while varying considerably by industry, was found in every sector of the economy and clustered with emerging technologies, such as cloud computing and robotics. Among dynamic young firms, AI use was highest alongside more‐educated, more‐experienced, and younger owners, including owners motivated by bringing new ideas to market or helping the community. AI adoption was also more common in startups displaying indicators of high‐growth entrepreneurship, including venture capital funding, recent product and process innovation, and growth‐oriented business strategies. Early AI adoption was far from evenly distributed: a handful of “superstar” cities and emerging hubs led startups' adoption of AI. These patterns of early AI use foreshadow economic and social impacts far beyond this limited initial diffusion, with the possibility of a growing “AI divide” if early patterns persist.",
+    "doi": "10.1111/jems.12576"
+  },
+  {
+    "title": "The role ofcausalityin explainableartificial intelligence",
+    "authors": "G Carloni",
+    "source": ",",
+    "year": 2026,
+    "url": "https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.70015",
+    "scholar_link": "https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.70015",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "ABSTRACTCausality and eXplainable Artificial Intelligence (XAI) have developed as separate fields in computer science, even though the underlying concepts of causation and explanation share common ancient roots. This is further enforced by the lack of review works jointly covering these two fields. In this paper, we investigate the literature to try to understand how and to what extent causality and XAI are intertwined. More precisely, we seek to uncover what kinds of relationships exist between the two concepts and how one can benefit from them, for instance, in building trust in AI systems. As a result, three main perspectives are identified. In the first one, the lack of causality is seen as one of the major limitations of current AI and XAI approaches, and the “optimal” form of explanations is investigated. The second is a pragmatic perspective and considers XAI as a tool to foster scientific exploration for causal inquiry, via the identification of pursue‐worthy experimental manipulations. Finally, the third perspective supports the idea that causality is propaedeutic to XAI in three possible manners: exploiting concepts borrowed from causality to support or improve XAI, utilizing counterfactuals for explainability, and considering accessing a causal model as explaining itself. To complement our analysis, we also provide relevant software solutions used to automate causal tasks. We believe our work provides a unified view of the two fields of causality and XAI by highlighting potential domain bridges and uncovering possible limitations.",
+    "doi": "10.1002/widm.70015"
+  },
+  {
+    "title": "Counterfactual Forecasting of Human Behavior using GenerativeAIandCausalGraphs",
+    "authors": "DP Uddandarao, RK Vadlamani - arXiv preprint arXiv:2511.07484, 2025 - arxiv.org",
+    "source": "Unknown",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2511.07484",
+    "scholar_link": "https://arxiv.org/abs/2511.07484",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "This study presents a novel framework for counterfactual user behavior forecasting that combines structural causal models with transformer-based generative artificial intelligence. To model fictitious situations, the method creates causal graphs that map the connections between user interactions, adoption metrics, and product features. The framework generates realistic behavioral trajectories under counterfactual conditions by using generative models that are conditioned on causal variables. Tested on datasets from web interactions, mobile applications, and e-commerce, the methodology outperforms conventional forecasting and uplift modeling techniques. Product teams can effectively simulate and assess possible interventions prior to deployment thanks to the framework improved interpretability through causal path visualization."
+  },
+  {
+    "title": "Causal Inferencefor Recommendation: Foundations, Methods, and Applications",
+    "authors": "S Xu",
+    "source": ",",
+    "year": 2026,
+    "url": "https://dl.acm.org/doi/abs/10.1145/3714430",
+    "scholar_link": "https://dl.acm.org/doi/abs/10.1145/3714430",
+    "source_name": "Google Scholar",
+    "sources": [
+      "google_scholar"
+    ],
+    "abstract": "Recommender systems are important and powerful tools for various personalized services. Traditionally, these systems use data mining and machine learning techniques to make recommendations based on correlations found in the data. However, relying solely on correlation without considering the underlying causal mechanism may lead to various practical issues such as fairness, explainability, robustness, bias, echo chamber, and controllability problems. Therefore, researchers in related area have begun incorporating causality into recommendation systems to address these issues. In this survey, we review the existing literature on causal inference in recommender systems. We discuss the fundamental concepts of both recommender systems and causal inference as well as their relationship, and review the existing work on causal methods for different problems in recommender systems. Finally, we discuss open problems and future directions in the field of causal inference for recommendations.",
+    "doi": "10.1145/3714430"
+  }
+]

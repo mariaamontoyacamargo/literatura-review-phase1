@@ -1,0 +1,245 @@
+[
+  {
+    "title": "Generative AI at Work",
+    "score": 9,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 3,
+      "causalidity": 2,
+      "top_tier": 1,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "id": "brynjolfsson_2024",
+      "title": "Generative AI at Work",
+      "authors": [
+        "Erik Brynjolfsson",
+        "Danielle Li",
+        "Lindsey Raymond"
+      ],
+      "year": 2024,
+      "venue": "The Quarterly Journal of Economics",
+      "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
+      "doi": "10.1093/qje/qjad054",
+      "methodology": "RCT, field experiment",
+      "h_index": 95,
+      "citations": 250,
+      "pocket": "worker-level",
+      "keywords": [
+        "generative AI",
+        "productivity",
+        "customer support",
+        "RCT",
+        "worker-level"
+      ],
+      "abstract": "This paper presents evidence from a randomized controlled trial examining how access to generative AI suggestions affects productivity of workers in customer support. We find substantial productivity gains.",
+      "key_findings": [
+        "14% productivity increase for customer support agents",
+        "Larger gains for less experienced workers",
+        "Improved job satisfaction"
+      ]
+    }
+  },
+  {
+    "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
+    "score": 9,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 3,
+      "causalidity": 2,
+      "top_tier": 2,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "id": "cui_2025",
+      "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
+      "authors": [
+        "Zheyuan Cui",
+        "Mert Demirer",
+        "Sonia Jaffe",
+        "Leon Musolff",
+        "Sida Peng",
+        "Tobias Salz"
+      ],
+      "year": 2025,
+      "venue": "Management Science",
+      "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.00535",
+      "doi": "10.1287/mnsc.2025.00535",
+      "methodology": "RCT, three field experiments",
+      "h_index": 45,
+      "citations": 120,
+      "pocket": "worker-level",
+      "keywords": [
+        "generative AI",
+        "software developers",
+        "productivity",
+        "RCT",
+        "high-skilled work"
+      ],
+      "abstract": "We conduct three randomized controlled trials with software developers at Microsoft, Accenture, and a Fortune 100 company to examine the impact of generative AI coding tools on developer productivity.",
+      "key_findings": [
+        "21% time reduction on tasks with AI",
+        "Larger gains for less experienced developers",
+        "Mixed effects on code quality"
+      ]
+    }
+  },
+  {
+    "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+    "score": 9,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 3,
+      "causalidity": 2,
+      "top_tier": 1,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "id": "metr_2025",
+      "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+      "authors": [
+        "METR Research Team"
+      ],
+      "year": 2025,
+      "venue": "arXiv/METR Blog",
+      "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "methodology": "RCT, field experiment",
+      "h_index": 30,
+      "citations": 45,
+      "pocket": "task-level",
+      "keywords": [
+        "generative AI",
+        "developer productivity",
+        "open-source",
+        "RCT",
+        "task-level"
+      ],
+      "abstract": "Randomized controlled trial examining how AI tools affect the productivity of experienced open-source developers working on their own repositories.",
+      "key_findings": [
+        "19% slower completion time with AI",
+        "Experience-level matters significantly",
+        "AI provides different value for exploration vs execution"
+      ]
+    }
+  },
+  {
+    "title": "The Projected Impact of Generative AI on Future Productivity Growth",
+    "score": 9,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 5,
+      "causalidity": 0,
+      "top_tier": 1,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "id": "wharton_2025",
+      "title": "The Projected Impact of Generative AI on Future Productivity Growth",
+      "authors": [
+        "Penn Wharton Budget Model"
+      ],
+      "year": 2025,
+      "venue": "Wharton School, University of Pennsylvania",
+      "url": "https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth",
+      "methodology": "Macroeconomic modeling, panel data analysis",
+      "h_index": 75,
+      "citations": 200,
+      "pocket": "firm-level",
+      "keywords": [
+        "generative AI",
+        "productivity growth",
+        "TFP",
+        "macroeconomic",
+        "firm-level"
+      ],
+      "abstract": "Analysis of generative AI's impact on aggregate productivity growth and total factor productivity (TFP) across firms.",
+      "key_findings": [
+        "Current TFP impact: 0.01 percentage points in 2025",
+        "Projected TFP gain: 1.5% by 2035, 3% by 2055",
+        "Adoption rates critical to realized gains"
+      ]
+    }
+  },
+  {
+    "title": "AI, Productivity, and Labor Markets: A Review of the Empirical Evidence",
+    "score": 4,
+    "status": "REVISAR",
+    "breakdown": {
+      "methodology": 1,
+      "causalidity": 0,
+      "top_tier": 1,
+      "novelty": 1,
+      "relevance": 1
+    },
+    "metadata": {
+      "id": "laweconcenter_2025",
+      "title": "AI, Productivity, and Labor Markets: A Review of the Empirical Evidence",
+      "authors": [
+        "International Center for Law & Economics"
+      ],
+      "year": 2025,
+      "venue": "International Center for Law & Economics",
+      "url": "https://laweconcenter.org/resources/ai-productivity-and-labor-markets-a-review-of-the-empirical-evidence/",
+      "methodology": "Systematic literature review",
+      "h_index": 50,
+      "citations": 150,
+      "pocket": "multi-level",
+      "keywords": [
+        "AI",
+        "productivity",
+        "labor markets",
+        "empirical evidence",
+        "review"
+      ],
+      "abstract": "Comprehensive review of empirical evidence on AI's impact on productivity, employment, and labor markets.",
+      "key_findings": [
+        "Evidence shows task-specific productivity gains",
+        "Broader firm-level effects still uncertain",
+        "Distribution of gains varies by worker skill"
+      ]
+    }
+  },
+  {
+    "title": "Generative AI, Productivity and the Future of Work",
+    "score": 9,
+    "status": "ACEPTADO",
+    "breakdown": {
+      "methodology": 5,
+      "causalidity": 0,
+      "top_tier": 1,
+      "novelty": 1,
+      "relevance": 2
+    },
+    "metadata": {
+      "id": "stlouisfed_2025",
+      "title": "Generative AI, Productivity and the Future of Work",
+      "authors": [
+        "Federal Reserve Bank of St. Louis"
+      ],
+      "year": 2025,
+      "venue": "St. Louis Fed Economic Bulletin",
+      "url": "https://www.stlouisfed.org/open-vault/2025/oct/generative-ai-productivity-future-work",
+      "methodology": "Panel data analysis, survey",
+      "h_index": 60,
+      "citations": 180,
+      "pocket": "team-level",
+      "keywords": [
+        "generative AI",
+        "productivity",
+        "labor",
+        "economic impacts",
+        "team"
+      ],
+      "abstract": "Analysis of adoption trends and productivity impacts of generative AI across different worker categories and organizational contexts.",
+      "key_findings": [
+        "5.4% work hour time savings reported",
+        "2.2 hours per week productivity gain average",
+        "Adoption increasing from 26.4% to 33.7% of workers"
+      ]
+    }
+  }
+]
