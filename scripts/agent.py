@@ -552,6 +552,13 @@ def _search_imf(query: str, limit: int) -> list:
 
 # ── Corpus helpers ─────────────────────────────────────────────────────────────
 
+def _paper_classification(p: dict) -> str:
+    """Read classification from either new schema (agent_classification) or old (status)."""
+    cl = p.get("agent_classification") or p.get("status", "")
+    # normalise legacy Spanish labels
+    return {"ACEPTADO": "ACCEPTED", "REVISAR": "REVIEW", "RECHAZADO": "REJECTED"}.get(cl, cl)
+
+
 def get_corpus_status() -> dict:
     status = {}
     total_accepted = total_papers = 0
@@ -562,19 +569,21 @@ def get_corpus_status() -> dict:
             f = ROOT / fname
             if f.exists():
                 papers = json.loads(f.read_text())
-                accepted = sum(1 for p in papers if p.get("status") == "ACEPTADO")
-                sources = {p.get("source", "unknown") for p in papers}
+                accepted  = sum(1 for p in papers if _paper_classification(p) == "ACCEPTED")
+                review    = sum(1 for p in papers if _paper_classification(p) == "REVIEW")
+                rejected  = sum(1 for p in papers if _paper_classification(p) == "REJECTED")
+                human_val = sum(1 for p in papers if p.get("human_classification"))
+                sources   = {p.get("source", "unknown") for p in papers}
                 status[pocket] = {
                     "total": len(papers),
                     "accepted": accepted,
-                    "revisar": sum(1 for p in papers if p.get("status") == "REVISAR"),
-                    "rejected": sum(1 for p in papers if p.get("status") == "RECHAZADO"),
-                    "with_abstract": sum(
-                        1 for p in papers
-                        if p.get("abstract") or p.get("metadata", {}).get("abstract")
-                    ),
+                    "review": review,
+                    "rejected": rejected,
+                    "human_validated": human_val,
+                    "non_rejected": accepted + review,
+                    "with_abstract": sum(1 for p in papers if p.get("abstract")),
                     "sources": list(sources),
-                    "source": f.name,
+                    "source_file": f.name,
                 }
                 total_accepted += accepted
                 total_papers += len(papers)
@@ -591,6 +600,12 @@ def get_corpus_status() -> dict:
 
 
 def load_papers(pocket: str, status_filter: str = None) -> list:
+    """Load papers from a pocket file. status_filter accepts new-schema (ACCEPTED/REVIEW/REJECTED)
+    or legacy Spanish labels (ACEPTADO/REVISAR/RECHAZADO)."""
+    # Normalise filter to new schema
+    _legacy = {"ACEPTADO": "ACCEPTED", "REVISAR": "REVIEW", "RECHAZADO": "REJECTED"}
+    if status_filter in _legacy:
+        status_filter = _legacy[status_filter]
     for fname in [f"data/{pocket}_reviewed_enriched.json",
                   f"data/{pocket}_reviewed.json",
                   f"data/{pocket}_papers_enriched.json"]:
@@ -598,8 +613,8 @@ def load_papers(pocket: str, status_filter: str = None) -> list:
         if f.exists():
             papers = json.loads(f.read_text())
             if status_filter:
-                papers = [p for p in papers if p.get("status") == status_filter]
-            return papers[:50]
+                papers = [p for p in papers if _paper_classification(p) == status_filter]
+            return papers[:100]
     return []
 
 
@@ -754,13 +769,18 @@ def _deduplicate(papers: list) -> tuple[list, dict]:
 # ── Coverage evaluation ───────────────────────────────────────────────────────
 
 def _evaluate_coverage(papers: list, pocket: str) -> dict:
-    """Returns a 0–1 coverage score with diagnostics."""
-    target = CONFIG.get("coverage_target", 20)
+    """Returns a 0–1 coverage score with diagnostics.
+    Target: 60 ACCEPTED+REVIEW papers per pocket (Change 4)."""
+    target = CONFIG.get("coverage_target", 60)  # CHANGE 4: was 20
     if not papers:
         return {"score": 0.0, "reason": "no papers", "details": {}}
 
-    # Criterion 1: quantity (0–0.4)
-    quantity_score = min(len(papers) / target, 1.0) * 0.4
+    # Count only non-rejected papers (ACCEPTED + REVIEW)
+    non_rejected = [p for p in papers if _paper_classification(p) != "REJECTED"]
+    effective_count = len(non_rejected)
+
+    # Criterion 1: quantity (0–0.4) — based on non-rejected count vs target
+    quantity_score = min(effective_count / target, 1.0) * 0.4
 
     # Criterion 2: temporal diversity (0–0.3) — penalise if all same year
     years = [p.get("year") for p in papers if p.get("year")]
@@ -790,7 +810,8 @@ def _evaluate_coverage(papers: list, pocket: str) -> dict:
         "threshold": 0.6,
         "needs_more": score < 0.6,
         "details": {
-            "papers": len(papers),
+            "papers_total": len(papers),
+            "papers_non_rejected": effective_count,  # ACCEPTED + REVIEW
             "target": target,
             "quantity_score": round(quantity_score, 3),
             "years_covered": sorted(set(years)),
@@ -801,9 +822,9 @@ def _evaluate_coverage(papers: list, pocket: str) -> dict:
             "fulltext_score": round(fulltext_score, 3),
         },
         "recommendation": (
-            "Coverage sufficient — proceed to review."
+            f"Coverage sufficient — {effective_count}/{target} non-rejected papers."
             if score >= 0.6
-            else f"Score {score} < 0.6. Try alternative queries or additional sources."
+            else f"Score {score} < 0.6. Need {target - effective_count} more ACCEPTED/REVIEW papers. Try alternative queries."
         ),
     }
 
@@ -923,11 +944,14 @@ TOOLS = [
     {
         "name": "review_papers_with_ai",
         "description": (
-            "Claude Haiku reviews a list of papers against the pocket's rubric and acceptance criteria. "
-            "For each paper: read the abstract, apply rubric (methodology 0-4, causal 0-2, top-tier 0-2, "
-            "novelty -1/0/1, relevance 0-2), check each of the 5 acceptance criteria, compute total score, "
-            "assign ACEPTADO/REVISAR/RECHAZADO. Haiku receives the pocket definition in its system prompt. "
-            "Pass the pocket_definition from get_pocket_definition to enable pocket-specific context."
+            # CHANGE 1+2+7: replaced rubric-based scoring with anchor-paper signal classification.
+            # Uses Sonnet (not Haiku). Suggests ACCEPTED/REVIEW/REJECTED — human reviews.
+            "Classify papers against the pocket using anchor papers as the quality/relevance bar. "
+            "Suggests ACCEPTED (clearly matches anchor papers in topic/methodology/question), "
+            "REVIEW (ambiguous — needs human judgment), or REJECTED (clearly not relevant). "
+            "This is an AGENT SUGGESTION ONLY — human reviews all classifications. "
+            "Pass anchor_papers (external JSON list) to supplement pocket's built-in anchor papers. "
+            "Pass iteration number to track which run found each paper."
         ),
         "input_schema": {
             "type": "object",
@@ -936,29 +960,37 @@ TOOLS = [
                 "pocket": {"type": "string", "enum": list(POCKETS.keys())},
                 "pocket_definition": {
                     "type": "object",
-                    "description": "Result from get_pocket_definition — passed directly to Haiku system prompt.",
+                    "description": "Result from get_pocket_definition — provides pocket context.",
+                },
+                "anchor_papers": {
+                    "type": "array",
+                    "items": {"type": "object"},
+                    "description": "External anchor papers (id, title, authors, year, journal, abstract, quality).",
+                },
+                "iteration": {
+                    "type": "integer",
+                    "description": "Current iteration number (0-indexed). Stored on each paper.",
+                    "default": 0,
                 },
             },
             "required": ["papers", "pocket"],
         },
     },
     {
-        "name": "synthesize_papers",
+        "name": "cluster_papers",
         "description": (
-            "Claude Haiku synthesizes accepted papers: extract main finding, methodology type, "
-            "outcome measured, sample context, effect size, limitations, LATAM relevance, "
-            "and connections to other papers. Only synthesize ACCEPTED papers. "
-            "Pass pocket_definition for pocket-specific context in the Haiku system prompt."
+            # CHANGE 5: new tool — groups ACCEPTED papers into thematic clusters.
+            "Group ACCEPTED papers into 3-8 thematic clusters to help a human read 60 papers "
+            "strategically. For each cluster: short descriptive label, list of paper IDs, "
+            "2-3 recommended first-reads, and rationale for that recommendation. "
+            "Output is a separate JSON file (pocket_clusters.json). "
+            "Call this after classification, passing only ACCEPTED papers."
         ),
         "input_schema": {
             "type": "object",
             "properties": {
                 "papers": {"type": "array", "items": {"type": "object"}},
                 "pocket": {"type": "string", "enum": list(POCKETS.keys())},
-                "pocket_definition": {
-                    "type": "object",
-                    "description": "Result from get_pocket_definition — passed directly to Haiku system prompt.",
-                },
             },
             "required": ["papers", "pocket"],
         },
@@ -1089,60 +1121,60 @@ def execute_tool(name: str, inputs: dict, client: anthropic.Anthropic) -> str:
         return json.dumps(save_papers(inputs["pocket"], inputs["papers"], inputs.get("mode", "merge")))
 
     if name == "review_papers_with_ai":
+        # CHANGE 1+2+3+7+8: anchor-based classification, Sonnet, new schema, no rubric.
         pocket = inputs["pocket"]
         papers = inputs["papers"][:30]
         pdef = inputs.get("pocket_definition") or {}
+        external_anchors = inputs.get("anchor_papers") or []  # CHANGE 2
+        iteration = inputs.get("iteration", 0)                 # CHANGE 2
         p = POCKETS[pocket]
+
+        # Build anchor papers list from pocket definition + any external anchors
+        pocket_anchors = p.get("anchor_papers", [])
+        external_anchor_lines = [
+            f"{ap.get('title', '')} ({ap.get('year', '')}) — {', '.join(ap.get('authors', []))}"
+            for ap in external_anchors
+        ]
+        all_anchors = pocket_anchors + external_anchor_lines
+        anchors_text = "\n".join(f"  • {a}" for a in all_anchors)
+
+        subquestions_text = "\n".join(
+            f"  - {c}" for c in pdef.get("acceptance_criteria", p["accept_criteria"])
+        )
 
         papers_text = "\n\n".join(
             f"PAPER {i+1}:\nTitle: {p2.get('title','')}\n"
             f"Authors: {p2.get('authors','')} | Year: {p2.get('year','')} | "
-            f"Venue: {p2.get('venue','')} | Citations: {p2.get('citations','N/A')}\n"
-            f"Abstract: {(p2.get('abstract') or 'NO ABSTRACT — score based on title only')[:600]}"
+            f"Venue: {p2.get('venue','')}\n"
+            f"Abstract: {(p2.get('abstract') or 'NO ABSTRACT')[:600]}"
             for i, p2 in enumerate(papers)
         )
-        criteria_text = "\n".join(f"{i+1}. {c}" for i, c in enumerate(p["accept_criteria"]))
-        accept_criteria_from_def = "\n".join(
-            pdef.get("acceptance_criteria", p["accept_criteria"])
-        )
 
+        # CHANGE 8: tightened pocket prompt structure
         system = (
-            f"You are a rigorous academic reviewer specialised in: {pocket} — {p['label']}.\n"
-            f"Topic definition: {pdef.get('central_question', p['question'])}\n"
-            f"Search date: {datetime.now().strftime('%Y-%m-%d')}\n"
-            f"Relevance criteria:\n{accept_criteria_from_def}"
+            "You are a research assistant helping with a literature review on the "
+            "causal impact of AI adoption.\n\n"
+            f"For this pocket, the central research question is: "
+            f"{pdef.get('central_question', p['question'])}\n\n"
+            f"Sub-questions guiding this pocket:\n{subquestions_text}\n\n"
+            "Search scope: We are interested in AI adoption within private sector firms, "
+            "at the worker or firm level. Do NOT classify as ACCEPTED papers that address "
+            "AI adoption at the country or macro level unless they have a firm-level component.\n\n"
+            f"Anchor papers (these define the quality and relevance bar):\n{anchors_text}"
         )
 
-        prompt = f"""Review the following papers for the BID-IA project on AI adoption in firms (Colombia/LATAM).
+        prompt = f"""You have been given anchor papers that represent exactly what we are looking for.
+A paper is ACCEPTED if it closely matches the topic, methodology, or research question of the anchor papers.
+It is REJECTED if it clearly does not.
+It is REVIEW if you are uncertain.
 
-{RUBRIC}
-
-ACCEPTANCE CRITERIA FOR THIS POCKET (use these to evaluate relevance and criteria checklist):
-{criteria_text}
-
-SCORING GUIDE:
-- score = identification_causal + quality_signals + external_validity_latam + relevance + recency
-- Max score = 14
-- ACEPTADO: score >= 9, OR (score >= 7 AND relevance=3 AND identification_causal >= 2)
-- REVISAR: score 5-8
-- RECHAZADO: score < 5 OR relevance = 0
-
-CRITICAL RULE: relevance = 0 means RECHAZADO immediately, regardless of methodology score.
+# HUMAN REVIEWS THIS — agent suggestion only
 
 For each paper, return a JSON object with EXACTLY this structure:
 {{
   "title": "<exact title as given>",
-  "score": <int 0-14>,
-  "status": "<ACEPTADO|REVISAR|RECHAZADO>",
-  "breakdown": {{
-    "identification_causal": <0-4>,
-    "quality_signals": <0-3>,
-    "external_validity_latam": <0-3>,
-    "relevance": <0-3>,
-    "recency": <-1|0|1>
-  }},
-  "criteria": [{{"key": "c1", "desc": "<criterion text>", "met": <true|false>}}, ...],
-  "review_note": "<1-2 sentence justification focusing on causal identification and relevance>"
+  "agent_classification": "<ACCEPTED|REVIEW|REJECTED>",
+  "agent_classification_reason": "<one sentence explaining why, referencing anchor papers if relevant>"
 }}
 
 Return ONLY a JSON array, one object per paper. No preamble, no explanation.
@@ -1150,8 +1182,9 @@ Return ONLY a JSON array, one object per paper. No preamble, no explanation.
 PAPERS:
 {papers_text}
 """
+        # CHANGE 7: was claude-haiku-4-5-20251001
         response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
+            model="claude-sonnet-4-6",
             max_tokens=8000,
             system=system,
             messages=[{"role": "user", "content": prompt}],
@@ -1163,86 +1196,96 @@ PAPERS:
         reviews = json.loads(raw[start:end])
         review_map = {r["title"].lower()[:60]: r for r in reviews}
 
+        # CHANGE 3: output uses new state schema
         reviewed = []
         for p2 in papers:
             key = p2.get("title", "").lower()[:60]
             rev = review_map.get(key)
-            if rev:
-                merged = {**p2, **rev, "pocket": pocket, "reviewed_at": datetime.now().isoformat()}
-                if "metadata" not in merged:
-                    skip = {"score", "status", "breakdown", "criteria", "review_note", "reviewed_at", "pocket"}
-                    merged["metadata"] = {k: v for k, v in p2.items() if k not in skip}
-                reviewed.append(merged)
-            else:
-                reviewed.append(p2)
+            doi = (p2.get("doi") or "").strip().replace("https://doi.org/", "")
+            paper_id = doi or p2.get("url", "") or f"unknown_{key[:20]}"
+            new_paper = {
+                "id": paper_id,
+                "title": p2.get("title", ""),
+                "authors": p2.get("authors", ""),
+                "year": p2.get("year"),
+                "journal": p2.get("venue", "") or p2.get("journal", ""),
+                "abstract": p2.get("abstract", ""),
+                "source": p2.get("source", ""),
+                "pocket": pocket,
+                "agent_classification": rev.get("agent_classification", "REVIEW") if rev else "REVIEW",
+                # HUMAN REVIEWS THIS — agent suggestion only
+                "agent_classification_reason": rev.get("agent_classification_reason", "") if rev else "",
+                "human_classification": None,  # filled by human later
+                "iteration_found": iteration,
+                # preserve lookup fields
+                "url": p2.get("url", ""),
+                "doi": doi,
+                "full_text_url": p2.get("full_text_url", ""),
+                "citations": p2.get("citations"),
+            }
+            reviewed.append(new_paper)
         return json.dumps(reviewed, ensure_ascii=False)
 
-    if name == "synthesize_papers":
+    # CHANGE 5: new cluster_papers tool
+    if name == "cluster_papers":
         pocket = inputs["pocket"]
-        papers = inputs["papers"][:20]
-        pdef = inputs.get("pocket_definition") or {}
-        p = POCKETS[pocket]
+        papers = inputs["papers"][:80]  # cluster up to 80 accepted papers
 
         papers_text = "\n\n".join(
-            f"PAPER {i+1} (score {p2.get('score','?')}):\nTitle: {p2.get('title','')}\n"
-            f"Authors: {p2.get('authors','')} | Year: {p2.get('year','')} | Venue: {p2.get('venue','')}\n"
-            f"Abstract: {(p2.get('abstract') or p2.get('metadata', {}).get('abstract', 'NO ABSTRACT'))[:500]}"
+            f"[{p2.get('id', p2.get('doi', f'p{i}'))}] {p2.get('title','')}\n"
+            f"Abstract: {(p2.get('abstract') or '')[:400]}"
             for i, p2 in enumerate(papers)
         )
-        accept_criteria_from_def = "\n".join(
-            pdef.get("acceptance_criteria", p["accept_criteria"])
-        )
 
-        system = (
-            f"You are a research synthesis assistant specialised in: {pocket} — {p['label']}.\n"
-            f"Topic definition: {pdef.get('central_question', p['question'])}\n"
-            f"Search date: {datetime.now().strftime('%Y-%m-%d')}\n"
-            f"Relevance criteria:\n{accept_criteria_from_def}"
-        )
+        prompt = f"""Given the following list of accepted papers (IDs + titles + abstracts),
+identify between 3 and 8 thematic groups. For each group:
+- Give it a short descriptive label (not a headline, a description of the theme)
+- List the paper IDs that belong to it
+- Recommend the 2-3 most representative papers to read first in that group
+- Briefly explain what reading those 2-3 papers would cover
 
-        prompt = f"""Synthesize these papers for the BID-IA project on AI adoption in firms (Colombia/LATAM).
+The goal is to help a human researcher read {len(papers)} papers strategically
+by reading ~{min(len(papers)//3, 18)} representative ones first.
 
-PROJECT: First RCT of AI adoption in LATAM SMEs (Guatiguara). This literature informs the design.
-
-For each paper, return a JSON synthesis:
+Return ONLY a JSON object with this structure:
 {{
-  "title": "<exact title>",
-  "synthesis": {{
-    "main_finding": "<1 sentence: the key empirical result>",
-    "methodology": "<RCT|DiD|IV|panel|observational|framework|meta-analysis|other>",
-    "outcome_measured": "<what was measured>",
-    "sample_context": "<who/where>",
-    "effect_size": "<if reported, or 'not reported'>",
-    "limitations": "<main limitation in 1 sentence>",
-    "latam_relevance": "<high|medium|low|none — one sentence why>",
-    "design_lesson": "<what this teaches for the Guatiguara RCT, or 'N/A'>",
-    "connects_to": ["<title of related paper in this list>"]
-  }}
+  "pocket": "{pocket}",
+  "clusters": [
+    {{
+      "cluster_id": 1,
+      "label": "<short descriptive label>",
+      "paper_ids": ["<id1>", "<id2>", ...],
+      "recommended_reads": ["<id1>", "<id2>", "<id3>"],
+      "rationale": "<one sentence: what reading these covers>"
+    }}
+  ]
 }}
 
-Return ONLY a JSON array. No preamble.
+No preamble, no explanation outside the JSON.
 
 PAPERS:
 {papers_text}
 """
+        # CHANGE 7: Sonnet for clustering too
         response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=6000,
-            system=system,
+            model="claude-sonnet-4-6",
+            max_tokens=4000,
             messages=[{"role": "user", "content": prompt}],
         )
         raw = response.content[0].text.strip()
-        start, end = raw.find("["), raw.rfind("]") + 1
+        start = raw.find("{")
+        end = raw.rfind("}") + 1
         if start == -1 or end <= start:
-            return json.dumps({"error": "Could not parse synthesis", "raw": raw[:300]})
-        syntheses = json.loads(raw[start:end])
-        synth_map = {s["title"].lower()[:60]: s["synthesis"] for s in syntheses}
-        enriched = []
-        for p2 in papers:
-            key = p2.get("title", "").lower()[:60]
-            s = synth_map.get(key)
-            enriched.append({**p2, "synthesis": s} if s else p2)
-        return json.dumps(enriched, ensure_ascii=False)
+            return json.dumps({"error": "Could not parse clusters", "raw": raw[:500]})
+        clusters = json.loads(raw[start:end])
+
+        # Save clusters to file
+        out_path = ROOT / f"data/{pocket}_clusters.json"
+        out_path.write_text(json.dumps(clusters, ensure_ascii=False, indent=2))
+        clusters["saved_to"] = str(out_path)
+        return json.dumps(clusters, ensure_ascii=False)
+
+    # synthesize_papers REMOVED (Change 6) — we read papers ourselves
 
     return json.dumps({"error": f"Unknown tool: {name}"})
 
@@ -1254,27 +1297,35 @@ SYSTEM_PROMPT = f"""You are the BID-IA Literature Review Agent for Fedesarrollo 
 {PROJECT_CONTEXT}
 
 HOW TO APPROACH TASKS:
-1. Start with get_corpus_status — understand what exists, what's missing, what's below target.
-2. For any pocket, call get_pocket_definition first — it has the exact curated queries and criteria.
-   Store the result: pass it as pocket_definition to review_papers_with_ai and synthesize_papers.
-3. When searching: use the pocket's curated queries. Search 2-3 sources for HIGH priority pockets.
+1. Start with get_corpus_status — understand what exists, what's missing, what's below target (60 per pocket).
+2. For any pocket, call get_pocket_definition first — it has the exact curated queries and anchor papers.
+   Store the result and pass it as pocket_definition to review_papers_with_ai.
+3. When searching: use the pocket's curated queries. Search 2-3 sources per round.
    Source strategy: NBER for economics (labor, desigualdad, evaluacion_experimental);
    ArXiv for recent CS/AI papers; OpenAlex for citation counts; Semantic Scholar for breadth;
    SSRN for economics/finance preprints; World Bank for development/labor; IMF for macro.
-4. After each round of search_papers, call evaluate_corpus_coverage. If score < 0.6, run
-   another round with alternative queries before proceeding to review.
-5. After collecting papers from multiple sources, call enrich_metadata then deduplicate_papers.
-6. When reviewing: apply real academic judgment. Relevance = 0 means RECHAZADO regardless of method.
-7. After reviewing, always save before ending the task.
-8. Synthesize only ACCEPTED papers.
+4. After each round of search_papers, call evaluate_corpus_coverage.
+   Target: 60 ACCEPTED+REVIEW papers per pocket. If score < 0.6, search more before reviewing.
+5. After collecting from multiple sources, call enrich_metadata then deduplicate_papers.
+6. Classification: call review_papers_with_ai. This suggests ACCEPTED/REVIEW/REJECTED based on
+   anchor papers as the relevance bar. DO NOT use numeric scores. The human reviews all suggestions.
+7. After classification, call cluster_papers on ACCEPTED papers only.
+8. Always save_papers before ending the task.
+9. DO NOT call synthesize_papers — it has been removed. We read papers ourselves.
+
+OUTPUTS PER RUN (three files only):
+- {"{pocket}"}_reviewed_enriched.json — classified papers (agent_classification + human_classification)
+- {"{pocket}"}_clusters.json — thematic clusters of ACCEPTED papers
+- run report: total_found, accepted, review, rejected, duplicates_removed
 
 ERROR HANDLING:
-- If a tool returns an object with "error": true, log the source and continue with available data.
-- In your final report, list any sources that failed and were skipped.
-- Example: "SSRN unavailable (no API key). Searched 4/5 planned sources."
+- If a tool returns {{"error": true}}, log the source and continue with available data.
+- List any sources that failed: "SSRN unavailable (no API key). Searched 4/5 sources."
 
-COMMUNICATION: Be concise. After each search: "Found N papers from source X."
-After review: "Reviewed N: X ACEPTADO, Y REVISAR, Z RECHAZADO."
+COMMUNICATION: Be concise.
+After search: "Found N papers from [source]."
+After classification: "Classified N: X ACCEPTED, Y REVIEW, Z REJECTED."
+After clusters: "Created N clusters. Recommended reads: [titles]."
 """
 
 
@@ -1366,6 +1417,148 @@ def run_agent(task: str, api_key: str, verbose: bool = False):
     print(f"\n{'─'*60}\nDone.\n")
 
 
+# ── Human-in-the-loop iteration cycle (Change 9) ─────────────────────────────
+
+def _count_state(pocket: str) -> dict:
+    """Count papers in current state file by classification."""
+    papers = load_papers(pocket)
+    return {
+        "accepted":  sum(1 for p in papers if _paper_classification(p) == "ACCEPTED"),
+        "review":    sum(1 for p in papers if _paper_classification(p) == "REVIEW"),
+        "rejected":  sum(1 for p in papers if _paper_classification(p) == "REJECTED"),
+        "total":     len(papers),
+        "titles":    {p.get("title", "").lower()[:60] for p in papers},
+    }
+
+
+def run_pocket_iteration(
+    pocket: str,
+    api_key: str,
+    anchor_papers: list = None,
+    verbose: bool = False,
+    max_outer_iterations: int = 7,
+):
+    """Human-in-the-loop iteration cycle for a single pocket.
+
+    Cycle per iteration:
+      1. Agent searches and suggests classifications (ACCEPTED/REVIEW/REJECTED)
+      2. Human reviews suggestions (reads abstracts/intros) and edits human_classification
+      3. Agent reads human-validated state as refined signal for next search
+      4. Repeat until stopping condition
+
+    Stopping conditions:
+      - No new papers found in last iteration, OR
+      - max_outer_iterations (hard cap, default 7) reached
+
+    CLI usage:
+      python scripts/agent.py --pocket labor --iterate
+      python scripts/agent.py --pocket labor --iterate --anchor-papers anchors.json
+    """
+    anchor_papers = anchor_papers or []
+    client = anthropic.Anthropic(api_key=api_key)
+
+    for outer_iter in range(max_outer_iterations):
+        state_before = _count_state(pocket)
+
+        # ── Iteration start log ────────────────────────────────────────────
+        print(f"\n{'═'*60}")
+        print(
+            f"Starting iteration {outer_iter}. "
+            f"Papers in state: {state_before['accepted']} accepted, "
+            f"{state_before['review']} review, {state_before['rejected']} rejected. "
+            f"New papers found last iteration: "
+            f"{'N/A (first run)' if outer_iter == 0 else str(state_before['total'] - _prev_total)}. "
+            f"Stopping if 0 new papers found."
+        )
+        print(f"{'═'*60}\n")
+
+        # Build task string with iteration context
+        if outer_iter == 0:
+            signal = "Use the pocket's anchor papers as the sole relevance signal."
+        else:
+            n_accepted = state_before["accepted"]
+            signal = (
+                f"This is iteration {outer_iter}. "
+                f"There are already {n_accepted} ACCEPTED papers (human-validated) in state. "
+                "Load them with load_papers(status_filter='ACCEPTED') and use them as "
+                "additional relevance signal alongside the anchor papers. "
+                "Search for papers SIMILAR to these accepted ones that are NOT yet in state."
+            )
+
+        anchor_json = json.dumps(anchor_papers) if anchor_papers else "[]"
+        task = (
+            f"Run iteration {outer_iter} of the literature search for pocket '{pocket}'.\n\n"
+            f"{signal}\n\n"
+            f"External anchor papers (JSON): {anchor_json}\n\n"
+            "Steps:\n"
+            "1. get_corpus_status\n"
+            "2. get_pocket_definition\n"
+            "3. Search 2-3 sources using curated queries\n"
+            "4. enrich_metadata then deduplicate_papers (skip papers already in state)\n"
+            "5. evaluate_corpus_coverage — target 60 ACCEPTED+REVIEW. If < 0.6, search more\n"
+            f"6. review_papers_with_ai with iteration={outer_iter} and the external anchor_papers\n"
+            "7. cluster_papers on ACCEPTED papers\n"
+            "8. save_papers (merge mode)\n"
+            "9. Report: total found, accepted, review, rejected, duplicates removed"
+        )
+
+        run_agent(task, api_key, verbose)
+
+        state_after = _count_state(pocket)
+        _prev_total = state_after["total"]
+        new_papers = state_after["total"] - state_before["total"]
+
+        # ── Iteration end log ──────────────────────────────────────────────
+        print(f"\n{'─'*60}")
+        print(
+            f"Iteration {outer_iter} complete. New papers added: {new_papers}. "
+            f"Run again? Waiting for human classification before next iteration."
+        )
+        print(f"{'─'*60}")
+
+        # ── Stopping condition 1: no new papers ───────────────────────────
+        if outer_iter > 0 and new_papers == 0:
+            print("\nStopping condition met: no new papers found. Pipeline complete.")
+            break
+
+        # ── Stopping condition 2: coverage reached ────────────────────────
+        non_rejected = state_after["accepted"] + state_after["review"]
+        if non_rejected >= 60:
+            print(f"\nStopping condition met: {non_rejected} ACCEPTED+REVIEW papers (target: 60).")
+            break
+
+        # ── Human-in-the-loop pause ────────────────────────────────────────
+        if outer_iter < max_outer_iterations - 1:
+            print(
+                f"\nNext: review agent suggestions in data/{pocket}_reviewed_enriched.json\n"
+                "  Set human_classification = 'ACCEPTED' | 'REVIEW' | 'REJECTED' for each paper.\n"
+                "  Then press ENTER to run next iteration, or type 'stop' to exit."
+            )
+            try:
+                user_input = input("Human classification complete? ").strip().lower()
+                if user_input == "stop":
+                    print("Exiting iteration loop.")
+                    break
+            except (KeyboardInterrupt, EOFError):
+                print("\nInterrupted. Exiting.")
+                break
+    else:
+        print(f"\nReached max_outer_iterations={max_outer_iterations}. Stopping.")
+
+    # Final run report
+    final = _count_state(pocket)
+    report = {
+        "pocket": pocket,
+        "iteration": outer_iter,
+        "total_found": final["total"],
+        "accepted": final["accepted"],
+        "review": final["review"],
+        "rejected": final["rejected"],
+        "duplicates_removed": 0,  # tracked per-run above
+    }
+    print(f"\nFinal report: {json.dumps(report, indent=2)}")
+
+
 # ── CLI ────────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1384,7 +1577,14 @@ def main():
     )
     parser.add_argument("task", nargs="?")
     parser.add_argument("--pocket", choices=list(POCKETS.keys()))
-    parser.add_argument("--mode", choices=["search", "review", "synthesize", "full"], default="full")
+    parser.add_argument("--mode", choices=["search", "review", "full"], default="full",
+                        help="search=find papers only; review=classify existing; full=end-to-end")
+    parser.add_argument("--iterate", action="store_true",
+                        help="Run human-in-the-loop iteration cycle (Change 9). "
+                             "Pauses between iterations for human classification.")
+    parser.add_argument("--anchor-papers",
+                        help="Path to JSON file with external anchor papers "
+                             "[{id, title, authors, year, journal, abstract, quality}]")
     parser.add_argument("--status", action="store_true")
     parser.add_argument("--interactive", "-i", action="store_true")
     parser.add_argument("--verbose", "-v", action="store_true")
@@ -1417,22 +1617,39 @@ def main():
         print("Error: set ANTHROPIC_API_KEY or use --api-key")
         sys.exit(1)
 
+    # Load external anchor papers if provided (Change 2)
+    anchor_papers = []
+    if args.anchor_papers:
+        try:
+            anchor_papers = json.loads(Path(args.anchor_papers).read_text())
+            print(f"Loaded {len(anchor_papers)} external anchor papers from {args.anchor_papers}")
+        except Exception as e:
+            print(f"Warning: could not load anchor papers: {e}")
+
     if args.pocket:
+        # Change 9: --iterate triggers human-in-the-loop cycle
+        if args.iterate:
+            run_pocket_iteration(
+                pocket=args.pocket,
+                api_key=api_key,
+                anchor_papers=anchor_papers,
+                verbose=args.verbose,
+            )
+            return
+
         mode_tasks = {
             "search": (
                 f"Search for new papers for the '{args.pocket}' pocket. "
                 f"Get the pocket definition first, then run 3-4 of its curated queries across "
                 f"the most relevant sources. After collecting, run enrich_metadata and "
-                f"deduplicate_papers. Check coverage with evaluate_corpus_coverage. Report findings."
+                f"deduplicate_papers. Check coverage with evaluate_corpus_coverage. "
+                f"Target: 60 ACCEPTED+REVIEW papers. Report findings."
             ),
             "review": (
-                f"Load unreviewed papers for the '{args.pocket}' pocket. Get the pocket definition, "
-                f"then review all papers against the rubric and acceptance criteria. Save the results."
-            ),
-            "synthesize": (
-                f"Load ACCEPTED papers for the '{args.pocket}' pocket. Get the pocket definition, "
-                f"then synthesize (extract findings, methodology, effect sizes, LATAM relevance, "
-                f"design lessons). Save the enriched results."
+                f"Load existing papers for the '{args.pocket}' pocket. Get the pocket definition. "
+                f"Classify all papers using review_papers_with_ai (anchor-based, no rubric). "
+                f"Then cluster_papers on ACCEPTED ones. Save results."
+                + (f" External anchor papers: {json.dumps(anchor_papers)}" if anchor_papers else "")
             ),
             "full": (
                 f"Run the full pipeline for the '{args.pocket}' pocket: "
@@ -1441,11 +1658,12 @@ def main():
                 f"3) Search 2-3 sources using curated queries. "
                 f"4) Enrich metadata via Crossref. "
                 f"5) Deduplicate the combined results. "
-                f"6) Check coverage score — if < 0.6, search more. "
-                f"7) Review all new papers against the rubric. "
-                f"8) Synthesize the accepted ones. "
+                f"6) Check coverage score — target 60 ACCEPTED+REVIEW papers. If < 0.6, search more. "
+                f"7) Classify papers with review_papers_with_ai (anchor-based). "
+                f"8) Cluster ACCEPTED papers with cluster_papers. "
                 f"9) Save everything. "
-                f"10) Report: what was found, accepted, gaps that remain."
+                f"10) Report: total_found, accepted, review, rejected, duplicates_removed."
+                + (f"\nExternal anchor papers: {json.dumps(anchor_papers)}" if anchor_papers else "")
             ),
         }
         task = mode_tasks[args.mode]
